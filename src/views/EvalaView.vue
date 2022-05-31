@@ -1,0 +1,348 @@
+<template>
+     <div class="kozah">
+          <div class="header">
+               <h1 class="titre" style="font-size:40px">
+                    EVALA
+               </h1>
+          </div>
+
+          <pub-page></pub-page>
+          <div class="programme">
+               <h1 style="text-align:center">Programme des évenements</h1>
+               <br>
+
+               <table class="table table-bordered border-black">
+                    <thead>
+                         <tr>
+                              <th scope="col">Date</th>
+                              <th scope="col">Heure</th>
+                              <th scope="col">Match</th>
+                              <th scope="col">Lieu</th>
+                         </tr>
+                    </thead>
+
+                    <tbody>
+                         <tr>
+                              <th scope="row">12 / 06 / 2022 <br>
+                                   HODO - LUNDI
+
+                              </th>
+                              <td>08H00</td>
+                              <td>PYA <em>contre</em> TCHITCHAO</td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA"><i class="icons fa-solid fa-location-dot"></i></a></td>
+
+
+                         </tr>
+
+                         <tr>
+                              <th scope="row">12 / 06 / 2022 <br>
+                                   HODO - LUNDI
+
+                              </th>
+                              <td>08H00</td>
+                              <td>PYA <em>contre</em> TCHITCHAO</td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA"><i class="icons fa-solid fa-location-dot"></i></a></td>
+
+
+                         </tr>
+
+
+
+                         <tr>
+                              <th scope="row">12 / 06 / 2022 <br>
+                                   HODO - LUNDI
+
+                              </th>
+                              <td>08H00</td>
+                              <td>PYA <em>contre</em> TCHITCHAO</td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA"><i class="icons fa-solid fa-location-dot"></i></a></td>
+
+
+                         </tr>
+
+
+                         <tr>
+                              <th scope="row">12 / 06 / 2022 <br>
+                                   HODO - LUNDI
+
+                              </th>
+                              <td>08H00</td>
+                              <td>PYA <em>contre</em> TCHITCHAO</td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA"><i class="icons fa-solid fa-location-dot"></i></a></td>
+
+
+                         </tr>
+                    </tbody>
+               </table>
+
+
+
+          </div>
+          <pub-page></pub-page>
+          <div class="past">
+               <h1>évenements passés</h1>
+               <br>
+               <div class="">
+                    <table class="table table-bordered border-black">
+                         <thead>
+                              <tr>
+                                   <th scope="col">Date</th>
+                                   <th scope="col">Heure</th>
+                                   <th scope="col">Match</th>
+                                   <th scope="col">Score</th>
+                                   
+
+                              </tr>
+                         </thead>
+                         <tbody>
+                              <tr>
+                                   <th scope="row">12 / 06 / 2022 <br>
+                                        HODO - LUNDI
+
+                                   </th>
+                                   <td>08H00</td>
+                                   <td>PYA <em>contre</em> TCHITCHAO</td>
+                                   <td><em>SCORE</em></td>
+
+                              </tr>
+
+                              <tr>
+                                   <th scope="row">12 / 06 / 2022 <br>
+                                        HODO - LUNDI
+
+                                   </th>
+                                   <td>08H00</td>
+                                   <td>PYA <em>contre</em> TCHITCHAO</td>
+                                   <td><em>SCORE</em></td>
+
+                              </tr>
+
+                              <tr>
+                                   <th scope="row">12 / 06 / 2022 <br>
+                                        HODO - LUNDI
+
+                                   </th>
+                                   <td>08H00</td>
+                                   <td>PYA <em>contre</em> TCHITCHAO</td>
+                                   <td><em>SCORE</em></td>
+
+                              </tr>
+
+                              <tr>
+                                   <th scope="row">12 / 06 / 2022 <br>
+                                        HODO - LUNDI
+
+                                   </th>
+                                   <td>08H00</td>
+                                   <td>PYA <em>contre</em> TCHITCHAO</td>
+                                   <td><em>SCORE</em></td>
+
+                              </tr>
+
+                              <tr>
+                                   <th scope="row">12 / 06 / 2022 <br>
+                                        HODO - LUNDI
+
+                                   </th>
+                                   <td>08H00</td>
+                                   <td>PYA <em>contre</em> TCHITCHAO</td>
+                                   <td><em>SCORE</em></td>
+
+                              </tr>
+
+                              <tr>
+                                   <th scope="row">12 / 06 / 2022 <br>
+                                        HODO - LUNDI
+
+                                   </th>
+                                   <td>08H00</td>
+                                   <td>PYA <em>contre</em> TCHITCHAO</td>
+                                   <td><em>SCORE</em></td>
+
+                              </tr>
+
+                              <tr>
+                                   <th scope="row">12 / 06 / 2022 <br>
+                                        HODO - LUNDI
+
+                                   </th>
+                                   <td>08H00</td>
+                                   <td>PYA <em>contre</em> TCHITCHAO</td>
+                                   <td><em>SCORE</em></td>
+
+                              </tr>
+
+                              <tr>
+                                   <th scope="row">12 / 06 / 2022 <br>
+                                        HODO - LUNDI
+
+                                   </th>
+                                   <td>08H00</td>
+                                   <td>PYA <em>contre</em> TCHITCHAO</td>
+                                   <td><em>SCORE</em></td>
+
+                              </tr>
+
+
+                         </tbody>
+                    </table>
+               </div>
+
+          </div>
+          <pub-page></pub-page>
+     </div>
+</template>
+
+<script>
+     import PubPage from '@/components/partials/PubPage.vue'
+     export default {
+          components: {
+               PubPage
+          }
+     }
+</script>
+
+<style scoped>
+     .date {
+          padding: 0rem;
+     }
+
+     span {
+          font-size: 35px;
+          color: #006A4A;
+     }
+
+     em {
+          color: red;
+     }
+
+     .icons {
+          color: red;
+          font-size: 45px;
+     }
+
+     td,
+     th {
+          font-size: 25px;
+          color: #006A4A;
+     }
+
+     h1 {
+          color: #006A4A;
+          text-transform: uppercase;
+     }
+
+     h3,
+     p {
+          color: #006A4A;
+          font-size: 15px;
+     }
+
+     .box1:hover {
+          background-color: #006A4A;
+     }
+
+     .programme {
+          padding: 5rem;
+          background-color: #71ddbd5e;
+          text-align: center;
+     }
+
+     .table {
+          max-width: 100%;
+          border-radius: 12px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+          padding: 1rem;
+          background-image: linear-gradient(to right, #006a4a85, #ffcc00e6);
+          font-family: 'Jost', sans-serif;
+          border: 2px solid black;
+     }
+
+     .table td {
+          padding: 1rem;
+     }
+
+
+
+     .past {
+          padding: 1rem;
+          background-image: linear-gradient(to right, #006a4a85, #ffcc00e6);
+          text-align: center;
+     }
+
+     .header {
+          height: 30vh;
+          background-image: linear-gradient(to right bottom,
+                    rgba(126, 213, 111, 0.505),
+                    rgba(40, 180, 131, 0.481)),
+               url(../components/images/hero.jpg);
+          background-size: cover;
+          background-position: top;
+          position: relative;
+
+
+     }
+
+
+     .titre {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: #006A4A;
+          animation: moveInRight 10s ease-out;
+          animation-name: moveInLeft;
+          animation-duration: 10s;
+          animation-timing-function: ease-in;
+     }
+
+
+     @keyframes moveInLeft {
+          0% {
+               opacity: 0;
+               transform: translateX(-100px);
+          }
+
+
+          80% {
+               transform: translateX(10px);
+          }
+
+
+          100% {
+               opacity: 1;
+               transform: translate(0) rotate(180deg);
+          }
+     }
+
+
+
+     @keyframes moveInRight {
+          0% {
+               opacity: 0;
+               transform: translateX(100px) rotate(0deg);
+          }
+
+          80% {
+               transform: translateX(-20px);
+          }
+
+          100% {
+               opacity: 1;
+               transform: translate(0);
+          }
+     }
+
+     @keyframes moveInBottom {
+          0% {
+               opacity: 0;
+               transform: translateY(30px);
+          }
+
+          100% {
+               opacity: 1;
+               transform: translate(0);
+          }
+     }
+</style>
