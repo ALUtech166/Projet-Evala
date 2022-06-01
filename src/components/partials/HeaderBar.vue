@@ -152,7 +152,15 @@
      @media (max-width: 767.98px) {}
 
      /* // Medium devices (tablets, less than 992px) */
-     @media (max-width: 991.98px) {}
+     @media (max-width: 991.98px) {
+           nav {
+               text-align: left;
+          }
+
+          li {
+               font-size: 10px;
+          }
+     }
 
      /* // Large devices (desktops, less than 1200px) */
      @media (max-width: 1199.98px) {
@@ -161,7 +169,7 @@
           }
 
           li {
-               font-size: 15px;
+               font-size: 10px;
           }
      }
 
@@ -170,15 +178,16 @@
           .btn {
                padding: 0;
                font-size: medium;
+               margin: 0;
           }
 
           a {
-               font-size: 10px;
+               font-size: 5px;
           }
 
           .btn:link,
           .btn:visited {
-               font-size: 10px;
+               font-size: 5px;
                text-transform: lowercase;
           }
      }

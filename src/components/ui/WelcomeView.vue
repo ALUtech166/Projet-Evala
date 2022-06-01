@@ -400,7 +400,7 @@
           .accomodation {
                padding: 0rem;
                margin-left: 0px;
-               text-align: center;
+               
 
 
           }
@@ -413,7 +413,7 @@
           .accomodation{
                padding: 0rem;
                margin-left: 0px;
-               text-align: center;
+               
 
           }
 
