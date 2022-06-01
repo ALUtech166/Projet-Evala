@@ -99,7 +99,7 @@
           <div class="row">
                <div class="col-lg-3">
 
-                    <img class="image" src="../images/hotel-kara.jpg" alt="" width="300px" height="200px">
+                    <img class="image" src="../images/hotel-kara1.png" alt="" width="300px" height="200px">
                     <div class="box1">
                          <a href="/hotel">
                               <h2>Hotels</h2>
@@ -334,6 +334,32 @@
 
      }
 
+     @media (max-width: 300px) {
+
+          .accomodation {
+               padding: 0rem;
+               margin-left: 20px;
+               text-align: left;
+
+          }
+
+           img {
+               width: 100px;
+               height: 100px;
+          }
+
+          .title {
+               text-align: center;
+               margin: 0;
+               padding: 0;
+               max-width: 50%;
+
+               font-size: small;
+            
+               
+          }
+     }
+
 
      @media (max-width: 375px) {
 
@@ -413,11 +439,41 @@
           .accomodation{
                padding: 0rem;
                margin-left: 0px;
+               text-align: left;
+               
                
 
           }
 
+
+          img {
+               width: 50px;
+               
+          }
+
      }
+
+      @media (max-width: 1438px) {
+          .accomodation {
+                padding: 0px;
+          }
+
+          img {
+               width: 200px;
+               height: 200px;
+          }
+      }
+
+      @media (max-width: 1438px) {
+          .accomodation {
+                padding: 0px;
+          }
+
+          img {
+               width: 200px;
+               height: 200px;
+          }
+      }
 
      /* 
      // X-Large devices (large desktops, less than 1400px) */

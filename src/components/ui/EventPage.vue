@@ -216,6 +216,13 @@
           background-image: linear-gradient(to right, #ffcc00ed, #006a4a);
      }
 
+      @media (max-width: 1199.98px) {
+          .section-1 {
+          padding: 27vmin 0vmin;
+     
+     } 
+      }
+
      .section-1 .row .col-md-6 .pray img {
           opacity: 0.8;
           width: 80%;

@@ -3,7 +3,7 @@
           <nav class="navbar navbar-expand-lg navbar-light" style="">
                <div class="container-fluid">
                     <a class="navbar-brand" href="#"><strong>
-                              <img src="../images/kara.png" alt="">
+                              <img src="../images/kara.png" alt="" width="">
                          </strong></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                          data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
@@ -144,6 +144,8 @@
 
      }
 
+     
+
      /* X-Small devices (portrait phones, less than 576px)  */
      @media (max-width: 575.98px) {}
 
@@ -171,6 +173,10 @@
           li {
                font-size: 10px;
           }
+
+          ul {
+               margin-left: 100px;
+          }
      }
 
 
@@ -189,6 +195,24 @@
           .btn:visited {
                font-size: 5px;
                text-transform: lowercase;
+          }
+
+          nav {
+               text-align: left;
+               margin-left: 100px;
+          }
+
+          li {
+               font-size: 10px;
+          }
+
+          ul {
+               font-weight: 400;
+               font-size: 10px;
+          }
+
+          img {
+               width: 350px;
           }
      }
 
@@ -210,7 +234,7 @@
      }
 
      p {
-          padding: 15px;
+          padding: 10px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
           font-weight: 900;
@@ -221,8 +245,7 @@
      }
 
      li {
-          padding: 20px;
-          font-family: 'Josefin Sans', sans-serif;
+          padding: 15px;
           font-family: 'Jost', sans-serif;
           font-weight: bold;
           text-transform: uppercase;
@@ -241,11 +264,9 @@
      .link,
      .dropdown-item,
      .dropdown-toggle {
-          font-weight: 600;
           list-style: none;
           text-decoration: none;
           font-family: 'Josefin Sans', sans-serif;
-          font-weight: bold;
 
      }
 
