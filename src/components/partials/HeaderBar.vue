@@ -174,9 +174,7 @@
                font-size: 10px;
           }
 
-          ul {
-               margin-right: 100px;
-          }
+         
      }
 
 
