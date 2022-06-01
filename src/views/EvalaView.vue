@@ -29,7 +29,7 @@
                               </th>
                               <td>08H00</td>
                               <td>PYA <em>contre</em> TCHITCHAO</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
@@ -41,7 +41,7 @@
                               </th>
                               <td>08H00</td>
                               <td>PYA <em>contre</em> TCHITCHAO</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
@@ -55,7 +55,7 @@
                               </th>
                               <td>08H00</td>
                               <td>PYA <em>contre</em> TCHITCHAO</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
@@ -68,7 +68,7 @@
                               </th>
                               <td>08H00</td>
                               <td>PYA <em>contre</em> TCHITCHAO</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>

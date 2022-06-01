@@ -127,10 +127,6 @@
           background-color: #006A4A;
           background-color: transparent;
 
-
-
-
-
      }
 
      /* .navbar-nav {
@@ -149,29 +145,47 @@
      }
 
      /* X-Small devices (portrait phones, less than 576px)  */
-     @media (max-width: 575.98px) {
-          
-     }
-/* 
+     @media (max-width: 575.98px) {}
+
+     /* 
      // Small devices (landscape phones, less than 768px) */
-     @media (max-width: 767.98px) {
-     
-     }
+     @media (max-width: 767.98px) {}
 
      /* // Medium devices (tablets, less than 992px) */
-     @media (max-width: 991.98px) {
-          
-     }
+     @media (max-width: 991.98px) {}
 
      /* // Large devices (desktops, less than 1200px) */
      @media (max-width: 1199.98px) {
-          
+          nav {
+               text-align: left;
+          }
+
+          li {
+               font-size: 15px;
+          }
      }
-/* 
+
+
+     @media (max-width: 1381px) {
+          .btn {
+               padding: 0;
+               font-size: medium;
+          }
+
+          a {
+               font-size: 10px;
+          }
+
+          .btn:link,
+          .btn:visited {
+               font-size: 10px;
+               text-transform: lowercase;
+          }
+     }
+
+     /* 
      // X-Large devices (large desktops, less than 1400px) */
-     @media (max-width: 1399.98px) {
-          
-     }
+     @media (max-width: 1399.98px) {}
 
      /* // XX-Large devices (larger desktops)
      // No media query since the xxl breakpoint has no upper bound on its width */
@@ -198,7 +212,7 @@
      }
 
      li {
-          padding: 25px;
+          padding: 20px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
           font-weight: bold;
@@ -218,7 +232,7 @@
      .link,
      .dropdown-item,
      .dropdown-toggle {
-          font-weight: 500;
+          font-weight: 600;
           list-style: none;
           text-decoration: none;
           font-family: 'Josefin Sans', sans-serif;

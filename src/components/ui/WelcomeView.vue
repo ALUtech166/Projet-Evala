@@ -4,7 +4,7 @@
           <div class="row">
 
                <div class="col-lg-6">
-                    <img class="image" src="../images/Bienvenue.png" alt="" width="350px">
+                    <img class="image" src="../images/Bienvenue.png" alt="">
                </div>
 
                <div class="col-lg-6">
@@ -64,7 +64,7 @@
 
                               </div>
                          </div>
-                         
+
                     </div>
 
                </div>
@@ -76,9 +76,9 @@
 
 
      <div class="a-propos">
-         <div class="title">
+          <div class="title">
                <h1>A propos des Evenements</h1>
-         </div>
+          </div>
 
           <p class="desc" style="text-align: center">
                Dans la région de la Kara on dispose de plusieurs évenements culturelles à savoir Evala (Lutte), Akpéma
@@ -269,7 +269,6 @@
      .title {
           margin: 1rem;
           max-width: 100%;
-
           padding: 1rem;
           border-radius: 10px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
@@ -335,9 +334,105 @@
 
      }
 
+
+     @media (max-width: 375px) {
+
+          .accomodation {
+               padding: 0rem;
+               margin-left: 0px;
+               text-align: left;
+
+          }
+
+          .home{
+               padding: 0;
+               display: flex;
+               flex-direction: column;
+          }
+
+          img {
+               width: 100px;
+               height: 100px;
+          }
+
+          .title {
+               text-align: center;
+               margin: 0;
+               padding: 0;
+               max-width: 50%;
+            
+               
+          }
+
+          h1 {
+               font-size: 20px;
+          }
+     }
+
+
+     /* X-Small devices (portrait phones, less than 576px)  */
+     @media (max-width: 575.98px) {
+
+          .accomodation {
+               padding: 0rem;
+               margin-left: 0px;
+               text-align: center;
+
+          }
+     }
+
+     /* 
+     // Small devices (landscape phones, less than 768px) */
+     @media (max-width: 767.98px) {
+
+          .accomodation, .box1, .box2 {
+               padding: 0rem;
+               margin-left: 0px;
+               text-align: center;
+
+          }
+
+     }
+
+     /* // Medium devices (tablets, less than 992px) */
+     @media (max-width: 991.98px) {
+
+          .accomodation {
+               padding: 0rem;
+               margin-left: 0px;
+               text-align: center;
+
+
+          }
+
+     }
+
+     /* // Large devices (desktops, less than 1200px) */
+     @media (max-width: 1199.98px) {
+
+          .accomodation{
+               padding: 0rem;
+               margin-left: 0px;
+               text-align: center;
+
+          }
+
+     }
+
+     /* 
+     // X-Large devices (large desktops, less than 1400px) */
+     @media (max-width: 1399.98px) {
+
+          .accomodation {
+               padding: 2rem;
+               margin-left: 85px;
+
+          }
+     }
+
      .ref {
           padding: 7rem;
-         
+
 
      }
 
@@ -398,6 +493,7 @@
 
      .image {
           border-radius: 10px;
+          width: 350px;
 
 
      }
@@ -409,6 +505,7 @@
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
      }
+
      p {
           font-size: 20px;
           font-family: 'Josefin Sans', sans-serif;
