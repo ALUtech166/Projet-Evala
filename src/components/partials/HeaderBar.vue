@@ -3,7 +3,7 @@
           <nav class="navbar navbar-expand-lg navbar-light" style="">
                <div class="container-fluid">
                     <a class="navbar-brand" href="#"><strong>
-                              <img src="../images/kara.png" alt="" width="">
+                              <img src="../images/logo-kara.png" alt="" width="">
                          </strong></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                          data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
@@ -155,7 +155,7 @@
 
      /* // Medium devices (tablets, less than 992px) */
      @media (max-width: 991.98px) {
-           nav {
+          .menu {
                text-align: left;
           }
 
@@ -166,7 +166,7 @@
 
      /* // Large devices (desktops, less than 1200px) */
      @media (max-width: 1199.98px) {
-          nav {
+          .menu {
                text-align: left;
           }
 
@@ -177,6 +177,20 @@
          
      }
 
+       @media (max-width: 1303px) and (max-width: 999px) {
+            .menu {
+                 text-align: left;
+                 
+            }
+
+            ul {
+                 font: 200;
+            }
+
+            .btn {
+                 font-size: xx-small;
+            }
+       }
 
      @media (max-width: 1381px) {
           .btn {
@@ -195,9 +209,9 @@
                text-transform: lowercase;
           }
 
-          nav {
+          .menu{
                text-align: left;
-               margin-left: 100px;
+               
           }
 
           li {
