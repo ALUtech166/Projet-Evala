@@ -212,7 +212,7 @@
      }
 
      .section-1 {
-          padding: 18vmin 0vmin;
+          padding: 21vmin 0vmin;
           background-image: linear-gradient(to right, #ffcc00ed, #006a4a);
      }
 
