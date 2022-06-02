@@ -4,7 +4,7 @@
           <div class="row">
 
                <div class="col-lg-6">
-                    <img class="image" src="../images/Bienvenue.png" alt="">
+                    <img class="image" src="../images/Faure-tg.jpg" alt="" width="600px">
                </div>
 
                <div class="col-lg-6">
@@ -220,7 +220,7 @@
 
 
                <div class="col-lg-6">
-                    <button type="button" class="btn btn-warning">Cliquez Ici</button>
+                    <a type="button" class="btn btn-warning" href="/pub">Cliquez Ici</a>
                </div>
 
           </div>
@@ -343,10 +343,12 @@
 
           }
 
-           img {
+          img {
                width: 100px;
                height: 100px;
           }
+
+
 
           .title {
                text-align: center;
@@ -354,12 +356,28 @@
                padding: 0;
                max-width: 50%;
 
+
+
+
+          }
+
+          h1 {
                font-size: small;
-            
-               
+               text-align: left;
           }
      }
 
+     @media (max-width: 360px) {
+          .title {
+               font-size: smaller;
+               text-align: left;
+          }
+
+          h1 {
+               font-size: small;
+               text-align: left;
+          }
+     }
 
      @media (max-width: 375px) {
 
@@ -370,7 +388,7 @@
 
           }
 
-          .home{
+          .home {
                padding: 0;
                display: flex;
                flex-direction: column;
@@ -386,8 +404,8 @@
                margin: 0;
                padding: 0;
                max-width: 50%;
-            
-               
+
+
           }
 
           h1 {
@@ -411,7 +429,9 @@
      // Small devices (landscape phones, less than 768px) */
      @media (max-width: 767.98px) {
 
-          .accomodation, .box1, .box2 {
+          .accomodation,
+          .box1,
+          .box2 {
                padding: 0rem;
                margin-left: 0px;
                text-align: center;
@@ -426,7 +446,7 @@
           .accomodation {
                padding: 0rem;
                margin-left: 0px;
-               
+
 
 
           }
@@ -436,44 +456,41 @@
      /* // Large devices (desktops, less than 1200px) */
      @media (max-width: 1199.98px) {
 
-          .accomodation{
+          .accomodation {
                padding: 0rem;
                margin-left: 0px;
                text-align: left;
-               
-               
+
+
 
           }
 
 
           img {
-               width: 50px;
-               
+               width: 100px;
+
           }
+
+          .box1,
+          .box2 {
+               max-width: 14rem;
+          }
+
 
      }
 
-      @media (max-width: 1438px) {
+     @media (max-width: 1438px) {
           .accomodation {
-                padding: 0px;
+               padding: 0px;
           }
 
           img {
                width: 200px;
                height: 200px;
           }
-      }
+     }
 
-      @media (max-width: 1438px) {
-          .accomodation {
-                padding: 0px;
-          }
 
-          img {
-               width: 200px;
-               height: 200px;
-          }
-      }
 
      /* 
      // X-Large devices (large desktops, less than 1400px) */
@@ -539,8 +556,8 @@
      }
 
      h1 {
-          font-size: 40px;
-          font-weight: 900;
+          font-size: 27px;
+          font-weight: 600;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
           color: #006A4A;
@@ -549,7 +566,7 @@
 
      .image {
           border-radius: 10px;
-          width: 350px;
+
 
 
      }

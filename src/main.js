@@ -4,6 +4,7 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.css';
 
 
+
 // importing AOS css style globally
 import 'aos/dist/aos.css'
 

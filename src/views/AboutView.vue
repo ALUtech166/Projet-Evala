@@ -303,6 +303,29 @@
     border-radius: 10px;
 
   }
+  @media (max-width: 1199.98px) {
+
+          .accomodation{
+               padding: 0rem;
+               margin-left: 0px;
+               text-align: left;
+               
+               
+
+          }
+
+
+          img {
+               width: 250px;
+               
+          }
+
+          .box1, .box2 {
+               max-width: 14rem;
+          }
+
+
+     }
 
   .box1 {
     margin: 0.5rem;

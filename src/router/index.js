@@ -21,12 +21,18 @@ import AlbumEvala from '@/views/AlbumEvala.vue';
 import AlbumAkpema from '@/views/AlbumAkpema.vue';
 import AlbumHabye from '@/views/AlbumHabye.vue';
 import BlogView from '@/views/BlogView.vue'
+import PubliciteView from '@/views/PubliciteView.vue';
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/pub',
+    name: 'pub',
+    component: PubliciteView
   },
   {
     path: '/about',

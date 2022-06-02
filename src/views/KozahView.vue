@@ -45,8 +45,8 @@
                     <div class="row">
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo20.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/Photo20.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -61,8 +61,8 @@
 
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo91.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/Photo91.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -117,11 +117,11 @@
                     <div class="row">
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
-                                         <p>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -134,11 +134,11 @@
 
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
-                                         <p>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -153,11 +153,11 @@
                     <div class="row">
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo93.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/Photo93.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
-                                          <p>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -170,48 +170,11 @@
 
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo91.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/Photo91.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2> <br>
-                                         <p>
-                                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-                                             laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
-                                             repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
-                                             nostrum laboriosam doloremque ut reprehenderit.
-                                        </p>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-
-
-                    <div class="row">
-                         <div class="col-lg-6">
-                              <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
-                                   <div class="col-lg-5">
-                                        <h2>Canton de Sarakawa</h2>
-                                          <p>
-                                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-                                             laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
-                                             repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
-                                             nostrum laboriosam doloremque ut reprehenderit.
-                                        </p>
-                                   </div>
-                              </div>
-                         </div>
-
-
-                         <div class="col-lg-6">
-                              <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo90.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
-                                   <div class="col-lg-5">
-                                        <h2>Canton de Sarakawa</h2> <br>
-                                          <p>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -227,11 +190,11 @@
                     <div class="row">
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo47.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
-                                          <p>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -244,11 +207,48 @@
 
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/Photo90.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2> <br>
-                                         <p>
+                                        <p>
+                                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                                             laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
+                                             repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
+                                             nostrum laboriosam doloremque ut reprehenderit.
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+
+
+                    <div class="row">
+                         <div class="col-lg-6">
+                              <div class="row">
+                                   <div class="col-lg-5"><img src="../components/images/Photo47.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5">
+                                        <h2>Canton de Sarakawa</h2>
+                                        <p>
+                                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                                             laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
+                                             repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
+                                             nostrum laboriosam doloremque ut reprehenderit.
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+
+
+                         <div class="col-lg-6">
+                              <div class="row">
+                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5">
+                                        <h2>Canton de Sarakawa</h2> <br>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -268,7 +268,7 @@
                                              style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
-                                          <p>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -281,11 +281,11 @@
 
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2> <br>
-                                          <p>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -301,11 +301,11 @@
                     <div class="row">
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo47.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/Photo47.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
-                                          <p>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -318,11 +318,11 @@
 
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo93.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/Photo47.png" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
                                    <div class="col-lg-5">
-                                        <h2>Canton de Sarakawa</h2> <br>
-                                         <p>
+                                        <h2>Canton de Sarakawa</h2>
+                                        <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
                                              laudantium maxime laboriosam voluptatem, ducimus fuga? Sit deserunt
                                              repellendus ex saepe voluptatibus vero perferendis libero? Repellendus
@@ -331,6 +331,21 @@
                                    </div>
                               </div>
                          </div>
+
+
+
+                         <!--    <div class="col-lg-6">
+                              <div class="row" v-if="canton && canton.length">
+                                   <div class="col-lg-5"><img src="" alt=""
+                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5" v-for="cat of canton" :key="cat.id">
+                                        <h2>{{ cat.nom_canton }}</h2> <br>
+                                        <p>
+                                             {{ cat.description_canton }}
+                                        </p>
+                                   </div>
+                              </div>
+                         </div> -->
                     </div>
                </div>
 
@@ -343,8 +358,27 @@
 </template>
 
 <script>
+     import axios from 'axios';
      export default {
+          data() {
+               return {
+                    canton: [],
+                    errors: []
+               }
+          },
 
+          // Fetches posts when the component is created.
+          created(data) {
+               axios.get(`http://karaevents.mekengroup.com/api/canton`)
+                    .then(response => {
+                         // JSON responses are automatically parsed.
+                         this.canton = response.data
+                         console.log(data)
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
+          }
      }
 </script>
 

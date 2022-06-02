@@ -53,7 +53,6 @@
      .title {
           margin: 1rem;
           max-width: 100%;
-
           padding: 1rem;
           border-radius: 10px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
@@ -61,8 +60,8 @@
      }
 
       h2 {
-          font-size: 45px;
-          font-weight: 900;
+          font-size: 27px;
+          font-weight: 600;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
           color: #006A4A;

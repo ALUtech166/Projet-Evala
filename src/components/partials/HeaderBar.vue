@@ -80,7 +80,7 @@
                               <div class="modal-dialog modal-dialog-centered">
                                    <div class="modal-content">
                                         <div class="modal-header">
-                                             <h1 style="color: green">Kozah-Events</h1>
+                                             <img src="../images/kara.png" alt="">
                                              <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                   aria-label="Close"></button>
                                         </div>
@@ -306,7 +306,7 @@
           text-transform: uppercase;
           text-decoration: none;
           display: inline-block;
-          padding: 15px;
+          padding: 12px;
           border-radius: 100px;
           transition: all .2s;
           position: relative;
