@@ -1,11 +1,15 @@
 <template>
 
-<header-bar></header-bar>
-<div class="app">
-    <router-view />
-</div>
+  <header-bar></header-bar>
+  <div class="app">
+    
 
-<footer-bar></footer-bar>
+
+
+    <router-view />
+  </div>
+
+  <footer-bar></footer-bar>
 
 </template>
 
@@ -17,12 +21,12 @@
     components: {
       HeaderBar,
       FooterBar
-      
-    }
+
+    },
+
+
   }
 </script>
 
 
-<style>
 
-</style>
