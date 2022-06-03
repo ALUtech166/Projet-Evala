@@ -131,7 +131,7 @@
 
      /* .navbar-nav {
           margin-left: 95px;
-          
+
      } */
 
      @media only screen and (max-width: 1920px) {
@@ -144,12 +144,12 @@
 
      }
 
-     
+
 
      /* X-Small devices (portrait phones, less than 576px)  */
      @media (max-width: 575.98px) {}
 
-     /* 
+     /*
      // Small devices (landscape phones, less than 768px) */
      @media (max-width: 767.98px) {}
 
@@ -174,13 +174,13 @@
                font-size: 10px;
           }
 
-         
+
      }
 
        @media (max-width: 1303px) and (max-width: 999px) {
             .menu {
                  text-align: left;
-                 
+
             }
 
             ul {
@@ -211,7 +211,7 @@
 
           .menu{
                text-align: left;
-               
+
           }
 
           li {
@@ -228,7 +228,7 @@
           }
      }
 
-     /* 
+     /*
      // X-Large devices (large desktops, less than 1400px) */
      @media (max-width: 1399.98px) {}
 

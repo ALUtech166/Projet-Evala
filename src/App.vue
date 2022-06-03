@@ -1,8 +1,8 @@
 <template>
-
+<div class="container-fluid">
   <header-bar></header-bar>
   <div class="app">
-    
+
 
 
 
@@ -10,6 +10,7 @@
   </div>
 
   <footer-bar></footer-bar>
+</div>
 
 </template>
 

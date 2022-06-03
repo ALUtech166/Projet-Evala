@@ -19,7 +19,7 @@
                </div>
                <div class="carousel-inner">
                     <div class="carousel-item active">
-                         <img src="../images/Evala.png" class="d-block w-100" alt="..." height="700px">
+                         <img src="../images/Evala.png" class="d-block w-100 img-fluid" alt="...">
                          <div class="carousel-caption" style="text-align: center">
                               <div class="">
                                    <h1 class="heading-primary">
@@ -43,7 +43,7 @@
                          </div>
                     </div>
                     <div class="carousel-item">
-                         <img src="../images/Akpema.png" class="d-block w-100" alt="..." height="700px">
+                         <img src="../images/Akpema.png" class="d-block w-100" alt="...">
                          <div class="carousel-caption">
                               <div class="">
                                    <h1 class="heading-primary">
@@ -67,7 +67,7 @@
                          </div>
                     </div>
                     <div class="carousel-item">
-                         <img src="../images/HABYÈ.png" class="d-block w-100" alt="..." height="700px">
+                         <img src="../images/HABYÈ.png" class="d-block w-100" alt="..." >
                          <div class="carousel-caption">
                               <div class="">
                                    <h1 class="heading-primary">

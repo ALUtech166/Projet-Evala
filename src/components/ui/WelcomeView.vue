@@ -3,11 +3,11 @@
 
           <div class="row">
 
-               <div class="col-lg-6">
-                    <img class="image" src="../images/Faure-tg.jpg" alt="" width="600px">
+               <div class="col-lg-6  col-xs-12">
+                    <img class="img-fluid" src="../images/Faure-tg.jpg" alt="">
                </div>
 
-               <div class="col-lg-6">
+               <div class="col-lg-6 col-xs-12">
 
                     <hr class="style-two">
                     <h1 class="title animate__animated animate__fadeInDown"><strong>Bienvenue à KARA</strong></h1><br>
@@ -388,17 +388,6 @@
 
           }
 
-          .home {
-               padding: 0;
-               display: flex;
-               flex-direction: column;
-          }
-
-          img {
-               width: 100px;
-               height: 100px;
-          }
-
           .title {
                text-align: center;
                margin: 0;
@@ -465,12 +454,6 @@
 
           }
 
-
-          img {
-               width: 100px;
-
-          }
-
           .box1,
           .box2 {
                max-width: 14rem;
@@ -482,11 +465,6 @@
      @media (max-width: 1438px) {
           .accomodation {
                padding: 0px;
-          }
-
-          img {
-               width: 200px;
-               height: 200px;
           }
      }
 
