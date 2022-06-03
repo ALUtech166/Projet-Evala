@@ -12,7 +12,7 @@
                                    <span>HP Probook</span>
                                    <h3>10% de reduction</h3>
                                    <p>Validité de 5 jours</p>
-                                   <a href="https://mekengroup.com/" class="btn">Voir plus</a>
+                                   <a href="https://mekengroup.com/" class="btn" target="blank">Voir plus</a>
                               </div>
                               <div class="women">
                                    <img src="../images/pc.png" alt=""  >
@@ -32,7 +32,7 @@
                                    <span>HP Probook</span>
                                    <h3>10% de reduction</h3>
                                    <p>Validité de 5 jours</p>
-                                   <a href="https://mekengroup.com/" class="btn">Voir plus</a>
+                                   <a href="https://mekengroup.com/" class="btn" target="blank">Voir plus</a>
                               </div>
                               <div class="women">
                                    <img src="../images/pc.png" alt="">
@@ -52,7 +52,7 @@
                                    <span>HP Probook</span>
                                    <h3>10% de reduction</h3>
                                    <p>Validité de 5 jours</p>
-                                   <a href="https://mekengroup.com/" class="btn">Voir Plus</a>
+                                   <a href="https://mekengroup.com/" class="btn" target="blank">Voir Plus</a>
                               </div>
                               <div class="women">
                                    <img src="../images/pc.png" alt="">

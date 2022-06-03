@@ -318,6 +318,16 @@ a {
 
 }
 
+@media only screen and (max-width: 1920px) {
+          
+
+           .list-pub {
+                text-align: center;
+                margin-left: 500px;
+           }
+
+     }
+
 .icon {
   color: red;
 }

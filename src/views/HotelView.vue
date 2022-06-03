@@ -445,6 +445,15 @@
     padding: 3rem;
   }
 
+    @media only screen and (max-width: 1920px) {
+           .list-hotel {
+               text-align: center;
+           }
+
+         
+
+     }
+
   .header {
     height: 30vh;
     background-image: linear-gradient(to right bottom,

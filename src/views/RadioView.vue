@@ -7,7 +7,7 @@
 
           </div>
 
-            <div class="bread">
+          <div class="bread">
                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
                     aria-label="breadcrumb">
                     <ol class="breadcrumb">
@@ -28,28 +28,28 @@
                     <div class="row">
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
@@ -60,59 +60,28 @@
                     <div class="row">
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                  <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                  <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                  <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
@@ -122,28 +91,59 @@
                     <div class="row">
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                 <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
                          </div>
                          <div class="col-lg-3">
                               <div class="yellow-box">
-                                  <h3>Radio</h3>
+                                   <h3>Radio</h3>
+                                   <p></p>
+                                   <p>Contact: +228 70006873</p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="row">
+                         <div class="col-lg-3">
+                              <div class="yellow-box">
+                                   <h3>Radio</h3>
+                                   <p></p>
+                                   <p>Contact: +228 70006873</p>
+                              </div>
+                         </div>
+                         <div class="col-lg-3">
+                              <div class="yellow-box">
+                                   <h3>Radio</h3>
+                                   <p></p>
+                                   <p>Contact: +228 70006873</p>
+                              </div>
+                         </div>
+                         <div class="col-lg-3">
+                              <div class="yellow-box">
+                                   <h3>Radio</h3>
+                                   <p></p>
+                                   <p>Contact: +228 70006873</p>
+                              </div>
+                         </div>
+                         <div class="col-lg-3">
+                              <div class="yellow-box">
+                                   <h3>Radio</h3>
                                    <p></p>
                                    <p>Contact: +228 70006873</p>
                               </div>
@@ -159,10 +159,12 @@
 
 
                <div style="text-align:">
-                    <a href="/banque" type="button" class="btn btn-outline-success"><i class="fa-solid fa-arrow-left"></i> Previous</a>
+                    <a href="/banque" type="button" class="btn btn-outline-success"><i
+                              class="fa-solid fa-arrow-left"></i> Previous</a>
                </div>
                <div style="text-align:">
-                    <a href="/boite" type="button" class="btn btn-outline-success">Next <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="/boite" type="button" class="btn btn-outline-success">Next <i
+                              class="fa-solid fa-arrow-right"></i></a>
                </div>
 
 
@@ -183,8 +185,7 @@
 </script>a
 
 <style scoped>
-
-    .bread {
+     .bread {
           padding: 2rem;
 
      }
@@ -196,15 +197,17 @@
      a {
           text-decoration: none;
      }
-.col-lg-4:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
-  }
 
- .col-lg-3:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
-  }
+     .col-lg-4:hover {
+          transform: translateY(35px);
+          transition: 1s ease-in-out;
+     }
+
+     .col-lg-3:hover {
+          transform: translateY(35px);
+          transition: 1s ease-in-out;
+     }
+
      .arrow {
           padding: 4rem;
           display: flex;
@@ -272,7 +275,7 @@
           padding: 1rem
      }
 
-     
+
 
      h5 {
           color: #006A4A;
@@ -290,6 +293,18 @@
      .list-hotel {
           background-image: linear-gradient(to right, #006a4a85, #ffcc00e6);
           padding: 3rem;
+     }
+
+      @media only screen and (max-width: 1920px) {
+           .list-hotel {
+               text-align: center;
+           }
+
+           .list-pub {
+                text-align: center;
+                margin-left: 250px;
+           }
+
      }
 
      .header {

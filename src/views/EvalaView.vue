@@ -24,11 +24,11 @@
                     <tbody>
                          <tr>
                               <th scope="row">12 / 06 / 2022 <br>
-                                   HODO - LUNDI
+                                   <b>HODO - LUNDI</b>
 
                               </th>
                               <td>08H00</td>
-                              <td>PYA <em>contre</em> TCHITCHAO</td>
+                              <td>PYA <b>contre</b> TCHITCHAO</td>
                               <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
@@ -36,11 +36,11 @@
 
                          <tr>
                               <th scope="row">12 / 06 / 2022 <br>
-                                   HODO - LUNDI
+                                   <b>HODO - LUNDI</b>
 
                               </th>
                               <td>08H00</td>
-                              <td>PYA <em>contre</em> TCHITCHAO</td>
+                              <td>PYA <b>contre</b> TCHITCHAO</td>
                               <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
@@ -50,11 +50,11 @@
 
                          <tr>
                               <th scope="row">12 / 06 / 2022 <br>
-                                   HODO - LUNDI
+                                  <b> HODO - LUNDI</b>
 
                               </th>
                               <td>08H00</td>
-                              <td>PYA <em>contre</em> TCHITCHAO</td>
+                              <td>PYA <b>contre</b> TCHITCHAO</td>
                               <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
@@ -63,11 +63,11 @@
 
                          <tr>
                               <th scope="row">12 / 06 / 2022 <br>
-                                   HODO - LUNDI
+                                   <b>HODO - LUNDI</b>
 
                               </th>
                               <td>08H00</td>
-                              <td>PYA <em>contre</em> TCHITCHAO</td>
+                              <td>PYA <b>contre</b> TCHITCHAO</td>
                               <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
@@ -212,6 +212,11 @@
           color: #006A4A;
      }
 
+     b {
+          color: #fff;
+          font-weight: bold;
+     }
+
      em {
           color: red;
      }
@@ -223,7 +228,7 @@
 
      td,
      th {
-          font-size: 25px;
+          font-size: 20px;
           color: #006A4A;
      }
 
@@ -244,7 +249,7 @@
 
      .programme {
           padding: 5rem;
-          background-color: #71ddbd5e;
+          background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
           text-align: center;
      }
 
@@ -259,14 +264,14 @@
      }
 
      .table td {
-          padding: 1rem;
+          padding: 0.5rem;
      }
 
 
 
      .past {
-          padding: 1rem;
-          background-image: linear-gradient(to right, #006a4a85, #ffcc00e6);
+          padding: 0.5rem;
+          background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
           text-align: center;
      }
 
