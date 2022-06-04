@@ -1,7 +1,7 @@
 <template>
   <div class="kozah">
     <div class="header">
-      <h1 class="titre" style="font-size:50px">
+      <h1 class="titre" style="font-size:25px">
         Lieux Touristiques
       </h1>
     </div>

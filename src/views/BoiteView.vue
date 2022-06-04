@@ -1,7 +1,7 @@
 <template>
   <div class="kozah">
     <div class="header">
-      <h1 class="titre" style="font-size:30px">
+      <h1 class="titre" style="font-size:25px">
         Boites de Nuits
       </h1>
     </div>

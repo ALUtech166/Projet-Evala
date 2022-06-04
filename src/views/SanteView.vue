@@ -1,7 +1,7 @@
 <template>
      <div class="body">
           <div class="header">
-               <h1 class="titre" style="font-size:50px">
+               <h1 class="titre" style="font-size:25px">
                     Santé
                </h1>
           </div>
