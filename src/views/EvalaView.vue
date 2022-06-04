@@ -1,7 +1,7 @@
 <template>
      <div class="kozah">
           <div class="header">
-               <h1 class="titre" style="font-size:40px">
+               <h1 class="titre" style="font-size:25px">
                     EVALA
                </h1>
           </div>

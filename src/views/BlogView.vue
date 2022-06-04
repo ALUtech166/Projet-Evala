@@ -9,7 +9,7 @@
           <div class="row">
                <div class="col-lg-8">
                     <div class="blog">
-                         <img src="./2.jpg" alt="" width="900px" class="image">
+                         <img src="./2.jpg" alt="" class="img-fluid image">
                          <br>
                          <div class="context">
                               <h2>Serge Anan. <span>28 Mai 2022</span></h2>
@@ -26,7 +26,7 @@
                     </div>
                     <br>
                     <div class="blog">
-                         <img src="./2.jpg" alt="" width="900px" class="image">
+                         <img src="./2.jpg" alt="" class="img-fluid image">
                          <br>
                          <div class="context">
                               <h2>Serge Anan. <span>28 Mai 2022</span></h2>
@@ -43,13 +43,13 @@
 
                <div class="col-lg-4">
                     <div class="recent">
-                         <img src="../components/images/koutammakou.png" alt="" width="100px" class="image" id="img">
+                         <img src="../components/images/koutammakou.png" alt="" class="img-fluid image" id="img">
                          <h1 style="font-size: 25px">Recents Articles</h1>
                          <h2>
                               Kara Events Platforme
                          </h2>
 
-                         <img src="../components/images/koutammakou.png" alt="" width="100px" class="image" id="img">
+                         <img src="../components/images/koutammakou.png" alt=""  class="img-fluid image" id="img">
                          <h1 style="font-size: 25px">Recents Articles</h1>
                          <h2>
                               Kara Events Platforme
@@ -60,7 +60,7 @@
                          <pub-page></pub-page>
                     </div>
                      <div class="recent">
-                         <img src="../components/images/4.jpg" alt="" width="500px">
+                         <img src="../components/images/4.jpg" class="img-fluid" alt="">
                     </div>
                </div>
 
@@ -94,7 +94,7 @@
      span {
           box-shadow: 0 2px 8px rgba(223, 13, 13, 0.823);
           padding: 1rem;
-          border-radius: 12px;
+          border-radius: 10px;
           background-color: red;
           color: #ffffff;
      }
@@ -189,32 +189,17 @@
 
 
      @media only screen and (max-width: 768px) {
-          img {
-               width: 400px;
-          }
-
+       
           .body {
                text-align: center;
-          }
-
-          #img {
-               width: 100px;
-               text-align: left;
           }
 
 
      }
 
       @media only screen and (max-width: 1920px) {
-          img {
-               width: 99%;
-          }
-
-        
-          #img {
-               width: 50%;
-               text-align: left;
-          }
+         
+     
 
 
      }
@@ -244,7 +229,7 @@
      h2 {
           font-weight: 600;
           color: red;
-          font-size: 20px;
+          font-size: 15px;
           font-family: 'Josefin Sans';
           padding: 0.5rem;
      }

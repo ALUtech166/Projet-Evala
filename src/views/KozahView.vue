@@ -2,7 +2,7 @@
      <div class="kozah">
 
           <div class="header">
-               <h1 class="titre" style="font-size:40px">
+               <h1 class="titre" style="font-size:25px">
                     LA KOZAH
                </h1>
           </div>
@@ -46,7 +46,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/Photo20.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -62,7 +62,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/Photo91.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px" ></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -81,8 +81,8 @@
                     <div class="row">
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/keran.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/keran.png" alt="" class="img-fluid"
+                                             style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -97,8 +97,8 @@
 
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/parc.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/parc.png" alt="" class="img-fluid"
+                                             style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -118,7 +118,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -154,7 +154,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/Photo93.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -171,7 +171,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/Photo91.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2> <br>
                                         <p>
@@ -191,7 +191,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -208,7 +208,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/Photo90.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2> <br>
                                         <p>
@@ -228,7 +228,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/Photo47.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -264,8 +264,8 @@
                     <div class="row">
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/parc.png" alt="" width="200px"
-                                             style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/parc.png" alt="" class="img-fluid"
+                                             style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -282,7 +282,7 @@
                          <div class="col-lg-6">
                               <div class="row">
                                    <div class="col-lg-5"><img src="../components/images/koutammakou.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                             class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2> <br>
                                         <p>
@@ -301,8 +301,7 @@
                     <div class="row">
                          <div class="col-lg-6">
                               <div class="row">
-                                   <div class="col-lg-5"><img src="../components/images/Photo47.png" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5"><img src="../components/images/Photo47.png" alt="" class="img-fluid" style="border-radius:15px"></div>
                                    <div class="col-lg-5">
                                         <h2>Canton de Sarakawa</h2>
                                         <p>
@@ -426,7 +425,7 @@
      h1 {
           text-transform: uppercase;
           color: #006A4A;
-          font-size: 30px;
+          font-size: 25px;
 
 
      }
