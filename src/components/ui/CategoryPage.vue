@@ -7,7 +7,7 @@
           <body>
                <div class="wrapper">
                     <div class="card">
-                         <img src="../images/30.png" alt="">
+                         <img src="../images/30.png" alt="" class="img-fluid">
                          <div class="info">
                               <h1>Evala</h1>
                               <a href="#" class="btn">Lire plus</a>
@@ -16,7 +16,7 @@
 
 
                     <div class="card">
-                         <img src="../images/10.png" alt="">
+                         <img src="../images/10.png" alt="" class="img-fluid">
                          <div class="info">
                               <h1>Akpema</h1>
 
@@ -26,7 +26,7 @@
 
 
                     <div class="card">
-                         <img src="../images/20.png" alt="">
+                         <img src="../images/20.png" alt="" class="img-fluid">
                          <div class="info">
                               <h1>Habyé</h1>
                               <a href="#" class="btn">Lire plus</a>

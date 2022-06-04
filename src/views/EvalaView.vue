@@ -23,24 +23,24 @@
 
                     <tbody>
                          <tr>
-                              <th scope="row">12 / 06 / 2022 <br>
-                                   <b>HODO - LUNDI</b>
+                              <th scope="row">09 / 07 / 2022 <br>
+                                   <b>SAMEDI</b>
 
                               </th>
                               <td>08H00</td>
-                              <td>PYA <b>contre</b> TCHITCHAO</td>
+                              <td>Ouverture à Pya Kaganlada</td>
                               <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
 
                          <tr>
-                              <th scope="row">12 / 06 / 2022 <br>
-                                   <b>HODO - LUNDI</b>
+                             <th scope="row">10 / 07 / 2022 <br>
+                                   <b>DIMACHE</b>
 
                               </th>
                               <td>08H00</td>
-                              <td>PYA <b>contre</b> TCHITCHAO</td>
+                              <td>Demi finale Tchitchao en presence du PR</td>
                               <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
@@ -49,12 +49,12 @@
 
 
                          <tr>
-                              <th scope="row">12 / 06 / 2022 <br>
-                                  <b> HODO - LUNDI</b>
+                              <th scope="row">11 / 07 / 2022 <br>
+                                  <b>LUNDI</b>
 
                               </th>
                               <td>08H00</td>
-                              <td>PYA <b>contre</b> TCHITCHAO</td>
+                              <td>Finale de Tchitchao, Danses à Pya Hodo</td>
                               <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
@@ -62,12 +62,59 @@
 
 
                          <tr>
-                              <th scope="row">12 / 06 / 2022 <br>
-                                   <b>HODO - LUNDI</b>
+                              <th scope="row">12 / 07 / 2022 <br>
+                                   <b>MARDI</b>
 
                               </th>
                               <td>08H00</td>
-                              <td>PYA <b>contre</b> TCHITCHAO</td>
+                              <td>Finale de Yadé</td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+
+
+                         </tr>
+
+                           <tr>
+                              <th scope="row">13 / 07 / 2022 <br>
+                                   <b>MERCREDI</b>
+
+                              </th>
+                              <td>08H00</td>
+                              <td>Finale de Bohou</td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+
+
+                         </tr>
+
+                           <tr>
+                              <th scope="row">14 / 07 / 2022 <br>
+                                   <b>JEUDI</b>
+
+                              </th>
+                              <td>08H00</td>
+                              <td>Finale de Pya, Sarakawa et Yaka</td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+
+
+                         </tr>
+
+                           <tr>
+                              <th scope="row">15 / 07 / 2022 <br>
+                                   <b>VENDREDI</b>
+
+                              </th>
+                              <td>08H00</td>
+                              <td>Finale de Kouméa, Lama, Landa, Djamdé</td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+
+
+                         </tr>
+                           <tr>
+                              <th scope="row">16 / 07 / 2022 <br>
+                                   <b>SAMEDI</b>
+
+                              </th>
+                              <td>08H00</td>
+                              <td>Finale de Tcharé, Soumdina, Lassa</td>
                               <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 

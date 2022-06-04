@@ -88,7 +88,11 @@ a {
           background-color: rgba(0, 106, 74, 0.536);
           height: 90%;
           border-radius: 15px;
-          padding: 5rem;
+          padding: 4rem;
+     }
+
+     h2 {
+          font-size: 20px;
      }
 
      .form {

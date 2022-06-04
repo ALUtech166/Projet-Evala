@@ -3,7 +3,7 @@
           <nav class="navbar navbar-expand-lg navbar-light" style="">
                <div class="container-fluid">
                     <a class="navbar-brand" href="#"><strong>
-                              <img src="../images/logo-kara.png" alt="" width="">
+                              <img class="img-fluid" src="../images/logo-kara.png" alt="" width="">
                          </strong></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                          data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
@@ -50,6 +50,9 @@
                               <li><a class="dropdown-item" href="/kozah">La KARA</a></li>
                               <li><a class="dropdown-item" href="/blog">Actualités</a></li>
                               <li><a class="dropdown-item" href="/contact">Contacts</a></li>
+                              <li><a class="btn btn-white btn-animated" data-bs-toggle="modal"
+                                        href="#exampleModalToggle" role="button">Se Connecter</a>
+                              </li>
                          </ul>
 
                          <div class=""></div>
@@ -96,8 +99,6 @@
                                    </div>
                               </div>
                          </div>
-                         <a class="btn btn-white btn-animated" data-bs-toggle="modal" href="#exampleModalToggle"
-                              role="button">Se Connecter</a>
 
 
 
@@ -144,7 +145,7 @@
 
      }
 
-     
+
 
      /* X-Small devices (portrait phones, less than 576px)  */
      @media (max-width: 575.98px) {}
@@ -174,23 +175,23 @@
                font-size: 10px;
           }
 
-         
+
      }
 
-       @media (max-width: 1303px) and (max-width: 999px) {
-            .menu {
-                 text-align: left;
-                 
-            }
+     @media (max-width: 1303px) and (max-width: 999px) {
+          .menu {
+               text-align: left;
 
-            ul {
-                 font: 200;
-            }
+          }
 
-            .btn {
-                 font-size: xx-small;
-            }
-       }
+          ul {
+               font: 200;
+          }
+
+          .btn {
+               font-size: xx-small;
+          }
+     }
 
      @media (max-width: 1381px) {
           .btn {
@@ -209,9 +210,9 @@
                text-transform: lowercase;
           }
 
-          .menu{
+          .menu {
                text-align: left;
-               
+
           }
 
           li {
@@ -257,7 +258,7 @@
      }
 
      li {
-          padding: 15px;
+          padding: 10px;
           font-family: 'Jost', sans-serif;
           font-weight: bold;
           text-transform: uppercase;
@@ -285,9 +286,8 @@
 
      .link,
      .dropdown-item {
-          font-size: 14px;
+          font-size: 12px;
           transition: .5s ease all;
-          padding-bottom: px;
           border-bottom: 1px solid transparent;
 
      }
@@ -313,7 +313,7 @@
           background-color: #006A4A;
           color: #fff;
           font-family: 'jost', sans-serif;
-          font-size: 12px;
+          font-size: 10px;
 
 
      }

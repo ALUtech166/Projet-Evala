@@ -22,6 +22,13 @@
           <div class="list-hotel">
                <h1>Les Pharmacies à Kara</h1>
 
+               <div class="header-search">
+                    <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+               </div>
+
                <div class="row">
                     <div class="col-lg-4">
                          <div class="card" style="width: 25rem; height: 30rem;">
@@ -30,6 +37,9 @@
                                    <h3 class="card-title">Pharmacie Kara Centre</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
+                                   <button type="button" class="btn btn-success">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></button>
+
 
                               </div>
                          </div>
@@ -43,6 +53,8 @@
                                    <h3 class="card-title">Pharmacie De L'Espoir</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
+                                    <button type="button" class="btn btn-success">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></button>
 
                               </div>
                          </div>
@@ -56,6 +68,8 @@
                                    <h3 class="card-title">Pharmacie De la Kozah</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
+                                    <button type="button" class="btn btn-success">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></button>
 
                               </div>
                          </div>
@@ -72,6 +86,8 @@
                                    <h3 class="card-title">Pharmacie Lafia</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
+                                    <button type="button" class="btn btn-success">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></button>
 
                               </div>
                          </div>
@@ -85,6 +101,8 @@
                                    <h3 class="card-title">Pharmacie santé plus</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
+                                    <button type="button" class="btn btn-success">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></button>
 
                               </div>
                          </div>
@@ -97,143 +115,13 @@
                                    <h3 class="card-title">Pharmacie nouveau marché</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
+                                    <button type="button" class="btn btn-success">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></button>
 
                               </div>
                          </div>
                     </div>
                </div>
-
-
-               <!--  <div class="list-pub">
-                    <h1>Les autres Pharmacies</h1>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Hotel Pavillon Kara</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                    </div>
- -->
-               <!-- 
-               </div> -->
 
           </div>
 
@@ -249,7 +137,8 @@
 </script>
 
 <style scoped>
-     .bread {
+     .bread,
+     .header-search {
           padding: 2rem;
 
      }

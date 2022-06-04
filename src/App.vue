@@ -28,5 +28,10 @@
   }
 </script>
 
+<style>
+@import './global-style.css';
+
+</style>
+
 
 

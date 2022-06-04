@@ -4,7 +4,7 @@
           <div class="row">
 
                <div class="col-lg-6">
-                    <img class="image" src="../images/Faure-tg.jpg" alt="" width="600px">
+                    <img class="image img-fluid" src="../images/Faure-tg.jpg" alt="">
                </div>
 
                <div class="col-lg-6">
@@ -39,7 +39,7 @@
      <div class="video-pub">
 
           <div class="play-button">
-               <a href=""><img src="../images/play-button.png" alt="" height="100px"></a>
+               <a href=""><img src="" class="img-fluid" alt=""></a>
           </div>
 
           <div class="carou-sel">
@@ -99,7 +99,7 @@
           <div class="row">
                <div class="col-lg-3">
 
-                    <img class="image" src="../images/hotel-kara1.png" alt="" width="300px" height="200px">
+                    <img class="img-fluid" src="../images/hotel-kara1.png" alt="">
                     <div class="box1">
                          <a href="/hotel">
                               <h2>Hotels</h2>
@@ -109,7 +109,7 @@
                </div>
 
                <div class="col-lg-3">
-                    <img class="image" src="../images/Photo84.png" alt="" width="300px" height="200px">
+                    <img class="img-fluid" src="../images/Photo84.png" alt="">
                     <div class="box1">
                          <a href="/bar-resto">
                               <h2>Bars & Restaurants</h2>
@@ -118,7 +118,7 @@
                </div>
 
                <div class="col-lg-3">
-                    <img class="image" src="../images/Photo19.png" alt="" width="300px" height="200px">
+                    <img class="img-fluid" src="../images/Photo19.png" alt="">
                     <div class="box1">
                          <a href="/boite">
                               <h2>Boites de nuits</h2>
@@ -127,7 +127,7 @@
                </div>
 
                <div class="col-lg-3">
-                    <img class="image" src="../images/Photo10.png" alt="" width="300px" height="200px">
+                    <img class="img-fluid" src="../images/Photo10.png" alt="">
                     <div class="box1">
                          <a href="/marche">
                               <h2>Marchés</h2>
@@ -146,7 +146,7 @@
           <div class="row" id="items">
                <div class="col-lg-3">
 
-                    <img class="image" src="../images/fazao.png" alt="" width="300px" height="200px">
+                    <img class="img-fluid" src="../images/fazao.png" alt="">
                     <div class="box2">
                          <a href="/tourisme">
                               <h2 style="color:green">Lieux Touristiques</h2>
@@ -155,7 +155,7 @@
                </div>
 
                <div class="col-lg-3">
-                    <img class="image" src="../images/lafia.png" alt="" width="300px" height="200px">
+                    <img class="img-fluid" src="../images/lafia.png" alt="">
                     <div class="box2">
                          <a href="/pharmacie">
                               <h2 style="color:green">Pharmacies</h2>
@@ -164,7 +164,7 @@
                </div>
 
                <div class="col-lg-3">
-                    <img class="image" src="../images/cbt.png" alt="" width="300px" height="200px">
+                    <img class="img-fluid" src="../images/cbt.png" alt="">
                     <div class="box2">
                          <a href="/sante">
                               <h2 style="color:green">Centres de Santé</h2>
@@ -173,7 +173,7 @@
                </div>
 
                <div class="col-lg-3">
-                    <img class="image" src="../images/Photo11.png" alt="" width="300px" height="200px">
+                    <img class="img-fluid" src="../images/Photo11.png" alt="">
                     <div class="box2">
                          <a href="/radio">
                               <h2 style="color:green">Fréquences de Radios</h2>
@@ -195,14 +195,14 @@
           </div>
           <br>
           <vue3-marquee :clone="true">
-               <img height="100" src="../images/Photo1.png" />
-               <img height="100" src="../images/brs.png" />
-               <img height="100" src="../images/orabank.png" alt="" />
-               <img height="100" src="../images/croix-rouge.png" alt="" />
-               <img height="100" src="../images/bia.png" alt="" />
-               <img height="100" src="../images/atlantique.png" alt="" />
-               <img height="100" src="../images/coris.png" alt="" />
-               <img height="100" src="../images/poste.png" alt="" />
+               <img class="img-fluid" height="100" src="../images/Photo1.png" />
+               <img class="img-fluid" height="100" src="../images/brs.png" />
+               <img class="img-fluid" height="100" src="../images/orabank.png" alt="" />
+               <img class="img-fluid" height="100" src="../images/croix-rouge.png" alt="" />
+               <img class="img-fluid" height="100" src="../images/bia.png" alt="" />
+               <img class="img-fluid" height="100" src="../images/atlantique.png" alt="" />
+               <img class="img-fluid" height="100" src="../images/coris.png" alt="" />
+               <img class="img-fluid" height="100" src="../images/poste.png" alt="" />
           </vue3-marquee>
      </div>
 
@@ -277,7 +277,7 @@
 
      .box1 {
           margin: 0.5rem;
-          max-width: 21rem;
+          max-width: 100%;
           text-align: center;
           padding: 0.5rem;
           border-radius: 10px;
@@ -287,7 +287,7 @@
 
      .box2 {
           margin: 0.5rem;
-          max-width: 21rem;
+          max-width: 100%;
           text-align: center;
           padding: 0.5rem;
           border-radius: 10px;
@@ -336,20 +336,6 @@
 
      @media (max-width: 300px) {
 
-          .accomodation {
-               padding: 0rem;
-               margin-left: 20px;
-               text-align: left;
-
-          }
-
-          img {
-               width: 100px;
-               height: 100px;
-          }
-
-
-
           .title {
                text-align: center;
                margin: 0;
@@ -394,10 +380,6 @@
                flex-direction: column;
           }
 
-          img {
-               width: 100px;
-               height: 100px;
-          }
 
           .title {
                text-align: center;
@@ -414,93 +396,14 @@
      }
 
 
-     /* X-Small devices (portrait phones, less than 576px)  */
-     @media (max-width: 575.98px) {
-
-          .accomodation {
-               padding: 0rem;
-               margin-left: 0px;
-               text-align: center;
-
-          }
-     }
-
-     /* 
-     // Small devices (landscape phones, less than 768px) */
-     @media (max-width: 767.98px) {
-
-          .accomodation,
-          .box1,
-          .box2 {
-               padding: 0rem;
-               margin-left: 0px;
-               text-align: center;
-
-          }
-
-     }
-
-     /* // Medium devices (tablets, less than 992px) */
-     @media (max-width: 991.98px) {
-
-          .accomodation {
-               padding: 0rem;
-               margin-left: 0px;
-
-
-
-          }
-
-     }
-
-     /* // Large devices (desktops, less than 1200px) */
-     @media (max-width: 1199.98px) {
-
-          .accomodation {
-               padding: 0rem;
-               margin-left: 0px;
-               text-align: left;
-
-
-
-          }
-
-
-          img {
-               width: 100px;
-
-          }
-
-          .box1,
-          .box2 {
-               max-width: 14rem;
-          }
-
-
-     }
-
-     @media (max-width: 1438px) {
-          .accomodation {
-               padding: 0px;
-          }
-
-          img {
-               width: 200px;
-               height: 200px;
-          }
-     }
-
+     
 
 
      /* 
      // X-Large devices (large desktops, less than 1400px) */
      @media (max-width: 1399.98px) {
 
-          .accomodation {
-               padding: 2rem;
-               margin-left: 85px;
-
-          }
+     
      }
 
      .ref {

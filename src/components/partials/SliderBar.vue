@@ -8,18 +8,10 @@
                          aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                          aria-label="Slide 3"></button>
-                   <!--   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                         aria-label="Slide 4"></button>
-                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                         aria-label="Slide 5"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                         aria-label="Slide 6"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
-                         aria-label="Slide 7"></button> -->
                </div>
                <div class="carousel-inner">
                     <div class="carousel-item active">
-                         <img src="../images/Evala.png" class="d-block w-100" alt="..." height="700px">
+                         <img src="../images/Evala.png" class="d-block w-100 img-fluid" alt="...">
                          <div class="carousel-caption" style="text-align: center">
                               <div class="">
                                    <h1 class="heading-primary">
@@ -43,7 +35,7 @@
                          </div>
                     </div>
                     <div class="carousel-item">
-                         <img src="../images/Akpema.png" class="d-block w-100" alt="..." height="700px">
+                         <img src="../images/Akpema.png" class="d-block w-100 img-fluid" alt="...">
                          <div class="carousel-caption">
                               <div class="">
                                    <h1 class="heading-primary">
@@ -67,7 +59,7 @@
                          </div>
                     </div>
                     <div class="carousel-item">
-                         <img src="../images/HABYÈ.png" class="d-block w-100" alt="..." height="700px">
+                         <img src="../images/HABYÈ.png" class="d-block w-100 img-fluid" alt="...">
                          <div class="carousel-caption">
                               <div class="">
                                    <h1 class="heading-primary">
@@ -121,7 +113,7 @@
 
      .heading-primary-main {
           display: block;
-          font-size: 70px;
+          font-size: 30px;
           font-weight: 500;
           letter-spacing: 5px;
           animation-name: moveInLeft;
@@ -202,7 +194,7 @@
      .btn:visited {
           text-transform: uppercase;
           text-decoration: none;
-          padding: 15px 40px;
+          padding: 12px 20px;
           display: inline-block;
           border-radius: 100px;
           transition: all .2s;

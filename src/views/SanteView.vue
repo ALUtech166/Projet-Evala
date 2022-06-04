@@ -22,6 +22,12 @@
           <div class="list-hotel">
 
                <h1>Les Centres de Santé à Kara</h1>
+               <div class="header-search">
+                    <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+               </div>
 
                <div class="row">
                     <div class="col-lg-4">
@@ -30,7 +36,7 @@
                               <div class="card-body">
                                    <h3 class="card-title">croix-rouge</h3>
                                    <h5>Contact: +228 90100882</h5>
-                                  
+
 
                               </div>
                          </div>
@@ -70,7 +76,7 @@
                               <div class="card-body">
                                    <h3 class="card-title">CHR Kara</h3>
                                    <h5>Contact: +228 2660246</h5>
-                                   
+
 
                               </div>
                          </div>
@@ -83,7 +89,7 @@
                               <div class="card-body">
                                    <h3 class="card-title">PMI - SOS</h3>
                                    <h5>Contact: +228 26601159</h5>
-                                   
+
 
                               </div>
                          </div>
@@ -95,7 +101,7 @@
                               <div class="card-body">
                                    <h3 class="card-title">CBT Med Hippocrate</h3>
                                    <h5>Contact: +228 26600516</h5>
-                                   
+
 
                               </div>
                          </div>
@@ -109,7 +115,7 @@
 
 
 
-               
+
                <div class="row">
 
                     <div class="col-lg-4">
@@ -118,7 +124,7 @@
                               <div class="card-body">
                                    <h3 class="card-title">Clinique ma Vie</h3>
                                    <h5>Contact: +228 26606028</h5>
-                                   
+
 
                               </div>
                          </div>
@@ -131,7 +137,7 @@
                               <div class="card-body">
                                    <h3 class="card-title">Clinique Tout est grace</h3>
                                    <h5>Contact: +228 24458352</h5>
-                                   
+
 
                               </div>
                          </div>
@@ -143,7 +149,7 @@
                               <div class="card-body">
                                    <h3 class="card-title">Polychimie</h3>
                                    <h5>Contact: +228 26606081</h5>
-                                  
+
 
                               </div>
                          </div>
@@ -266,7 +272,7 @@
           padding: 1rem
      }
 
-    
+
 
      h5 {
           color: #006A4A;

@@ -1,0 +1,19 @@
+
+
+html {
+     width: 100vw;
+     box-sizing: border-box;
+     /* font-size: 62.5%; */
+     /* defaul fontsize de 16px */
+     /* 9.9999px */
+     /* our project: default size 10px */
+     /* heading size 10px font-size:  1rem*/
+     /* heading size 20px font-size: 2rem */
+     /* width: 10rem  (100px)*/
+ }
+ 
+ *,
+ *::after,
+ *::before {
+     box-sizing: inherit;
+ }

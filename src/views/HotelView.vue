@@ -22,25 +22,32 @@
 
     <div class="list-hotel">
 
-
       <h1>Les Hotels à Kara</h1>
+
+      <div class="header-search">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
       <div class="row">
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/hotel-kara1.png" class="card-img-top" alt="...">
+            <img src="../components/images/hotel-kara1.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h3 class="card-title">Hotel Kara</h3>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
               <p class="card-text">
-                <span>Détails:</span> Chambre simple, à partir de 18 500 FCFA et double, à partir de 21 500 FCFA, bungalow luxe à
+                <span>Détails:</span> Chambre simple, à partir de 18 500 FCFA et double, à partir de 21 500 FCFA,
+                bungalow luxe à
                 partir de 40 000 FCFA selon la catégorie et la rénovation. Petit déjeuner buffet autour de 3 500 FCFA,
-                menu du jour à 7 000 FCFA 
+                menu du jour à 7 000 FCFA
               </p>
               <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Voir plus de details</h2>
-                </a>
+                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
+                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -61,9 +68,9 @@
                 d'étage et une connexion Wi-Fi gratuite.
               </p>
               <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Voir plus de details</h2>
-                </a>
+                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
+                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -72,7 +79,7 @@
 
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/hotel-sbe.png" class="card-img-top" alt="...">
+            <img src="../components/images/hotel-sbe.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h5 class="card-title">Hotel sainte-brigitte</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
@@ -83,10 +90,10 @@
                 confortable dont le personnel est très charmant. Chambre confortable avec climatisation et eau chaude
 
               </p>
-              <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Voir plus de details</h2>
-                </a>
+             <div class="box1">
+                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
+                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -101,7 +108,7 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/Hotel-kamaka.png" class="card-img-top" alt="...">
+            <img src="../components/images/Hotel-kamaka.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h5 class="card-title">Hotel Kama'aka</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
@@ -114,9 +121,9 @@
 
               </p>
               <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Voir plus de details</h2>
-                </a>
+                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
+                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
 
@@ -126,7 +133,7 @@
 
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/hotel-concorde.png" class="card-img-top" alt="...">
+            <img src="../components/images/hotel-concorde.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h5 class="card-title">Hotel La concorde</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
@@ -137,9 +144,9 @@
                 et 40 000 FCFA. Petit déjeuner complet autour de 2 500 FCFA, plats à 4 000 FCFA en moyenne. Bar.
               </p>
               <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Voir plus de details</h2>
-                </a>
+                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
+                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -148,7 +155,7 @@
 
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/Hotel-etoile.png" class="card-img-top" alt="...">
+            <img src="../components/images/Hotel-etoile.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h5 class="card-title">Hotel etoile de la kozah</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
@@ -157,10 +164,10 @@
                 disponible.
                 Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.
                 L'accès est facile et la zone est très calme permettant de travailler ou de se reposer.</p>
-              <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Voir plus de details</h2>
-                </a>
+             <div class="box1">
+                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
+                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -327,9 +334,13 @@
   }
 
   .bread {
-    padding: 2rem;
+    padding: 20px;
     font-size: 20px;
 
+  }
+
+  .header-search {
+    padding: 20px;
   }
 
   .icon {
@@ -354,11 +365,15 @@
   .box1 {
     max-width: 100%;
     text-align: center;
-    border-radius: 10px;
-    border: 2px solid #F32424;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-    margin-top: 2rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 
+  }
+
+  .btn {
+    border-radius: 10px;
+    font-size: 10px;
   }
 
   h3,
@@ -376,7 +391,7 @@
 
   .yellow-box {
     border: 2px solid yellow;
-    padding: 1rem;
+    padding: 10px;
   }
 
   .row {
@@ -445,14 +460,14 @@
     padding: 3rem;
   }
 
-    @media only screen and (max-width: 1920px) {
-           .list-hotel {
-               text-align: center;
-           }
+  @media only screen and (max-width: 1920px) {
+    .list-hotel {
+      text-align: center;
+    }
 
-         
 
-     }
+
+  }
 
   .header {
     height: 30vh;

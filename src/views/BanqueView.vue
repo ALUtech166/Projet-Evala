@@ -7,7 +7,7 @@
           </div>
 
 
-            <div class="bread">
+          <div class="bread">
                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
                     aria-label="breadcrumb">
                     <ol class="breadcrumb">
@@ -18,8 +18,14 @@
           </div>
 
           <div class="list-hotel">
-              
+
                <h1>Les Agences de Banques à Kara</h1>
+               <div class="header-search">
+                    <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+               </div>
 
                <div class="row">
                     <div class="col-lg-4">
@@ -256,10 +262,13 @@
 </script>
 
 <style scoped>
-
-      .bread {
+     .bread {
           padding: 2rem;
 
+     }
+
+     .header-search {
+          padding: 4rem;
      }
 
      ol {
@@ -269,6 +278,7 @@
      a {
           text-decoration: none;
      }
+
      .col-lg-4:hover {
           transform: translateY(35px);
           transition: 1s ease-in-out;
@@ -329,7 +339,7 @@
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
      }
 
-     
+
 
      h1 {
           text-align: center;
@@ -339,7 +349,7 @@
           font-size: 30px;
      }
 
-     
+
 
      .card-title {
           text-align: left;

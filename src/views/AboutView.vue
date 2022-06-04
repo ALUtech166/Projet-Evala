@@ -22,12 +22,18 @@
         Kara dispose des lieux touristiques des Bars-Restaurants, des Boites de nuits, des Marchés etc.
       </p>
     </div>
+    <div class="header-search">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
     <div class="acc">
       <div class="row" id="items">
         <div class="col-lg-3">
 
 
-          <img class="image" src="../components/images/hotel-kara.jpg" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/hotel-kara.jpg" alt="">
           <div class="box1">
             <a href="/hotel">
               <h2 style="color:green">Hotels</h2>
@@ -36,7 +42,7 @@
         </div>
 
         <div class="col-lg-3">
-          <img class="image" src="../components/images/place-victoire.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/place-victoire.png" alt="">
           <div class="box1">
             <a href="/bar-resto">
               <h2 style="color:green">Bars & Restaurants</h2>
@@ -45,7 +51,7 @@
         </div>
 
         <div class="col-lg-3">
-          <img class="image" src="../components/images/Photo20.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/Photo20.png" alt="">
           <div class="box1">
             <a href="/tourisme">
               <h2 style="color:green">Lieux Touristiques</h2>
@@ -55,7 +61,7 @@
 
         <div class="col-lg-3">
 
-          <img class="image" src="../components/images/lafia.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/lafia.png" alt="">
           <div class="box2">
             <a href="/pharmacie">
               <h2 style="color:green">Pharmacies</h2>
@@ -73,7 +79,7 @@
       <div class="row" id="items">
         <div class="col-lg-3">
 
-          <img class="image" src="../components/images/Photo18.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/Photo18.png" alt="">
           <div class="box2">
             <a href="/boite">
               <h2 style="color:green">Boites de nuits</h2>
@@ -82,7 +88,7 @@
         </div>
 
         <div class="col-lg-3">
-          <img class="image" src="../components/images/vie.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/vie.png" alt="">
           <div class="box2">
             <a href="/sante">
               <h2 style="color:green">Centres de Santé</h2>
@@ -90,7 +96,7 @@
           </div>
         </div>
         <div class="col-lg-3">
-          <img class="image" src="../components/images/Photo11.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/Photo11.png" alt="">
           <div class="box2">
             <a href="/radio">
               <h2 style="color:green">Fréquences de Radios</h2>
@@ -99,7 +105,7 @@
         </div>
 
         <div class="col-lg-3">
-          <img class="image" src="../components/images/Photo104.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/atlantique.png" alt="">
           <div class="box2">
             <a href="/banque">
               <h2 style="color:green">Agences de Banques</h2>
@@ -116,7 +122,7 @@
     <div class="acc">
       <div class="row" id="items">
         <div class="col-lg-3">
-          <img class="image" src="../components/images/Photo32.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/Photo32.png" alt="">
           <div class="box2">
             <a href="/marche">
               <h2 style="color:green">Marchés</h2>
@@ -125,7 +131,7 @@
         </div>
         <div class="col-lg-3">
 
-          <img class="image" src="../components/images/Photo37.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/Photo34.png" alt="">
           <div class="box2">
             <a href="/marche">
               <h2 style="color:green">Supermarché</h2>
@@ -134,7 +140,7 @@
         </div>
 
         <div class="col-lg-3">
-          <img class="image" src="../components/images/Photo89.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/Photo89.png" alt="">
           <div class="box2">
             <a href="/gym">
               <h2 style="color:green">Centre de Bien etre</h2>
@@ -143,7 +149,7 @@
         </div>
 
         <div class="col-lg-3">
-          <img class="image" src="../components/images/Photo95.png" alt="" width="300px" height="200px">
+          <img class="img-fluid image" src="../components/images/Photo95.png" alt="">
           <div class="box2">
             <a href="/religion">
               <h2 style="color:green">Les Lieux Religieux</h2>
@@ -180,6 +186,11 @@
   .col-lg-3:hover:before {
     opacity: 1;
 
+  }
+
+  .header-search {
+
+    padding: 4rem;
   }
 
 
@@ -303,33 +314,11 @@
     border-radius: 10px;
 
   }
-  @media (max-width: 1199.98px) {
 
-          .accomodation{
-               padding: 0rem;
-               margin-left: 0px;
-               text-align: left;
-               
-               
-
-          }
-
-
-          img {
-               width: 250px;
-               
-          }
-
-          .box1, .box2 {
-               max-width: 14rem;
-          }
-
-
-     }
 
   .box1 {
     margin: 0.5rem;
-    max-width: 21rem;
+    max-width: 100%;
     text-align: center;
     padding: 0.5rem;
     border-radius: 10px;
@@ -339,7 +328,7 @@
 
   .box2 {
     margin: 0.5rem;
-    max-width: 21rem;
+    max-width: 100%;
     text-align: center;
     padding: 0.5rem;
     border-radius: 10px;
@@ -347,7 +336,8 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   }
 
-  h2, ol {
+  h2,
+  ol {
     font-size: 20px;
   }
 </style>

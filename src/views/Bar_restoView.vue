@@ -6,8 +6,8 @@
       </h1>
 
     </div>
-    
-      <div class="bread">
+
+    <div class="bread">
       <nav
         style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
         aria-label="breadcrumb">
@@ -21,22 +21,29 @@
 
 
     <div class="list-bar">
-     
+
       <h1>Les Bars & Restaurants à Kara</h1>
 
+
+      <div class="header-search">
+          <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      </div>
       <div class="row">
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/place-victoire.png" class="card-img-top" alt="...">
+            <img src="../components/images/place-victoire.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h3 class="card-title">Place de la victoire</h3>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
               <h5>Localisation: </h5>
               <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Menus</h2>
-                </a>
+               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -45,16 +52,16 @@
 
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/douceur.png" class="card-img-top" alt="...">
+            <img src="../components/images/douceur.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h3 class="card-title">La Douceur</h3>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
               <h5>Localisation: </h5>
-              <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Menus</h2>
-                </a>
+             <div class="box1">
+               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -69,10 +76,10 @@
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
               <h5>Localisation: </h5>
-              <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Menus</h2>
-                </a>
+               <div class="box1">
+               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -93,10 +100,10 @@
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
               <h5>Localisation: </h5>
-              <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Menus</h2>
-                </a>
+               <div class="box1">
+               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
 
@@ -113,9 +120,9 @@
               <h5>Contact: +228 26600516</h5>
               <h5>Localisation: </h5>
               <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Menus</h2>
-                </a>
+               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -131,9 +138,9 @@
               <h5>Contact: +228 26600516</h5>
               <h5>Localisation: </h5>
               <div class="box1">
-                <a href="#" class="btn">
-                  <h2>Menus</h2>
-                </a>
+               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+             
 
               </div>
             </div>
@@ -180,7 +187,7 @@
         </div>
 
 
-          <div class="row">
+        <div class="row">
           <div class="col-lg-3">
             <div class="yellow-box">
               <h3>La bodega</h3>
@@ -211,10 +218,10 @@
           </div>
         </div>
 
-          <div class="row">
+        <div class="row">
           <div class="col-lg-3">
             <div class="yellow-box">
-              <h3>Les Pros -  Kara</h3>
+              <h3>Les Pros - Kara</h3>
               <p></p>
               <p>Contact: +228 70780260</p>
             </div>
@@ -242,7 +249,7 @@
           </div>
         </div>
 
-          <div class="row">
+        <div class="row">
           <div class="col-lg-3">
             <div class="yellow-box">
               <h3>Chez Tanti Rod</h3>
@@ -289,48 +296,53 @@
 </script>
 
 <style scoped>
-ol {
-  font-size: 20px;
-}
+  ol {
+    font-size: 20px;
+  }
 
-.bread {
-  padding: 2rem;
-}
+  .header-search {
+    padding: 4rem;
+  }
 
-a {
-  text-decoration: none;
-}
+  .bread {
+    padding: 2rem;
+  }
 
-.col-lg-4:hover {
+  a {
+    text-decoration: none;
+  }
+
+  .col-lg-4:hover {
     transform: translateY(35px);
     transition: 1s ease-in-out;
   }
 
- .col-lg-3:hover {
+  .col-lg-3:hover {
     transform: translateY(35px);
     transition: 1s ease-in-out;
   }
 
-.bread {
-  font-size: 30px;
-  font-family: 'jost' sans-serif;
-  color: #006A4A;
+  .bread {
+    font-size: 30px;
+    font-family: 'jost'sans-serif;
+    color: #006A4A;
 
-}
+  }
 
-@media only screen and (max-width: 1920px) {
-          
+  @media only screen and (max-width: 1920px) {
 
-           .list-pub {
-                text-align: center;
-                margin-left: 500px;
-           }
 
-     }
+    .list-pub {
+      text-align: center;
+      margin-left: 500px;
+    }
 
-.icon {
-  color: red;
-}
+  }
+
+  .icon {
+    color: red;
+  }
+
   h2 {
     font-size: 15px;
   }
@@ -339,15 +351,19 @@ a {
     max-width: 100%;
     text-align: center;
     border-radius: 15px;
-    border: 2px solid yellow;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn {
+    border-radius: 10px;
   }
 
   h3,
   p {
     font-size: 15px;
-    font-family: 'jost',sans-serif;
+    font-family: 'jost', sans-serif;
     color: #006A4A;
     text-align: left;
   }
@@ -376,7 +392,7 @@ a {
     padding: 3rem;
     background-color: white;
     margin: 1rem;
-   
+
   }
 
   .card-img-top {
