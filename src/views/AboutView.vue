@@ -298,8 +298,10 @@
   }
 
   .about {
-    padding: 7rem;
+    padding: 3rem;
     background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
+    max-width: 100%;
+    height: 100%;
 
 
 

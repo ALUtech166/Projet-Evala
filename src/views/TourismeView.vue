@@ -232,7 +232,7 @@
 
   .card {
     border-radius: 20px;
-    max-width: 100rem;
+    max-width: 100%;
     text-align: center;
     border-radius: 22px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
@@ -242,7 +242,7 @@
     text-align: left;
     color: #006A4A;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 15px;
   }
 
   h1 {

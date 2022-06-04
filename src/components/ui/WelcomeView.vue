@@ -270,8 +270,7 @@
           margin: 1rem;
           max-width: 100%;
           padding: 1rem;
-          border-radius: 10px;
-          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+          
 
      }
 
@@ -309,11 +308,11 @@
           text-align: justify;
           text-justify: inter-word;
           font-family: 'Jost', sans-serif;
-          font-size: 19px;
+          font-size: 17px;
      }
 
      .home {
-          padding: 7rem;
+          padding: 100px;
           background-image: linear-gradient(to right, #006a4a, #FFCE00);
      }
 
@@ -334,78 +333,8 @@
 
      }
 
-     @media (max-width: 300px) {
-
-          .title {
-               text-align: center;
-               margin: 0;
-               padding: 0;
-               max-width: 50%;
-
-
-
-
-          }
-
-          h1 {
-               font-size: small;
-               text-align: left;
-          }
-     }
-
-     @media (max-width: 360px) {
-          .title {
-               font-size: smaller;
-               text-align: left;
-          }
-
-          h1 {
-               font-size: small;
-               text-align: left;
-          }
-     }
-
-     @media (max-width: 375px) {
-
-          .accomodation {
-               padding: 0rem;
-               margin-left: 0px;
-               text-align: left;
-
-          }
-
-          .home {
-               padding: 0;
-               display: flex;
-               flex-direction: column;
-          }
-
-
-          .title {
-               text-align: center;
-               margin: 0;
-               padding: 0;
-               max-width: 50%;
-
-
-          }
-
-          h1 {
-               font-size: 20px;
-          }
-     }
-
-
      
-
-
-     /* 
-     // X-Large devices (large desktops, less than 1400px) */
-     @media (max-width: 1399.98px) {
-
-     
-     }
-
+   
      .ref {
           padding: 7rem;
 
@@ -454,12 +383,12 @@
      }
 
      .scores {
-          padding: 2rem;
+          padding: 50px;
 
      }
 
      h1 {
-          font-size: 27px;
+          font-size: 25px;
           font-weight: 600;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
@@ -483,7 +412,7 @@
      }
 
      p {
-          font-size: 20px;
+          font-size: 15px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
      }

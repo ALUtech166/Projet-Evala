@@ -1,7 +1,7 @@
 <template>
   <div class="kozah">
     <div class="header">
-      <h1 class="titre" style="font-size:50px">
+      <h1 class="titre" style="font-size:30px">
         Boites de Nuits
       </h1>
     </div>
@@ -235,7 +235,7 @@
 
   .card {
     border-radius: 20px;
-    max-width: 100rem;
+    max-width: 100%;
     text-align: center;
     border-radius: 22px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);

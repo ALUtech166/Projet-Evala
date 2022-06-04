@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/place-victoire.png" class="card-img-top img-fluid" alt="...">
+            <img src="../components/images/hotel-kara1.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h3 class="card-title">Place de la victoire</h3>
               <h5>Address: BP 5, Kara - Togo</h5>
@@ -301,11 +301,11 @@
   }
 
   .header-search {
-    padding: 4rem;
+    padding: 40px;
   }
 
   .bread {
-    padding: 2rem;
+    padding: 20px;
   }
 
   a {
@@ -329,15 +329,7 @@
 
   }
 
-  @media only screen and (max-width: 1920px) {
-
-
-    .list-pub {
-      text-align: center;
-      margin-left: 500px;
-    }
-
-  }
+ 
 
   .icon {
     color: red;
@@ -353,6 +345,7 @@
     border-radius: 15px;
     margin-top: 3rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 
@@ -383,10 +376,10 @@
   }
 
   .list-pub {
-    max-width: 100rem;
+    max-width: 100%;
     height: 100%;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 20px;
     border: 2px solid yellow;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     padding: 3rem;
@@ -401,9 +394,9 @@
 
   .card {
     border-radius: 20px;
-    max-width: 100rem;
+    max-width: 100%;
     text-align: center;
-    border-radius: 22px;
+    border-radius: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   }
 
@@ -418,17 +411,10 @@
     text-align: center;
     color: #006A4A;
     text-transform: uppercase;
-    padding: 2rem
+    padding: 20px;
   }
 
-  ;
-
-  .card-title {
-    text-align: left;
-    color: #006A4A;
-    text-transform: uppercase;
-    font-size: 25px;
-  }
+  
 
   h5 {
     color: #006A4A;
@@ -445,6 +431,8 @@
   .list-bar {
     background-image: linear-gradient(to right, #006a4a85, #ffcc00e6);
     padding: 3rem;
+    max-width: 100%;
+    height: 100%;
   }
 
   .header {

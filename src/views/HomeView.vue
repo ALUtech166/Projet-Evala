@@ -71,7 +71,7 @@
 
   .yellow-box {
     border: 2px solid #FFCE00;
-    padding: 4rem;
+    padding: 40px;
     width: 100%;
 
   }
@@ -88,7 +88,7 @@
   }
 
   .scores {
-    padding: 2rem;
+    padding: 20px;
 
   }
 
@@ -101,7 +101,7 @@
 
   h3 {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -109,43 +109,4 @@
     text-align: center;
   }
 
-
-
-
-
-  .visit {
-    border: 1px solid black;
-    max-width: 20rem;
-    margin: .5rem auto;
-    padding: 5rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    height: 30vh;
-  }
-
-
-
-  .users {
-
-    border: 1px solid black;
-    margin: .5rem auto;
-    max-width: 20rem;
-    text-align: left;
-    padding: 5rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    height: 30vh;
-  }
-
-
-  .total {
-    border: 1px solid black;
-    margin: .5rem auto;
-    max-width: 20rem;
-    text-align: left;
-    padding: 5rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    height: 30vh;
-  }
 </style>
