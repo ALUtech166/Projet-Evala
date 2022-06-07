@@ -1,7 +1,10 @@
 <template>
      <div class="home">
 
+          <div class="container">
+
           <div class="row">
+               
 
                <div class="col-lg-6">
                     <img class="image img-fluid" src="../images/Faure-tg.jpg" alt="">
@@ -34,6 +37,7 @@
 
 
           </div>
+          </div>
      </div>
 
 
@@ -58,10 +62,14 @@
                               <div class="scores">
 
                                    <vue3-marquee :clone="true">
-                                        <img height="200" src="../images/hp.jpg" />
-                                        <img height="200" src="../images/hp-face.jpg" />
-                                        <img height="200" src="../images/hp.jpg" />
-                                        <img height="200" src="../images/pc.png" />
+                                        <img height="100" src="../images/hp.jpg" />
+                                        <img height="100" src="../images/hp-face.jpg" />
+                                        <img height="100" src="../images/hp.jpg" />
+                                        <img height="100" src="../images/pc.png" />
+                                        <img height="100" src="../images/hp.jpg" />
+                                        <img height="100" src="../images/pc.png" />
+                                        <img height="100" src="../images/hp.jpg" />
+                                        <img height="100" src="../images/pc.png" />
                                    </vue3-marquee>
 
                               </div>
@@ -186,7 +194,7 @@
 
           </div>
 
-          <div class="lire-plus"><a href="/about" class="btn btn-white btn-aminated">Lire Plus</a></div>
+          <div class="lire-plus"><a href="/about" class="btn btn-success btn-aminated">Lire Plus</a></div>
 
      </div>
 
@@ -197,14 +205,14 @@
           </div>
           <br>
           <vue3-marquee :clone="true">
-               <img class="img-fluid" height="100" src="../images/Photo1.png" />
-               <img class="img-fluid" height="100" src="../images/brs.png" />
-               <img class="img-fluid" height="100" src="../images/orabank.png" alt="" />
-               <img class="img-fluid" height="100" src="../images/croix-rouge.png" alt="" />
-               <img class="img-fluid" height="100" src="../images/bia.png" alt="" />
-               <img class="img-fluid" height="100" src="../images/atlantique.png" alt="" />
-               <img class="img-fluid" height="100" src="../images/coris.png" alt="" />
-               <img class="img-fluid" height="100" src="../images/poste.png" alt="" />
+               <img  height="100" src="../images/Photo1.png" />
+               <img  height="100" src="../images/brs.png" />
+               <img  height="100" src="../images/orabank.png" alt="" />
+               <img  height="100" src="../images/croix-rouge.png" alt="" />
+               <img  height="100" src="../images/bia.png" alt="" />
+               <img  height="100" src="../images/atlantique.png" alt="" />
+               <img  height="100" src="../images/coris.png" alt="" />
+               <img  height="100" src="../images/poste.png" alt="" />
           </vue3-marquee>
      </div>
 
@@ -265,7 +273,7 @@
 
      .lire-plus {
           text-align: center;
-          padding: 2rem;
+          padding: 20px;
      }
 
      .title {
@@ -278,7 +286,7 @@
 
      .box1 {
           margin: 0.5rem;
-          max-width: 100%;
+          width: 100%;
           text-align: center;
           padding: 0.5rem;
           border-radius: 10px;
@@ -288,7 +296,7 @@
 
      .box2 {
           margin: 0.5rem;
-          max-width: 100%;
+          width: 100%;
           text-align: center;
           padding: 0.5rem;
           border-radius: 10px;
@@ -308,9 +316,8 @@
      .desc {
           color: black;
           text-align: justify;
-          text-justify: inter-word;
-          font-family: 'Jost', sans-serif;
-          font-size: 20px;
+          font-family: 'Jost';
+          
      }
 
      .home {
@@ -330,29 +337,28 @@
      }
 
      .accomodation {
-          padding: 2rem;
-          margin-left: 85px;
+          padding: 20px;
 
      }
 
      
    
      .ref {
-          padding: 7rem;
+          padding: 70px;
 
 
      }
 
 
      .sub-welcome {
-          padding: 2rem;
+          padding: 20px;
           text-align: center;
 
 
      }
 
      .video-pub {
-          padding: 5rem;
+          padding: 50px;
           background: #fff;
 
 
@@ -401,8 +407,6 @@
      .image {
           border-radius: 10px;
 
-
-
      }
 
 
@@ -433,12 +437,12 @@
      .btn:visited {
           text-transform: uppercase;
           text-decoration: none;
-          padding: 15px 30px;
-          display: inline-block;
+          padding: 15px 20px;
           border-radius: 100px;
           transition: all .2s;
           position: relative;
-          margin-right: 150px;
+          
+         
 
 
      }
@@ -488,4 +492,9 @@
           animation: moveInBottom .10s ease-out .75s;
           animation-fill-mode: backwards;
      }
+     @media (max-width: 350px) { 
+          .accomodation {
+               text-align: center;
+          }
+      }
 </style>

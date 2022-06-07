@@ -26,8 +26,8 @@
 
       <div class="header-search">
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Recherche</button>
         </form>
       </div>
       <div class="row">
@@ -39,14 +39,13 @@
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
               <p class="card-text">
-                <span>Détails:</span> Chambre simple, à partir de 18 500 FCFA et double, à partir de 21 500 FCFA,
+                <span>Détails:</span> Chambre simple, à partir de 18500 FCFA et double, à partir de 21500 FCFA,
                 bungalow luxe à
-                partir de 40 000 FCFA selon la catégorie et la rénovation. Petit déjeuner buffet autour de 3 500 FCFA,
-                menu du jour à 7 000 FCFA
+                partir de 40000 FCFA selon la catégorie et la rénovation. Petit déjeuner buffet autour de 3500 FCFA
               </p>
               <div class="box1">
-                <a type="button" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
-                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
@@ -65,11 +64,11 @@
                 <span>Détails:</span> Doté d'un bar, d'une terrasse et offrant une vue sur la ville, le Meka Hotel est
                 situé à Kara,
                 à 2,4 km du bureau de l'immigration. Il propose un restaurant, une réception ouverte 24h/24, un service
-                d'étage et une connexion Wi-Fi gratuite.
+                d'étage
               </p>
               <div class="box1">
-                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
-                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
@@ -91,8 +90,8 @@
 
               </p>
               <div class="box1">
-                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
-                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
@@ -115,8 +114,8 @@
 
               </p>
               <div class="box1">
-                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
-                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
@@ -146,8 +145,8 @@
 
               </p>
               <div class="box1">
-                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
-                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
@@ -169,8 +168,8 @@
                 et 40 000 FCFA. Petit déjeuner complet autour de 2 500 FCFA, plats à 4 000 FCFA en moyenne. Bar.
               </p>
               <div class="box1">
-                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
-                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
@@ -187,11 +186,10 @@
               <h5>Contact: +228 26600516</h5>
               <p class="card-text"><span>Détails:</span> Hôtel très propre, confortable. Personnel accueillant et
                 disponible.
-                Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.
-                L'accès est facile et la zone est très calme permettant de travailler ou de se reposer.</p>
+                Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.</p>
               <div class="box1">
-                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
-                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
 
 
@@ -209,11 +207,10 @@
               <h5>Contact: +228 26600516</h5>
               <p class="card-text"><span>Détails:</span> Hôtel très propre, confortable. Personnel accueillant et
                 disponible.
-                Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.
-                L'accès est facile et la zone est très calme permettant de travailler ou de se reposer.</p>
+                Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.</p>
               <div class="box1">
-                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
-                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
 
 
@@ -406,6 +403,10 @@
 
   a {
     text-decoration: none;
+  }
+
+  #btn {
+    font-size: 9px;
   }
 
   span {

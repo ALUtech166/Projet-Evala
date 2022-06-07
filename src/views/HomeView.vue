@@ -1,7 +1,8 @@
 <template>
 
-  <router-view />
+
   <slider-bar></slider-bar>
+  <br>
   <pub-page></pub-page>
   <div class="scores">
     <vue3-marquee :clone="true">
