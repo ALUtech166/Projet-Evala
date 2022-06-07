@@ -288,7 +288,7 @@
 
   .lire-plus {
     text-align: center;
-    padding: 2rem;
+    padding: 20px;
   }
 
   .acc {

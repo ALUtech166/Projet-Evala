@@ -358,7 +358,7 @@
      }
 
      .video-pub {
-          padding: 50px;
+          padding: 20px;
           background: #fff;
 
 
@@ -391,7 +391,7 @@
      }
 
      .scores {
-          padding: 50px;
+          padding: 10px;
 
      }
 
