@@ -3,7 +3,7 @@
           <nav class="navbar navbar-expand-lg navbar-light" style="">
                <div class="container-fluid">
                     <a class="navbar-brand" href="/">
-                              <img class="img-fluid" src="../images/logo-kara.png" alt=""></a>
+                         <img class="img-fluid" src="../images/Ok.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                          data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
                          aria-expanded="false" aria-label="Toggle navigation">
@@ -126,7 +126,137 @@
      nav {
           background-color: #006A4A;
           background-color: transparent;
+          padding: 20px;
 
+     }
+
+
+     .modal-content {
+          padding: 0.5rem;
+     }
+
+     h1 {
+          font-weight: bold;
+          font-family: 'Jost', sans-serif;
+          color: #006A4A;
+     }
+
+     p {
+          padding: 10px;
+          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Jost', sans-serif;
+          font-weight: 900;
+          color: #006A4A;
+          font-size: 20px;
+
+
+     }
+
+     li {
+          padding: 15px;
+          font-family: 'Jost', sans-serif;
+          font-weight: bold;
+          text-transform: uppercase;
+
+
+     }
+
+
+     #dropdown {
+          text-align: right;
+     }
+
+
+
+     ul,
+     .link,
+     .dropdown-item,
+     .dropdown-toggle {
+          list-style: none;
+          text-decoration: none;
+          font-family: 'Josefin Sans', sans-serif;
+
+     }
+
+
+     .link,
+     .dropdown-item {
+          font-size: 15px;
+          transition: .5s ease all;
+          border-bottom: 1px solid transparent;
+
+     }
+
+
+     .dropdown-item:hover {
+          color: #006A4A;
+          border-color: #ebd771;
+          font-weight: bold;
+          background-color: #fff;
+     }
+
+
+     .btn:link,
+     .btn:visited {
+          text-transform: uppercase;
+          text-decoration: none;
+          display: inline-block;
+          padding: 12px;
+          border-radius: 100px;
+          transition: all .2s;
+          position: relative;
+          background-color: #006A4A;
+          color: #fff;
+          font-family: 'jost', sans-serif;
+          font-size: 15px;
+
+
+     }
+
+
+     .btn:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgb(0, 0, 0, 2);
+     }
+
+     .btn:active {
+          transform: translateY(-1px);
+          box-shadow: 0 5px 10px rgb(0, 0, 0, 2);
+     }
+
+     .btn-white {
+          background-color: #fff;
+          border: 2px solid #006A4A;
+          color: #006A4A;
+     }
+
+     .btn::after {
+          content: "";
+          display: inline-block;
+          height: 100%;
+          width: 100%;
+          border-radius: 100px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          transition: all .4s;
+     }
+
+     .btn-white::after {
+          background-color: #006A4A;
+     }
+
+     .btn:hover::after {
+          transform: scaleX(1.4) scaleY(1.6);
+          opacity: 0;
+
+
+     }
+
+     .btn-aminated {
+          animation: moveInBottom .10s ease-out .75s;
+          animation-fill-mode: backwards;
      }
 
      /* .navbar-nav {
@@ -234,132 +364,4 @@
 
      /* // XX-Large devices (larger desktops)
      // No media query since the xxl breakpoint has no upper bound on its width */
-
-     .modal-content {
-          padding: 0.5rem;
-     }
-
-     h1 {
-          font-weight: bold;
-          font-family: 'Jost', sans-serif;
-          color: #006A4A;
-     }
-
-     p {
-          padding: 10px;
-          font-family: 'Josefin Sans', sans-serif;
-          font-family: 'Jost', sans-serif;
-          font-weight: 900;
-          color: #006A4A;
-          font-size: 20px;
-
-
-     }
-
-     li {
-          padding: 10px;
-          font-family: 'Jost', sans-serif;
-          font-weight: bold;
-          text-transform: uppercase;
-
-
-     }
-
-
-     #dropdown {
-          text-align: right;
-     }
-
-
-
-     ul,
-     .link,
-     .dropdown-item,
-     .dropdown-toggle {
-          list-style: none;
-          text-decoration: none;
-          font-family: 'Josefin Sans', sans-serif;
-
-     }
-
-
-     .link,
-     .dropdown-item {
-          font-size: 12px;
-          transition: .5s ease all;
-          border-bottom: 1px solid transparent;
-
-     }
-
-
-     .dropdown-item:hover {
-          color: #006A4A;
-          border-color: #ebd771;
-          font-weight: bold;
-          background-color: #fff;
-     }
-
-
-     .btn:link,
-     .btn:visited {
-          text-transform: uppercase;
-          text-decoration: none;
-          display: inline-block;
-          padding: 12px;
-          border-radius: 100px;
-          transition: all .2s;
-          position: relative;
-          background-color: #006A4A;
-          color: #fff;
-          font-family: 'jost', sans-serif;
-          font-size: 10px;
-
-
-     }
-
-
-     .btn:hover {
-          transform: translateY(-3px);
-          box-shadow: 0 10px 20px rgb(0, 0, 0, 2);
-     }
-
-     .btn:active {
-          transform: translateY(-1px);
-          box-shadow: 0 5px 10px rgb(0, 0, 0, 2);
-     }
-
-     .btn-white {
-          background-color: #fff;
-          border: 2px solid #006A4A;
-          color: #006A4A;
-     }
-
-     .btn::after {
-          content: "";
-          display: inline-block;
-          height: 100%;
-          width: 100%;
-          border-radius: 100px;
-          position: absolute;
-          top: 0;
-          left: 0;
-          z-index: -1;
-          transition: all .4s;
-     }
-
-     .btn-white::after {
-          background-color: #006A4A;
-     }
-
-     .btn:hover::after {
-          transform: scaleX(1.4) scaleY(1.6);
-          opacity: 0;
-
-
-     }
-
-     .btn-aminated {
-          animation: moveInBottom .10s ease-out .75s;
-          animation-fill-mode: backwards;
-     }
 </style>
