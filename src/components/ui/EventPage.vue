@@ -177,7 +177,7 @@
           background: white;
           border-radius: 3px;
           text-align: left;
-          padding: 7vmin 2vmin 5vmin 10vmin;
+          padding: 7vmin 2vmin 15vmin 15vmin;
           box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
           font-family: var(--Rubik);
           z-index: 1;
