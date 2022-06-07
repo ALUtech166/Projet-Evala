@@ -74,12 +74,13 @@
 
 
      h5 {
-          font-size: 25px;
+          font-size: 45px;
           animation-name: moveInLeft;
           animation-duration: 3s;
           animation-timing-function: ease-in-out;
           color: #FFCE00;
           font-weight: 600;
+          font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
           text-transform: uppercase;
 
@@ -91,7 +92,9 @@
           font-weight: 400;
           margin-bottom: 100px;
           text-align: center;
-          font-family: 'Jost';
+          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Jost', sans-serif;
+          line-height: 25px;
 
 
      }

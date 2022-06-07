@@ -159,12 +159,7 @@
           background-image: linear-gradient(to right, #ffcc00ed, #006a4a);
      }
 
-      @media (max-width: 1199.98px) {
-          .section-1 {
-          padding: 27vmin 0vmin;
-     
-     } 
-      }
+  
 
      .section-1 .row .col-md-6 .pray img {
           width: 100%;
@@ -182,7 +177,7 @@
           background: white;
           border-radius: 3px;
           text-align: left;
-          padding: 13vmin 5vmin 20vmin 10vmin;
+          padding: 7vmin 2vmin 5vmin 10vmin;
           box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
           font-family: var(--Rubik);
           z-index: 1;
@@ -191,11 +186,11 @@
      .section-1 .row .col-md-6 .panel h1 {
           font-weight: bold;
           padding: 0.4em 0;
-          font-size: 2em;
+          font-size: 20px;
      }
 
      .section-1 .row .col-md-6 .panel p {
-          font-size: 1em;
+          font-size: 15px;
           color: rgba(0, 0, 0, 0.5);
           font-family: 'Josefin Sans';
      }
@@ -209,7 +204,25 @@
      }
 
 
-     @media only screen and (max-width: 768px) {
+    
+
+     h1 {
+          font-size: 60px;
+          font-weight: 900;
+          font-family: 'Jost', sans-serif;
+          color: #006A4A;
+          text-align: left;
+     }
+
+         @media (max-width: 1199.98px) {
+          .section-1 {
+          padding: 27vmin 0vmin;
+     
+     } 
+      }
+
+
+       @media only screen and (max-width: 768px) {
 
           .section-1 .row .col-md-6 .panel {
                position: initial;
@@ -225,12 +238,4 @@
 
      }
 
-
-     h1 {
-          font-size: 60px;
-          font-weight: 900;
-          font-family: 'Jost', sans-serif;
-          color: #006A4A;
-          text-align: left;
-     }
 </style>

@@ -106,10 +106,10 @@
    
 
      form {
-          max-width: 90rem;
+          max-width: 100%;
           border-radius: 12px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
-          padding: 2rem;
+          padding: 10px;
           background-color: #ffffff;
           font-family: 'Jost';
      }
