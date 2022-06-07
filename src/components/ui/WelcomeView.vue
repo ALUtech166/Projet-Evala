@@ -316,7 +316,8 @@
      .desc {
           color: black;
           text-align: justify;
-          font-family: 'Jost';
+          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Jost', sans-serif;
           
      }
 
@@ -344,7 +345,7 @@
      
    
      .ref {
-          padding: 70px;
+          padding: 40px;
 
 
      }
@@ -391,7 +392,7 @@
      }
 
      .scores {
-          padding: 10px;
+          padding: 50px;
 
      }
 
@@ -441,6 +442,8 @@
           border-radius: 100px;
           transition: all .2s;
           position: relative;
+          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Jost', sans-serif;
           
          
 

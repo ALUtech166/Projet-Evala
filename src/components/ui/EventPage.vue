@@ -5,8 +5,8 @@
                <div class="container text-center">
                     <div class="row">
                          <div class="col-md-6 col-12">
-                              <div class="pray">
-                                   <img src="../images/evala1.jpg" alt="Pray" class="image" height="500px" />
+                              <div class="">
+                                   <img src="../images/evala1.jpg" alt="Pray" class="image img-fluid"  />
                               </div>
                          </div>
                          <div class="col-md-6 col-12">
@@ -30,20 +30,7 @@
                                         la taille des deux lutteurs, messieurs TCHABLIME du village de KPÉDAW avait une
                                         taille de
                                         plus
-                                        de 2m avec un corpulence herculéenne tandis que son adversaire FAWOKÉZIÉ de
-                                        KOLIDÈ ne
-                                        mésurait
-                                        que 1m40. Si l’on devait comparer les deux protagonistes aux personnes bibliques
-                                        de
-                                        l’Histoire,
-                                        le premier était Goliath en face du second David. À la fin du combat se fut le
-                                        petit qui
-                                        prit
-                                        le dessus. Partout dans le village, le costaud TCHABLIME fut hué et moqué.
-                                        Pour avoir voulu laver cet affront, le virus de la compétition s’est alors
-                                        propagé dans
-                                        les
-                                        cantons et villages de la Kozah.
+                                        
                                    </p>
                               </div>
                          </div>
@@ -59,8 +46,8 @@
                     <div class="container text-center">
                          <div class="row">
                               <div class="col-md-6 col-12">
-                                   <div class="pray">
-                                        <img src="../images/10.png" alt="Pray" class="image" height="500px" />
+                                   <div class="">
+                                        <img src="../images/10.png" alt="Pray" class="image img-fluid" />
                                    </div>
                               </div>
                               <div class="col-md-6 col-12">
@@ -80,31 +67,6 @@
                                              compétitions
                                              inter-villages.
                                         </p>
-                                        <p>
-                                             La particularité singulière qui a caractérisé ce combat a été recherché à
-                                             travers la forme
-                                             et
-                                             la taille des deux lutteurs, messieurs TCHABLIME du village de KPÉDAW avait
-                                             une
-                                             taille de
-                                             plus
-                                             de 2m avec un corpulence herculéenne tandis que son adversaire FAWOKÉZIÉ de
-                                             KOLIDÈ ne
-                                             mésurait
-                                             que 1m40. Si l’on devait comparer les deux protagonistes aux personnes
-                                             bibliques
-                                             de
-                                             l’Histoire,
-                                             le premier était Goliath en face du second David. À la fin du combat se fut
-                                             le
-                                             petit qui
-                                             prit
-                                             le dessus. Partout dans le village, le costaud TCHABLIME fut hué et moqué.
-                                             Pour avoir voulu laver cet affront, le virus de la compétition s’est alors
-                                             propagé dans
-                                             les
-                                             cantons et villages de la Kozah.
-                                        </p>
                                    </div>
                               </div>
                          </div>
@@ -121,8 +83,8 @@
                     <div class="container text-center">
                          <div class="row">
                               <div class="col-md-6 ">
-                                   <div class="pray">
-                                        <img src="../images/20.png" alt="Pray" class="image" height="500px" />
+                                   <div class="">
+                                        <img src="../images/20.png" alt="Pray" class="image img-fluid" />
                                    </div>
                               </div>
                               <div class="col-md-6 ">
@@ -145,27 +107,8 @@
                                         <p>
                                              La particularité singulière qui a caractérisé ce combat a été recherché à
                                              travers la forme
-                                             et
-                                             la taille des deux lutteurs, messieurs TCHABLIME du village de KPÉDAW avait
-                                             une
-                                             taille de
-                                             plus
-                                             de 2m avec un corpulence herculéenne tandis que son adversaire FAWOKÉZIÉ de
-                                             KOLIDÈ ne
-                                             mésurait
-                                             que 1m40. Si l’on devait comparer les deux protagonistes aux personnes
-                                             bibliques
-                                             de
-                                             l’Histoire,
-                                             le premier était Goliath en face du second David. À la fin du combat se fut
-                                             le
-                                             petit qui
-                                             prit
-                                             le dessus. Partout dans le village, le costaud TCHABLIME fut hué et moqué.
-                                             Pour avoir voulu laver cet affront, le virus de la compétition s’est alors
-                                             propagé dans
-                                             les
-                                             cantons et villages de la Kozah.
+                                            
+                                             
                                         </p>
                                    </div>
                               </div>
