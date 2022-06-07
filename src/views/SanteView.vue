@@ -24,8 +24,8 @@
                <h1>Les Centres de Santé à Kara</h1>
                <div class="header-search">
                     <form class="d-flex" role="search">
-                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                         <button class="btn btn-outline-success" type="submit">Search</button>
+                         <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Recherche</button>
                     </form>
                </div>
 
@@ -36,6 +36,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">croix-rouge</h3>
                                    <h5>Contact: +228 90100882</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
 
                               </div>
@@ -49,6 +51,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">CHU Kara</h3>
                                    <h5>Contact: +228 26606048</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -61,6 +65,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">Hopital Chinois</h3>
                                    <h5>Contact: +228 26600246</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -76,6 +82,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">CHR Kara</h3>
                                    <h5>Contact: +228 2660246</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
 
                               </div>
@@ -89,6 +97,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">PMI - SOS</h3>
                                    <h5>Contact: +228 26601159</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
 
                               </div>
@@ -101,6 +111,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">CBT Med Hippocrate</h3>
                                    <h5>Contact: +228 26600516</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
 
                               </div>
@@ -124,7 +136,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">Clinique ma Vie</h3>
                                    <h5>Contact: +228 26606028</h5>
-
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -137,6 +150,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">Clinique Tout est grace</h3>
                                    <h5>Contact: +228 24458352</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
 
                               </div>
@@ -149,6 +164,8 @@
                               <div class="card-body">
                                    <h3 class="card-title">Polychimie</h3>
                                    <h5>Contact: +228 26606081</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
 
                               </div>
@@ -179,6 +196,14 @@
 <style scoped>
      .bread {
           padding: 2rem;
+
+     }
+
+     .btn {
+          text-decoration: none;
+          border-radius: 13px;
+          font-size: 12px;
+
 
      }
 

@@ -20,10 +20,17 @@
           <div class="list-hotel">
 
                <h1>Les Centres de Bien etre</h1>
+               <div class="header-search">
+                    <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Recherche</button>
+                    </form>
+               </div>
+
 
                <div class="row">
                     <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
+                         <div class="card" style="width: 25rem; height: 32rem;">
                               <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">Hotel Kara</h3>
@@ -32,6 +39,8 @@
                                         bulk of the card's
                                         content.
                                    </p>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                                    <hr class="style-two">
                               </div>
@@ -39,7 +48,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
+                         <div class="card" style="width: 25rem; height: 32rem;">
                               <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">Meka Hotel</h3>
@@ -47,6 +56,8 @@
                                         title and make up the
                                         bulk of the card's
                                         content.</p>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                                    <hr class="style-two">
                               </div>
@@ -54,7 +65,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
+                         <div class="card" style="width: 25rem; height: 32rem;">
                               <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h5 class="card-title">Hotel sainte-brigitte</h5>
@@ -62,6 +73,8 @@
                                         title and make up the
                                         bulk of the card's
                                         content.</p>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                                    <hr class="style-two">
                               </div>
@@ -75,7 +88,7 @@
 
                <div class="row">
                     <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
+                         <div class="card" style="width: 25rem; height: 32rem;">
                               <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h5 class="card-title">Hotel Kama'aka</h5>
@@ -83,6 +96,8 @@
                                         title and make up the
                                         bulk of the card's
                                         content.</p>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                                    <hr class="style-two">
                               </div>
@@ -90,7 +105,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
+                         <div class="card" style="width: 25rem; height: 32rem;">
                               <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h5 class="card-title">Hotel La concorde</h5>
@@ -98,6 +113,8 @@
                                         title and make up the
                                         bulk of the card's
                                         content.</p>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                                    <hr class="style-two">
                               </div>
@@ -105,7 +122,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 31rem;">
+                         <div class="card" style="width: 25rem; height: 32rem;">
                               <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h5 class="card-title">Hotel etoile de la kozah</h5>
@@ -113,6 +130,8 @@
                                         title and make up the
                                         bulk of the card's
                                         content.</p>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                                    <hr class="style-two">
                               </div>
@@ -127,12 +146,13 @@
 
           </div>
 
-         <div class="arrow">
+          <div class="arrow">
                <div style="text-align:">
-               <a href="/marche" type="button" class="btn btn-outline-success"><i class="fa-solid fa-arrow-left"></i>
-                    Previous</a>
+                    <a href="/marche" type="button" class="btn btn-outline-success"><i
+                              class="fa-solid fa-arrow-left"></i>
+                         Previous</a>
+               </div>
           </div>
-         </div>
 
 
 
@@ -146,13 +166,12 @@
 </script>
 
 <style scoped>
-
-
      .arrow {
           padding: 2rem;
           display: flex;
           justify-content: space-between;
      }
+
      .col-lg-4:hover {
           transform: translateY(35px);
           transition: 1s ease-in-out;
@@ -161,6 +180,14 @@
      .col-lg-3:hover {
           transform: translateY(35px);
           transition: 1s ease-in-out;
+     }
+
+     .btn {
+          text-decoration: none;
+          border-radius: 13px;
+          font-size: 10px;
+
+
      }
 
      .bread {

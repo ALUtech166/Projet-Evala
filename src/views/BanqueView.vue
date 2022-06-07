@@ -22,8 +22,8 @@
                <h1>Les Agences de Banques à Kara</h1>
                <div class="header-search">
                     <form class="d-flex" role="search">
-                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                         <button class="btn btn-outline-success" type="submit">Search</button>
+                         <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Recherche</button>
                     </form>
                </div>
 
@@ -35,6 +35,8 @@
                                    <h3 class="card-title">Orabank</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Lieu:</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -48,6 +50,8 @@
                                    <h3 class="card-title">Poste</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Lieu:</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -56,11 +60,13 @@
 
                     <div class="col-lg-4">
                          <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/bia-tg.png" class="card-img-top" alt="...">
+                              <img src="../components/images/atlantique.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">BIA Togo</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Lieu:</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -72,11 +78,13 @@
 
                     <div class="col-lg-4">
                          <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/brs.png" class="card-img-top" alt="...">
+                              <img src="../components/images/atlantique.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">BRS</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Lieu:</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
                               </div>
                          </div>
                     </div>
@@ -84,11 +92,13 @@
 
                     <div class="col-lg-4">
                          <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/coris.png" class="card-img-top" alt="...">
+                              <img src="../components/images/atlantique.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">Coris Bank</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Lieu:</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
                               </div>
                          </div>
                     </div>
@@ -100,6 +110,8 @@
                                    <h3 class="card-title">Banque Atlantique</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Lieu:</h5>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -264,6 +276,14 @@
 <style scoped>
      .bread {
           padding: 2rem;
+
+     }
+
+     .btn {
+          text-decoration: none;
+          border-radius: 13px;
+          font-size: 12px;
+
 
      }
 

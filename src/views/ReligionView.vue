@@ -18,8 +18,15 @@
 
 
           <div class="list-hotel">
-               
+
                <h1>Les Lieux Religieux</h1>
+               <div class="header-search">
+                    <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Recherche</button>
+                    </form>
+               </div>
+
 
                <div class="row">
                     <div class="col-lg-4">
@@ -27,7 +34,9 @@
                               <img src="../components/images/Photo95.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">Hotel Kara</h3>
-                                   
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+
                                    <hr class="style-two">
                               </div>
                          </div>
@@ -38,7 +47,9 @@
                               <img src="../components/images/Photo95.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">Meka Hotel</h3>
-                                   
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+
 
                                    <hr class="style-two">
                               </div>
@@ -50,7 +61,9 @@
                               <img src="../components/images/Photo95.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h5 class="card-title">Hotel sainte-brigitte</h5>
-                                   
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+
 
                                    <hr class="style-two">
                               </div>
@@ -68,7 +81,9 @@
                               <img src="../components/images/Photo95.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h5 class="card-title">Hotel Kama'aka</h5>
-                                   
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+
 
                                    <hr class="style-two">
                               </div>
@@ -80,7 +95,9 @@
                               <img src="../components/images/Photo95.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h5 class="card-title">Hotel La concorde</h5>
-                                   
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+
 
                                    <hr class="style-two">
                               </div>
@@ -92,7 +109,9 @@
                               <img src="../components/images/Photo95.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h5 class="card-title">Hotel etoile de la kozah</h5>
-                                   
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+
 
                                    <hr class="style-two">
                               </div>
@@ -111,7 +130,8 @@
 
 
                <div style="text-align:">
-                    <a href="/marche" type="button" class="btn btn-outline-success"><i class="fa-solid fa-arrow-left"></i>
+                    <a href="/marche" type="button" class="btn btn-outline-success"><i
+                              class="fa-solid fa-arrow-left"></i>
                          Previous</a>
                </div>
                <div style="text-align:">
@@ -134,9 +154,16 @@
 </script>
 
 <style scoped>
-
-      .bread {
+     .bread {
           padding: 2rem;
+
+     }
+
+     .btn {
+          text-decoration: none;
+          border-radius: 13px;
+          font-size: 12px;
+
 
      }
 
@@ -147,6 +174,7 @@
      a {
           text-decoration: none;
      }
+
      .col-lg-4:hover {
           transform: translateY(35px);
           transition: 1s ease-in-out;

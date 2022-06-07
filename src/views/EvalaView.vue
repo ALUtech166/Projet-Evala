@@ -29,19 +29,21 @@
                               </th>
                               <td>08H00</td>
                               <td>Ouverture à Pya Kaganlada</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                                             class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
 
                          <tr>
-                             <th scope="row">10 / 07 / 2022 <br>
+                              <th scope="row">10 / 07 / 2022 <br>
                                    <b>DIMACHE</b>
 
                               </th>
                               <td>08H00</td>
                               <td>Demi finale Tchitchao en presence du PR</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                                             class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
@@ -50,12 +52,13 @@
 
                          <tr>
                               <th scope="row">11 / 07 / 2022 <br>
-                                  <b>LUNDI</b>
+                                   <b>LUNDI</b>
 
                               </th>
                               <td>08H00</td>
                               <td>Finale de Tchitchao, Danses à Pya Hodo</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                                             class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
@@ -68,54 +71,59 @@
                               </th>
                               <td>08H00</td>
                               <td>Finale de Yadé</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                                             class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
 
-                           <tr>
+                         <tr>
                               <th scope="row">13 / 07 / 2022 <br>
                                    <b>MERCREDI</b>
 
                               </th>
                               <td>08H00</td>
                               <td>Finale de Bohou</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                                             class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
 
-                           <tr>
+                         <tr>
                               <th scope="row">14 / 07 / 2022 <br>
                                    <b>JEUDI</b>
 
                               </th>
                               <td>08H00</td>
                               <td>Finale de Pya, Sarakawa et Yaka</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                                             class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
 
-                           <tr>
+                         <tr>
                               <th scope="row">15 / 07 / 2022 <br>
                                    <b>VENDREDI</b>
 
                               </th>
                               <td>08H00</td>
                               <td>Finale de Kouméa, Lama, Landa, Djamdé</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                                             class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
-                           <tr>
+                         <tr>
                               <th scope="row">16 / 07 / 2022 <br>
                                    <b>SAMEDI</b>
 
                               </th>
                               <td>08H00</td>
                               <td>Finale de Tcharé, Soumdina, Lassa</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                                             class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
@@ -137,55 +145,11 @@
                                    <th scope="col">Heure</th>
                                    <th scope="col">Match</th>
                                    <th scope="col">Score</th>
-                                   
+
 
                               </tr>
                          </thead>
                          <tbody>
-                              <tr>
-                                   <th scope="row">12 / 06 / 2022 <br>
-                                        HODO - LUNDI
-
-                                   </th>
-                                   <td>08H00</td>
-                                   <td>PYA <em>contre</em> TCHITCHAO</td>
-                                   <td><em>SCORE</em></td>
-
-                              </tr>
-
-                              <tr>
-                                   <th scope="row">12 / 06 / 2022 <br>
-                                        HODO - LUNDI
-
-                                   </th>
-                                   <td>08H00</td>
-                                   <td>PYA <em>contre</em> TCHITCHAO</td>
-                                   <td><em>SCORE</em></td>
-
-                              </tr>
-
-                              <tr>
-                                   <th scope="row">12 / 06 / 2022 <br>
-                                        HODO - LUNDI
-
-                                   </th>
-                                   <td>08H00</td>
-                                   <td>PYA <em>contre</em> TCHITCHAO</td>
-                                   <td><em>SCORE</em></td>
-
-                              </tr>
-
-                              <tr>
-                                   <th scope="row">12 / 06 / 2022 <br>
-                                        HODO - LUNDI
-
-                                   </th>
-                                   <td>08H00</td>
-                                   <td>PYA <em>contre</em> TCHITCHAO</td>
-                                   <td><em>SCORE</em></td>
-
-                              </tr>
-
                               <tr>
                                    <th scope="row">12 / 06 / 2022 <br>
                                         HODO - LUNDI
@@ -250,12 +214,8 @@
 </script>
 
 <style scoped>
-     .date {
-          padding: 0rem;
-     }
-
      span {
-          font-size: 35px;
+          font-size: 25px;
           color: #006A4A;
      }
 
@@ -270,12 +230,12 @@
 
      .icons {
           color: red;
-          font-size: 45px;
+          font-size: 35px;
      }
 
      td,
      th {
-          font-size: 20px;
+          font-size: 15px;
           color: #006A4A;
      }
 
@@ -295,7 +255,7 @@
      }
 
      .programme {
-          padding: 5rem;
+          padding: 10px;
           background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
           text-align: center;
      }
@@ -304,20 +264,20 @@
           max-width: 100%;
           border-radius: 12px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-          padding: 1rem;
+          padding: 1px;
           background-image: linear-gradient(to right, #006a4a85, #ffcc00e6);
           font-family: 'Jost', sans-serif;
           border: 2px solid black;
      }
 
      .table td {
-          padding: 0.5rem;
+          padding: 1px;
      }
 
 
 
      .past {
-          padding: 0.5rem;
+          padding: 5px;
           background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
           text-align: center;
      }

@@ -21,21 +21,23 @@
 
     <div class="list-hotel">
       <h1>Les Marchés et Supermarchés</h1>
-       <div class="header-search">
-          <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <div class="header-search">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Recherche</button>
+        </form>
       </div>
 
       <div class="row">
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/Photo32.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h3 class="card-title">Marché</h3>
               <p class="card-text"><b>Localisation:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -43,12 +45,14 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/Photo34.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h3 class="card-title">Marchél</h3>
               <p class="card-text"><b>Localisation:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
 
               <hr class="style-two">
@@ -57,12 +61,14 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/Photo32.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Supermarché</h5>
               <p class="card-text"><b>Localisation:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
 
               <hr class="style-two">
@@ -77,12 +83,14 @@
 
       <div class="row">
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/Photo36.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Marché</h5>
               <p class="card-text"><b>Localisation:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -90,12 +98,14 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/Photo34.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Marché</h5>
               <p class="card-text"><b>Localisation:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
 
               <hr class="style-two">
@@ -104,12 +114,14 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 31rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/Photo32.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Marché</h5>
               <p class="card-text"><b>Localisation:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
 
               <hr class="style-two">
@@ -153,8 +165,17 @@
 </script>
 
 <style scoped>
-  .bread, .header-search {
+  .bread,
+  .header-search {
     padding: 2rem;
+
+  }
+
+  .btn {
+    text-decoration: none;
+    border-radius: 13px;
+    font-size: 10px;
+
 
   }
 

@@ -4,7 +4,7 @@
     <div class="row">
 
       <div class="col-lg-3">
-        <h2><img class="img-fluid" src="../images/blanc.png" alt="" width="200px"></h2>
+        <a href="/"><img class="img-fluid" src="../images/blanc.png" alt="" width="200px"></a>
         <br>
         <p>C'est un portail d'ouverture sur les évenements
           culturels de la préfecture de la Kozah</p>

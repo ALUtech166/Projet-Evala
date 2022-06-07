@@ -12,7 +12,12 @@
                          <img src="./2.jpg" alt="" class="img-fluid image">
                          <br>
                          <div class="context">
-                              <h2>Serge Anan. <span>28 Mai 2022</span></h2>
+                              <div class="box" style="display: flex">
+                                   <div class="">
+                                        <h2>Serge Anan</h2>
+                                   </div>
+                                   <div class=""><span>28 Mai 2022</span></div>
+                              </div>
                               <h1>Kara Events Platforme</h1>
                               <p>
                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora nemo
@@ -29,7 +34,13 @@
                          <img src="./2.jpg" alt="" class="img-fluid image">
                          <br>
                          <div class="context">
-                              <h2>Serge Anan. <span>28 Mai 2022</span></h2>
+
+                              <div class="box" style="display: flex">
+                                   <div class="">
+                                        <h2>Serge Anan</h2>
+                                   </div>
+                                   <div class=""><span>28 Mai 2022</span></div>
+                              </div>
                               <h1>Kara Events Platforme</h1>
                               <p>
                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora nemo
@@ -49,17 +60,17 @@
                               Kara Events Platforme
                          </h2>
 
-                         <img src="../components/images/koutammakou.png" alt=""  class="img-fluid image" id="img">
+                         <img src="../components/images/koutammakou.png" alt="" class="img-fluid image" id="img">
                          <h1 style="font-size: 25px">Recents Articles</h1>
                          <h2>
                               Kara Events Platforme
                          </h2>
                     </div>
 
-                     <div class="recent">
+                    <div class="recent">
                          <pub-page></pub-page>
                     </div>
-                     <div class="recent">
+                    <div class="recent">
                          <img src="../components/images/4.jpg" class="img-fluid" alt="">
                     </div>
                </div>
@@ -73,7 +84,7 @@
 </template>
 
 <script>
-       import PubPage from '@/components/partials/PubPage.vue'
+     import PubPage from '@/components/partials/PubPage.vue'
      export default {
           components: {
                PubPage
@@ -91,12 +102,17 @@
           font-family: 'Jost';
      }
 
+     .box {
+          justify-content: space-between;
+     }
+
      span {
           box-shadow: 0 2px 8px rgba(223, 13, 13, 0.823);
-          padding: 1rem;
+          padding: 10px;
           border-radius: 10px;
           background-color: red;
           color: #ffffff;
+          font-size: 15px;
      }
 
      .context {
@@ -189,7 +205,7 @@
 
 
      @media only screen and (max-width: 768px) {
-       
+
           .body {
                text-align: center;
           }
@@ -197,15 +213,11 @@
 
      }
 
-      @media only screen and (max-width: 1920px) {
-         
-     
-
-
-     }
+     @media only screen and (max-width: 1920px) {}
 
      .body {
-          padding: 5rem;
+          padding: 50px;
+
      }
 
      .blog {
@@ -222,7 +234,7 @@
      p {
           text-align: justify;
           font-family: 'Josefin Sans';
-          font-size: 17px;
+          font-size: 15px;
 
      }
 
@@ -236,6 +248,19 @@
 
      h1 {
           font-weight: bold;
-          color: green
+          color: green;
+          font-size: 20px;
+     }
+
+     @media (max-width: 300px) {
+          .box {
+               display: flex;
+               flex-direction: column;
+               padding: 2px;
+          }
+
+          h1 {
+               font-size: 10px;
+          }
      }
 </style>

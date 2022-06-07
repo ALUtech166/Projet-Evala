@@ -24,14 +24,14 @@
 
       <div class="header-search">
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Recherche</button>
         </form>
       </div>
 
       <div class="row">
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/koutammakou.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h3 class="card-title">Koutammakou</h3>
@@ -39,6 +39,7 @@
                 bulk of the card's
                 content.
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -46,13 +47,14 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/parc.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h3 class="card-title">Parc de Sarakawa</h3>
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
+                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -60,13 +62,14 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/fazao.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Fazao-Malfakassa National Park</h5>
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
+                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -80,13 +83,14 @@
 
       <div class="row">
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/keran.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Keran National Park</h5>
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
+                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -94,13 +98,14 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/Africart.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Museé Africart</h5>
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
+                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -108,13 +113,14 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 31rem;">
+          <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/eyadema.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Le Monument Sarakawa</h5>
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
+                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -144,6 +150,13 @@
   .col-lg-4:hover {
     transform: translateY(35px);
     transition: 1s ease-in-out;
+  }
+   .btn {
+    text-decoration: none;
+    border-radius: 13px;
+    font-size: 10px;
+
+
   }
 
   .col-lg-3:hover {

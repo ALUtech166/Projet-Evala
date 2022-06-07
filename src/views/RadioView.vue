@@ -237,15 +237,14 @@
      }
 
      .list-pub {
-          max-width: 100rem;
-          height: 100%;
+          max-width: 100%;
+          
           text-align: center;
           border-radius: 25px;
           border: 2px solid yellow;
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
           padding: 3rem;
           background-color: white;
-          margin: 1rem;
      }
 
      .card-img-top {
@@ -293,20 +292,10 @@
      .list-hotel {
           background-image: linear-gradient(to right, #006a4a85, #ffcc00e6);
           padding: 3rem;
+          text-align: center;
      }
 
-      @media only screen and (max-width: 1920px) {
-           .list-hotel {
-               text-align: center;
-           }
-
-           .list-pub {
-                text-align: center;
-                margin-left: 250px;
-           }
-
-     }
-
+    
      .header {
           height: 30vh;
           background-image: linear-gradient(to right bottom,
@@ -382,4 +371,18 @@
                transform: translate(0);
           }
      }
+
+
+     /*   @media only screen and (max-width: 1920px) {
+           .list-hotel {
+               text-align: center;
+           }
+
+           .list-pub {
+                text-align: center;
+                margin-left: 250px;
+           }
+
+     } */
+
 </style>

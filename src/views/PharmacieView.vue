@@ -24,8 +24,8 @@
 
                <div class="header-search">
                     <form class="d-flex" role="search">
-                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                         <button class="btn btn-outline-success" type="submit">Search</button>
+                         <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Recherche</button>
                     </form>
                </div>
 
@@ -37,8 +37,8 @@
                                    <h3 class="card-title">Pharmacie Kara Centre</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
-                                   <button type="button" class="btn btn-success">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></button>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
 
                               </div>
@@ -53,8 +53,8 @@
                                    <h3 class="card-title">Pharmacie De L'Espoir</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
-                                    <button type="button" class="btn btn-success">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></button>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -68,8 +68,8 @@
                                    <h3 class="card-title">Pharmacie De la Kozah</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
-                                    <button type="button" class="btn btn-success">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></button>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -86,8 +86,8 @@
                                    <h3 class="card-title">Pharmacie Lafia</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
-                                    <button type="button" class="btn btn-success">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></button>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -101,8 +101,8 @@
                                    <h3 class="card-title">Pharmacie santé plus</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
-                                    <button type="button" class="btn btn-success">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></button>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -115,8 +115,8 @@
                                    <h3 class="card-title">Pharmacie nouveau marché</h3>
                                    <h5>Contact: +228 26600516</h5>
                                    <h5>Addresse:</h5>
-                                    <button type="button" class="btn btn-success">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></button>
+                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -146,6 +146,15 @@
      ol {
           font-size: 20px;
      }
+
+     .btn {
+          text-decoration: none;
+          border-radius: 13px;
+          font-size: 10px;
+
+
+     }
+
 
      a {
           text-decoration: none;
@@ -217,9 +226,9 @@
      h5 {
           color: #006A4A;
           text-align: left;
-          font-size: 20px;
-          padding: 0.25rem;
-          font-weight: 400;
+          font-size: 15px;
+
+
      }
 
      .card-text {

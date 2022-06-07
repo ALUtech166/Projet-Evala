@@ -21,6 +21,12 @@
 
     <div class="list-hotel">
       <h1>Les Boites de Nuits</h1>
+       <div class="header-search">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Recherche</button>
+        </form>
+      </div>
 
       <div class="row">
         <div class="col-lg-4">
@@ -30,6 +36,8 @@
               <h3 class="card-title">La Féve Night Club</h3>
               <p class="card-text"><b>Adresse:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -43,6 +51,8 @@
               <h3 class="card-title">Mandarin VIP Night Club</h3>
               <p class="card-text"><b>Adresse:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
               <hr class="style-two">
             </div>
           </div>
@@ -55,6 +65,8 @@
               <h5 class="card-title">Colombe Night Club</h5>
               <p class="card-text"><b>Adresse:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -67,7 +79,7 @@
       <br>
 
       <div class="row">
-      
+
 
         <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 30rem;">
@@ -76,19 +88,23 @@
               <h5 class="card-title">Hotel Kara Night Club</h5>
               <p class="card-text"><b>Adresse:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
           </div>
         </div>
 
-          <div class="col-lg-4">
+        <div class="col-lg-4">
           <div class="card" style="width: 25rem; height: 30rem;">
             <img src="../components/images/nibic.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Nibic Night Club</h5>
               <p class="card-text"><b>Adresse:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -102,6 +118,8 @@
               <h5 class="card-title">Hotel concorde night club</h5>
               <p class="card-text"><b>Adresse:</b>
               </p>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -145,6 +163,14 @@
 <style scoped>
   .bread {
     padding: 2rem;
+
+  }
+
+  .btn {
+    text-decoration: none;
+    border-radius: 13px;
+    font-size: 10px;
+
 
   }
 
