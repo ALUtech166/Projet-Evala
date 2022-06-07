@@ -33,7 +33,7 @@
         <div class="col-lg-3">
 
 
-          <img class="img-fluid image" src="../components/images/hotel-kara.jpg" alt="">
+          <img class="img-fluid image" src="../components/images/hotel-kara1.png" alt="">
           <div class="box1">
             <a href="/hotel">
               <h2 style="color:green">Hotels</h2>
@@ -105,7 +105,7 @@
         </div>
 
         <div class="col-lg-3">
-          <img class="img-fluid image" src="../components/images/atlantique.png" alt="">
+          <img class="img-fluid image" src="../components/images/fazao.png" alt="">
           <div class="box2">
             <a href="/banque">
               <h2 style="color:green">Agences de Banques</h2>

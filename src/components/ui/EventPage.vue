@@ -207,7 +207,7 @@
 
      .image {
           border-radius: 10px;
-          margin-left: 4rem;
+         
 
      }
 

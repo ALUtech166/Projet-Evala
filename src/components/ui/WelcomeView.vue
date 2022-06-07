@@ -10,7 +10,7 @@
                <div class="col-lg-6">
 
                     <hr class="style-two">
-                    <h1 class="title animate__animated animate__fadeInDown"><strong>Bienvenue à KARA</strong></h1><br>
+                    <h1><strong>Bienvenue à KARA</strong></h1><br>
                     <h4>Kara au Coeur de la Visite du Nord-Togo</h4>
 
                     <p class="desc">
@@ -19,12 +19,14 @@
                          production dans le cadre des objectifs du gouvernement de créer des infrastructures dans toutes
                          les régions du pays.
 
+                    </p>
+
+                    <p class="desc">
                          La ville permet de rayonner vers les nombreux sites naturels et culturelles de la région dont
                          le paysage Koutammakou, classé au patrimoine mondiale de l’UNESCO. Kara dispose d’une
                          importante structure hôtelière et de nombreux restaurants. D’un point de vue touristique, Kara
                          est centrale pour la visite de la region. C’est dans la région de la Kara qu’on trouve un des
                          groupes ethniques les plus nombreux du Togo, les Kabiyè.
-
                     </p>
 
                </div>
@@ -308,21 +310,21 @@
           text-align: justify;
           text-justify: inter-word;
           font-family: 'Jost', sans-serif;
-          font-size: 17px;
+          font-size: 20px;
      }
 
      .home {
-          padding: 100px;
+          padding: 50px;
           background-image: linear-gradient(to right, #006a4a, #FFCE00);
      }
 
 
 
      .a-propos {
-          padding: 0.5rem;
+          padding: 10px;
           text-align: center;
           background-image: linear-gradient(to right, #ffcc00ed, #006a4a);
-          padding-top: 5rem;
+          padding-top: 50px;
 
 
      }
@@ -431,7 +433,7 @@
      .btn:visited {
           text-transform: uppercase;
           text-decoration: none;
-          padding: 15px 40px;
+          padding: 15px 30px;
           display: inline-block;
           border-radius: 100px;
           transition: all .2s;

@@ -22,6 +22,8 @@ import AlbumAkpema from '@/views/AlbumAkpema.vue';
 import AlbumHabye from '@/views/AlbumHabye.vue';
 import BlogView from '@/views/BlogView.vue'
 import PubliciteView from '@/views/PubliciteView.vue';
+import HotelKara from '../components/Hotels/HotelKara.vue';
+import ReservationHotel from '@/components/Hotels/ReservationHotel.vue';
 
 const routes = [
   {
@@ -46,6 +48,16 @@ const routes = [
     path: '/hotel',
     name: 'hotel',
     component: HotelView
+  },
+  {
+    path: '/hotel-kara',
+    name: 'hotel-kara',
+    component: HotelKara
+  },
+  {
+    path: '/reservation',
+    name: 'reservation',
+    component: ReservationHotel
   },
   {
     path: '/bar-resto',

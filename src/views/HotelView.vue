@@ -31,7 +31,7 @@
         </form>
       </div>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="card" style="width: 25rem; height: 35rem;">
             <img src="../components/images/hotel-kara1.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -45,16 +45,16 @@
                 menu du jour à 7 000 FCFA
               </p>
               <div class="box1">
-                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
-                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
+                <a type="button" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                    class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="card" style="width: 25rem; height: 35rem;">
             <img src="../components/images/meka-hotel.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -68,16 +68,16 @@
                 d'étage et une connexion Wi-Fi gratuite.
               </p>
               <div class="box1">
-                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
-                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
+                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                    class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="card" style="width: 25rem; height: 35rem;">
             <img src="../components/images/hotel-sbe.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -90,10 +90,34 @@
                 confortable dont le personnel est très charmant. Chambre confortable avec climatisation et eau chaude
 
               </p>
-             <div class="box1">
-                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
-                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
+              <div class="box1">
+                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                    class="icons fa-solid fa-location-dot"></i></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 35rem;">
+            <img src="../components/images/hotel-sbe.png" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel sainte-brigitte</h5>
+              <h5>Address: BP 5, Kara - Togo</h5>
+              <h5>Contact: +228 26600516</h5>
+              <p class="card-text">
+                <span>Détails:</span> Très agréable dans un cadre verdoyant et calme. Le piscine est un atout pour cette
+                structure
+                confortable dont le personnel est très charmant. Chambre confortable avec climatisation et eau chaude
+
+              </p>
+              <div class="box1">
+                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                    class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
             </div>
@@ -102,11 +126,12 @@
 
 
 
+
       </div>
       <br>
 
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="card" style="width: 25rem; height: 35rem;">
             <img src="../components/images/Hotel-kamaka.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -121,9 +146,9 @@
 
               </p>
               <div class="box1">
-                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
-                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
+                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                    class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
 
@@ -131,7 +156,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="card" style="width: 25rem; height: 35rem;">
             <img src="../components/images/hotel-concorde.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -144,16 +169,16 @@
                 et 40 000 FCFA. Petit déjeuner complet autour de 2 500 FCFA, plats à 4 000 FCFA en moyenne. Bar.
               </p>
               <div class="box1">
-                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
-                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
+                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                    class="icons fa-solid fa-location-dot"></i></a>
 
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="card" style="width: 25rem; height: 35rem;">
             <img src="../components/images/Hotel-etoile.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -164,10 +189,33 @@
                 disponible.
                 Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.
                 L'accès est facile et la zone est très calme permettant de travailler ou de se reposer.</p>
-             <div class="box1">
-                <button type="button" class="btn btn-outline-danger">Voir plus de details</button>
-                <button type="button" class="btn btn-danger">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
+              <div class="box1">
+                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                    class="icons fa-solid fa-location-dot"></i></a>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 35rem;">
+            <img src="../components/images/Hotel-etoile.png" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel etoile de la kozah</h5>
+              <h5>Address: BP 5, Kara - Togo</h5>
+              <h5>Contact: +228 26600516</h5>
+              <p class="card-text"><span>Détails:</span> Hôtel très propre, confortable. Personnel accueillant et
+                disponible.
+                Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.
+                L'accès est facile et la zone est très calme permettant de travailler ou de se reposer.</p>
+              <div class="box1">
+                <a type="button" class="btn btn-outline-danger" href="">Voir plus de details</a>
+                <a type="button" class="btn btn-danger" href="">Aller sur Place <i
+                    class="icons fa-solid fa-location-dot"></i></a>
+
 
               </div>
             </div>
@@ -347,11 +395,17 @@
     color: red;
   }
 
+  .btn {
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 13px;
+    font-size: 12px;
+
+
+  }
+
   a {
     text-decoration: none;
-    border: none;
-
-
   }
 
   span {
@@ -371,10 +425,7 @@
 
   }
 
-  .btn {
-    border-radius: 10px;
-    font-size: 10px;
-  }
+
 
   h3,
   p {
