@@ -5,7 +5,7 @@
                <div class="container text-center">
                     <div class="row">
                          <div class="col-md-6 col-12">
-                              <div class="">
+                              <div class="pray">
                                    <img src="../images/evala1.jpg" alt="Pray" class="image img-fluid"  />
                               </div>
                          </div>
@@ -46,7 +46,7 @@
                     <div class="container text-center">
                          <div class="row">
                               <div class="col-md-6 col-12">
-                                   <div class="">
+                                   <div class="pray">
                                         <img src="../images/10.png" alt="Pray" class="image img-fluid" />
                                    </div>
                               </div>
@@ -83,7 +83,7 @@
                     <div class="container text-center">
                          <div class="row">
                               <div class="col-md-6 ">
-                                   <div class="">
+                                   <div class="pray">
                                         <img src="../images/20.png" alt="Pray" class="image img-fluid" />
                                    </div>
                               </div>
@@ -167,8 +167,7 @@
       }
 
      .section-1 .row .col-md-6 .pray img {
-          opacity: 0.8;
-          width: 80%;
+          width: 100%;
           border-radius: 10px;
      }
 
