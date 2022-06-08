@@ -22,13 +22,14 @@
         Kara dispose des lieux touristiques des Bars-Restaurants, des Boites de nuits, des Marchés etc.
       </p>
     </div>
-    <div class="header-search">
+    
+    <div class="acc">
+      <div class="header-search">
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Recherche</button>
       </form>
     </div>
-    <div class="acc">
       <div class="row" id="items">
         <div class="col-lg-3">
 
@@ -190,12 +191,13 @@
 
   .header-search {
 
-    padding: 4rem;
+    padding: 40px;
   }
 
 
   a {
     text-decoration: none;
+    font-size: 12px;
   }
 
   p {
@@ -292,16 +294,16 @@
   }
 
   .acc {
-    padding: 2rem;
+    padding: 20px;
 
 
   }
 
   .about {
-    padding: 3rem;
+    padding: 30px;
     background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
-    max-width: 100%;
-    height: 100%;
+ 
+    
 
 
 

@@ -153,7 +153,7 @@
      }
 
      li {
-          padding: 15px;
+          padding: 12px;
           font-family: 'Jost', sans-serif;
           font-weight: bold;
           text-transform: uppercase;
@@ -181,7 +181,7 @@
 
      .link,
      .dropdown-item {
-          font-size: 15px;
+          font-size: 12px;
           transition: .5s ease all;
           border-bottom: 1px solid transparent;
 
@@ -208,7 +208,7 @@
           background-color: #006A4A;
           color: #fff;
           font-family: 'jost', sans-serif;
-          font-size: 15px;
+          font-size: 12px;
 
 
      }

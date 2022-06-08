@@ -3,40 +3,45 @@
 
           <div class="container">
 
-          <div class="row">
-               
+               <div class="row">
 
-               <div class="col-lg-6">
-                    <img class="image img-fluid" src="../images/Faure-tg.jpg" alt="">
+
+                    <div class="col-lg-6">
+                         <img class="image img-fluid" src="../images/Faure-tg.jpg" alt="">
+                    </div>
+
+                    <div class="col-lg-6">
+
+                         <hr class="style-two">
+                         <h1><strong>Bienvenue à KARA</strong></h1><br>
+                         <h4>Kara au Coeur de la Visite du Nord-Togo</h4>
+
+                         <p class="desc">
+                              Chef-lieu de la préfecture de la Kozah et capitale de la région du même nom, Kara est une
+                              ville
+                              en pleine expansion. Elle est devenue rapidement un centre moderne d’administration et de
+                              production dans le cadre des objectifs du gouvernement de créer des infrastructures dans
+                              toutes
+                              les régions du pays.
+
+                         </p>
+
+                         <p class="desc">
+                              La ville permet de rayonner vers les nombreux sites naturels et culturelles de la région
+                              dont
+                              le paysage Koutammakou, classé au patrimoine mondiale de l’UNESCO. Kara dispose d’une
+                              importante structure hôtelière et de nombreux restaurants. D’un point de vue touristique,
+                              Kara
+                              est centrale pour la visite de la region. C’est dans la région de la Kara qu’on trouve un
+                              des
+                              groupes ethniques les plus nombreux du Togo, les Kabiyè.
+                         </p>
+
+                    </div>
+
+
+
                </div>
-
-               <div class="col-lg-6">
-
-                    <hr class="style-two">
-                    <h1><strong>Bienvenue à KARA</strong></h1><br>
-                    <h4>Kara au Coeur de la Visite du Nord-Togo</h4>
-
-                    <p class="desc">
-                         Chef-lieu de la préfecture de la Kozah et capitale de la région du même nom, Kara est une ville
-                         en pleine expansion. Elle est devenue rapidement un centre moderne d’administration et de
-                         production dans le cadre des objectifs du gouvernement de créer des infrastructures dans toutes
-                         les régions du pays.
-
-                    </p>
-
-                    <p class="desc">
-                         La ville permet de rayonner vers les nombreux sites naturels et culturelles de la région dont
-                         le paysage Koutammakou, classé au patrimoine mondiale de l’UNESCO. Kara dispose d’une
-                         importante structure hôtelière et de nombreux restaurants. D’un point de vue touristique, Kara
-                         est centrale pour la visite de la region. C’est dans la région de la Kara qu’on trouve un des
-                         groupes ethniques les plus nombreux du Togo, les Kabiyè.
-                    </p>
-
-               </div>
-
-
-
-          </div>
           </div>
      </div>
 
@@ -186,7 +191,7 @@
                     <img class="img-fluid" src="../images/Photo11.png" alt="">
                     <div class="box2">
                          <a href="/radio">
-                              <h2 style="color:green">Fréquences de Radios</h2>
+                              <h2 style="color:green">Radios</h2>
                          </a>
                     </div>
                </div>
@@ -205,14 +210,14 @@
           </div>
           <br>
           <vue3-marquee :clone="true">
-               <img  height="100" src="../images/Photo1.png" />
-               <img  height="100" src="../images/brs.png" />
-               <img  height="100" src="../images/orabank.png" alt="" />
-               <img  height="100" src="../images/croix-rouge.png" alt="" />
-               <img  height="100" src="../images/bia.png" alt="" />
-               <img  height="100" src="../images/atlantique.png" alt="" />
-               <img  height="100" src="../images/coris.png" alt="" />
-               <img  height="100" src="../images/poste.png" alt="" />
+               <img height="100" src="../images/Photo1.png" />
+               <img height="100" src="../images/brs.png" />
+               <img height="100" src="../images/orabank.png" alt="" />
+               <img height="100" src="../images/croix-rouge.png" alt="" />
+               <img height="100" src="../images/bia.png" alt="" />
+               <img height="100" src="../images/atlantique.png" alt="" />
+               <img height="100" src="../images/coris.png" alt="" />
+               <img height="100" src="../images/poste.png" alt="" />
           </vue3-marquee>
      </div>
 
@@ -280,27 +285,27 @@
           margin: 1rem;
           max-width: 100%;
           padding: 1rem;
-          
+
 
      }
 
      .box1 {
-          margin: 0.5rem;
+          margin: 2px;
           width: 100%;
           text-align: center;
-          padding: 0.5rem;
+          padding: 5px;
           border-radius: 10px;
-          border: 2px solid red;
+          border: 1px solid red;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
      }
 
      .box2 {
-          margin: 0.5rem;
+          margin: 2px;
           width: 100%;
           text-align: center;
-          padding: 0.5rem;
+          padding: 5px;
           border-radius: 10px;
-          border: 2px solid #006A4A;
+          border: 1px solid #006A4A;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
      }
 
@@ -318,7 +323,7 @@
           text-align: justify;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
-          
+
      }
 
      .home {
@@ -342,8 +347,8 @@
 
      }
 
-     
-   
+
+
      .ref {
           padding: 40px;
 
@@ -444,8 +449,8 @@
           position: relative;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
-          
-         
+
+
 
 
      }
@@ -495,9 +500,49 @@
           animation: moveInBottom .10s ease-out .75s;
           animation-fill-mode: backwards;
      }
-     @media (max-width: 350px) { 
+
+     @media (max-width: 350px) {
           .accomodation {
                text-align: center;
           }
-      }
+     }
+
+
+
+     /* // X-Small devices (portrait phones, less than 576px) */
+     @media (max-width: 400px) {
+          .box1, .box2 {
+               width: 100%;
+          }
+     }
+
+     /* // Small devices (landscape phones, less than 768px) */
+     @media (max-width: 767.98px) {
+          .box1, .box2 {
+               width: 100%;
+          }
+     }
+
+     /* // Medium devices (tablets, less than 992px) */
+     @media (max-width: 991.98px) {
+          .box1, .box2 {
+               width: 100%;
+          }
+     }
+
+     /* // Large devices (desktops, less than 1200px) */
+     @media (max-width: 1199.98px) {
+          .box1, .box2 {
+               width: 100%;
+          }
+     }
+
+     /* // X-Large devices (large desktops, less than 1400px) */
+     @media (max-width: 2992px) {
+          .box1, .box2 {
+               width: 50%;
+          }
+     }
+
+
 </style>

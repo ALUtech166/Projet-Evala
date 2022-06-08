@@ -44,7 +44,11 @@
           <div class="row" id="items">
             <div class="col-lg-4">
 
-              <a href="/gallery"><img class="img-fluid image" src="../images/evala1.jpg" alt="" width="200px"></a>
+             <div class="" style="display:grid">
+                <a href="/gallery"><img class="img-fluid image" src="../images/evala1.jpg" alt=""></a>
+                 <a href="/gallery"><img class="img-fluid image" src="../images/evala1.jpg" alt=""></a>
+                 
+             </div>
 
             </div>
 
