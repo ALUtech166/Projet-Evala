@@ -32,9 +32,16 @@
                               </label>
                          </div>
 
-                         <div class="col-md-6 form-group mb-5">
+                          <div class="col-md-6 form-group mb-5">
                               <a href="#" class="btn-outline-success">Mot de passe oublié?</a>
                          </div>
+                         <div class="modal-footer">
+                              <p>Vous n'avez pas un compte? Créer un <a class="btn-outline-warning"
+                                        data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Ici</a></p>
+
+                         </div>
+
+                        
                     </div>
 
                     <br>
@@ -42,7 +49,8 @@
 
                     <div class="row">
                          <div class="col-md-12 form-group">
-                              <input id="button" type="submit" value="Se Connecter" class="btn btn-success btn-animated" href="/profil">
+                              <input id="button" type="submit" value="Se Connecter" class="btn btn-success btn-animated"
+                                   href="/profil">
                               <span class="submitting"></span>
                          </div>
                     </div>
@@ -121,7 +129,18 @@
           font-family: 'Jost', sans-serif;
      }
 
-    
+      p {
+          padding: 10px;
+          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Jost', sans-serif;
+          font-weight: 900;
+          color: #006A4A;
+          font-size: 20px;
+
+
+     }
+
+
      form {
           max-width: 100%;
           border-radius: 12px;

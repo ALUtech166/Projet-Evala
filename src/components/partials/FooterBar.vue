@@ -25,6 +25,7 @@
           <li><a href="/">Accueil</a></li>
           <li><a href="/kozah">Kozah</a></li>
           <li><a href="/Gallery">Galerie</a></li>
+          <li><a href="/about">Accommodation</a></li>
         </ul>
       </div>
 
@@ -38,7 +39,7 @@
       </div>
 
       <div class="col-lg-3">
-        <h2><b>Gallerie</b></h2>
+        <h2><b>Galerie</b></h2>
 
         <div class="acc">
           <div class="row" id="items">

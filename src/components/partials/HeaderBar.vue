@@ -68,12 +68,7 @@
                                         <div class="modal-body">
                                              <login-page></login-page>
                                         </div>
-                                        <div class="modal-footer">
-                                             <p>Vous n'avez pas un compte? Créer un <a class="btn-outline-warning"
-                                                       data-bs-target="#exampleModalToggle2"
-                                                       data-bs-toggle="modal">Ici</a></p>
-
-                                        </div>
+                                       
                                    </div>
                               </div>
                          </div>
@@ -87,14 +82,14 @@
                                                   aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                             <singin-page></singin-page>
-                                        </div>
-                                        <div class="modal-footer">
+                                             <singin-page></singin-page>    
                                              <p>Vous avez déja un compte? Connectez-vous <a class="btn-outline-warning"
                                                        data-bs-target="#exampleModalToggle"
                                                        data-bs-toggle="modal">Ici</a></p>
 
                                         </div>
+                                     
+                                       
                                    </div>
                               </div>
                          </div>
@@ -147,7 +142,7 @@
           font-family: 'Jost', sans-serif;
           font-weight: 900;
           color: #006A4A;
-          font-size: 15px;
+          font-size: 20px;
 
 
      }

@@ -3,7 +3,7 @@
   <div class="header">
     <h1 class="titre">ACCOMMODATION</h1>
   </div>
-  <pub-page></pub-page>
+  <pub-page3></pub-page3>
 
   <div class="bread">
     <nav
@@ -22,14 +22,14 @@
         Kara dispose des lieux touristiques des Bars-Restaurants, des Boites de nuits, des Marchés etc.
       </p>
     </div>
-    
-    <div class="acc">
+
+    <div class="acc" data-aos="flip-right" data-aos-duration="3000">
       <div class="header-search">
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Recherche</button>
-      </form>
-    </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Recherche</button>
+        </form>
+      </div>
       <div class="row" id="items">
         <div class="col-lg-3">
 
@@ -76,7 +76,7 @@
 
 
 
-    <div class="acc">
+    <div class="acc" data-aos="flip-left" data-aos-duration="3000">
       <div class="row" id="items">
         <div class="col-lg-3">
 
@@ -120,7 +120,7 @@
     </div>
 
 
-    <div class="acc">
+    <div class="acc" data-aos="flip-left" data-aos-duration="3000">
       <div class="row" id="items">
         <div class="col-lg-3">
           <img class="img-fluid image" src="../components/images/Photo32.png" alt="">
@@ -162,17 +162,23 @@
     </div>
   </div>
 
-  <pub-page></pub-page>
+  <pub-page4></pub-page4>
 </template>
 
 <script>
-  import PubPage from '@/components/partials/PubPage.vue'
-
+  import PubPage3 from '@/components/partials/PubPage3.vue'
+   import PubPage4 from '@/components/partials/PubPage4.vue'
+  import AOS from "aos";
   export default {
     components: {
-      PubPage,
+      PubPage3,
+      PubPage4
 
-    }
+    },
+    setup() {
+      AOS.init();
+
+    },
   }
 </script>
 
@@ -302,8 +308,8 @@
   .about {
     padding: 30px;
     background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
- 
-    
+
+
 
 
 

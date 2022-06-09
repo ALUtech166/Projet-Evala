@@ -1,5 +1,5 @@
 <template>
-     <div class="home">
+     <div class="home" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="2000">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -20,7 +20,7 @@
                                    Kara, au Togo. <br>
                                    <a href="/evala" class="btn btn-white btn-aminated">Lire Plus</a>
                               </p>
-                              
+
                          </div>
                     </div>
                     <div class="carousel-item">
@@ -34,34 +34,38 @@
                                    <a href="/akpema" class="btn btn-white btn-aminated">Lire Plus</a>
 
                               </p>
-                               
+
                          </div>
                     </div>
                     <div class="carousel-item">
                          <img src="../images/3.jpg" class="d-block w-100 img-fluid" alt="...">
                          <div class="carousel-caption d-none d-md-block">
                               <h5>Habyé</h5>
-                                      <p>
+                              <p>
                                    Habye est une fête religieuse des Kabyè de la région de Kozah. C'est une
                                    démonstration de danse de pouvoirs magiques. Il a lieu tous les cinq ans au mois
                                    de novembre. <br>
                                    <a href="/habye" class="btn btn-white btn-aminated">Lire Plus</a>
                               </p>
-                              
+
 
                          </div>
                     </div>
                </div>
-            
+
           </div>
-          
+
      </div>
 
 </template>
 
 <script>
+     import AOS from "aos";
      export default {
+          setup() {
+               AOS.init();
 
+          },
      }
 </script>
 

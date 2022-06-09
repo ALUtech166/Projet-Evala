@@ -1,7 +1,5 @@
 <template>
-     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"  data-aos="zoom-in"
-     data-aos-easing="linear"
-     data-aos-duration="3000">
+     <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
                <div class="carousel-item active">
                     <div class="banner-container">
@@ -19,6 +17,7 @@
                              <img clas="img-fluid" src="../images/k-e.jpg" alt="">
                          </div>
 
+
                     </div>
                </div>
                <div class="carousel-item">
@@ -31,12 +30,12 @@
                     </div>
                </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
                data-bs-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
                data-bs-slide="next">
                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Next</span>
@@ -45,12 +44,8 @@
 </template>
 
 <script>
-import AOS from "aos";
      export default {
-           setup() {
-               AOS.init();
 
-          },
      }
 </script>
 

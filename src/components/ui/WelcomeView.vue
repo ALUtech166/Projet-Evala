@@ -1,7 +1,7 @@
 <template>
      <div class="home">
 
-          <div class="container">
+          <div class="container" data-aos="fade-left" data-aos-duration="3000">
 
                <div class="row">
 
@@ -47,7 +47,7 @@
 
 
 
-     <div class="video-pub">
+     <div class="video-pub" data-aos="fade-left" data-aos-duration="3000">
 
           <div class="play-button">
                <a href=""><img src="" class="img-fluid" alt=""></a>
@@ -90,7 +90,7 @@
 
 
 
-     <div class="a-propos">
+     <div class="a-propos" data-aos="fade-left" data-aos-duration="3000">
           <div class="title">
                <h1>A propos des Evenements</h1>
           </div>
@@ -106,7 +106,7 @@
      </div>
 
      <event-page></event-page>
-     <div class="accomodation">
+     <div class="accomodation" data-aos="flip-left" data-aos-duration="3000">
 
           <div class="title">
                <h1 style="text-align:center">Accommodations</h1>
@@ -157,7 +157,7 @@
 
 
 
-     <div class="accomodation">
+     <div class="accomodation" data-aos="flip-left" data-aos-duration="3000">
           <div class="row" id="items">
                <div class="col-lg-3">
 
@@ -204,7 +204,9 @@
      </div>
 
 
-     <div class="ref">
+     <div class="ref"  data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
           <div class="title">
                <h1 style="text-align:center">Nos partenaires</h1>
           </div>
@@ -291,7 +293,7 @@
 
      .box1 {
           margin: 2px;
-          width: 100%;
+          width: 95%;
           text-align: center;
           padding: 5px;
           border-radius: 10px;
@@ -301,7 +303,7 @@
 
      .box2 {
           margin: 2px;
-          width: 100%;
+          width: 95%;
           text-align: center;
           padding: 5px;
           border-radius: 10px;
@@ -343,14 +345,14 @@
      }
 
      .accomodation {
-          padding: 20px;
+          padding: 50px;
 
      }
 
 
 
      .ref {
-          padding: 40px;
+          padding: 100px;
 
 
      }
@@ -381,7 +383,7 @@
      .pub {
           color: #D21034;
           font-family: 'Jost';
-          font-size: 20px;
+          font-size: 15px;
           letter-spacing: 5px;
           font-weight: 900;
      }
@@ -443,7 +445,7 @@
      .btn:visited {
           text-transform: uppercase;
           text-decoration: none;
-          padding: 15px 20px;
+          padding: 10px 15px;
           border-radius: 100px;
           transition: all .2s;
           position: relative;
@@ -509,40 +511,40 @@
 
 
 
-     /* // X-Small devices (portrait phones, less than 576px) */
-     @media (max-width: 400px) {
+    /*  /* // X-Small devices (portrait phones, less than 576px) */
+    /*  @media (max-width: 400px) {
           .box1, .box2 {
                width: 100%;
           }
-     }
+     } */
 
      /* // Small devices (landscape phones, less than 768px) */
-     @media (max-width: 767.98px) {
+    /*  @media (max-width: 767.98px) {
           .box1, .box2 {
                width: 100%;
           }
      }
-
+ */
      /* // Medium devices (tablets, less than 992px) */
-     @media (max-width: 991.98px) {
+    /*  @media (max-width: 991.98px) {
           .box1, .box2 {
                width: 100%;
           }
-     }
+     } */
 
      /* // Large devices (desktops, less than 1200px) */
-     @media (max-width: 1199.98px) {
+   /*   @media (max-width: 1199.98px) {
           .box1, .box2 {
                width: 100%;
           }
      }
-
+ */
      /* // X-Large devices (large desktops, less than 1400px) */
-     @media (max-width: 2992px) {
+    /*  @media (max-width: 2992px) {
           .box1, .box2 {
                width: 50%;
           }
-     }
+     } */ 
 
 
 </style>

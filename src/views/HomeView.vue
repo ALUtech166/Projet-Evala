@@ -37,7 +37,7 @@
   </div>
 
   <welcome-view></welcome-view>
-  <pub-page></pub-page>
+  <pub-page2></pub-page2>
   <category-page></category-page>
 
 
@@ -47,6 +47,7 @@
   import SliderBar from '../components/partials/SliderBar.vue'
   import WelcomeView from '../components/ui/WelcomeView.vue'
   import PubPage from '@/components/partials/PubPage.vue'
+  import PubPage2 from '@/components/partials/PubPage2.vue'
   import CategoryPage from '@/components/ui/CategoryPage.vue'
   import {
     Vue3Marquee
@@ -58,6 +59,7 @@
       WelcomeView,
       Vue3Marquee,
       PubPage,
+      PubPage2,
       CategoryPage
 
     }
