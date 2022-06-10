@@ -5,6 +5,7 @@ import KozahView from "../views/KozahView.vue";
 import EvalaView from "../views/EvalaView.vue"
 import AkpemaView from "../views/AkpemaView.vue"
 import HabyeView from "../views/HabyeView.vue"
+import KondonaView from "../views/KondonaView.vue"
 import HotelView from "../views/HotelView.vue"
 import Bar_restoView from '@/views/Bar_restoView.vue';
 import TourismeView from '@/views/TourismeView.vue';
@@ -24,6 +25,8 @@ import BlogView from '@/views/BlogView.vue'
 import PubliciteView from '@/views/PubliciteView.vue';
 import HotelKara from '../components/Hotels/HotelKara.vue';
 import ReservationHotel from '@/components/Hotels/ReservationHotel.vue';
+import MapPage from '@/components/Hotels/MapPage.vue';
+
 
 const routes = [
   {
@@ -58,6 +61,11 @@ const routes = [
     path: '/reservation',
     name: 'reservation',
     component: ReservationHotel
+  },
+  {
+    path: '/map',
+    name: 'map',
+    component: MapPage
   },
   {
     path: '/bar-resto',
@@ -150,6 +158,11 @@ const routes = [
     path: '/kozah',
     name: 'kozah',
     component: KozahView
+  },
+  {
+    path: '/kondona',
+    name: 'kondona',
+    component: KondonaView
   },
   {
     path: '/blog',

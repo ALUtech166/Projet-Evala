@@ -1,6 +1,6 @@
 <template>
  <div class="header">
-          <h1 class="titre">Habyé</h1>
+          <h1 class="titre">Kondona</h1>
      </div>
 
      <div class="events">
@@ -8,7 +8,7 @@
           <div class="akpema">
 
                <section class="section-1">
-                    <h1 style="text-align:center">A propos de Habyé</h1>
+                    <h1 style="text-align:center">A propos de Kondona</h1>
                     <br>
                     <div class="container text-center">
                          <div class="row">
@@ -19,7 +19,7 @@
                               </div>
                               <div class="col-md-6 col-12">
                                    <div class="panel text-left">
-                                        <h1 style="color: red">Habyé</h1>
+                                        <h1 style="color: red">Kondona</h1>
                                         <p class="pt-4">
                                              C’est une lutte ancestrale. Depuis 1785 les luttes se pratiquaient dans le
                                              mois

@@ -45,8 +45,9 @@
               </p>
               <div class="box1">
                 <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
-                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
+                <a type="button" id="btn" class="btn btn-danger" href="/map">Aller sur Place <i
                     class="icons fa-solid fa-location-dot"></i></a>
+                    
 
               </div>
             </div>
@@ -377,8 +378,7 @@
   }
 
   .list-hotel {
-    background: rgb(34, 193, 195);
-    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
     padding: 3rem;
   }
 

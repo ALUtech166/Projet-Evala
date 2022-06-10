@@ -7,7 +7,7 @@
                     <div class="banner-container">
 
                           <div class="banner">
-                             <img clas="img-fluid" src="../images/k-e.jpg" alt="">
+                             <img clas="img-fluid" src="../images/2k-e.jpg" alt="">
                          </div>
 
                     </div>
@@ -16,7 +16,7 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                             <img clas="img-fluid" src="../images/k-e.jpg" alt="">
+                             <img clas="img-fluid" src="../images/AACG.jpg" alt="">
                          </div>
 
                     </div>
@@ -62,9 +62,8 @@ import AOS from "aos";
      }
 
      .banner-container .banner {
-          background: linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
           border-radius: 5px;
-          margin: 10px;
+          margin: 5px;
           display: flex;
           align-items: center;
           justify-content: center;

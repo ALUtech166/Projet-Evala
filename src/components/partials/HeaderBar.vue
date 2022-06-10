@@ -44,6 +44,7 @@
                                         <li><a class="dropdown-item" href="/evala">Evala</a></li>
                                         <li><a class="dropdown-item" href="/akpema">Akpema</a></li>
                                         <li><a class="dropdown-item" href="/habye">Habyé</a></li>
+                                        <li><a class="dropdown-item" href="/kondona">Kondona</a></li>
                                    </ul>
                               </li>
                               <li><a class="dropdown-item" href="/kozah">La KARA</a></li>
@@ -196,7 +197,7 @@
           text-transform: uppercase;
           text-decoration: none;
           display: inline-block;
-          padding: 12px;
+          padding: 10px;
           border-radius: 100px;
           transition: all .2s;
           position: relative;
@@ -204,6 +205,7 @@
           color: #fff;
           font-family: 'jost', sans-serif;
           font-size: 12px;
+          margin-bottom: 20px;
 
 
      }
@@ -281,66 +283,20 @@
    
      /* // Large devices (desktops, less than 1200px) */
      @media (max-width: 1199.98px) {
-          .menu {
-               text-align: left;
-          }
-
-          li {
-               font-size: 10px;
-          }
+        
 
 
      }
 
      @media (max-width: 1303px) and (max-width: 999px) {
-          .menu {
-               text-align: left;
+         
 
-          }
-
-          ul {
-               font: 200;
-          }
-
-          .btn {
-               font-size: xx-small;
-          }
+         
+         
      }
 
      @media (max-width: 1381px) {
-          .btn {
-               padding: 0;
-               font-size: medium;
-               margin: 0;
-          }
-
-          a {
-               font-size: 5px;
-          }
-
-          .btn:link,
-          .btn:visited {
-               font-size: 5px;
-               text-transform: lowercase;
-          }
-
-          .menu {
-               text-align: left;
-
-          }
-
-          li {
-               font-size: 10px;
-          }
-
-          ul {
-               font-weight: 400;
-               font-size: 10px;
-          }
-
-          img {
-               width: 250px;
-          }
+       
      }
 
      /* 

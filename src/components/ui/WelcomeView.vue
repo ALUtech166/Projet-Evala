@@ -297,8 +297,9 @@
           text-align: center;
           padding: 5px;
           border-radius: 10px;
-          border: 1px solid red;
+          border: 1px solid #006A4A;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+          background: #fff;
      }
 
      .box2 {
@@ -309,11 +310,12 @@
           border-radius: 10px;
           border: 1px solid #006A4A;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+          background: #fff;
      }
 
 
      h2 {
-          color: #D21034;
+          color: #006A4A;
           font-size: 20px;
      }
 
@@ -346,13 +348,14 @@
 
      .accomodation {
           padding: 50px;
+          background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
 
      }
 
 
 
      .ref {
-          padding: 100px;
+          padding: 10px;
 
 
      }

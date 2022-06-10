@@ -179,9 +179,10 @@
 
 
      h1 {
-          font-size: 60px;
-          font-weight: 900;
+          font-size: 25px;
+          font-weight: bold;
           font-family: 'Jost', sans-serif;
+          font-family: 'Josefin Sans', sans-serif;
           color: #006A4A;
           text-align: left;
      }

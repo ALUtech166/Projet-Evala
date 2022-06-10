@@ -1,6 +1,6 @@
 <template>
 
-
+  <annonce-page></annonce-page>
   <slider-bar></slider-bar>
   <br>
   <pub-page></pub-page>
@@ -49,6 +49,7 @@
   import PubPage from '@/components/partials/PubPage.vue'
   import PubPage2 from '@/components/partials/PubPage2.vue'
   import CategoryPage from '@/components/ui/CategoryPage.vue'
+  import AnnoncePage from '@/components/ui/AnnoncePage.vue'
   import {
     Vue3Marquee
   } from 'vue3-marquee'
@@ -60,7 +61,8 @@
       Vue3Marquee,
       PubPage,
       PubPage2,
-      CategoryPage
+      CategoryPage,
+      AnnoncePage
 
     }
   }

@@ -332,8 +332,9 @@
     text-align: center;
     padding: 0.5rem;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background: #fff;
   }
 
   .box2 {
@@ -342,8 +343,9 @@
     text-align: center;
     padding: 0.5rem;
     border-radius: 10px;
-    border: 2px solid #006A4A;
+    border: 2px solid #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background: #fff;
   }
 
   h2,
