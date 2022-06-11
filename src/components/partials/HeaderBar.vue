@@ -11,12 +11,13 @@
                     </button>
 
                     <br>
-                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown" style="text-align: right">
                          <ul class="navbar-nav">
 
 
                               <li><a class="dropdown-item" href="/">Accueil</a></li>
-                              <li class="nav-item dropdown">
+                              <li><a class="dropdown-item" href="/about">Accomodation</a></li>
+                             <!--  <li class="nav-item dropdown">
                                    <a class="nav-link dropdown-toggle dropdown-item" href="/about"
                                         id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
@@ -31,7 +32,7 @@
                                         <li><a class="dropdown-item" href="/banque">Divers</a></li>
                                    </ul>
                               </li>
-
+ -->
 
 
                               <li class="nav-item dropdown">
@@ -47,9 +48,9 @@
                                         <li><a class="dropdown-item" href="/kondona">Kondona</a></li>
                                    </ul>
                               </li>
-                              <li><a class="dropdown-item" href="/kozah">La KARA</a></li>
+                              <!-- <li><a class="dropdown-item" href="/kozah">La KARA</a></li> -->
                               <li><a class="dropdown-item" href="/blog">Actualités</a></li>
-                              <li><a class="dropdown-item" href="/contact">Contacts</a></li>
+                           <!--    <li><a class="dropdown-item" href="/contact">Contacts</a></li> -->
                               <li><a class="btn btn-white btn-animated" data-bs-toggle="modal"
                                         href="#exampleModalToggle" role="button">Se Connecter</a>
                               </li>
@@ -122,6 +123,7 @@
      nav {
           background-color: #006A4A;
           background-color: transparent;
+
           
 
      }
@@ -149,19 +151,17 @@
      }
 
      li {
-          padding: 12px;
+         
           font-family: 'Jost', sans-serif;
           font-weight: bold;
           text-transform: uppercase;
-
+          padding: 15px;
+          
 
      }
 
 
-     #dropdown {
-          text-align: right;
-     }
-
+     
 
 
      ul,
@@ -171,6 +171,10 @@
           list-style: none;
           text-decoration: none;
           font-family: 'Josefin Sans', sans-serif;
+          padding: 15px;
+          text-align: right;
+          margin-right: 15px;
+          
 
      }
 
@@ -205,7 +209,7 @@
           color: #fff;
           font-family: 'jost', sans-serif;
           font-size: 12px;
-          margin-bottom: 20px;
+         
 
 
      }

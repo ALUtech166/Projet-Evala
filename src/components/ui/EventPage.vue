@@ -179,8 +179,8 @@ import AOS from "aos";
      .events {
          width: 100%;
          height: 100%;
-         margin-bottom: 50px;
-        ;
+         margin-bottom: 0px;
+        
 
      }
 

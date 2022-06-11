@@ -104,7 +104,6 @@
           </p>
 
      </div>
-
      <event-page></event-page>
      <div class="accomodation" data-aos="flip-left" data-aos-duration="3000">
 
