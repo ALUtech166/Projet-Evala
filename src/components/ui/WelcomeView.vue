@@ -1,52 +1,8 @@
 <template>
-     <div class="home">
-
-          <div class="container" data-aos="fade-left" data-aos-duration="3000">
-
-               <div class="row">
 
 
-                    <div class="col-lg-6">
-                         <img class="image img-fluid" src="../images/Faure-tg.jpg" alt="">
-                    </div>
-
-                    <div class="col-lg-6">
-
-                         <hr class="style-two">
-                         <h1><strong>Bienvenue à KARA</strong></h1><br>
-                         <h4>Kara au Coeur de la Visite du Nord-Togo</h4>
-
-                         <p class="desc">
-                              Chef-lieu de la préfecture de la Kozah et capitale de la région du même nom, Kara est une
-                              ville
-                              en pleine expansion. Elle est devenue rapidement un centre moderne d’administration et de
-                              production dans le cadre des objectifs du gouvernement de créer des infrastructures dans
-                              toutes
-                              les régions du pays.
-
-                         </p>
-
-                         <p class="desc">
-                              La ville permet de rayonner vers les nombreux sites naturels et culturelles de la région
-                              dont
-                              le paysage Koutammakou, classé au patrimoine mondiale de l’UNESCO. Kara dispose d’une
-                              importante structure hôtelière et de nombreux restaurants. D’un point de vue touristique,
-                              Kara
-                              est centrale pour la visite de la region. C’est dans la région de la Kara qu’on trouve un
-                              des
-                              groupes ethniques les plus nombreux du Togo, les Kabiyè.
-                         </p>
-
-                    </div>
-
-
-
-               </div>
-          </div>
-     </div>
-
-
-
+    <welcome-slider></welcome-slider>
+ 
      <div class="video-pub" data-aos="fade-left" data-aos-duration="3000">
 
           <div class="play-button">
@@ -85,23 +41,6 @@
                </div>
 
           </div>
-
-     </div>
-
-
-
-     <div class="a-propos" data-aos="fade-left" data-aos-duration="3000">
-          <div class="title">
-               <h1>A propos des Evenements</h1>
-          </div>
-
-          <p class="desc" style="text-align: center">
-               Dans la région de la Kara on dispose de plusieurs évenements culturelles à savoir Evala (Lutte), Akpéma
-               <br>
-               (Initiation de la jeune fille) et Habyè(la danse mystique des Kabyè) etc... tous ces évenements se <br>
-               déroulent dans les 15 cantons de la préfecture de la Kozah et 1 dans le canton Agbadjiyaka. <br>
-
-          </p>
 
      </div>
      <event-page></event-page>
@@ -251,11 +190,13 @@
      import 'vue3-marquee/dist/style.css'
      import AOS from "aos";
      import EventPage from './EventPage.vue';
+     import WelcomeSlider from './WelcomeSlider.vue';
 
      export default {
           components: {
                Vue3Marquee,
-               EventPage
+               EventPage,
+               WelcomeSlider
           },
           setup() {
                AOS.init();
@@ -329,22 +270,10 @@
 
      }
 
-     .home {
-          padding: 50px;
-          background-image: linear-gradient(to right, #006a4a, #FFCE00);
-     }
+   
 
 
-
-     .a-propos {
-          padding: 10px;
-          text-align: center;
-          background-image: linear-gradient(to right, #ffcc00ed, #006a4a);
-          padding-top: 50px;
-
-
-     }
-
+ 
      .accomodation {
           padding: 50px;
           background-image: linear-gradient(to right, #ffcc00, #006a4a3d);

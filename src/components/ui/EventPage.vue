@@ -1,8 +1,21 @@
 <template>
+     <div class="a-propos">
+          <div class="title">
+               <h1>A propos des Evenements</h1>
+          </div>
+
+          <p class="desc" style="text-align: center">
+               Dans la région de la Kara on dispose de plusieurs évenements culturelles à savoir Evala (Lutte), Akpéma
+               <br>
+               (Initiation de la jeune fille) et Habyè(la danse mystique des Kabyè) etc... tous ces évenements se <br>
+               déroulent dans les 15 cantons de la préfecture de la Kozah et 1 dans le canton Agbadjiyaka. <br>
+
+          </p>
+
+     </div>
      <div class="events">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-aos="flip-left"
-     
-     data-aos-duration="1500">
+               data-aos-duration="1500">
                <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                          class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -42,7 +55,7 @@
                                                        La particularité singulière qui a caractérisé ce combat a été
                                                        recherché à
                                                        travers la forme
-                                                     
+
                                                   </p>
                                              </div>
                                         </div>
@@ -160,9 +173,9 @@
 </template>
 
 <script>
-import AOS from "aos";
+     import AOS from "aos";
      export default {
-           setup() {
+          setup() {
                AOS.init();
 
           },
@@ -177,12 +190,22 @@ import AOS from "aos";
      }
 
      .events {
-         width: 100%;
-         height: 100%;
-         margin-bottom: 0px;
-        
+          width: 100%;
+          height: 100%;
+
+
 
      }
+
+         .a-propos {
+        
+          text-align: center;
+          background-image: linear-gradient(to right, #ffcc00ed, #006a4a);
+          
+
+
+     }
+
 
      .desc {
           color: black;
@@ -193,6 +216,9 @@ import AOS from "aos";
           font-family: 'Josefin Sans';
 
      }
+
+     
+
 
      .image {
           border-radius: 10px;
@@ -240,6 +266,7 @@ import AOS from "aos";
           font-family: 'Josefin Sans';
      }
 
+    
 
 
 
@@ -247,11 +274,12 @@ import AOS from "aos";
 
 
      h1 {
-          font-size: 60px;
+          font-size: 25px;
           font-weight: 900;
           font-family: 'Jost', sans-serif;
           color: #006A4A;
-          text-align: left;
+          text-align: center;
+          padding: 10px;
      }
 
      @media (max-width: 1199.98px) {
