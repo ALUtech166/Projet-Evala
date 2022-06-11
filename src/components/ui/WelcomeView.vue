@@ -349,7 +349,6 @@
      }
 
 
-
      h3 {
           font-size: 15px;
           font-family: 'Josefin Sans', sans-serif;

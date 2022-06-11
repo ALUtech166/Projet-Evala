@@ -79,7 +79,6 @@ import axios from 'axios';
                     axios.post(`http://karaevents.mekengroup.com/api/login`, {
                               body: this.email
                          })
-                         .then(response => {})
                          .catch(e => {
                               this.errors.push(e)
                          })
