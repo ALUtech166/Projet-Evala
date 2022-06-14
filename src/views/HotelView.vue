@@ -45,7 +45,7 @@
               </p>
              <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -75,7 +75,7 @@
               </p>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -104,7 +104,7 @@
               </p>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -134,7 +134,7 @@
               </p>
              <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -171,7 +171,7 @@
               </p>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -199,7 +199,7 @@
               </p>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -225,7 +225,7 @@
                 Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.</p>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -251,7 +251,7 @@
                 Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.</p>
              <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">

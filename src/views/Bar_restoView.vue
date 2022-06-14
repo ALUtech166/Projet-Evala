@@ -41,7 +41,7 @@
               <h5>Contact: +228 26600516</h5>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -64,7 +64,7 @@
               <h5>Contact: +228 26600516</h5>
              <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -87,7 +87,7 @@
               <h5>Contact: +228 26600516</h5>
                <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -116,7 +116,7 @@
               <h5>Contact: +228 26600516</h5>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -140,7 +140,7 @@
               <h5>Contact: +228 26600516</h5>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
@@ -163,7 +163,7 @@
               <h5>Contact: +228 26600516</h5>
               <div class="box1">
                 <div class="">
-                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
               </div>
 
               <div class="">
