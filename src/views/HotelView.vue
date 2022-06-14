@@ -43,13 +43,19 @@
                 bungalow luxe à
                 partir de 40000 FCFA selon la catégorie et la rénovation. Petit déjeuner buffet autour de 3500 FCFA
               </p>
-              <div class="box1">
+             <div class="box1">
+                <div class="">
                 <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
-                <a type="button" id="btn" class="btn btn-danger" href="/map">Aller sur Place <i
-                    class="icons fa-solid fa-location-dot"></i></a>
-                    
-
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
+
             </div>
           </div>
         </div>
@@ -67,14 +73,18 @@
                 à 2,4 km du bureau de l'immigration. Il propose un restaurant, une réception ouverte 24h/24, un service
                 d'étage
               </p>
-              <div class="box2">
+              <div class="box1">
+                <div class="">
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
+              </div>
+
+              <div class="">
                <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
                <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
                <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
                <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
-             
-
               </div>
+             </div>
             </div>
           </div>
         </div>
@@ -93,11 +103,17 @@
 
               </p>
               <div class="box1">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
-                    class="icons fa-solid fa-location-dot"></i></a>
-
+                <div class="">
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -116,12 +132,18 @@
                 confortable dont le personnel est très charmant. Chambre confortable avec climatisation et eau chaude
 
               </p>
-              <div class="box1">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
-                    class="icons fa-solid fa-location-dot"></i></a>
-
+             <div class="box1">
+                <div class="">
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -148,12 +170,17 @@
 
               </p>
               <div class="box1">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
-                    class="icons fa-solid fa-location-dot"></i></a>
-
+                <div class="">
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
 
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -171,11 +198,17 @@
                 et 40 000 FCFA. Petit déjeuner complet autour de 2 500 FCFA, plats à 4 000 FCFA en moyenne. Bar.
               </p>
               <div class="box1">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
-                    class="icons fa-solid fa-location-dot"></i></a>
-
+                <div class="">
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -191,12 +224,17 @@
                 disponible.
                 Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.</p>
               <div class="box1">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
-                    class="icons fa-solid fa-location-dot"></i></a>
-
-
+                <div class="">
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -211,13 +249,18 @@
               <p class="card-text"><span>Détails:</span> Hôtel très propre, confortable. Personnel accueillant et
                 disponible.
                 Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.</p>
-              <div class="box1">
-                <a type="button" id="btn" class="btn btn-outline-danger" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-                <a type="button" id="btn" class="btn btn-danger" href="">Aller sur Place <i
-                    class="icons fa-solid fa-location-dot"></i></a>
-
-
+             <div class="box1">
+                <div class="">
+                <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>

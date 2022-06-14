@@ -28,7 +28,7 @@
        <div class="header-search">
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Recherche</button>
+          <button class="btn btn-success" type="submit">Recherche</button>
         </form>
       </div>
       <div class="row">
@@ -40,11 +40,17 @@
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
               <div class="box1">
-               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
-
+                <div class="">
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -57,11 +63,17 @@
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
              <div class="box1">
-               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
-
+                <div class="">
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -74,11 +86,17 @@
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
                <div class="box1">
-               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
-
+                <div class="">
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -96,12 +114,18 @@
               <h5 class="card-title">Epsilone</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
-               <div class="box1">
-               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
-
+              <div class="box1">
+                <div class="">
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
 
             </div>
           </div>
@@ -115,12 +139,17 @@
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
               <div class="box1">
-               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
-               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank">Voir plus de details</a>
-               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
-             
-
+                <div class="">
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
               </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
             </div>
           </div>
         </div>
@@ -132,14 +161,18 @@
               <h5 class="card-title">Kara - Pizza</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
-              <div class="box2">
+              <div class="box1">
+                <div class="">
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus de details</a>
+              </div>
+
+              <div class="">
                <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
                <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
                <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
                <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
-             
-
               </div>
+             </div>
             </div>
           </div>
         </div>
