@@ -24,7 +24,9 @@
     "vue-axios": "^3.4.1",
     "vue-carousel-3d": "^1.0.1",
     "vue-router": "^4.0.3",
-    "vue3-marquee": "^3.0.3"
+    "vue3-marquee": "^3.0.3",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

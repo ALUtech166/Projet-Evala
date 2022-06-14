@@ -14,7 +14,7 @@
                          <div class="row">
                               <div class="col-md-6 col-12">
                                    <div class="pray">
-                                        <img src="../components/images/Akpema.png" alt="Pray" class="image" height="500px" />
+                                        <img src="../components/images/Ok-1.png" alt="Pray" class="image" height="500px" />
                                    </div>
                               </div>
                               <div class="col-md-6 col-12">

@@ -19,8 +19,8 @@
                               Chambre Climatisé avec Salon - WIFI disponible
                          </p>
                          <div class="button">
-                              <a type="button" class="btn btn-outline-success" href="">Voir La Disponibilité</a> <br>
-                              <a type="button" class="btn btn-success" href="/reservation">Réserver</a>
+                              <a type="button" class="btn btn-success" href="https://wa.me/91584474">Voir La Disponibilité</a> <br>
+                              <!-- <a type="button" class="btn btn-success" href="/reservation">Réserver</a> -->
                          </div>
                     </div>
 
@@ -33,8 +33,8 @@
                               Chambre Climatisé avec Salon - WIFI disponible
                          </p>
                          <div class="button">
-                              <a type="button" class="btn btn-outline-success" href="">Voir La Disponibilité</a> <br>
-                              <a type="button" class="btn btn-success" href="/reservation">Reserver</a>
+                              <a type="button" class="btn btn-success" href="https://wa.me/91584474">Voir La Disponibilité</a> <br>
+                              <!-- <a type="button" class="btn btn-success" href="/reservation">Reserver</a> -->
                          </div>
                     </div>
 
@@ -49,8 +49,8 @@
                               Chambre Climatisé avec Salon - WIFI disponible
                          </p>
                          <div class="button">
-                              <a type="button" class="btn btn-outline-success" href="">Voir La Disponibilité</a> <br>
-                              <a type="button" class="btn btn-success" href="/reservation">Réserver</a>
+                              <a type="button" class="btn btn-success" href="https://wa.me/91584474">Voir La Disponibilité</a> <br>
+                              <!-- <a type="button" class="btn btn-success" href="/reservation">Réserver</a> -->
                          </div>
                     </div>
 
@@ -63,8 +63,8 @@
                               Chambre Climatisé avec Salon - WIFI disponible
                          </p>
                          <div class="button">
-                              <a type="button" class="btn btn-outline-success" href="">Voir La Disponibilité</a> <br>
-                              <a type="button" class="btn btn-success" href="/reservation">Reserver</a>
+                              <a type="button" class="btn btn-success" href="https://wa.me/91584474">Voir La Disponibilité</a> <br>
+                              <!-- <a type="button" class="btn btn-success" href="/reservation">Reserver</a> -->
                          </div>
                     </div>
 

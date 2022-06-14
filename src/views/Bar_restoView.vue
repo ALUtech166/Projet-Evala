@@ -39,9 +39,8 @@
               <h3 class="card-title">Place de la victoire</h3>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
-              <h5>Localisation: </h5>
               <div class="box1">
-               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
                <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
              
 
@@ -57,9 +56,8 @@
               <h3 class="card-title">La Douceur</h3>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
-              <h5>Localisation: </h5>
              <div class="box1">
-               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
                <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
              
 
@@ -75,9 +73,8 @@
               <h5 class="card-title">Etoile de la kozah</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
-              <h5>Localisation: </h5>
                <div class="box1">
-               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
                <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
              
 
@@ -99,9 +96,8 @@
               <h5 class="card-title">Epsilone</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
-              <h5>Localisation: </h5>
                <div class="box1">
-               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
                <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
              
 
@@ -118,9 +114,9 @@
               <h5 class="card-title">ile de rèves</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
-              <h5>Localisation: </h5>
               <div class="box1">
-               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
+               <a type="button" id="btn" class="btn btn-outline-warning" href="https://wa.me/91584474" target="blank">Voir plus de details</a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank">Voir plus de details</a>
                <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
              
 
@@ -136,10 +132,11 @@
               <h5 class="card-title">Kara - Pizza</h5>
               <h5>Address: BP 5, Kara - Togo</h5>
               <h5>Contact: +228 26600516</h5>
-              <h5>Localisation: </h5>
-              <div class="box1">
-               <button type="button" class="btn btn-outline-warning">Voir plus de details</button>
-               <button type="button" class="btn btn-success">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></button>
+              <div class="box2">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
              
 
               </div>
@@ -218,10 +215,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   
+  }
+
+    .box2 {
+    max-width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+   
   }
 
   .btn {
-    border-radius: 10px;
+    border-radius: 15px;
+    font-size: 10px;
+    
   }
 
   h3,

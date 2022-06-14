@@ -19,68 +19,47 @@
                     <h1>Formulaire de Pub</h1>
                </div>
                <div class="container">
-                    <form action="">
+                    <form @submit="submitData" method="post">
                          <div class="input-group input-group-lg">
                               <span class="input-group-text" id="inputGroup-sizing-lg">Nom de la Société</span>
                               <input type="text" class="form-control" aria-label="Sizing example input"
+                                   aria-describedby="inputGroup-sizing-lg" v-model="nom_socite">
+                         </div>
+                         <div class="input-group input-group-lg">
+                              <span class="input-group-text" id="inputGroup-sizing-lg">Photo de Publicité</span>
+                              <input type="file" class="form-control" aria-label="Sizing example input"
                                    aria-describedby="inputGroup-sizing-lg">
                          </div>
                          <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Addresse de la Soiciété</span>
-                              <input type="text" class="form-control" aria-label="Sizing example input"
-                                   aria-describedby="inputGroup-sizing-lg">
-                         </div>
-                         <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Numéro de la société</span>
-                              <input type="text" class="form-control" aria-label="Sizing example input"
-                                   aria-describedby="inputGroup-sizing-lg">
-                         </div>
-                         <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Type de Société</span>
-                              <select class="form-select" id="inputGroupSelect01">
-                                   <option selected>Choose...</option>
-                                   <option value="1">One</option>
-                                   <option value="2">Two</option>
-                                   <option value="3">Three</option>
+                              <span class="input-group-text" id="inputGroup-sizing-lg">Type de Publicité</span>
+                              <select class="form-select" id="inputGroupSelect01" v-model="type_publicite">
+                                   <option selected>Choisir...</option>
+                                   <option value="1">Acceuil</option>
+                                   <option value="2">Accomodation</option>
+                                   <option value="3">Evenements</option>
+
                               </select>
                          </div>
                          <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Note de la société</span>
-                              <input type="text" class="form-control" aria-label="Sizing example input"
-                                   aria-describedby="inputGroup-sizing-lg">
-                         </div>
-                         <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Logo de la société</span>
-                              <input type="file" class="form-control" aria-label="Sizing example input"
-                                   aria-describedby="inputGroup-sizing-lg">
-                         </div>
-                         <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Photos de la société</span>
-                              <input type="file" class="form-control" aria-label="Sizing example input"
-                                   aria-describedby="inputGroup-sizing-lg">
-                         </div>
-                         <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Nom de votre Agence</span>
-                              <input type="text" class="form-control" aria-label="Sizing example input"
-                                   aria-describedby="inputGroup-sizing-lg">
-                         </div>
-                         <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Photo de l'Agence</span>
-                              <input type="file" class="form-control" aria-label="Sizing example input"
-                                   aria-describedby="inputGroup-sizing-lg">
-                         </div>
-                         <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Localisation</span>
-                              <input type="text" class="form-control" aria-label="Sizing example input"
-                                   aria-describedby="inputGroup-sizing-lg">
-                         </div>
-                         <div class="input-group input-group-lg">
-                              <span class="input-group-text" id="inputGroup-sizing-lg">Description</span>
-                              <textarea class="form-control" aria-label="With textarea" rows="5"></textarea>
+                              <span class="input-group-text" id="inputGroup-sizing-lg">Description de Publicité</span>
+                              <textarea class="form-control" aria-label="With textarea" rows="5"
+                                   v-model="description_publicite"></textarea>
                          </div>
 
+                         <div class="input-group input-group-lg">
+                              <span class="input-group-text" id="inputGroup-sizing-lg">Date de Debut Publication</span>
+                              <input type="date" class="form-control" aria-label="Sizing example input"
+                                   aria-describedby="inputGroup-sizing-lg" v-model="date_debut_publicite">
+                         </div>
+                         <div class="input-group input-group-lg">
+                              <span class="input-group-text" id="inputGroup-sizing-lg">Date de Fin Publication</span>
+                              <input type="date" class="form-control" aria-label="Sizing example input"
+                                   aria-describedby="inputGroup-sizing-lg" v-model="date_fin_publicite">
+                         </div>
+
+
                          <div style="text-align: right">
-                              <button type="button" class="btn btn-danger" to="/portal">Soumettre</button>
+                              <button type="submit" class="btn btn-danger">Soumettre</button>
                          </div>
                     </form>
                </div>
@@ -90,7 +69,37 @@
 </template>
 
 <script>
+     import axios from 'axios';
      export default {
+          data() {
+               return {
+                    form: {
+                         nom_socite: '',
+                         photo_publicite: '',
+                         description_publicite: '',
+                         date_debut_publicite: '',
+                         date_fin_publicite: ''
+                    }
+
+               }
+          },
+
+
+          methods: {
+               submitData() {
+                    axios.post('http://karaevents.mekengroup.com/api/pub', this.form)
+                         .then((res) => {
+                              //Perform Success Action
+                              console.log(res)
+                         })
+                         .catch((error) => {
+                              // error.response.status Check status code
+                              console.log(error)
+                         }).finally(() => {
+                              //Perform action in always
+                         });
+               }
+          },
 
      }
 </script>
@@ -122,7 +131,7 @@
 
      }
 
-     
+
      .title {
           margin: 1rem;
           max-width: 100%;
@@ -132,7 +141,7 @@
 
      }
 
-       h1 {
+     h1 {
           font-size: 27px;
           font-weight: 600;
           font-family: 'Josefin Sans', sans-serif;

@@ -8,9 +8,9 @@
                     <br>
                     <div class="row">
                          <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Email *</label>
+                              <label for="" class="col-form-label">Nom d'utilisateur *</label>
                               <input type="text" class="form-control" name="nom" id="name"
-                                   placeholder="Nom d'utilisateur" required v-model="email">
+                                   placeholder="Nom d'utilisateur" required>
                          </div>
 
                     </div>
@@ -18,8 +18,8 @@
                     <div class="row">
                          <div class="col-md-6 form-group mb-5">
                               <label for="" class="col-form-label">Mot de Passe *</label>
-                              <input type="password" class="form-control" name="password" id="password"
-                                   placeholder="Mot de Passe" required v-model="password">
+                              <input type="password" class="form-control" name="email" id="email"
+                                   placeholder="Mot de Passe" required>
                          </div>
                     </div>
 
@@ -32,7 +32,7 @@
                               </label>
                          </div>
 
-                         <div class="col-md-6 form-group mb-5">
+                          <div class="col-md-6 form-group mb-5">
                               <a href="#" class="btn-outline-success">Mot de passe oublié?</a>
                          </div>
                          <div class="modal-footer">
@@ -41,7 +41,7 @@
 
                          </div>
 
-
+                        
                     </div>
 
                     <br>
@@ -64,24 +64,44 @@
 </template>
 
 <script>
-import axios from 'axios';
      export default {
 
           data() {
                return {
-                    errors: [],
+                    name: '',
+                    email: '',
+                    password: '',
+                    remember_token: '',
+                    create_at: '',
+                    update_at: ''
 
                }
           },
 
           methods: {
                addUser() {
-                    axios.post(`http://karaevents.mekengroup.com/api/login`, {
-                              body: this.email
-                         })
-                         .catch(e => {
-                              this.errors.push(e)
-                         })
+
+                    fetch('https://app-control-f04f4-default-rtdb.firebaseio.com//users.json', {
+                              // It is to post data like send a data
+                              method: 'POST',
+                              mode: "no-cors",
+                              headers: {
+                                   'Content-Type': 'application/json',
+                              },
+
+                              body: JSON.stringify({
+                                   name: this.name,
+                                   email: this.email,
+                                   password: this.password,
+                                   remember_token: this.remember_token,
+                                   create_at: this.create_at,
+                                   update_at: this.update_at
+
+
+                              }),
+                         }).then(res => res.json())
+                         .then(res => console.log(res));
+
 
                }
           },
@@ -109,7 +129,7 @@ import axios from 'axios';
           font-family: 'Jost', sans-serif;
      }
 
-     p {
+      p {
           padding: 10px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;

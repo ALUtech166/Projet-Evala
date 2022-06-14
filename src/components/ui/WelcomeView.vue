@@ -44,7 +44,7 @@
 
      </div>
      <event-page></event-page>
-     <div class="accomodation" data-aos="flip-left" data-aos-duration="3000">
+     <div class="accomodation">
 
           <div class="title">
                <h1 style="text-align:center">Accommodations</h1>
@@ -95,7 +95,7 @@
 
 
 
-     <div class="accomodation" data-aos="flip-left" data-aos-duration="3000">
+     <div class="accomodation">
           <div class="row" id="items">
                <div class="col-lg-3">
 

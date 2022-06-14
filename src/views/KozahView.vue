@@ -321,18 +321,19 @@
 
 
 
-                         <!--    <div class="col-lg-6">
+                          <div class="col-lg-6">
                               <div class="row" v-if="canton && canton.length">
-                                   <div class="col-lg-5"><img src="" alt=""
-                                             width="200px" style="border-radius:15px" height="200px"></div>
+                                   <div class="col-lg-5">
+                                   </div>
                                    <div class="col-lg-5" v-for="cat of canton" :key="cat.id">
-                                        <h2>{{ cat.nom_canton }}</h2> <br>
+                                   <img :src="'http://karaevents.mekengroup.com/storage/files/'+cat.photo_publicite" alt="img"/>
+                                        <h2>{{ cat.nom_societe }}</h2> <br>
                                         <p>
-                                             {{ cat.description_canton }}
+                                             {{ cat.description_publicite }}
                                         </p>
                                    </div>
                               </div>
-                         </div> -->
+                         </div>
                     </div>
                </div>
 
@@ -356,7 +357,7 @@
 
           // Fetches posts when the component is created.
           created(data) {
-               axios.get(`http://karaevents.mekengroup.com/api/canton`)
+               axios.get(`http://karaevents.mekengroup.com/api/pub`)
                     .then(response => {
                          // JSON responses are automatically parsed.
                          this.canton = response.data
@@ -364,7 +365,7 @@
                     })
                     .catch(e => {
                          this.errors.push(e)
-                    })
+               })
           }
      }
 </script>

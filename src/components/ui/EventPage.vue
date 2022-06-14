@@ -22,6 +22,8 @@
                          aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                          aria-label="Slide 3"></button>
+                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                         aria-label="Slide 4"></button>
                </div>
                <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -72,7 +74,7 @@
                                         <div class="row">
                                              <div class="col-md-6 col-12">
                                                   <div class="pray">
-                                                       <img src="../images/evala1.jpg" alt="Pray"
+                                                       <img src="../images/Ok-1.png" alt="Pray"
                                                             class="image img-fluid" />
                                                   </div>
                                              </div>
@@ -114,13 +116,62 @@
                                         <div class="row">
                                              <div class="col-md-6 ">
                                                   <div class="pray">
-                                                       <img src="../images/evala1.jpg" alt="Pray"
+                                                       <img src="../images/haby.png" alt="Pray"
                                                             class="image img-fluid" />
                                                   </div>
                                              </div>
                                              <div class="col-md-6 ">
                                                   <div class="panel text-left">
                                                        <h1 style="color: #ffcc00ed">Habyé</h1>
+                                                       <p class="pt-4">
+                                                            C’est une lutte ancestrale. Depuis 1785 les luttes se
+                                                            pratiquaient dans le
+                                                            mois
+                                                            de
+                                                            Juillet.
+                                                            C’est au milieu du 18ème siècles que les premières
+                                                            manifestations du
+                                                            challenge
+                                                            ont eu lieu
+                                                            en
+                                                            pays Kabyè avec le sacre de deux personnages dont la lutte a
+                                                            sonné le glas
+                                                            des
+                                                            compétitions
+                                                            inter-villages.
+                                                       </p>
+                                                       <p>
+                                                            La particularité singulière qui a caractérisé ce combat a
+                                                            été recherché à
+                                                            travers la forme
+
+
+                                                       </p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </section>
+
+
+                         </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                         <div class="habye">
+                              <section class="section-1">
+                                   <div class="container text-center">
+                                        <div class="row">
+                                             <div class="col-md-6 ">
+                                                  <div class="pray">
+                                                       <img src="../images/Ok-2.png" alt="Pray"
+                                                            class="image img-fluid" />
+                                                  </div>
+                                             </div>
+                                             <div class="col-md-6 ">
+                                                  <div class="panel text-left">
+                                                       <h1 style="color: #ffcc00ed">Kondona</h1>
                                                        <p class="pt-4">
                                                             C’est une lutte ancestrale. Depuis 1785 les luttes se
                                                             pratiquaient dans le
