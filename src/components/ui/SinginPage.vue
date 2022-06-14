@@ -17,9 +17,17 @@
                               <label for="name" class="form-label">Nom*</label>
                               <input type="text" class="form-control" id="name" v-model="form.name">
                          </div>
-                         <div class="mb-3">
+                          <div class="mb-3">
+                              <label for="name" class="form-label">Prenom*</label>
+                              <input type="text" class="form-control" id="name" v-model="form.prenom">
+                         </div>
+                          <div class="mb-3">
                               <label for="email" class="form-label">Email*</label>
                               <input type="email" class="form-control" id="email" v-model="form.email">
+                         </div>
+                          <div class="mb-3">
+                              <label for="number" class="form-label">Telephone*</label>
+                              <input type="number" class="form-control" id="number" v-model="form.telephone">
                          </div>
                          <div class="mb-3">
                               <label for="password" class="form-label">Mot de Passe*</label>
@@ -61,7 +69,9 @@
                initForm() {
                     return {
                          name: null,
+                         prenom: null,
                          email: null,
+                         telephone: null,
                          password: null,
                          password_confirmation: null
                     }
@@ -73,7 +83,7 @@
 <style scoped>
      .form-signin {
           width: 100%;
-          max-width: 500px;
+          max-width: 600px;
           height: 100%;
           padding: 15px;
           margin: 5rem auto 0;

@@ -32,8 +32,8 @@
         </form>
       </div>
       <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
+        <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 30rem;">
             <img src="../components/images/hotel-kara1.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h3 class="card-title">Place de la victoire</h3>
@@ -55,8 +55,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
+        <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 30rem;">
             <img src="../components/images/douceur.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h3 class="card-title">La Douceur</h3>
@@ -78,8 +78,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
+        <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 30rem;">
             <img src="../components/images/etoile-kozah.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Etoile de la kozah</h5>
@@ -101,14 +101,37 @@
           </div>
         </div>
 
+         <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 30rem;">
+            <img src="../components/images/ile-de-reve.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ile de rèves</h5>
+              <h5>Address: BP 5, Kara - Togo</h5>
+              <h5>Contact: +228 26600516</h5>
+              <div class="box1">
+                <div class="">
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
+              </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+
 
 
       </div>
       <br>
 
       <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
+        <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 30rem;">
             <img src="../components/images/epsilone.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Epsilone</h5>
@@ -131,8 +154,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
+        <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 30rem;">
             <img src="../components/images/ile-de-reve.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">ile de rèves</h5>
@@ -154,8 +177,31 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
+         <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 30rem;">
+            <img src="../components/images/ile-de-reve.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ile de rèves</h5>
+              <h5>Address: BP 5, Kara - Togo</h5>
+              <h5>Contact: +228 26600516</h5>
+              <div class="box1">
+                <div class="">
+                <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
+              </div>
+
+              <div class="">
+               <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+               <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i class="fa-solid fa-phone"></i></a>
+               <a type="button" class="btn btn-info"  href="mailto:sergetassiga@gmail.com" target="blank"><i class="fa-solid fa-at"></i></a>
+               <a type="button" class="btn btn-success" href="" target="blank"><i class="fa-solid fa-location-dot"></i></a> 
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="card" style="width: 25rem; height: 30rem;">
             <img src="../components/images/kara-pizza.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Kara - Pizza</h5>
@@ -329,9 +375,11 @@
   }
 
   
-
+.card-title {
+  color: #006A4A;
+}
   h5 {
-    color: #006A4A;
+    
     text-align: left;
     font-size: 15px;
   }

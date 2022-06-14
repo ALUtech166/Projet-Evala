@@ -68,7 +68,7 @@
 <style scoped>
      .form-signin {
           width: 100%;
-          max-width: 500px;
+          max-width: 600px;
           height: 100%;
           padding: 15px;
           margin: 5rem auto 0;
