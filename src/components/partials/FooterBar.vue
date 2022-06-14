@@ -10,11 +10,11 @@
           culturels de la préfecture de la Kozah</p>
 
         <div>
-          <a href="https://www.youtube.com/channel/UCClmJlh7QlZJXojYM_OqA3w"><i class="fab fa-youtube"></i></a>
-          <a href="https://twitter.com/Karaeventstogo"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.facebook.com/karaeventstogo"><i class="fab fa-facebook"></i></a>
-          <a href=""><i class="fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/kara-events/about/?viewAsMember=true"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/channel/UCClmJlh7QlZJXojYM_OqA3w"  target="blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/Karaeventstogo" target="blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/karaeventstogo" target="blank"><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram" target="blank"></i></a>
+          <a href="https://www.linkedin.com/company/kara-events/about/?viewAsMember=true" target="blank"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
 
@@ -23,7 +23,6 @@
         <h2><b>Liens Directs</b></h2>
         <ul>
           <li><a href="/">Accueil</a></li>
-          <li><a href="/kozah">Kozah</a></li>
           <li><a href="/Gallery">Galerie</a></li>
           <li><a href="/about">Accommodation</a></li>
         </ul>
@@ -33,8 +32,9 @@
         <h2><b>Evenements</b></h2>
         <ul>
           <li><a href="/evala">Evala</a></li>
-          <li><a href="">Akpema</a></li>
-          <li><a href="">Habyé</a></li>
+          <li><a href="/akpema">Akpema</a></li>
+          <li><a href="/habye">Habyé</a></li>
+          <li><a href="/kondona">Kondona</a></li>
         </ul>
       </div>
 

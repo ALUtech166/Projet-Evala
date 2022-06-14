@@ -26,6 +26,8 @@ import PubliciteView from '@/views/PubliciteView.vue';
 import HotelKara from '../components/Hotels/HotelKara.vue';
 import ReservationHotel from '@/components/Hotels/ReservationHotel.vue';
 import MapPage from '@/components/Hotels/MapPage.vue';
+import LoginPage from '@/components/ui/LoginPage.vue';
+import SinginPage from '@/components/ui/SinginPage.vue';
 
 
 const routes = [
@@ -33,6 +35,16 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/login',
+    name: 'LoginPage',
+    component: LoginPage
+  },
+  {
+    path: '/register',
+    name: 'SiginginPage',
+    component: SinginPage
   },
   {
     path: '/pub',

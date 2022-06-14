@@ -16,6 +16,8 @@
 <script>
   import HeaderBar from './components/partials/HeaderBar.vue'
   import FooterBar from './components/partials/FooterBar.vue'
+  import {mapGetters} from 'vuex'
+
 
   export default {
     components: {
@@ -23,6 +25,10 @@
       FooterBar
 
     },
+
+    computed: {
+    ...mapGetters(['user'])
+  }
 
 
   }

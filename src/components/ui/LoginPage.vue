@@ -1,143 +1,82 @@
 <template>
-
-     <div class="divider">
-          <div class="form">
-
-               <form class="mb-5" @submit="addUser">
-                    <h1 class="modal-title" id="exampleModalToggleLabel" style="color: #006A4A">Se Connecter</h1>
-                    <br>
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Nom d'utilisateur *</label>
-                              <input type="text" class="form-control" name="nom" id="name"
-                                   placeholder="Nom d'utilisateur" required>
-                         </div>
-
-                    </div>
-
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Mot de Passe *</label>
-                              <input type="password" class="form-control" name="email" id="email"
-                                   placeholder="Mot de Passe" required>
-                         </div>
-                    </div>
-
-
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                              <label class="form-check-label" for="flexCheckDefault">
-                                   Se rappeler de moi
-                              </label>
-                         </div>
-
-                          <div class="col-md-6 form-group mb-5">
-                              <a href="#" class="btn-outline-success">Mot de passe oublié?</a>
-                         </div>
-                         <div class="modal-footer">
-                              <p>Vous n'avez pas un compte? Créer un <a class="btn-outline-warning"
-                                        data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Ici</a></p>
-
-                         </div>
-
-                        
-                    </div>
-
-                    <br>
-
-
-                    <div class="row">
-                         <div class="col-md-12 form-group">
-                              <input id="button" type="submit" value="Se Connecter" class="btn btn-success btn-animated"
-                                   href="/profil">
-                              <span class="submitting"></span>
-                         </div>
-                    </div>
-               </form>
-
-
-
-          </div>
-
+     <div class="header">
+          <h1 class="titre" style="font-size:25px">
+               Se Connecter
+          </h1>
      </div>
+
+
+     <div class="login">
+          <div class="container">
+               <div class="form-signin">
+
+                    <h2 class="tit">Se Connecter</h2>
+
+                    <form @submit.prevent="login">
+                         <div class="mb-3">
+                              <label for="email" class="form-label">Email *</label>
+                              <input type="email" class="form-control" id="email" v-model="form.email">
+                         </div>
+                         <div class="mb-3">
+                              <label for="password" class="form-label">Mot de Passe *</label>
+                              <input type="password" class="form-control" id="password" v-model="form.password">
+                         </div>
+
+                         <div class="mb-3">
+                              vous avez pas encore un compte? creer ton compte <a href="/register"  rel="noopener noreferrer">ici</a>
+                         </div>
+                         <button type="submit" class="btn btn-warning w-100">Login</button>
+                    </form>
+               </div>
+          </div>
+     </div>
+
 </template>
 
 <script>
-     export default {
+     import axios from "axios";
 
+     export default {
+          name: "LoginView",
           data() {
                return {
-                    name: '',
-                    email: '',
-                    password: '',
-                    remember_token: '',
-                    create_at: '',
-                    update_at: ''
-
+                    form: this.initForm()
                }
           },
 
           methods: {
-               addUser() {
+               login() {
+                    axios.post('http://karaevents.mekengroup.com/api/login', this.form).then((response) => {
+                         localStorage.setItem('token', response.data.access_token)
+                         this.$store.dispatch('user', response.data)
+                         this.$router.push('/')
+                    }).catch(error => {
+                         console.log(error)
+                    })
+               },
 
-                    fetch('https://app-control-f04f4-default-rtdb.firebaseio.com//users.json', {
-                              // It is to post data like send a data
-                              method: 'POST',
-                              mode: "no-cors",
-                              headers: {
-                                   'Content-Type': 'application/json',
-                              },
-
-                              body: JSON.stringify({
-                                   name: this.name,
-                                   email: this.email,
-                                   password: this.password,
-                                   remember_token: this.remember_token,
-                                   create_at: this.create_at,
-                                   update_at: this.update_at
-
-
-                              }),
-                         }).then(res => res.json())
-                         .then(res => console.log(res));
-
-
+               initForm() {
+                    return {
+                         email: null,
+                         password: null
+                    }
                }
-          },
-
+          }
      }
 </script>
+
 <style scoped>
-     .modal-title,
-     label {
-          font-weight: bold;
-          font-family: 'Jost', sans-serif;
-          color: #006A4A;
-     }
-
-     label {
-          font-size: 19px;
-     }
-
-     #button {
+     .form-signin {
           width: 100%;
-          color: #006A4A;
-          background-color: #ffcc00;
-          font-size: 20px;
-          font-weight: bold;
-          font-family: 'Jost', sans-serif;
+          max-width: 500px;
+          height: 100%;
+          padding: 15px;
+          margin: 5rem auto 0;
      }
 
-      p {
-          padding: 10px;
-          font-family: 'Josefin Sans', sans-serif;
-          font-family: 'Jost', sans-serif;
-          font-weight: 900;
-          color: #006A4A;
-          font-size: 20px;
-
-
+     .login {
+          background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
+          padding: 50px;
      }
 
 
@@ -148,64 +87,94 @@
           padding: 2rem;
           background-color: #ffffff;
           font-family: 'Jost';
+
      }
 
+     .tit {
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
+          background-color: #ffffff;
+          border-radius: 12px;
+     }
 
+     h2 {
+         font-family: 'Jost';
+         text-align: center; 
+         padding: 10px;
+     }
 
-     .btn:link,
-     .btn:visited {
-          text-transform: uppercase;
-          text-decoration: none;
-          padding: 15px 40px;
-          display: inline-block;
-          border-radius: 100px;
-          transition: all .2s;
+     .header {
+          height: 30vh;
+          background-image: linear-gradient(to right bottom,
+                    rgba(126, 213, 111, 0.505),
+                    rgba(40, 180, 131, 0.481)),
+               url(../images/hero.jpg);
+          background-size: cover;
+          background-position: top;
           position: relative;
 
+
      }
 
 
-     .btn:hover {
-          transform: translateY(-3px);
-          box-shadow: 0 10px 20px rgb(0, 0, 0, 2);
-     }
-
-     .btn:active {
-          transform: translateY(-1px);
-          box-shadow: 0 5px 10px rgb(0, 0, 0, 2);
-     }
-
-     .btn-success {
-          background-color: #006A4A;
-          color: #fff;
-     }
-
-     .btn::after {
-          content: "";
-          display: inline-block;
-          height: 100%;
-          width: 100%;
-          border-radius: 100px;
+     .titre {
           position: absolute;
-          top: 0;
-          left: 0;
-          z-index: -1;
-          transition: all .4s;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: #006A4A;
+          animation: moveInRight 10s ease-out;
+          animation-name: moveInLeft;
+          animation-duration: 10s;
+          animation-timing-function: ease-in;
      }
 
-     .btn-success::after {
-          background-color: #006A4A;
+
+     @keyframes moveInLeft {
+          0% {
+               opacity: 0;
+               transform: translateX(-100px);
+          }
+
+
+          80% {
+               transform: translateX(10px);
+          }
+
+
+          100% {
+               opacity: 1;
+               transform: translate(0) rotate(180deg);
+          }
      }
 
-     .btn:hover::after {
-          transform: scaleX(1.4) scaleY(1.6);
-          opacity: 0;
 
 
+     @keyframes moveInRight {
+          0% {
+               opacity: 0;
+               transform: translateX(100px) rotate(0deg);
+          }
+
+          80% {
+               transform: translateX(-20px);
+          }
+
+          100% {
+               opacity: 1;
+               transform: translate(0);
+          }
      }
 
-     .btn-animated {
-          animation: moveInBottom .5ss ease-out .75s;
-          animation-fill-mode: backwards;
+     @keyframes moveInBottom {
+          0% {
+               opacity: 0;
+               transform: translateY(30px);
+          }
+
+          100% {
+               opacity: 1;
+               transform: translate(0);
+          }
      }
 </style>

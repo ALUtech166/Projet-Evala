@@ -1,227 +1,185 @@
 <template>
 
-     <div class="divider">
-          <div class="form">
+     <div class="header">
+          <h1 class="titre" style="font-size:25px">
+               S'inscrire
+          </h1>
+     </div>
 
-               <form class="mb-5" @submit="addUser">
-                    <h1>S'identifer</h1>
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Prénoms *</label>
-                              <input type="text" class="form-control" name="nom" id="name" placeholder="Votre Nom"
-                                   required v-model="name">
+     <div class="login">
+          <div class="form-signin">
+               <div class="container">
+                     <h2 class="tit">S'inscrire</h2>
+
+
+                    <form @submit.prevent="register" method="post">
+                         <div class="mb-3">
+                              <label for="name" class="form-label">Nom*</label>
+                              <input type="text" class="form-control" id="name" v-model="form.name">
                          </div>
-
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Nom *</label>
-                              <input type="text" class="form-control" name="nom" id="name" placeholder="Votre Nom"
-                                   required v-model="name">
+                         <div class="mb-3">
+                              <label for="email" class="form-label">Email*</label>
+                              <input type="email" class="form-control" id="email" v-model="form.email">
                          </div>
-
-                    </div>
-
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Numéro de Téléphone *</label>
-                              <input type="number" class="form-control" name="password" id="phone"
-                                   placeholder="Numéro de Téléphone" required v-model="password">
+                         <div class="mb-3">
+                              <label for="password" class="form-label">Mot de Passe*</label>
+                              <input type="password" class="form-control" id="password" v-model="form.password">
                          </div>
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Addresse mail *</label>
-                              <input type="email" class="form-control" name="email" id="email"
-                                   placeholder="Addresse mail" required v-model="email">
+                         <div class="mb-3">
+                              <label for="password_confirmation" class="form-label">Confirmer le Mot de Passe*</label>
+                              <input type="password" class="form-control" id="password_confirmation"
+                                   v-model="form.password_confirmation">
                          </div>
-
-                    </div>
-
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Adresse de provenance *</label>
-                              <input type="text" class="form-control" name="password" id="phone"
-                                   placeholder="Numéro de Téléphone" required v-model="password">
-                         </div>
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Adresse résidente *</label>
-                              <input type="text" class="form-control" name="remember_token" placeholder="Objet" required
-                                   v-model="remember_token">
-                         </div>
-                    </div>
-
-
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Pays de provenance *</label>
-                              <input type="text" class="form-control" name="password" id="phone"
-                                   placeholder="Numéro de Téléphone" required v-model="password">
-                         </div>
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Date de Naissance *</label>
-                              <input type="date" class="form-control" name="remember_token" placeholder="Objet" required
-                                   v-model="remember_token">
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Mot de Passe *</label>
-                              <input type="password" class="form-control" name="email" id="email"
-                                   placeholder="Mot de Passe" required>
-                         </div>
-
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Confirmer le mot de Passe *</label>
-                              <input type="password" class="form-control" name="email" id="email"
-                                   placeholder="Mot de Passe" required>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-md-12 form-group">
-                              <input type="submit" value="Créer un compte" class="btn btn-success btn-animated">
-                              <span class="submitting"></span>
-                         </div>
-                    </div>
-               </form>
-
-
+                         <button type="submit" class="btn btn-warning w-100">Register</button>
+                    </form>
+               </div>
 
           </div>
-
      </div>
 </template>
 
 <script>
-     export default {
+     import axios from 'axios'
 
+     export default {
+          name: "RegisterView",
           data() {
                return {
-                    name: '',
-                    email: '',
-                    password: '',
-                    remember_token: '',
-                    create_at: '',
-                    update_at: ''
-
+                    form: this.initForm()
                }
           },
-
           methods: {
-               addUser() {
+               register() {
+                    axios.post('http://karaevents.mekengroup.com/api/register', this.form).then(() => {
+                         this.form = this.initForm()
+                         this.$router.push('/login')
+                    }).catch(error => {
+                         console.log(error)
+                    })
+               },
 
-                    fetch('https://app-control-f04f4-default-rtdb.firebaseio.com//users.json', {
-                              // It is to post data like send a data
-                              method: 'POST',
-                              mode: "no-cors",
-                              headers: {
-                                   'Content-Type': 'application/json',
-                              },
-
-                              body: JSON.stringify({
-                                   name: this.name,
-                                   email: this.email,
-                                   password: this.password,
-                                   remember_token: this.remember_token,
-                                   create_at: this.create_at,
-                                   update_at: this.update_at
-
-
-                              }),
-                         }).then(res => res.json())
-                         .then(res => console.log(res));
-
-
+               initForm() {
+                    return {
+                         name: null,
+                         email: null,
+                         password: null,
+                         password_confirmation: null
+                    }
                }
-          },
-
+          }
      }
 </script>
+
 <style scoped>
-     .modal-title,
-     label {
-          font-weight: bold;
-          font-family: 'Jost', sans-serif;
-          color: #006A4A;
-     }
-
-    h1 {
-          font-weight: bold;
-          font-family: 'Jost', sans-serif;
-          color: #006A4A;
-     }
-
-
-     label {
-          font-size: 15px;
-     }
-
-     .modal-body {
+     .form-signin {
           width: 100%;
-          padding: 2rem;
+          max-width: 500px;
+          height: 100%;
+          padding: 15px;
+          margin: 5rem auto 0;
      }
+
+     .login {
+          background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
+          padding: 50px;
+     }
+
 
      form {
-          max-width: 90rem;
+          max-width: 100%;
           border-radius: 12px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
           padding: 2rem;
           background-color: #ffffff;
           font-family: 'Jost';
+
      }
 
+     .tit {
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
+          background-color: #ffffff;
+          border-radius: 12px;
+     }
 
+     h2 {
+          font-family: 'Jost';
+          text-align: center;
+          padding: 10px;
+     }
 
-     .btn:link,
-     .btn:visited {
-          text-transform: uppercase;
-          text-decoration: none;
-          padding: 15px 40px;
-          display: inline-block;
-          border-radius: 100px;
-          transition: all .2s;
+     .header {
+          height: 30vh;
+          background-image: linear-gradient(to right bottom,
+                    rgba(126, 213, 111, 0.505),
+                    rgba(40, 180, 131, 0.481)),
+               url(../images/hero.jpg);
+          background-size: cover;
+          background-position: top;
           position: relative;
 
+
      }
 
 
-     .btn:hover {
-          transform: translateY(-3px);
-          box-shadow: 0 10px 20px rgb(0, 0, 0, 2);
-     }
-
-     .btn:active {
-          transform: translateY(-1px);
-          box-shadow: 0 5px 10px rgb(0, 0, 0, 2);
-     }
-
-     .btn-success {
-          background-color: #ffcc00; 
-          color: #006A4A;
-     }
-
-     .btn::after {
-          content: "";
-          display: inline-block;
-          height: 100%;
-          width: 100%;
-          border-radius: 100px;
+     .titre {
           position: absolute;
-          top: 0;
-          left: 0;
-          z-index: -1;
-          transition: all .4s;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: #006A4A;
+          animation: moveInRight 10s ease-out;
+          animation-name: moveInLeft;
+          animation-duration: 10s;
+          animation-timing-function: ease-in;
      }
 
-    
 
-     .btn:hover::after {
-          transform: scaleX(1.4) scaleY(1.6);
-          opacity: 0;
+     @keyframes moveInLeft {
+          0% {
+               opacity: 0;
+               transform: translateX(-100px);
+          }
 
 
+          80% {
+               transform: translateX(10px);
+          }
+
+
+          100% {
+               opacity: 1;
+               transform: translate(0) rotate(180deg);
+          }
      }
 
-     .btn-animated {
-          animation: moveInBottom .5ss ease-out .75s;
-          animation-fill-mode: backwards;
+
+
+     @keyframes moveInRight {
+          0% {
+               opacity: 0;
+               transform: translateX(100px) rotate(0deg);
+          }
+
+          80% {
+               transform: translateX(-20px);
+          }
+
+          100% {
+               opacity: 1;
+               transform: translate(0);
+          }
+     }
+
+     @keyframes moveInBottom {
+          0% {
+               opacity: 0;
+               transform: translateY(30px);
+          }
+
+          100% {
+               opacity: 1;
+               transform: translate(0);
+          }
      }
 </style>

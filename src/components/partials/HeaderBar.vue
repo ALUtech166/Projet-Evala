@@ -51,50 +51,12 @@
                               <!-- <li><a class="dropdown-item" href="/kozah">La KARA</a></li> -->
                               <li><a class="dropdown-item" href="/blog">Actualités</a></li>
                            <!--    <li><a class="dropdown-item" href="/contact">Contacts</a></li> -->
-                              <li><a class="btn btn-white btn-animated" data-bs-toggle="modal"
-                                        href="#exampleModalToggle" role="button">Se Connecter</a>
+                              <li><a class="btn btn-white btn-animated"
+                                        href="/login" role="button">Se Connecter</a>
                               </li>
+
                          </ul>
 
-                         <div class=""></div>
-                         <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
-                              aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                              <div class="modal-dialog modal-dialog-centered">
-                                   <div class="modal-content" style="width: 100%">
-                                        <div class="modal-header">
-                                             <!-- <h1 style="color: green">Kozah-Events</h1> -->
-                                             <img src="../images/kara.png" alt="">
-                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                  aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                             <login-page></login-page>
-                                        </div>
-                                       
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
-                              aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                              <div class="modal-dialog modal-dialog-centered">
-                                   <div class="modal-content">
-                                        <div class="modal-header">
-                                             <img src="../images/kara.png" alt="">
-                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                  aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                             <singin-page></singin-page>    
-                                             <p>Vous avez déja un compte? Connectez-vous <a class="btn-outline-warning"
-                                                       data-bs-target="#exampleModalToggle"
-                                                       data-bs-toggle="modal">Ici</a></p>
-
-                                        </div>
-                                     
-                                       
-                                   </div>
-                              </div>
-                         </div>
 
 
 
@@ -108,12 +70,10 @@
 </template>
 
 <script>
-     import LoginPage from "../ui/LoginPage.vue"
-     import SinginPage from "../ui/SinginPage.vue"
+
      export default {
           components: {
-               LoginPage,
-               SinginPage
+               
           }
 
      }
