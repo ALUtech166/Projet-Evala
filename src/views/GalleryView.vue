@@ -39,29 +39,29 @@
 
                <div class="box">
                     <div class="dream">
-                         <img src="./1.jpg" alt="" width="500px">
-                         <img src="./2.jpg" alt="" width="500px">
-                         <img src="./3.jpg" alt="" width="500px">
-                         <img src="./4.jpg" alt="" width="500px">
-                         <img src="./5.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./2.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./3.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./4.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./5.jpg" alt="" width="500px">
 
                     </div>
 
                     <div class="dream">
-                         <img src="./6.jpg" alt="" width="500px">
-                         <img src="./7.jpg" alt="" width="500px">
-                         <img src="./1.jpg" alt="" width="500px">
-                         <img src="./4.jpg" alt="" width="500px">
-                         <img src="./5.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./6.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./7.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./4.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./5.jpg" alt="" width="500px">
 
                     </div>
 
                     <div class="dream">
-                         <img src="./7.jpg" alt="" width="500px">
-                         <img src="./6.jpg" alt="" width="500px">
-                         <img src="./5.jpg" alt="" width="500px">
-                         <img src="./3.jpg" alt="" width="500px">
-                         <img src="./1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./7.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./6.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./5.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./3.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="./1.jpg" alt="" width="500px">
 
                     </div>
                </div>
