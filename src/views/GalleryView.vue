@@ -158,46 +158,6 @@
           border-radius: 5px;
      }
 
-     @media only screen and (max-width: 769px) {
-          .container .box {
-               flex-direction: column;
-
-          }
-
-          .container .box .dream {
-               width: 100%;
-          }
-
-
-     }
-
-     @media only screen and (max-width: 643px) {
-
-          .container,
-          .heading {
-               width: 75%;
-
-          }
-
-          .container .heading h3 {
-               font-size: 1rem;
-
-          }
-
-     }
-
-
-     @media only screen and (max-width: 3000px) {
-          .container {
-               display: flex;
-               flex-direction: column;
-               justify-content: center;
-               text-align: center;
-               margin: 40px 20px 0 100px;
-          }
-
-
-     }
 
 
 
