@@ -1,4 +1,5 @@
 <template>
+<annonce-page></annonce-page>
      <div class="kozah">
           <div class="header">
                <h1 class="titre" style="font-size:25px">
@@ -206,9 +207,11 @@
 
 <script>
      import PubPage from '@/components/partials/PubPage.vue'
+     import AnnoncePage from '@/components/ui/AnnoncePage.vue'
      export default {
           components: {
-               PubPage
+               PubPage,
+               AnnoncePage
           }
      }
 </script>

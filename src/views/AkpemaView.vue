@@ -1,4 +1,5 @@
 <template>
+ <annonce-page></annonce-page>
  <div class="header">
           <h1 class="titre">Akpema</h1>
      </div>
@@ -78,9 +79,11 @@
 
 <script>
        import PubPage from '@/components/partials/PubPage.vue'
+       import AnnoncePage from '@/components/ui/AnnoncePage.vue'
      export default {
           components: {
-               PubPage
+               PubPage,
+               AnnoncePage
           }
      }
 </script>

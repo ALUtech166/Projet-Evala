@@ -1,5 +1,6 @@
 <template>
- <div class="header">
+     <annonce-page></annonce-page>
+     <div class="header">
           <h1 class="titre">Habyé</h1>
      </div>
 
@@ -14,7 +15,8 @@
                          <div class="row">
                               <div class="col-md-6 col-12">
                                    <div class="pray">
-                                        <img src="../components/images/20.png" alt="Pray" class="image" height="500px" />
+                                        <img src="../components/images/20.png" alt="Pray" class="image"
+                                             height="500px" />
                                    </div>
                               </div>
                               <div class="col-md-6 col-12">
@@ -70,12 +72,16 @@
 
           </div>
 
-         
+
      </div>
 </template>
 
 <script>
+     import AnnoncePage from '@/components/ui/AnnoncePage.vue'
      export default {
+          components: {
+               AnnoncePage
+          }
 
      }
 </script>
@@ -166,7 +172,7 @@
      }
 
 
-     
+
      .header {
           height: 30vh;
           background-image: linear-gradient(to right bottom,
@@ -244,7 +250,7 @@
      }
 
 
-     
+
 
      @media only screen and (max-width: 768px) {
 
@@ -261,6 +267,4 @@
 
 
      }
-
-
 </style>

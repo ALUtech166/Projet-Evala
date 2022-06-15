@@ -1,5 +1,5 @@
 <template>
-
+<annonce-page></annonce-page>
      <div class="header">
           <h1 class="titre">Actualités</h1>
      </div>
@@ -9,7 +9,7 @@
           <div class="row">
                <div class="col-lg-8">
                     <div class="blog">
-                         <img src="./2.jpg" alt="" class="img-fluid image">
+                         <img src="../components/images/2k-e.jpg" alt="" class="img-fluid image">
                          <br>
                          <div class="context">
                               <div class="box" style="display: flex">
@@ -31,7 +31,28 @@
                     </div>
                     <br>
                     <div class="blog">
-                         <img src="./2.jpg" alt="" class="img-fluid image">
+                         <img src="../components/images/AACG.jpg" alt="" class="img-fluid image">
+                         <br>
+                         <div class="context">
+
+                              <div class="box" style="display: flex">
+                                   <div class="">
+                                        <h2>Serge Anan</h2>
+                                   </div>
+                                   <div class=""><span>28 Mai 2022</span></div>
+                              </div>
+                              <h1>Kara Events Platforme</h1>
+                              <p>
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora nemo
+                                   quaeomnis. <br>
+                                   Dignissimos ipsum alias aspernatur consequuntur odio optio, quis rem at omnis?
+                                   Sapiente dolor a hic veritatis error.
+                              </p>
+                         </div>
+                    </div>
+                    <br>
+                    <div class="blog">
+                         <img src="../components/images/AACG.jpg" alt="" class="img-fluid image">
                          <br>
                          <div class="context">
 
@@ -54,13 +75,13 @@
 
                <div class="col-lg-4">
                     <div class="recent">
-                         <img src="../components/images/koutammakou.png" alt="" class="img-fluid image" id="img">
+                         <img src="../components/images/2k-e.jpg" alt="" class="img-fluid image" id="img">
                          <h1 style="font-size: 25px">Recents Articles</h1>
                          <h2>
                               Kara Events Platforme
                          </h2>
 
-                         <img src="../components/images/koutammakou.png" alt="" class="img-fluid image" id="img">
+                         <img src="../components/images/AACG.jpg" alt="" class="img-fluid image" id="img">
                          <h1 style="font-size: 25px">Recents Articles</h1>
                          <h2>
                               Kara Events Platforme
@@ -85,9 +106,11 @@
 
 <script>
      import PubPage from '@/components/partials/PubPage.vue'
+     import AnnoncePage from '@/components/ui/AnnoncePage.vue'
      export default {
           components: {
-               PubPage
+               PubPage,
+               AnnoncePage
           }
      }
 </script>

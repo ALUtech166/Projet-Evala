@@ -1,8 +1,8 @@
 <template>
   <div class="pub" data-aos="fade-right"  data-aos-duration="2000">
           <vue3-marquee :clone="true">
-          <p>Welcome to Kara Event</p> 
-          <p>Bienvenue à Kara</p>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><p>Welcome to Kara Event</p></a> 
+          <a href="http://" target="_blank" rel="noopener noreferrer"><p>Bienvenue à Kara</p></a>
           </vue3-marquee>
   </div>
 </template>
@@ -33,8 +33,13 @@
           font-size: 12px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
-          padding: 10px;
+          padding: 15px;
           font-weight: 500;
+          color: #fff;
+     }
+
+     a {
+          text-decoration: none;
      }
 
 
@@ -42,6 +47,8 @@
           border-radius: 5px;
           box-shadow: 0 5px 10px #0005;
           overflow: hidden;
+          background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
+
      }
 
 </style>

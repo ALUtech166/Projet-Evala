@@ -15,11 +15,11 @@
                     <form @submit.prevent="login">
                          <div class="mb-3">
                               <label for="email" class="form-label">Email *</label>
-                              <input type="email" class="form-control" id="email" v-model="form.email">
+                              <input type="email" class="form-control" id="email" v-model="email">
                          </div>
                          <div class="mb-3">
                               <label for="password" class="form-label">Mot de Passe *</label>
-                              <input type="password" class="form-control" id="password" v-model="form.password">
+                              <input type="password" class="form-control" id="password" v-model="password">
                          </div>
 
                          <div class="mb-3">
@@ -40,27 +40,32 @@
           name: "LoginView",
           data() {
                return {
-                    form: this.initForm()
+                    email: '',
+                    password: ''
                }
           },
 
           methods: {
-               login() {
-                    axios.post('http://karaevents.mekengroup.com/api/login', this.form).then((response) => {
-                         localStorage.setItem('token', response.data.access_token)
-                         this.$store.dispatch('user', response.data)
-                         this.$router.push('/')
-                    }).catch(error => {
-                         console.log(error)
-                    })
-               },
+               async login() {
+                   /*  const data = {
+                         email: this.email,
+                         password: this.password,
+                    } */
+                    const response = await axios.post('https://login-auth-d4155-default-rtdb.firebaseio.com/login.json', {
+                         email: this.email,
+                         password: this.password
+                    });
 
-               initForm() {
+                    console.log(response);
+                  
+
+             /*   initForm() {
                     return {
                          email: null,
                          password: null
                     }
-               }
+               } */
+          }
           }
      }
 </script>

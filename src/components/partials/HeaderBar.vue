@@ -132,7 +132,7 @@
           list-style: none;
           text-decoration: none;
           font-family: 'Josefin Sans', sans-serif;
-          padding: 15px;
+          padding: 10px;
           text-align: right;
           margin-right: 15px;
           

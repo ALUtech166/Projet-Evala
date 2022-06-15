@@ -277,7 +277,7 @@
      }
 
      .section-1 {
-          padding: 25vmin 0vmin;
+          padding: 75px 10px;
           background-image: linear-gradient(to right, #ffcc00ed, #006a4a);
      }
 
@@ -297,8 +297,8 @@
           left: -18vmin;
           background: white;
           border-radius: 3px;
-          text-align: left;
-          padding: 13vmin 5vmin 20vmin 10vmin;
+          text-align: center;
+          padding: 30px 25px 75px 50px;
           box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
           font-family: var(--Rubik);
           z-index: 1;

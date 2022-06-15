@@ -1,4 +1,5 @@
 <template>
+<annonce-page></annonce-page>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <div class="header">
     <h1 class="titre">ACCOMMODATION</h1>
@@ -168,11 +169,13 @@
 <script>
   import PubPage3 from '@/components/partials/PubPage3.vue'
    import PubPage4 from '@/components/partials/PubPage4.vue'
+   import AnnoncePage from '@/components/ui/AnnoncePage.vue';
   import AOS from "aos";
   export default {
     components: {
       PubPage3,
-      PubPage4
+      PubPage4,
+      AnnoncePage
 
     },
     setup() {
