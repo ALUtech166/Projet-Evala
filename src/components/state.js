@@ -29,8 +29,8 @@ export default createStore({
   },
 
   actions: {
-    user(context, data) {
-      context.commit('user', data)
+    login(context, data) {
+      
     }
   },
 
