@@ -7,7 +7,7 @@
       <div class="login-popup">
         <div class="box">
           <div class="container">
-            <img src="./components/images/pub.jpg" alt="" class="img-fluid">
+            <img src="./components/images/Faure-tg.jpg" alt="" class="img-fluid">
           </div>
           <div class="form">
             <div class="close">&times;</div>
@@ -55,9 +55,9 @@
       window.addEventListener("load", function () {
 
         showPopup();
-        setTimeout(function(){
-        loginPopup.classList.add("show");
-        },5000)
+        setTimeout(function () {
+          loginPopup.classList.add("show");
+        }, 5000)
 
       })
 
@@ -89,17 +89,6 @@
 <style>
   @import './global-style.css';
 
-
-  body {
-    font-family: sans-serif;
-    margin: 0;
-    line-height: 1.5;
-  }
-
-  * {
-    box-sizing: border-box;
-    margin: 0;
-  }
 
   .login-popup {
     position: fixed;
@@ -174,7 +163,7 @@
     100% {
       transform: scale(5);
     }
-    
+
 
     50% {
       transform: scale(2);

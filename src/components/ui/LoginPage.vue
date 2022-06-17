@@ -15,15 +15,16 @@
                     <form @submit.prevent="login">
                          <div class="mb-3">
                               <label for="email" class="form-label">Email *</label>
-                              <input type="email" class="form-control" id="email" v-model="email">
+                              <input type="email" class="form-control" id="email" v-model="form.email">
                          </div>
                          <div class="mb-3">
                               <label for="password" class="form-label">Mot de Passe *</label>
-                              <input type="password" class="form-control" id="password" v-model="password">
+                              <input type="password" class="form-control" id="password" v-model="form.password">
                          </div>
 
                          <div class="mb-3">
-                              vous avez pas encore un compte? creer ton compte <a href="/register"  rel="noopener noreferrer">ici</a>
+                              vous avez pas encore un compte? creer ton compte <a href="/register"
+                                   rel="noopener noreferrer">ici</a>
                          </div>
                          <button type="submit" class="btn btn-warning w-100">Login</button>
                     </form>
@@ -40,34 +41,29 @@
           name: "LoginView",
           data() {
                return {
-                    email: '',
-                    password: ''
+                    form: this.initForm()
                }
           },
 
           methods: {
-               async login() {
-                   /*  const data = {
-                         email: this.email,
-                         password: this.password,
-                    } */
-                    const response = await axios.post('api/login', {
-                         email: this.email,
-                         password: this.password
-                    });
+               login() {
+                    axios.post('api/login', this.form).then((response) => {
+                         localStorage.setItem('token', response.data.access_token)
+                         this.$router.push('/')
+                    }).catch(error => {
+                         console.log(error)
+                    })
+               },
 
-                    console.log(response);
-                  
-
-             /*   initForm() {
+               initForm() {
                     return {
                          email: null,
                          password: null
                     }
-               } */
-          }
+               }
           }
      }
+     
 </script>
 
 <style scoped>
@@ -102,9 +98,9 @@
      }
 
      h2 {
-         font-family: 'Jost';
-         text-align: center; 
-         padding: 10px;
+          font-family: 'Jost';
+          text-align: center;
+          padding: 10px;
      }
 
      .header {

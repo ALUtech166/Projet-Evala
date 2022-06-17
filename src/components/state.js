@@ -22,6 +22,7 @@ export default createStore({
     }
   },
 
+ 
   getters: {
     user(state) {
       return state.user
@@ -29,11 +30,9 @@ export default createStore({
   },
 
   actions: {
-    login(context, data) {
-      context.commit('login', data)
-      
+    user(context, data) {
+      context.commit('user', data)
     }
-
   },
 
   mutations: {

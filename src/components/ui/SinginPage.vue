@@ -9,7 +9,7 @@
      <div class="login">
           <div class="form-signin">
                <div class="container">
-                     <h2 class="tit">S'inscrire</h2>
+                    <h2 class="tit">S'inscrire</h2>
 
 
                     <form @submit.prevent="register" method="post">
@@ -17,15 +17,15 @@
                               <label for="name" class="form-label">Nom*</label>
                               <input type="text" class="form-control" id="name" v-model="form.name">
                          </div>
-                          <div class="mb-3">
+                         <div class="mb-3">
                               <label for="name" class="form-label">Prenom*</label>
                               <input type="text" class="form-control" id="name" v-model="form.prenom">
                          </div>
-                          <div class="mb-3">
+                         <div class="mb-3">
                               <label for="email" class="form-label">Email*</label>
                               <input type="email" class="form-control" id="email" v-model="form.email">
                          </div>
-                          <div class="mb-3">
+                         <div class="mb-3">
                               <label for="number" class="form-label">Telephone*</label>
                               <input type="number" class="form-control" id="number" v-model="form.telephone">
                          </div>

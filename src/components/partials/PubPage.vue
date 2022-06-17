@@ -1,13 +1,12 @@
 <template>
-     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"  data-aos="zoom-in"
-     data-aos-easing="linear"
-     data-aos-duration="3000">
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in"
+          data-aos-easing="linear" data-aos-duration="3000">
           <div class="carousel-inner">
                <div class="carousel-item active">
                     <div class="banner-container">
 
-                          <div class="banner">
-                             <img clas="img-fluid" src="../images/pub.jpg" alt="">
+                         <div class="banner">
+                              <img clas="img-fluid" src="../images/pub.jpg" alt="">
                          </div>
 
                     </div>
@@ -16,7 +15,7 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                             <img clas="img-fluid" src="../images/AACG.jpg" alt="">
+                              <img clas="img-fluid" src="../images/Accg.jpg" alt="">
                          </div>
 
                     </div>
@@ -25,7 +24,7 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                             <img clas="img-fluid" src="../images/k-e.jpg" alt="">
+                              <img clas="img-fluid" src="../images/k-e.jpg" alt="">
                          </div>
 
                     </div>
@@ -45,9 +44,9 @@
 </template>
 
 <script>
-import AOS from "aos";
+     import AOS from "aos";
      export default {
-           setup() {
+          setup() {
                AOS.init();
 
           },
