@@ -25,12 +25,12 @@
     </div>
 
     <div class="acc" data-aos="flip-right" data-aos-duration="3000">
-      <div class="header-search">
+      <!-- <div class="header-search">
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Recherche</button>
         </form>
-      </div>
+      </div> -->
       <div class="row" id="items">
         <div class="col-lg-3">
 

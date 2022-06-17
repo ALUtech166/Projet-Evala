@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.css';
+import axios from 'axios'
 
 
 
@@ -15,6 +16,10 @@ createApp(App).use(TawkMessengerVue, {
     propertyId : 'property_id',
     widgetId : 'widget_id'
 });
+
+
+axios.defaults.baseURL = 'http://karaevents.mekengroup.com/'
+axios.defaults.headers.common['Authorization'] = 'Bearer ' + localStorage.getItem('token')
 
 import '@fortawesome/fontawesome-free/js/all'
 createApp(App).use(router).mount('#app')

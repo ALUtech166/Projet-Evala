@@ -51,7 +51,7 @@
                          email: this.email,
                          password: this.password,
                     } */
-                    const response = await axios.post('https://karaevents.mekengroup.com/api/login', {
+                    const response = await axios.post('api/login', {
                          email: this.email,
                          password: this.password
                     });

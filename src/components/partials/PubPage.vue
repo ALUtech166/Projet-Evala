@@ -7,7 +7,7 @@
                     <div class="banner-container">
 
                           <div class="banner">
-                             <img clas="img-fluid" src="../images/2k-e.jpg" alt="">
+                             <img clas="img-fluid" src="../images/pub.jpg" alt="">
                          </div>
 
                     </div>

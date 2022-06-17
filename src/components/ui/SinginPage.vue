@@ -58,7 +58,7 @@
           },
           methods: {
                register() {
-                    axios.post('http://karaevents.mekengroup.com/api/register', this.form).then(() => {
+                    axios.post('api/register', this.form).then(() => {
                          this.form = this.initForm()
                          this.$router.push('/login')
                     }).catch(error => {

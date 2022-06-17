@@ -150,51 +150,18 @@
 
                               </tr>
                          </thead>
-                         <tbody>
-                              <tr>
-                                   <th scope="row">12 / 06 / 2022 <br>
-                                        HODO - LUNDI
+                         <tbody v-if="canton && canton.length">
+                              <tr v-for="cat of canton" :key="cat.id">
+                                   <th scope="row">{{ cat.nom_canton }}
 
                                    </th>
-                                   <td>08H00</td>
+                                   <td> {{ cat.description_canton }}</td>
                                    <td>PYA <em>contre</em> TCHITCHAO</td>
                                    <td><em>SCORE</em></td>
 
                               </tr>
 
-                              <tr>
-                                   <th scope="row">12 / 06 / 2022 <br>
-                                        HODO - LUNDI
-
-                                   </th>
-                                   <td>08H00</td>
-                                   <td>PYA <em>contre</em> TCHITCHAO</td>
-                                   <td><em>SCORE</em></td>
-
-                              </tr>
-
-                              <tr>
-                                   <th scope="row">12 / 06 / 2022 <br>
-                                        HODO - LUNDI
-
-                                   </th>
-                                   <td>08H00</td>
-                                   <td>PYA <em>contre</em> TCHITCHAO</td>
-                                   <td><em>SCORE</em></td>
-
-                              </tr>
-
-                              <tr>
-                                   <th scope="row">12 / 06 / 2022 <br>
-                                        HODO - LUNDI
-
-                                   </th>
-                                   <td>08H00</td>
-                                   <td>PYA <em>contre</em> TCHITCHAO</td>
-                                   <td><em>SCORE</em></td>
-
-                              </tr>
-
+                             
 
                          </tbody>
                     </table>
@@ -208,10 +175,30 @@
 <script>
      import PubPage from '@/components/partials/PubPage.vue'
      import AnnoncePage from '@/components/ui/AnnoncePage.vue'
+     import axios from 'axios'
      export default {
           components: {
                PubPage,
                AnnoncePage
+          },
+          data() {
+               return {
+                    canton: [],
+                    errors: []
+               }
+          },
+
+          // Fetches posts when the component is created.
+          created(data) {
+               axios.get(`api/canton`)
+                    .then(response => {
+                         // JSON responses are automatically parsed.
+                         this.canton = response.data
+                         console.log(data)
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+               })
           }
      }
 </script>

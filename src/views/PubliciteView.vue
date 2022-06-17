@@ -19,7 +19,7 @@
                     <h1>Formulaire de Pub</h1>
                </div>
                <div class="container">
-                    <form @submit="submitData" method="post">
+                    <form @submit.prevent="submitData" method="post">
                          <div class="input-group input-group-lg">
                               <span class="input-group-text" id="inputGroup-sizing-lg">Nom de la Société</span>
                               <input type="text" class="form-control" aria-label="Sizing example input"
@@ -73,32 +73,34 @@
      export default {
           data() {
                return {
-                    form: {
-                         nom_socite: '',
-                         photo_publicite: '',
-                         description_publicite: '',
-                         date_debut_publicite: '',
-                         date_fin_publicite: ''
-                    }
+                    nom_socite: '',
+                    photo_publicite: '',
+                    description_publicite: '',
+                    type_publicite: '',
+                    date_debut_publicite: '',
+                    date_fin_publicite: ''
+
 
                }
           },
 
 
           methods: {
-               submitData() {
-                    axios.post('http://karaevents.mekengroup.com/api/pub', this.form)
-                         .then((res) => {
-                              //Perform Success Action
-                              console.log(res)
-                         })
-                         .catch((error) => {
-                              // error.response.status Check status code
-                              console.log(error)
-                         }).finally(() => {
-                              //Perform action in always
-                         });
+
+               async submitData() {
+
+                    const response = await axios.post('api/pub', {
+                         nom_socite: this.nom_socite,
+                         photo_publicite: this.photo_publicite,
+                         description_publicite: this.description_publicite,
+                         date_debut_publicite: this.date_debut_publicite,
+                         date_fin_publicite: this.date_fin_publicite,
+                         type_publicite: this.type_publicite
+                    });
+
+                    console.log(response);
                }
+
           },
 
      }

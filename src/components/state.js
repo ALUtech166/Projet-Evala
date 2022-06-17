@@ -30,8 +30,10 @@ export default createStore({
 
   actions: {
     login(context, data) {
+      context.commit('login', data)
       
     }
+
   },
 
   mutations: {
