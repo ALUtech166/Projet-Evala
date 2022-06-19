@@ -1,5 +1,5 @@
 <template>
-
+ <header-bar></header-bar>
      <div class="header">
           <div class="titre">
                <h1>Album <span>Evala</span></h1>
@@ -67,8 +67,11 @@
 </template>
 
 <script>
+       import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
-
+          components: {
+               HeaderBar
+          }
      }
 </script>
 

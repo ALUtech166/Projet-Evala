@@ -1,4 +1,7 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import {
+  createRouter,
+  createWebHistory
+} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
 import KozahView from "../views/KozahView.vue";
@@ -28,12 +31,37 @@ import ReservationHotel from '@/components/Hotels/ReservationHotel.vue';
 import MapPage from '@/components/Hotels/MapPage.vue';
 import LoginPage from '@/components/ui/LoginPage.vue';
 import SinginPage from '@/components/ui/SinginPage.vue';
+import UserView from '@/components/layout/UserView.vue';
+import ArticleView from '@/components/layout/ArticleView.vue';
+import SocieteView from '@/components/layout/SocieteView.vue';
+import CheckoutView from '@/components/layout/CheckoutView.vue';
 
 
-const routes = [
+const routes = [{
+    path: '/user-profile',
+    name: 'User',
+    component: UserView,
+   
+  },
+  {
+    path: '/article',
+    name: 'Article',
+    component: ArticleView
+  },
+  {
+    path: '/checkout',
+    name: 'Checkout',
+    component: CheckoutView
+  },
+  {
+    path: '/societe',
+    name: 'Societe',
+    component: SocieteView
+  },
+
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
   {
@@ -57,7 +85,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import( /* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
     path: '/hotel',
@@ -149,7 +177,7 @@ const routes = [
     name: 'album-haby',
     component: AlbumHabye
   },
-  
+
   {
     path: '/evala',
     name: 'evala',
@@ -165,7 +193,7 @@ const routes = [
     name: 'habye',
     component: HabyeView
   },
-  
+
   {
     path: '/kozah',
     name: 'kozah',

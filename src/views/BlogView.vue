@@ -1,4 +1,5 @@
 <template>
+<header-bar></header-bar>
 <annonce-page></annonce-page>
      <div class="header">
           <h1 class="titre">Actualités</h1>
@@ -107,10 +108,12 @@
 <script>
      import PubPage from '@/components/partials/PubPage.vue'
      import AnnoncePage from '@/components/ui/AnnoncePage.vue'
+     import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
           components: {
                PubPage,
-               AnnoncePage
+               AnnoncePage,
+               HeaderBar
           }
      }
 </script>

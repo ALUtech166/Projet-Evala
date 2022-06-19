@@ -1,4 +1,5 @@
 <template>
+<header-bar></header-bar>
      <div class="header">
           <h1 class="titre" style="font-size:25px">
                Se Connecter
@@ -36,6 +37,7 @@
 
 <script>
      import axios from "axios";
+     import HeaderBar from "../partials/HeaderBar.vue";
 
      export default {
           name: "LoginView",
@@ -45,11 +47,15 @@
                }
           },
 
+          components: {
+               HeaderBar
+          },
+
           methods: {
                login() {
                     axios.post('api/login', this.form).then((response) => {
                          localStorage.setItem('token', response.data.access_token)
-                         this.$router.push('/')
+                         this.$router.push('/user-profile')
                     }).catch(error => {
                          console.log(error)
                     })

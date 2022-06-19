@@ -1,5 +1,5 @@
 <template>
-
+     <header-bar></header-bar>
      <div class="header">
           <div class="titre">
                <h1>Photo <span>Gallery</span></h1>
@@ -24,7 +24,8 @@
                          <div class="collapse navbar-collapse" id="navbarNav">
                               <ul class="navbar-nav">
                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="/album-evala">Album Evala</a>
+                                        <a class="nav-link active" aria-current="page" href="/album-evala">Album
+                                             Evala</a>
                                    </li>
                                    <li class="nav-item">
                                         <a class="nav-link" href="#">Album Akpema</a>
@@ -70,8 +71,11 @@
 </template>
 
 <script>
+     import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
-
+          components: {
+               HeaderBar
+          }
      }
 </script>
 

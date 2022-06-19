@@ -1,4 +1,5 @@
 <template>
+  <header-bar></header-bar>
   <div class="kozah">
     <div class="header">
       <h1 class="titre" style="font-size:25px">
@@ -21,7 +22,7 @@
 
     <div class="list-hotel">
       <h1>Les Boites de Nuits</h1>
-       <div class="header-search">
+      <div class="header-search">
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Recherche</button>
@@ -155,8 +156,11 @@
 </template>
 
 <script>
+  import HeaderBar from '@/components/partials/HeaderBar.vue'
   export default {
-
+    components: {
+      HeaderBar
+    }
   }
 </script>
 

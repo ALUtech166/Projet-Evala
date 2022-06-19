@@ -1,5 +1,5 @@
 <template>
-
+     <header-bar></header-bar>
      <div class="header">
           <h1 class="titre" style="font-size:25px">
                S'inscrire
@@ -48,13 +48,16 @@
 
 <script>
      import axios from 'axios'
-
+     import HeaderBar from '../partials/HeaderBar.vue'
      export default {
           name: "RegisterView",
           data() {
                return {
                     form: this.initForm()
                }
+          },
+          components: {
+               HeaderBar
           },
           methods: {
                register() {

@@ -1,5 +1,5 @@
 <template>
-
+     <header-bar></header-bar>
      <div class="pub">
           <div class="header">
                <h1 class="titre">Lancer une Publication</h1>
@@ -70,7 +70,12 @@
 
 <script>
      import axios from 'axios';
+     import HeaderBar from '@/components/partials/HeaderBar.vue';
      export default {
+
+          components: {
+               HeaderBar
+          },
           data() {
                return {
                     nom_socite: '',

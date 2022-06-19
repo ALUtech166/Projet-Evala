@@ -1,4 +1,5 @@
 <template>
+  <header-bar></header-bar>
   <div class="kozah">
     <div class="header">
       <h1 class="titre" style="font-size:25px">
@@ -39,7 +40,8 @@
                 bulk of the card's
                 content.
               </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -54,7 +56,8 @@
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
-                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -69,7 +72,8 @@
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
-                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -90,7 +94,8 @@
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
-                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -105,7 +110,8 @@
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
-                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -120,7 +126,8 @@
               <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
                 bulk of the card's
                 content.</p>
-                <a type="button" class="btn btn-success" href="">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                  class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -141,8 +148,11 @@
 </template>
 
 <script>
+  import HeaderBar from '@/components/partials/HeaderBar.vue'
   export default {
-
+    components: {
+      HeaderBar
+    }
   }
 </script>
 
@@ -151,7 +161,8 @@
     transform: translateY(35px);
     transition: 1s ease-in-out;
   }
-   .btn {
+
+  .btn {
     text-decoration: none;
     border-radius: 13px;
     font-size: 10px;
@@ -168,6 +179,7 @@
     padding: 2rem;
 
   }
+
   #a {
     color: #006A4A;
   }
@@ -178,7 +190,7 @@
 
   a {
     text-decoration: none;
-    
+
   }
 
   .icon {

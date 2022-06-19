@@ -80,6 +80,7 @@
 </script>
 
 <style scoped>
+
      nav {
           background-color: #006A4A;
           background-color: transparent;

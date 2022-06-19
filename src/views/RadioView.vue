@@ -1,4 +1,6 @@
 <template>
+
+     <header-bar></header-bar>
      <div class="kozah">
           <div class="header">
                <h1 class="titre" style="font-size:25px">
@@ -179,10 +181,13 @@
 </template>
 
 <script>
+     import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
-
+          components: {
+               HeaderBar
+          }
      }
-</script>a
+</script>
 
 <style scoped>
      .bread {
@@ -238,7 +243,7 @@
 
      .list-pub {
           max-width: 100%;
-          
+
           text-align: center;
           border-radius: 25px;
           border: 2px solid yellow;
@@ -295,7 +300,7 @@
           text-align: center;
      }
 
-    
+
      .header {
           height: 30vh;
           background-image: linear-gradient(to right bottom,
@@ -384,5 +389,4 @@
            }
 
      } */
-
 </style>

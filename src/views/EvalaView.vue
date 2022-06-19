@@ -1,5 +1,6 @@
 <template>
-<annonce-page></annonce-page>
+     <header-bar></header-bar>
+     <annonce-page></annonce-page>
      <div class="kozah">
           <div class="header">
                <h1 class="titre" style="font-size:25px">
@@ -161,7 +162,7 @@
 
                               </tr>
 
-                             
+
 
                          </tbody>
                     </table>
@@ -175,11 +176,13 @@
 <script>
      import PubPage from '@/components/partials/PubPage.vue'
      import AnnoncePage from '@/components/ui/AnnoncePage.vue'
+     import HeaderBar from '@/components/partials/HeaderBar.vue'
      import axios from 'axios'
      export default {
           components: {
                PubPage,
-               AnnoncePage
+               AnnoncePage,
+               HeaderBar
           },
           data() {
                return {
@@ -198,7 +201,7 @@
                     })
                     .catch(e => {
                          this.errors.push(e)
-               })
+                    })
           }
      }
 </script>
@@ -255,7 +258,7 @@
           border-radius: 12px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
           padding: 1px;
-          
+
           font-family: 'Jost', sans-serif;
           border: 2px solid black;
      }

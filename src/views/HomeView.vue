@@ -1,5 +1,5 @@
 <template>
-
+  <header-bar></header-bar>
   <annonce-page></annonce-page>
   <slider-bar></slider-bar>
   <br>
@@ -21,12 +21,12 @@
         <p>vs</p>
         <h3>LANDA</h3>
       </div>
-       <div class="yellow-box">
+      <div class="yellow-box">
         <h3>LAMA</h3>
         <p>vs</p>
         <h3>SARAKAWA</h3>
       </div>
-       <div class="yellow-box">
+      <div class="yellow-box">
         <h3>DJAMDE</h3>
         <p>vs</p>
         <h3>YAKA</h3>
@@ -44,6 +44,7 @@
 </template>
 
 <script>
+  import HeaderBar from '../components/partials/HeaderBar.vue'
   import SliderBar from '../components/partials/SliderBar.vue'
   import WelcomeView from '../components/ui/WelcomeView.vue'
   import PubPage from '@/components/partials/PubPage.vue'
@@ -62,7 +63,8 @@
       PubPage,
       PubPage2,
       CategoryPage,
-      AnnoncePage
+      AnnoncePage,
+      HeaderBar
 
     }
   }
@@ -113,5 +115,4 @@
   p {
     text-align: center;
   }
-
 </style>

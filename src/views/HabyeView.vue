@@ -1,4 +1,5 @@
 <template>
+     <header-bar></header-bar>
      <annonce-page></annonce-page>
      <div class="header">
           <h1 class="titre">Habyé</h1>
@@ -78,9 +79,11 @@
 
 <script>
      import AnnoncePage from '@/components/ui/AnnoncePage.vue'
+     import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
           components: {
-               AnnoncePage
+               AnnoncePage,
+               HeaderBar
           }
 
      }

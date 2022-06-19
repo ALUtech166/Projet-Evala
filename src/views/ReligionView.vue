@@ -1,4 +1,5 @@
 <template>
+     <header-bar></header-bar>
      <div class="kozah">
           <div class="header">
                <h1 class="titre" style="font-size:25px">
@@ -148,8 +149,11 @@
 </template>
 
 <script>
+     import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
-
+          components: {
+               HeaderBar
+          }
      }
 </script>
 

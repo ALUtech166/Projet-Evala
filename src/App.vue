@@ -1,7 +1,7 @@
 <template>
 
   <div class="container-fluid">
-    <header-bar></header-bar>
+    
     <div class="app">
 
       <div class="login-popup">
@@ -28,7 +28,7 @@
 </template>
 
 <script>
-  import HeaderBar from './components/partials/HeaderBar.vue'
+  
   import FooterBar from './components/partials/FooterBar.vue'
   import {
     mapGetters
@@ -38,7 +38,6 @@
 
   export default {
     components: {
-      HeaderBar,
       FooterBar
 
     },
@@ -149,7 +148,6 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../public/2.jpg');
     background-size: cover;
     background-position: center;
     animation: zoomInOut 7s linear infinite;
