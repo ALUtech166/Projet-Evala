@@ -70,7 +70,7 @@
 
 
                <div class="" style="text-align: right">
-                    <button type="button" class="btn btn-danger">Quitter</button>
+                    <button type="button" class="btn btn-danger" @click.prevent="logout">Quitter</button>
 
                </div>
 
@@ -81,7 +81,7 @@
 </template>
 
 <script>
-    import BaseCard from "../ui/BaseCard.vue"
+     import BaseCard from "../ui/BaseCard.vue"
      import SidebarMenu from "../SideBar/SidebarMenu.vue"
 
      import {
@@ -96,6 +96,13 @@
           setup() {
                return {
                     sidebarWidth
+               }
+          },
+
+          methods: {
+               logout() {
+                    localStorage.removeItem('token')
+                    this.$router.push('/login')
                }
           }
      }

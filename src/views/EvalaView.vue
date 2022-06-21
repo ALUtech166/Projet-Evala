@@ -23,112 +23,20 @@
                          </tr>
                     </thead>
 
-                    <tbody>
-                         <tr>
-                              <th scope="row">09 / 07 / 2022 <br>
-                                   <b>SAMEDI</b>
-
+                    <tbody v-if="program && program.length">
+                         <tr v-for="pro of program" :key="pro.id">
+                              <th scope="row"> 
+                                   {{ pro.date_programme}}
                               </th>
-                              <td>08H00</td>
-                              <td>Ouverture à Pya Kaganlada</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
+                              <td>{{ pro.heure_programme}}</td>
+                              <td>{{ pro.match_programme}}</td>
+                              <td><a href="{{ pro.lieu_programme }}" target="_blank"><i
                                              class="icons fa-solid fa-location-dot"></i></a></td>
 
 
                          </tr>
 
-                         <tr>
-                              <th scope="row">10 / 07 / 2022 <br>
-                                   <b>DIMACHE</b>
-
-                              </th>
-                              <td>08H00</td>
-                              <td>Demi finale Tchitchao en presence du PR</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
-                                             class="icons fa-solid fa-location-dot"></i></a></td>
-
-
-                         </tr>
-
-
-
-                         <tr>
-                              <th scope="row">11 / 07 / 2022 <br>
-                                   <b>LUNDI</b>
-
-                              </th>
-                              <td>08H00</td>
-                              <td>Finale de Tchitchao, Danses à Pya Hodo</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
-                                             class="icons fa-solid fa-location-dot"></i></a></td>
-
-
-                         </tr>
-
-
-                         <tr>
-                              <th scope="row">12 / 07 / 2022 <br>
-                                   <b>MARDI</b>
-
-                              </th>
-                              <td>08H00</td>
-                              <td>Finale de Yadé</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
-                                             class="icons fa-solid fa-location-dot"></i></a></td>
-
-
-                         </tr>
-
-                         <tr>
-                              <th scope="row">13 / 07 / 2022 <br>
-                                   <b>MERCREDI</b>
-
-                              </th>
-                              <td>08H00</td>
-                              <td>Finale de Bohou</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
-                                             class="icons fa-solid fa-location-dot"></i></a></td>
-
-
-                         </tr>
-
-                         <tr>
-                              <th scope="row">14 / 07 / 2022 <br>
-                                   <b>JEUDI</b>
-
-                              </th>
-                              <td>08H00</td>
-                              <td>Finale de Pya, Sarakawa et Yaka</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
-                                             class="icons fa-solid fa-location-dot"></i></a></td>
-
-
-                         </tr>
-
-                         <tr>
-                              <th scope="row">15 / 07 / 2022 <br>
-                                   <b>VENDREDI</b>
-
-                              </th>
-                              <td>08H00</td>
-                              <td>Finale de Kouméa, Lama, Landa, Djamdé</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
-                                             class="icons fa-solid fa-location-dot"></i></a></td>
-
-
-                         </tr>
-                         <tr>
-                              <th scope="row">16 / 07 / 2022 <br>
-                                   <b>SAMEDI</b>
-
-                              </th>
-                              <td>08H00</td>
-                              <td>Finale de Tcharé, Soumdina, Lassa</td>
-                              <td><a href="https://goo.gl/maps/P73HYaJUvBQnwKZHA" target="_blank"><i
-                                             class="icons fa-solid fa-location-dot"></i></a></td>
-
-
-                         </tr>
+                        
                     </tbody>
                </table>
 
@@ -136,7 +44,7 @@
 
           </div>
           <pub-page></pub-page>
-          <div class="past">
+         <!--  <div class="past">
                <h1>évenements passés</h1>
                <br>
                <div class="">
@@ -151,12 +59,12 @@
 
                               </tr>
                          </thead>
-                         <tbody v-if="canton && canton.length">
-                              <tr v-for="cat of canton" :key="cat.id">
-                                   <th scope="row">{{ cat.nom_canton }}
+                         <tbody>
+                              <tr>
+                                   <th scope="row">
 
                                    </th>
-                                   <td> {{ cat.description_canton }}</td>
+                                   <td> </td>
                                    <td>PYA <em>contre</em> TCHITCHAO</td>
                                    <td><em>SCORE</em></td>
 
@@ -169,7 +77,7 @@
                </div>
 
           </div>
-          <pub-page></pub-page>
+          <pub-page></pub-page> -->
      </div>
 </template>
 
@@ -186,17 +94,17 @@
           },
           data() {
                return {
-                    canton: [],
+                    program: [],
                     errors: []
                }
           },
 
           // Fetches posts when the component is created.
           created(data) {
-               axios.get(`api/canton`)
+               axios.get(`api/programme_evenement`)
                     .then(response => {
                          // JSON responses are automatically parsed.
-                         this.canton = response.data
+                         this.program = response.data
                          console.log(data)
                     })
                     .catch(e => {

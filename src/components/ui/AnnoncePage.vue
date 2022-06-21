@@ -3,6 +3,8 @@
           <vue3-marquee :clone="true">
           <a href="http://" target="_blank" rel="noopener noreferrer"><p>Welcome to Kara Event</p></a> 
           <a href="http://" target="_blank" rel="noopener noreferrer"><p>Bienvenue à Kara</p></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><p>Kabtè Kara daa</p></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><p>Woezon va Kara</p></a>
           </vue3-marquee>
   </div>
 </template>
@@ -30,12 +32,12 @@
 <style scoped>
 
      p {
-          font-size: 12px;
+          font-size: 20px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
           padding: 15px;
           font-weight: 500;
-          color: #fff;
+          color: #000;
      }
 
      a {
@@ -47,7 +49,7 @@
           border-radius: 5px;
           box-shadow: 0 5px 10px #0005;
           overflow: hidden;
-          background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
+          background-image: linear-gradient(to right, #ffcc00, #ffcc00);
 
      }
 

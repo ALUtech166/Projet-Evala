@@ -88,13 +88,15 @@
                               Kara Events Platforme
                          </h2>
                     </div>
-
+                    <br>
                     <div class="recent">
-                         <pub-page></pub-page>
+                         <pub-blog></pub-blog>
                     </div>
+                    <br>
                     <div class="recent">
-                         <img src="../components/images/4.jpg" class="img-fluid" alt="">
+                         <img src="../components/images/MAYI.jpg" class="img-fluid" alt="">
                     </div>
+                  
                </div>
 
           </div>
@@ -106,14 +108,15 @@
 </template>
 
 <script>
-     import PubPage from '@/components/partials/PubPage.vue'
+     import PubBlog from '@/components/partials/PubBlog.vue'
      import AnnoncePage from '@/components/ui/AnnoncePage.vue'
      import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
           components: {
-               PubPage,
+               
                AnnoncePage,
-               HeaderBar
+               HeaderBar,
+               PubBlog
           }
      }
 </script>

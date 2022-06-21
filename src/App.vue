@@ -4,7 +4,7 @@
     
     <div class="app">
 
-      <div class="login-popup">
+      <div class="login-popup close">
         <div class="box">
           <div class="container">
             <img src="./components/images/Faure-tg.jpg" alt="" class="img-fluid">
@@ -50,18 +50,17 @@
       const loginPopup = document.querySelector(".login-popup");
       const close = document.querySelector(".close");
 
-
       window.addEventListener("load", function () {
 
         showPopup();
         setTimeout(function () {
           loginPopup.classList.add("show");
-        }, 5000)
+        }, 1000)
 
       })
 
       function showPopup() {
-        const timeLimit = 1 // seconds;
+        const timeLimit = 0 // seconds;
         let i = 0;
         const timer = setInterval(function () {
           i++;
@@ -70,7 +69,7 @@
             loginPopup.classList.add("show");
           }
           console.log(i)
-        }, 1000);
+        }, 5000);
       }
 
 

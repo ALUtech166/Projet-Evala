@@ -15,29 +15,34 @@
                     <form @submit.prevent="register" method="post">
                          <div class="mb-3">
                               <label for="name" class="form-label">Nom*</label>
-                              <input type="text" class="form-control" id="name" v-model="form.name">
+                              <input type="text" class="form-control" id="name" v-model="form.admin_nom" required>
                          </div>
                          <div class="mb-3">
                               <label for="name" class="form-label">Prenom*</label>
-                              <input type="text" class="form-control" id="name" v-model="form.prenom">
+                              <input type="text" class="form-control" id="name" v-model="form.admin_prenom" required>
                          </div>
                          <div class="mb-3">
                               <label for="email" class="form-label">Email*</label>
-                              <input type="email" class="form-control" id="email" v-model="form.email">
+                              <input type="email" class="form-control" id="email" v-model="form.email" required>
                          </div>
                          <div class="mb-3">
                               <label for="number" class="form-label">Telephone*</label>
-                              <input type="number" class="form-control" id="number" v-model="form.telephone">
+                              <input type="text" class="form-control" id="number" v-model="form.admin_telephone"
+                                   required>
+                         </div>
+                         <div class="mb-3">
+                              <label for="number" class="form-label">Role*</label>
+                              <select class="form-select" id="validationCustom04" v-model="form.admin_role" required>
+                                   <option selected disabled value="">Choose...</option>
+                                   <option>Utilisateur</option>
+                              </select>
                          </div>
                          <div class="mb-3">
                               <label for="password" class="form-label">Mot de Passe*</label>
-                              <input type="password" class="form-control" id="password" v-model="form.password">
+                              <input type="password" class="form-control" id="password" v-model="form.password"
+                                   required>
                          </div>
-                         <div class="mb-3">
-                              <label for="password_confirmation" class="form-label">Confirmer le Mot de Passe*</label>
-                              <input type="password" class="form-control" id="password_confirmation"
-                                   v-model="form.password_confirmation">
-                         </div>
+
                          <button type="submit" class="btn btn-warning w-100">Register</button>
                     </form>
                </div>
@@ -50,37 +55,38 @@
      import axios from 'axios'
      import HeaderBar from '../partials/HeaderBar.vue'
      export default {
-          name: "RegisterView",
           data() {
                return {
-                    form: this.initForm()
+                    form: {
+                         admin_nom: '',
+                         admin_prenom: '',
+                         email: '',
+                         admin_telephone: '',
+                         admin_role: '',
+                         password: ''
+                    }
+
                }
           },
           components: {
                HeaderBar
           },
+
           methods: {
                register() {
-                    axios.post('api/register', this.form).then(() => {
-                         this.form = this.initForm()
+                    axios.post('api/register', this.form).then((response) => {
+                         localStorage.setItem('token', response.data.access_token)
                          this.$router.push('/login')
                     }).catch(error => {
                          console.log(error)
                     })
-               },
-
-               initForm() {
-                    return {
-                         name: null,
-                         prenom: null,
-                         email: null,
-                         telephone: null,
-                         password: null,
-                         password_confirmation: null
-                    }
                }
+
+
           }
+
      }
+     
 </script>
 
 <style scoped>
