@@ -3,7 +3,6 @@
   <annonce-page></annonce-page>
   <slider-bar></slider-bar>
   <br>
-  <pub-page></pub-page>
   <div class="scores">
     <vue3-marquee :clone="true">
       <div class="yellow-box">
@@ -35,6 +34,8 @@
 
     </vue3-marquee>
   </div>
+  <br>
+  <pub-page></pub-page>
 
   <welcome-view></welcome-view>
   <pub-page2></pub-page2>

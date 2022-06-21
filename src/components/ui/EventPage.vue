@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
      <div class="a-propos">
           <div class="title">
                <h1>A propos des Evenements</h1>
@@ -355,4 +355,4 @@
 
 
      }
-</style>
+</style> -->
