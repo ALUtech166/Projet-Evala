@@ -31,7 +31,6 @@
         <h3>YAKA</h3>
       </div>
 
-
     </vue3-marquee>
   </div>
   <br>
@@ -78,9 +77,9 @@
   }
 
   .yellow-box {
-    border: 2px solid #FFCE00;
-    padding: 40px;
-    width: 100%;
+    border: 1px solid #FFCE00;
+    padding: 20px;
+    
 
   }
 

@@ -24,7 +24,17 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                              <img clas="img-fluid" src="../images/second.jpg" alt="">
+                              <img clas="img-fluid" src="../images/mayi-const.jpg" alt="">
+                         </div>
+
+                    </div>
+               </div>
+
+                <div class="carousel-item">
+                    <div class="banner-container">
+
+                         <div class="banner">
+                              <img clas="img-fluid" src="../images/FDKM1x.jpg" alt="">
                          </div>
 
                     </div>

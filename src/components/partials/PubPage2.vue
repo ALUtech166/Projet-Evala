@@ -1,11 +1,12 @@
 <template>
-     <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+     <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in"
+          data-aos-easing="linear" data-aos-duration="3000">
           <div class="carousel-inner">
                <div class="carousel-item active">
                     <div class="banner-container">
 
-                          <div class="banner">
-                             <img clas="img-fluid" src="../images/pub.jpg" alt="">
+                         <div class="banner">
+                              <img clas="img-fluid" src="../images/pub.jpg" alt="">
                          </div>
 
                     </div>
@@ -14,9 +15,8 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                             <img clas="img-fluid" src="../images/K.E.jpg" alt="">
+                              <img clas="img-fluid" src="../images/K.E.jpg" alt="">
                          </div>
-
 
                     </div>
                </div>
@@ -24,7 +24,17 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                             <img clas="img-fluid" src="../images/k-e.jpg" alt="">
+                              <img clas="img-fluid" src="../images/mayi-const.jpg" alt="">
+                         </div>
+
+                    </div>
+               </div>
+
+                <div class="carousel-item">
+                    <div class="banner-container">
+
+                         <div class="banner">
+                              <img clas="img-fluid" src="../images/FDKM1x.jpg" alt="">
                          </div>
 
                     </div>
@@ -44,8 +54,12 @@
 </template>
 
 <script>
+     import AOS from "aos";
      export default {
+          setup() {
+               AOS.init();
 
+          },
      }
 </script>
 
@@ -57,9 +71,8 @@
      }
 
      .banner-container .banner {
-          background: linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
           border-radius: 5px;
-          margin: 10px;
+          margin: 5px;
           display: flex;
           align-items: center;
           justify-content: center;

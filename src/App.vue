@@ -7,7 +7,7 @@
       <div class="login-popup close">
         <div class="box">
           <div class="container">
-            <img src="./components/images/Faure-tg.jpg" alt="" class="img-fluid">
+            <img src="./components/images/Faure-sm.jpg" alt="" class="img-fluid">
           </div>
           <div class="form">
             <div class="close">&times;</div>
@@ -99,6 +99,7 @@
     visibility: hidden;
     opacity: 0;
     transition: all 1s ease;
+    text-align: center;
   }
 
   .login-popup.show {
@@ -107,8 +108,7 @@
   }
 
   .login-popup .box {
-    background-color: #ffffff;
-    width: 750px;
+   
     position: absolute;
     left: 50%;
     top: 50%;
@@ -118,6 +118,7 @@
     opacity: 0;
     margin-left: 50px;
     transition: all 1s ease;
+    text-align: center;
 
   }
 
@@ -152,6 +153,8 @@
     animation: zoomInOut 7s linear infinite;
     z-index: -1;
 
+    text-align: center;
+
   }
 
   @keyframes zoomInOut {
@@ -184,7 +187,7 @@
     margin-bottom: 30px;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #cccccc;
+   
     font-size: 15px;
     color: #000000;
   }

@@ -39,7 +39,7 @@
           <img class="img-fluid image" src="../components/images/hotel-kara1.png" alt="">
           <div class="box1">
             <a href="/hotel">
-              <h2 style="color:green">Hotels</h2>
+              <h2 style="color:green">Les Hotels</h2>
             </a>
           </div>
         </div>
@@ -48,7 +48,7 @@
           <img class="img-fluid image" src="../components/images/place-victoire.png" alt="">
           <div class="box1">
             <a href="/bar-resto">
-              <h2 style="color:green">Bars & Restaurants</h2>
+              <h2 style="color:green">Les Bars & Restaurants</h2>
             </a>
           </div>
         </div>
@@ -57,7 +57,7 @@
           <img class="img-fluid image" src="../components/images/Photo20.png" alt="">
           <div class="box1">
             <a href="/tourisme">
-              <h2 style="color:green">Lieux Touristiques</h2>
+              <h2 style="color:green">Les Lieux Touristiques</h2>
             </a>
           </div>
         </div>
@@ -67,7 +67,7 @@
           <img class="img-fluid image" src="../components/images/lafia.png" alt="">
           <div class="box2">
             <a href="/pharmacie">
-              <h2 style="color:green">Pharmacies</h2>
+              <h2 style="color:green">Les Pharmacies</h2>
             </a>
           </div>
         </div>
@@ -85,7 +85,7 @@
           <img class="img-fluid image" src="../components/images/Photo18.png" alt="">
           <div class="box2">
             <a href="/boite">
-              <h2 style="color:green">Boites de nuits</h2>
+              <h2 style="color:green">Les Boites de nuits</h2>
             </a>
           </div>
         </div>
@@ -94,7 +94,7 @@
           <img class="img-fluid image" src="../components/images/vie.png" alt="">
           <div class="box2">
             <a href="/sante">
-              <h2 style="color:green">Centres de Santé</h2>
+              <h2 style="color:green"> Les Centres de Santé</h2>
             </a>
           </div>
         </div>
@@ -102,16 +102,16 @@
           <img class="img-fluid image" src="../components/images/Photo11.png" alt="">
           <div class="box2">
             <a href="/radio">
-              <h2 style="color:green">Fréquences de Radios</h2>
+              <h2 style="color:green">Les Fréquences de Radios</h2>
             </a>
           </div>
         </div>
 
         <div class="col-lg-3">
-          <img class="img-fluid image" src="../components/images/fazao.png" alt="">
+          <img class="img-fluid image" src="../components/images/bank.png" alt="">
           <div class="box2">
             <a href="/banque">
-              <h2 style="color:green">Agences de Banques</h2>
+              <h2 style="color:green">Les Agences de Banques</h2>
             </a>
           </div>
         </div>
@@ -128,7 +128,7 @@
           <img class="img-fluid image" src="../components/images/Photo32.png" alt="">
           <div class="box2">
             <a href="/marche">
-              <h2 style="color:green">Marchés</h2>
+              <h2 style="color:green">Les Marchés</h2>
             </a>
           </div>
         </div>
@@ -137,7 +137,7 @@
           <img class="img-fluid image" src="../components/images/Photo34.png" alt="">
           <div class="box2">
             <a href="/marche">
-              <h2 style="color:green">Supermarché</h2>
+              <h2 style="color:green">Les Supermarchés</h2>
             </a>
           </div>
         </div>
@@ -146,7 +146,7 @@
           <img class="img-fluid image" src="../components/images/Photo89.png" alt="">
           <div class="box2">
             <a href="/gym">
-              <h2 style="color:green">Centre de Bien etre</h2>
+              <h2 style="color:green">Les Centre de Bien etre</h2>
             </a>
           </div>
         </div>
@@ -156,6 +156,35 @@
           <div class="box2">
             <a href="/religion">
               <h2 style="color:green">Les Lieux Religieux</h2>
+            </a>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-3">
+          <img class="img-fluid image" src="../components/images/stationn_essence.png" alt="">
+          <div class="box2">
+            <a href="/station">
+              <h2 style="color:green">Les Stations d'essences</h2>
+            </a>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-3">
+          <img class="img-fluid image" src="../components/images/guichet.png" alt="">
+          <div class="box2">
+            <a href="/guichet">
+              <h2 style="color:green">Les Guichets Automatiques</h2>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="img-fluid image" src="../components/images/Telecommunication.png" alt="">
+          <div class="box2">
+            <a href="/guichet">
+              <h2 style="color:green">Les Télécommunications</h2>
             </a>
           </div>
         </div>

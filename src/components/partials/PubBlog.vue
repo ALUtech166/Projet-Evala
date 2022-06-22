@@ -26,7 +26,7 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                             
+                              <img src="../images/FDKM.jpg" class="img-fluid" alt="">  
                          </div>
 
                     </div>

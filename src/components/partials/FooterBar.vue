@@ -5,16 +5,21 @@
 
       <div class="col-lg-3">
         <a href="/"><img class="img-fluid" src="../images/blanc.png" alt="" width="200px"></a>
-        <br>
-        <p>C'est un portail d'ouverture sur les évenements
-          culturels de la préfecture de la Kozah</p>
 
+        <br>
         <div>
-          <a href="https://www.youtube.com/channel/UCClmJlh7QlZJXojYM_OqA3w"  target="blank"><i class="fab fa-youtube"></i></a>
+          <p>
+            C'est un portail d'ouverture sur les évenements
+            culturels de la préfecture de la Kozah
+
+          </p>
+          <a href="https://www.youtube.com/channel/UCClmJlh7QlZJXojYM_OqA3w" target="blank"><i
+              class="fab fa-youtube"></i></a>
           <a href="https://twitter.com/Karaeventstogo" target="blank"><i class="fab fa-twitter"></i></a>
           <a href="https://www.facebook.com/karaeventstogo" target="blank"><i class="fab fa-facebook"></i></a>
           <a href=""><i class="fab fa-instagram" target="blank"></i></a>
-          <a href="https://www.linkedin.com/company/kara-events/about/?viewAsMember=true" target="blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/company/kara-events/about/?viewAsMember=true" target="blank"><i
+              class="fab fa-linkedin"></i></a>
         </div>
       </div>
 
@@ -45,11 +50,11 @@
           <div class="row" id="items">
             <div class="col-lg-4">
 
-             <div class="" style="display:grid">
+              <div class="" style="display:grid">
                 <a href="/gallery"><img class="img-fluid image" src="../images/evala1.jpg" alt=""></a>
-                 <a href="/gallery"><img class="img-fluid image" src="../images/evala1.jpg" alt=""></a>
-                 
-             </div>
+                <a href="/gallery"><img class="img-fluid image" src="../images/evala1.jpg" alt=""></a>
+
+              </div>
 
             </div>
 
@@ -98,7 +103,7 @@
 
   a {
     justify-content: space-between;
-    padding: 1rem;
+    padding: 10px;
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -116,5 +121,6 @@
     text-align: justify;
     text-justify: inter-word;
     font-size: 18px;
+    margin: 10px;
   }
 </style>

@@ -5,7 +5,7 @@
                     aria-current="true" aria-label="Slide 1"></button>
                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
-                    
+
           </div>
           <div class="carousel-inner">
                <div class="carousel-item active">
@@ -27,16 +27,8 @@
                                         <h4>Le Mot du President de la Republique</h4>
 
                                         <p class="desc">
-                                             Chef-lieu de la préfecture de la Kozah et capitale de la région du même
-                                             nom, Kara est une
-                                             ville
-                                             en pleine expansion. Elle est devenue rapidement un centre moderne
-                                             d’administration et de
-                                             production dans le cadre des objectifs du gouvernement de créer des
-                                             infrastructures dans
-                                             toutes
-                                             les régions du pays.
-
+                                             L’industrie en Afrique est d’abord culturelle et touristique avant de
+                                             toucher la transformation des produits locaux
                                         </p>
 
 
@@ -114,13 +106,13 @@
 </script>
 
 <style scoped>
-  .home {
+     .home {
           padding: 50px;
           background-image: linear-gradient(to right, #006a4a, #FFCE00);
      }
 
 
-      hr.style-two {
+     hr.style-two {
           border: 10px solid white;
           border-radius: 15px;
           background-color: white;
@@ -147,7 +139,7 @@
      }
 
 
-       h3 {
+     h3 {
           font-size: 15px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
@@ -165,7 +157,4 @@
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
      }
-
-
-
 </style>
