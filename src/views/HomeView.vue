@@ -77,9 +77,13 @@
   }
 
   .yellow-box {
-    border: 1px solid #FFCE00;
+    border: 3px solid #FFCE00;
     padding: 20px;
-    
+    font-weight: bold;
+    color: black;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+
 
   }
 

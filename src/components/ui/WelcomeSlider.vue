@@ -26,10 +26,17 @@
                                         <h1><strong>Bienvenue à KARA</strong></h1><br>
                                         <h4>Le Mot du President de la Republique</h4>
 
-                                        <p class="desc">
+                                        <p class="quote">
+                                             <i class="fa-solid fa-quote-left"></i>
                                              L’industrie en Afrique est d’abord culturelle et touristique avant de
                                              toucher la transformation des produits locaux
+
+                                             <i class="fa-solid fa-quote-right"></i>
+                                             
                                         </p>
+
+                                        <br>
+                                        <h2><em>S.E.M Faure E. GNASSIMGBE</em></h2>
 
 
 
@@ -72,20 +79,7 @@
 
                                         </p>
 
-                                        <p class="desc">
-                                             La ville permet de rayonner vers les nombreux sites naturels et culturelles
-                                             de la région
-                                             dont
-                                             le paysage Koutammakou, classé au patrimoine mondiale de l’UNESCO. Kara
-                                             dispose d’une
-                                             importante structure hôtelière et de nombreux restaurants. D’un point de
-                                             vue touristique,
-                                             Kara
-                                             est centrale pour la visite de la region. C’est dans la région de la Kara
-                                             qu’on trouve un
-                                             des
-                                             groupes ethniques les plus nombreux du Togo, les Kabiyè.
-                                        </p>
+
 
                                    </div>
 
@@ -130,25 +124,40 @@
           border-radius: 10px;
      }
 
+     .desc,
+     .quote {
+          color: black;
+          text-align: justify;
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 19px;
+
+     }
+
+     .quote {
+          font-weight: bold;
+          margin: 15px;
+          font-size: 20px;
+     }
+
+
      h1 {
-          font-size: 25px;
+          font-size: 35px;
           font-weight: 600;
           font-family: 'Josefin Sans', sans-serif;
-          font-family: 'Jost', sans-serif;
-          color: #006A4A;
+          color: #000;
      }
 
 
      h3 {
           font-size: 15px;
           font-family: 'Josefin Sans', sans-serif;
-          font-family: 'Jost', sans-serif;
+          
      }
 
      p {
-          font-size: 15px;
+        
           font-family: 'Josefin Sans', sans-serif;
-          font-family: 'Jost', sans-serif;
+          
      }
 
 

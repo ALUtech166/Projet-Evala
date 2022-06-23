@@ -3,11 +3,7 @@
 
     <welcome-slider></welcome-slider>
  
-     <div class="video-pub" data-aos="fade-left" data-aos-duration="3000">
-
-          <div class="play-button">
-               <a href=""><img src="" class="img-fluid" alt=""></a>
-          </div>
+     <div class="video-pub" data-aos="zoom-in" data-aos-duration="2000">
 
           <div class="carou-sel">
                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -163,7 +159,7 @@
 
 
 
-     <div class="sub-welcome">
+     <!-- <div class="sub-welcome">
 
 
 
@@ -179,7 +175,7 @@
                </div>
 
           </div>
-     </div>
+     </div> -->
 
 </template>
 
@@ -304,10 +300,7 @@
 
      }
 
-     .play-button {
-          text-align: center;
-
-     }
+    
 
 
 
