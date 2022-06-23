@@ -35,13 +35,16 @@
           font-size: 20px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
-          padding: 15px;
           font-weight: 500;
           color: #000;
+          margin: 10px;
+          
      }
 
      a {
           text-decoration: none;
+          text-align: center;
+         
      }
 
 
