@@ -183,7 +183,7 @@
         <div class="col-lg-3">
           <img class="img-fluid image" src="../components/images/Telecommunication.png" alt="">
           <div class="box2">
-            <a href="/guichet">
+            <a href="/telecom">
               <h2 style="color:green">Les Télécommunications</h2>
             </a>
           </div>

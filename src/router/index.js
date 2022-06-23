@@ -35,6 +35,9 @@ import UserView from '@/components/layout/UserView.vue';
 import ArticleView from '@/components/layout/ArticleView.vue';
 import SocieteView from '@/components/layout/SocieteView.vue';
 import CheckoutView from '@/components/layout/CheckoutView.vue';
+import StationView from '@/views/StationView.vue';
+import GuichetView from '@/views/GuichetView.vue';
+import TelecomView from '@/views/TelecomView.vue';
 
 
 const routes = [{
@@ -91,6 +94,21 @@ const routes = [{
     path: '/hotel',
     name: 'hotel',
     component: HotelView
+  },
+  {
+    path: '/station',
+    name: 'station',
+    component: StationView
+  },
+  {
+    path: '/guichet',
+    name: 'guichet',
+    component: GuichetView
+  },
+  {
+    path: '/telecom',
+    name: 'telecom',
+    component: TelecomView
   },
   {
     path: '/hotel-kara',
