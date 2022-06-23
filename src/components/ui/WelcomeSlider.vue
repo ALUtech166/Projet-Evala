@@ -68,15 +68,10 @@
 
                                         <p class="desc">
                                              Chef-lieu de la préfecture de la Kozah et capitale de la région du même
-                                             nom, Kara est une
-                                             ville
-                                             en pleine expansion. Elle est devenue rapidement un centre moderne
+                                             nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre moderne
                                              d’administration et de
-                                             production dans le cadre des objectifs du gouvernement de créer des
-                                             infrastructures dans
-                                             toutes
-                                             les régions du pays.
-
+                                             production dans le cadre 
+                                             
                                         </p>
 
 

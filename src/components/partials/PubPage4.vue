@@ -1,54 +1,64 @@
 <template>
-     <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in-left"
-     data-aos-easing="linear"
-     data-aos-duration="3000">
+     <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="true" ata-aos="zoom-in"
+          data-aos-easing="linear" data-aos-duration="3000">
+          <!-- <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+          </div> -->
           <div class="carousel-inner">
                <div class="carousel-item active">
                     <div class="banner-container">
 
-                          <div class="banner">
-                             <img clas="img-fluid" src="../images/k-e.jpg" alt="">
+                         <div class="banner">
+                              <img class="d-block w-100 img-fluid" src="../images/pub.jpg" alt="">
                          </div>
 
                     </div>
+
                </div>
                <div class="carousel-item">
                     <div class="banner-container">
 
                          <div class="banner">
-                             <img clas="img-fluid" src="../images/k-e.jpg" alt="">
+                              <img src="../images/FDKM1x.jpg" class="d-block w-100 img-fluid" alt="">
                          </div>
 
-
                     </div>
+
                </div>
                <div class="carousel-item">
                     <div class="banner-container">
 
                          <div class="banner">
-                             <img clas="img-fluid" src="../images/k-e.jpg" alt="">
+                              <img src="../images/mayi-const.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
                     </div>
+
                </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
                data-bs-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
                data-bs-slide="next">
                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Next</span>
           </button>
      </div>
+
 </template>
 
 <script>
-import AOS from "aos";
+     import AOS from "aos";
      export default {
-           setup() {
+          setup() {
                AOS.init();
 
           },
@@ -63,9 +73,8 @@ import AOS from "aos";
      }
 
      .banner-container .banner {
-          background: linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
           border-radius: 5px;
-          margin: 10px;
+          margin: 5px;
           display: flex;
           align-items: center;
           justify-content: center;

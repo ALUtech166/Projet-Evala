@@ -1,5 +1,6 @@
 <template>
-     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" ata-aos="zoom-in"
+    <div class="pub">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" ata-aos="zoom-in"
           data-aos-easing="linear" data-aos-duration="3000">
           <!--  <div class="carousel-indicators">
                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -53,6 +54,7 @@
           </button>
      </div>
 
+    </div>
 </template>
 
 <script>
@@ -66,6 +68,7 @@
 </script>
 
 <style scoped>
+
      .banner-container {
           display: flex;
           align-items: center;
@@ -140,9 +143,5 @@
           border-radius: 10px;
      }
 
-     @media (max-width:768px) {
-          .banner-container .banner .women {
-               display: none;
-          }
-     }
+  
 </style>
