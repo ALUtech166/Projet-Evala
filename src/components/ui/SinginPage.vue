@@ -1,7 +1,7 @@
 <template>
      <header-bar></header-bar>
      <div class="header">
-          <h1 class="titre" style="font-size:25px">
+          <h1 class="titre">
                S'inscrire
           </h1>
      </div>
@@ -86,7 +86,6 @@
           }
 
      }
-     
 </script>
 
 <style scoped>
@@ -128,10 +127,8 @@
 
      .header {
           height: 30vh;
-          background-image: linear-gradient(to right bottom,
-                    rgba(126, 213, 111, 0.505),
-                    rgba(40, 180, 131, 0.481)),
-               url(../images/hero.jpg);
+          background-image:
+               url(../images/banner.jpg);
           background-size: cover;
           background-position: top;
           position: relative;
@@ -146,11 +143,14 @@
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
-          color: #006A4A;
-          animation: moveInRight 10s ease-out;
+          color: #fff;
+          /*  animation: moveInRight 10s ease-out;
           animation-name: moveInLeft;
           animation-duration: 10s;
-          animation-timing-function: ease-in;
+          animation-timing-function: ease-in; */
+          text-transform: uppercase;
+          font-size: 50px;
+          font-weight: bold;
      }
 
 

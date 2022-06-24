@@ -1,6 +1,6 @@
 <template>
-<header-bar></header-bar>
-<annonce-page></annonce-page>
+     <header-bar></header-bar>
+     <annonce-page></annonce-page>
      <div class="header">
           <h1 class="titre">Actualités</h1>
      </div>
@@ -96,7 +96,7 @@
                     <div class="recent">
                          <img src="../components/images/MAYI.jpg" class="img-fluid" alt="">
                     </div>
-                  
+
                </div>
 
           </div>
@@ -113,7 +113,7 @@
      import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
           components: {
-               
+
                AnnoncePage,
                HeaderBar,
                PubBlog
@@ -155,10 +155,8 @@
 
      .header {
           height: 30vh;
-          background-image: linear-gradient(to right bottom,
-                    rgba(126, 213, 111, 0.505),
-                    rgba(40, 180, 131, 0.481)),
-               url(../components/images/hero.jpg);
+          background-image:
+               url(../components/images/banner.jpg);
           background-size: cover;
           background-position: top;
           position: relative;
@@ -166,20 +164,21 @@
 
      }
 
-
      .titre {
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
-          color: #006A4A;
-          animation: moveInRight 10s ease-out;
+          color: #fff;
+          /* animation: moveInRight 10s ease-out;
           animation-name: moveInLeft;
           animation-duration: 10s;
           animation-timing-function: ease-in;
+          text-transform: uppercase; */
+          font-weight: bold;
           text-transform: uppercase;
-          font-weight: 600;
+          font-size: 50px;
      }
 
 

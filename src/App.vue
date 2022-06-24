@@ -1,7 +1,7 @@
 <template>
 
   <div class="container-fluid">
-    
+
     <div class="app">
 
       <div class="login-popup close">
@@ -16,9 +16,6 @@
         </div>
       </div>
 
-
-
-
       <router-view />
     </div>
 
@@ -28,7 +25,6 @@
 </template>
 
 <script>
-  
   import FooterBar from './components/partials/FooterBar.vue'
   import {
     mapGetters
@@ -108,7 +104,7 @@
   }
 
   .login-popup .box {
-   
+
     position: absolute;
     left: 50%;
     top: 50%;
@@ -187,7 +183,7 @@
     margin-bottom: 30px;
     width: 100%;
     border: none;
-   
+
     font-size: 15px;
     color: #000000;
   }

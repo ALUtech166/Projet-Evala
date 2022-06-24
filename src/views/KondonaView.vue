@@ -174,10 +174,8 @@
 
      .header {
           height: 30vh;
-          background-image: linear-gradient(to right bottom,
-                    rgba(126, 213, 111, 0.505),
-                    rgba(40, 180, 131, 0.481)),
-               url(../components/images/hero.jpg);
+          background-image:
+               url(../components/images/banner.jpg);
           background-size: cover;
           background-position: top;
           position: relative;
@@ -192,12 +190,15 @@
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
-          color: #006A4A;
-          animation: moveInRight 10s ease-out;
-          animation-name: moveInLeft;
-          animation-duration: 10s;
-          animation-timing-function: ease-in;
+          color: #fff;
+          /* animation: moveInRight 10s ease-out;
+    animation-name: moveInLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in; */
+          font-weight: bold;
+          font-size: 50px;
      }
+
 
 
      @keyframes moveInLeft {

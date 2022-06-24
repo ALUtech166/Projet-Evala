@@ -17,29 +17,15 @@
 
                               <li><a class="dropdown-item" href="/">Accueil</a></li>
                               <li><a class="dropdown-item" href="/about">Accomodation</a></li>
+                              <li><a class="dropdown-item" href="/events">Evenements</a></li>
+                          
+
+
                              <!--  <li class="nav-item dropdown">
-                                   <a class="nav-link dropdown-toggle dropdown-item" href="/about"
-                                        id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Accomodation
-                                   </a>
-                                   <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                        <li><a class="dropdown-item" href="/hotel">Hotel</a></li>
-                                        <li><a class="dropdown-item" href="/bar-resto">Bar & Restaurants</a></li>
-                                        <li><a class="dropdown-item" href="/tourisme">Lieux Touristiques</a></li>
-                                        <li><a class="dropdown-item" href="/pharmacie">Pharmacies</a></li>
-                                        <li><a class="dropdown-item" href="/sante">Santé</a></li>
-                                        <li><a class="dropdown-item" href="/banque">Divers</a></li>
-                                   </ul>
-                              </li>
- -->
-
-
-                              <li class="nav-item dropdown">
                                    <a class="nav-link dropdown-toggle dropdown-item" href="#"
                                         id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
-                                        Evenements
+                                        
                                    </a>
                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                                         <li><a class="dropdown-item" href="/evala">Evala</a></li>
@@ -47,7 +33,7 @@
                                         <li><a class="dropdown-item" href="/habye">Habyé</a></li>
                                         <li><a class="dropdown-item" href="/kondona">Kondona</a></li>
                                    </ul>
-                              </li>
+                              </li> -->
                               <!-- <li><a class="dropdown-item" href="/kozah">La KARA</a></li> -->
                               <li><a class="dropdown-item" href="/blog">Actualités</a></li>
                            <!--    <li><a class="dropdown-item" href="/contact">Contacts</a></li> -->

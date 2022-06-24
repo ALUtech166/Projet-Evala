@@ -1,4 +1,5 @@
 <template>
+    
      <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active"
@@ -90,10 +91,16 @@
                
           </div>
      </div>
+    
 </template>
 
 <script>
+//import BaseCard from './BaseCard.vue'
+
      export default {
+          components: {
+              // BaseCard
+          }
 
      }
 </script>
@@ -144,7 +151,7 @@
           font-size: 35px;
           font-weight: 600;
           font-family: 'Josefin Sans', sans-serif;
-          color: #000;
+          color: #006A4A;
      }
 
 
@@ -162,7 +169,7 @@
 
 
      h4 {
-          color: #fff;
+          color: #006A4A;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
      }

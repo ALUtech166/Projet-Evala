@@ -22,16 +22,16 @@
                               <br>
 
                               <div>
-                         
-                              <a href=""><i class="fab fa-linkedin"></i></a>
-                              <a href=""><i class="fab fa-twitter"></i></a>
-                              <a href=""><i class="fab fa-facebook"></i></a>
-                              <a href=""><i class="fab fa-instagram"></i></a>
-                         </div>
+
+                                   <a href=""><i class="fab fa-linkedin"></i></a>
+                                   <a href=""><i class="fab fa-twitter"></i></a>
+                                   <a href=""><i class="fab fa-facebook"></i></a>
+                                   <a href=""><i class="fab fa-instagram"></i></a>
+                              </div>
                          </div>
 
 
-                         
+
                     </div>
                     <div class="col-lg-6">
                          <FormPage></FormPage>
@@ -69,21 +69,20 @@
 </script>
 
 <style scoped>
+     a {
+          padding: 1rem;
+          color: #fff;
+          text-decoration: none;
+          font-size: 25px;
 
+     }
 
-a {
-    padding: 1rem;
-    color: #fff;
-    text-decoration: none;
-    font-size: 25px;
+     a:hover,
+     a:active {
+          color: #FFCE00;
 
-  }
+     }
 
-  a:hover,
-  a:active {
-    color: #FFCE00;
-
-  }
      .sub-title {
           background-color: rgba(0, 106, 74, 0.536);
           height: 90%;
@@ -105,10 +104,8 @@ a {
 
      .header {
           height: 30vh;
-          background-image: linear-gradient(to right bottom,
-                    rgba(126, 213, 111, 0.505),
-                    rgba(40, 180, 131, 0.481)),
-               url(../components/images/hero.jpg);
+          background-image:
+               url(../components/images/banner.jpg);
           background-size: cover;
           background-position: top;
           position: relative;
@@ -116,14 +113,22 @@ a {
 
      }
 
-     .title {
-          margin: 1rem;
-          max-width: 100%;
+
+     .titre {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
           text-align: center;
-          padding: 1rem;
-          border-radius: 10px;
-          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+          color: #fff;
+          /* animation: moveInRight 10s ease-out;
+    animation-name: moveInLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in; */
+          font-weight: bold;
+          font-size: 50px;
      }
+
 
 
      .titre {

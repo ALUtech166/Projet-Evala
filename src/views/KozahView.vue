@@ -2,7 +2,7 @@
      <div class="kozah">
 
           <div class="header">
-               <h1 class="titre" style="font-size:25px">
+               <h1 class="titre">
                     LA KOZAH
                </h1>
           </div>
@@ -321,11 +321,12 @@
 
 
 
-                          <div class="col-lg-6">
+                         <div class="col-lg-6">
                               <div class="row" v-if="canton && canton.length">
-                                   
+
                                    <div class="col-lg-5" v-for="cat of canton" :key="cat.id">
-                                   <img :src="'http://karaevents.mekengroup.com/storage/files/'+cat.photo_publicite" alt="img"/>
+                                        <img :src="'http://karaevents.mekengroup.com/storage/files/'+cat.photo_publicite"
+                                             alt="img" />
                                         <h2>{{ cat.nom_societe }}</h2> <br>
                                         <p>
                                              {{ cat.description_publicite }}
@@ -364,7 +365,7 @@
                     })
                     .catch(e => {
                          this.errors.push(e)
-               })
+                    })
           }
      }
 </script>
@@ -382,16 +383,31 @@
 
      .header {
           height: 30vh;
-          background-image: linear-gradient(to right bottom,
-                    rgba(126, 213, 111, 0.505),
-                    rgba(40, 180, 131, 0.481)),
-               url(../components/images/hero.jpg);
+          background-image:
+               url(../components/images/banner.jpg);
           background-size: cover;
           background-position: top;
           position: relative;
 
 
      }
+
+
+     .titre {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: #fff;
+          /* animation: moveInRight 10s ease-out;
+    animation-name: moveInLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in; */
+          font-weight: bold;
+          font-size: 50px;
+     }
+
 
      .la-kozah {
           padding: 50px;
@@ -446,18 +462,7 @@
 
      }
 
-     .titre {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-          color: #006A4A;
-          animation: moveInRight 10s ease-out;
-          animation-name: moveInLeft;
-          animation-duration: 10s;
-          animation-timing-function: ease-in;
-     }
+
 
 
      @keyframes moveInLeft {

@@ -114,6 +114,10 @@
           text-align: center;
      }
 
+     .table {
+          text-align: center;
+     }
+
      th {
           text-align: left;
           font-size: 20px;

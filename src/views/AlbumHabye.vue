@@ -1,5 +1,5 @@
 <template>
- <header-bar></header-bar>
+     <header-bar></header-bar>
      <div class="header">
           <div class="titre">
                <h1>Album <span>Habyé</span></h1>
@@ -24,7 +24,8 @@
                          <div class="collapse navbar-collapse" id="navbarNav">
                               <ul class="navbar-nav">
                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="/album-evala">Album Evala</a>
+                                        <a class="nav-link active" aria-current="page" href="/album-evala">Album
+                                             Evala</a>
                                    </li>
                                    <li class="nav-item">
                                         <a class="nav-link" href="/album-akpema">Album Akpema</a>
@@ -42,7 +43,7 @@
                          <img src="./1.jpg" alt="" width="500px">
                          <img src="./7.jpg" alt="" width="500px">
                          <img src="./2.jpg" alt="" width="500px">
-                        s
+                         s
 
                     </div>
 
@@ -50,7 +51,7 @@
                          <img src="./6.jpg" alt="" width="500px">
                          <img src="./7.jpg" alt="" width="500px">
                          <img src="./3.jpg" alt="" width="500px">
-                         
+
 
                     </div>
 
@@ -58,7 +59,7 @@
                          <img src="./7.jpg" alt="" width="500px">
                          <img src="./6.jpg" alt="" width="500px">
                          <img src="./2.jpg" alt="" width="500px">
-                         
+
 
                     </div>
                </div>
@@ -200,13 +201,10 @@
      }
 
 
-
      .header {
           height: 30vh;
-          background-image: linear-gradient(to right bottom,
-                    rgba(126, 213, 111, 0.505),
-                    rgba(40, 180, 131, 0.481)),
-               url(../components/images/hero.jpg);
+          background-image:
+               url(../components/images/banner.jpg);
           background-size: cover;
           background-position: top;
           position: relative;
@@ -221,11 +219,13 @@
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
-          color: #006A4A;
-          animation: moveInRight 10s ease-out;
-          animation-name: moveInLeft;
-          animation-duration: 10s;
-          animation-timing-function: ease-in;
+          color: #fff;
+          /* animation: moveInRight 10s ease-out;
+    animation-name: moveInLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in; */
+          font-weight: bold;
+          font-size: 50px;
      }
 
 

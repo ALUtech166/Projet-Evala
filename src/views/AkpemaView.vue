@@ -1,7 +1,7 @@
 <template>
-<header-bar></header-bar>
- <annonce-page></annonce-page>
- <div class="header">
+     <header-bar></header-bar>
+     <annonce-page></annonce-page>
+     <div class="header">
           <h1 class="titre">Akpema</h1>
      </div>
 
@@ -16,7 +16,8 @@
                          <div class="row">
                               <div class="col-md-6 col-12">
                                    <div class="pray">
-                                        <img src="../components/images/Ok-1.png" alt="Pray" class="image" height="500px" />
+                                        <img src="../components/images/Ok-1.png" alt="Pray" class="image"
+                                             height="500px" />
                                    </div>
                               </div>
                               <div class="col-md-6 col-12">
@@ -72,16 +73,16 @@
 
           </div>
 
-         
+
      </div>
 
      <pub-page></pub-page>
 </template>
 
 <script>
-       import PubPage from '@/components/partials/PubPage.vue'
-       import AnnoncePage from '@/components/ui/AnnoncePage.vue'
-       import HeaderBar from '@/components/partials/HeaderBar.vue'
+     import PubPage from '@/components/partials/PubPage.vue'
+     import AnnoncePage from '@/components/ui/AnnoncePage.vue'
+     import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
           components: {
                PubPage,
@@ -194,13 +195,11 @@
      }
 
 
-     
+
      .header {
           height: 30vh;
-          background-image: linear-gradient(to right bottom,
-                    rgba(126, 213, 111, 0.505),
-                    rgba(40, 180, 131, 0.481)),
-               url(../components/images/hero.jpg);
+          background-image:
+               url(../components/images/banner.jpg);
           background-size: cover;
           background-position: top;
           position: relative;
@@ -215,12 +214,15 @@
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
-          color: #006A4A;
-          animation: moveInRight 10s ease-out;
-          animation-name: moveInLeft;
-          animation-duration: 10s;
-          animation-timing-function: ease-in;
+          color: #fff;
+          /* animation: moveInRight 10s ease-out;
+    animation-name: moveInLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in; */
+          font-weight: bold;
+          font-size: 50px;
      }
+
 
 
      @keyframes moveInLeft {
@@ -270,5 +272,4 @@
                transform: translate(0);
           }
      }
-
 </style>

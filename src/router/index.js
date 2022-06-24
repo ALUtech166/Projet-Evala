@@ -38,6 +38,7 @@ import CheckoutView from '@/components/layout/CheckoutView.vue';
 import StationView from '@/views/StationView.vue';
 import GuichetView from '@/views/GuichetView.vue';
 import TelecomView from '@/views/TelecomView.vue';
+import EventsView from '@/views/EventsView.vue';
 
 
 const routes = [{
@@ -61,6 +62,12 @@ const routes = [{
     name: 'Societe',
     component: SocieteView
   },
+  {
+    path: '/events',
+    name: 'Events',
+    component: EventsView
+  },
+
 
   {
     path: '/',

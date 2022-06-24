@@ -1,5 +1,5 @@
 <template>
- <header-bar></header-bar>
+     <header-bar></header-bar>
      <div class="header">
           <div class="titre">
                <h1>Album <span>Evala</span></h1>
@@ -42,7 +42,7 @@
                          <img src="./1.jpg" alt="" width="500px">
                          <img src="./7.jpg" alt="" width="500px">
                          <img src="./2.jpg" alt="" width="500px">
-                        s
+                         s
 
                     </div>
 
@@ -50,7 +50,7 @@
                          <img src="./6.jpg" alt="" width="500px">
                          <img src="./7.jpg" alt="" width="500px">
                          <img src="./3.jpg" alt="" width="500px">
-                         
+
 
                     </div>
 
@@ -58,7 +58,7 @@
                          <img src="./7.jpg" alt="" width="500px">
                          <img src="./6.jpg" alt="" width="500px">
                          <img src="./2.jpg" alt="" width="500px">
-                         
+
 
                     </div>
                </div>
@@ -67,7 +67,7 @@
 </template>
 
 <script>
-       import HeaderBar from '@/components/partials/HeaderBar.vue'
+     import HeaderBar from '@/components/partials/HeaderBar.vue'
      export default {
           components: {
                HeaderBar
@@ -203,10 +203,8 @@
 
      .header {
           height: 30vh;
-          background-image: linear-gradient(to right bottom,
-                    rgba(126, 213, 111, 0.505),
-                    rgba(40, 180, 131, 0.481)),
-               url(../components/images/hero.jpg);
+          background-image:
+               url(../components/images/banner.jpg);
           background-size: cover;
           background-position: top;
           position: relative;
@@ -221,12 +219,15 @@
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
-          color: #006A4A;
-          animation: moveInRight 10s ease-out;
-          animation-name: moveInLeft;
-          animation-duration: 10s;
-          animation-timing-function: ease-in;
+          color: #fff;
+          /* animation: moveInRight 10s ease-out;
+    animation-name: moveInLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in; */
+          font-weight: bold;
+          font-size: 50px;
      }
+
 
 
      @keyframes moveInLeft {
