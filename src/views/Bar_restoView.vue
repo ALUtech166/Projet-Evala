@@ -389,7 +389,7 @@
   }
 
   .card {
-    border-radius: 20px;
+    border-radius: 15px;
     max-width: 100%;
     text-align: center;
     border-radius: 20px;

@@ -8,7 +8,7 @@
                </h1>
           </div>
 
-          <pub-page></pub-page>
+         
           <div class="description">
                <div class="container" data-aos="fade-left" data-aos-duration="3000">
 
@@ -190,6 +190,9 @@
 
 
           </div>
+
+
+           <pub-page></pub-page>
 
 
      </div>

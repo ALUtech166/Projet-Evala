@@ -93,9 +93,9 @@
   }
 
   .footer {
-    background-image: linear-gradient(to right, #006a4a, #FFCE00);
+    background-image: url(../images/banner.jpg);
     width: 100%;
-    padding: 5rem;
+    padding: 50px;
     color: #fff;
     font-family: 'Jost', sans-serif;
 

@@ -426,7 +426,7 @@
   }
 
   .card-img-top {
-    border-radius: 15px;
+    border-radius: 5px;
     height: 200px;
   }
 
@@ -434,7 +434,7 @@
 
     max-width: 100%;
     text-align: center;
-    border-radius: 22px;
+    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   }
 
