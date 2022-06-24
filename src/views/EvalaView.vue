@@ -9,75 +9,189 @@
           </div>
 
           <pub-page></pub-page>
+          <div class="description">
+               <div class="container" data-aos="fade-left" data-aos-duration="3000">
+
+                    <div class="row">
+
+
+                         <div class="col-lg-6">
+                              <img class="image img-fluid" src="../components/images/evala1.jpg"
+                                   alt="">
+                         </div>
+
+                         <div class="col-lg-6">
+
+                              <hr class="style-two">
+                              <h1><strong>Histoire de L'Evala</strong></h1><br>
+
+
+                              <p class="desc">
+                                   Chef-lieu de la préfecture de la Kozah et capitale de la région du même
+                                   nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre
+                                   moderne
+                                   d’administration et de
+                                   production dans le cadre
+
+                                   Chef-lieu de la préfecture de la Kozah et capitale de la région du même
+                                   nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre
+                                   moderne
+                                   d’administration et de
+                                   production dans le cadre
+
+                                   Chef-lieu de la préfecture de la Kozah et capitale de la région du même
+                                   nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre
+                                   moderne
+                                   d’administration et de
+                                   production dans le cadre
+
+                                   Chef-lieu de la préfecture de la Kozah et capitale de la région du même
+                                   nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre
+                                   moderne
+                                   d’administration et de
+                                   production dans le cadre
+
+                              </p>
+
+
+
+                         </div>
+
+
+
+                    </div>
+               </div>
+          </div>
+
+
           <div class="programme">
-               <h1 style="text-align:center">Programme des évenements</h1>
+               <hr class="style-two">
+               <h1 style="text-align:left">Programme des évenements</h1>
                <br>
+
+               <p>
+                    Voici le calendrier officiel des luttes EVALA, Prefecture de la Kozah, Edition 2022
+               </p>
+
+
+
 
                <table class="table table-bordered border-black">
                     <thead>
                          <tr>
-                              <th scope="col">Date</th>
-                              <th scope="col">Heure</th>
-                              <th scope="col">Match</th>
-                              <th scope="col">Lieu</th>
+                              <th scope="col">Jours et Dates</th>
+                              <th scope="col">Rencontre (Competitions)</th>
+                              <th scope="col">Lieux</th>
+                              <th scope="col">Heures</th>
+                              <th scope="col">Observation</th>
                          </tr>
                     </thead>
 
-                    <tbody v-if="program && program.length">
-                         <tr v-for="pro of program" :key="pro.id">
+
+
+                    <tbody>
+                         <tr>
                               <th scope="row">
-                                   {{ pro.date_programme}}
+                                   <b>Vendredi (KEMEA)</b>
+                                   <br>
+                                   <span>2022-07-01</span>
                               </th>
-                              <td>{{ pro.heure_programme}}</td>
-                              <td>{{ pro.match_programme}}</td>
-                              <td><a href="{{ pro.lieu_programme }}" target="_blank"><i
-                                             class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td>Descente du souverain sacrificateur(Tchodjo)</td>
+                              <td>PYA-LAO</td>
+                              <td>08H</td>
+                              <td>Dans la soicrée</td>
+
+
 
 
                          </tr>
+
+                         <tr>
+                              <th scope="row">
+                                   <b>Samedi (MAZA) / YADE</b>
+                                   <br>
+                                   <span>2022-07-09</span>
+                              </th>
+                              <td>
+                                   - Préliminaire dans tous les Ahoa(Sanctuaire) -Yaoudé contre Kadayo -Kpéloudè contre
+                                   Poulou
+                              </td>
+                              <td>EPP Yadè-Poulou</td>
+                              <td>09H</td>
+                              <td>1/8 de finale</td>
+
+
+
+
+                         </tr>
+
+
+                         <tr>
+                              <th scope="row">
+                                   <b>Samedi (MAZA) / YADE</b>
+                                   <br>
+                                   <span>2022-07-09</span>
+                              </th>
+                              <td>Sodè contre Panadiwa</td>
+                              <td>EPP Yadè-Sodé</td>
+                              <td>09H</td>
+                              <td>1/8 de finale</td>
+
+
+
+
+                         </tr>
+
+
+
+
+                         <tr>
+                              <th scope="row">
+                                   <b>Samedi (MAZA) / YADE</b>
+                                   <br>
+                                   <span>2022-07-09</span>
+                              </th>
+                              <td>LAO-HAUT contre LAO-BAS</td>
+                              <td>EPP Kagnalada</td>
+                              <td>09H</td>
+                              <td>NB: Ouverture officielle des luttes EVALA</td>
+
+
+
+
+                         </tr>
+
+
+                         
+                         <tr>
+                              <th scope="row">
+                                   <b>Samedi (MAZA) / BOHOU</b>
+                                   <br>
+                                   <span>2022-07-09</span>
+                              </th>
+                              <td>-Préliminaires -Waldè bas contre Pyadè bas</td>
+                              <td>Patoulidè</td>
+                              <td>10H</td>
+                              <td>1/4 de finale</td>
+
+
+
+
+                         </tr>
+
 
 
                     </tbody>
                </table>
 
 
+               <div class="lire-plus"><a href="/program" class="btn btn-success btn-aminated">Lire Plus</a></div>
+
+
 
           </div>
-          <pub-page></pub-page>
-          <!--  <div class="past">
-               <h1>évenements passés</h1>
-               <br>
-               <div class="">
-                    <table class="table table-bordered border-black">
-                         <thead>
-                              <tr>
-                                   <th scope="col">Date</th>
-                                   <th scope="col">Heure</th>
-                                   <th scope="col">Match</th>
-                                   <th scope="col">Score</th>
 
 
-                              </tr>
-                         </thead>
-                         <tbody>
-                              <tr>
-                                   <th scope="row">
-
-                                   </th>
-                                   <td> </td>
-                                   <td>PYA <em>contre</em> TCHITCHAO</td>
-                                   <td><em>SCORE</em></td>
-
-                              </tr>
-
-
-
-                         </tbody>
-                    </table>
-               </div>
-
-          </div>
-          <pub-page></pub-page> -->
      </div>
 </template>
 
@@ -85,7 +199,7 @@
      import PubPage from '@/components/partials/PubPage.vue'
      import AnnoncePage from '@/components/ui/AnnoncePage.vue'
      import HeaderBar from '@/components/partials/HeaderBar.vue'
-     import axios from 'axios'
+
      export default {
           components: {
                PubPage,
@@ -94,61 +208,74 @@
           },
           data() {
                return {
-                    program: [],
-                    errors: []
+
                }
           },
 
-          // Fetches posts when the component is created.
-          created(data) {
-               axios.get(`api/programme_evenement`)
-                    .then(response => {
-                         // JSON responses are automatically parsed.
-                         this.program = response.data
-                         console.log(data)
-                    })
-                    .catch(e => {
-                         this.errors.push(e)
-                    })
-          }
+
      }
 </script>
 
 <style scoped>
      span {
-          font-size: 25px;
-          color: #006A4A;
-     }
-
-     b {
           color: #fff;
           font-weight: bold;
+          font-family: 'Josefin Sans', sans-serif;
+     }
+
+     .image {
+          border-radius: 10px;
+     }
+
+     hr.style-two {
+          border: 10px solid #006A4A;
+          border-radius: 15px;
+          background-color: #006A4A;
+          width: 20%;
+
+
+     }
+
+     .desc {
+          text-align: justify;
+          line-height: 25px;
+     }
+
+
+     .description {
+          padding: 50px;
      }
 
      em {
           color: red;
+
      }
 
      .icons {
           color: red;
           font-size: 35px;
+
      }
 
      td,
      th {
           font-size: 15px;
-          color: #006A4A;
+
+          font-family: 'Josefin Sans', sans-serif;
      }
 
      h1 {
-          color: #006A4A;
+
           text-transform: uppercase;
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight: bold;
      }
 
      h3,
      p {
-          color: #006A4A;
-          font-size: 15px;
+
+          font-size: 17px;
+          font-family: 'Josefin Sans', sans-serif;
      }
 
      .box1:hover {
@@ -166,7 +293,7 @@
           border-radius: 12px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
           padding: 1px;
-
+          font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
           border: 2px solid black;
      }
@@ -208,6 +335,70 @@
     animation-timing-function: ease-in; */
           font-weight: bold;
           font-size: 50px;
+     }
+
+
+
+     .btn:link,
+     .btn:visited {
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 10px 15px;
+          border-radius: 100px;
+          transition: all .2s;
+          position: relative;
+          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Jost', sans-serif;
+
+
+
+
+     }
+
+
+     .btn:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgb(0, 0, 0, 2);
+     }
+
+     .btn:active {
+          transform: translateY(-1px);
+          box-shadow: 0 5px 10px rgb(0, 0, 0, 2);
+     }
+
+     .btn-white {
+          background-color: #fff;
+          border: 2px solid #006A4A;
+          color: #006A4A;
+     }
+
+     .btn::after {
+          content: "";
+          display: inline-block;
+          height: 100%;
+          width: 100%;
+          border-radius: 100px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          transition: all .4s;
+     }
+
+     .btn-white::after {
+          background-color: #006A4A;
+     }
+
+     .btn:hover::after {
+          transform: scaleX(1.4) scaleY(1.6);
+          opacity: 0;
+
+
+     }
+
+     .btn-aminated {
+          animation: moveInBottom .10s ease-out .75s;
+          animation-fill-mode: backwards;
      }
 
 

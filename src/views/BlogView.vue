@@ -75,7 +75,7 @@
                </div>
 
                <div class="col-lg-4">
-                    <div class="recent">
+                   <!--  <div class="recent">
                          <img src="../components/images/2k-e.jpg" alt="" class="img-fluid image" id="img">
                          <h1 style="font-size: 25px">Recents Articles</h1>
                          <h2>
@@ -88,7 +88,7 @@
                               Kara Events Platforme
                          </h2>
                     </div>
-                    <br>
+                    <br> -->
                     <div class="recent">
                          <pub-blog></pub-blog>
                     </div>
@@ -111,14 +111,37 @@
      import PubBlog from '@/components/partials/PubBlog.vue'
      import AnnoncePage from '@/components/ui/AnnoncePage.vue'
      import HeaderBar from '@/components/partials/HeaderBar.vue'
+     import axios from 'axios'
      export default {
           components: {
 
                AnnoncePage,
                HeaderBar,
                PubBlog
+          },
+          data() {
+               return {
+                    program: [],
+                    errors: []
+               }
+          },
+
+          // Fetches posts when the component is created.
+          created(data) {
+               axios.get(`api/actualite`)
+                    .then(response => {
+                         // JSON responses are automatically parsed.
+                         this.program = response.data
+                         console.log(data)
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
           }
      }
+
+
+
 </script>
 
 <style scoped>

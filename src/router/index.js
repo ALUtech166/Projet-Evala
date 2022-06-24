@@ -39,6 +39,7 @@ import StationView from '@/views/StationView.vue';
 import GuichetView from '@/views/GuichetView.vue';
 import TelecomView from '@/views/TelecomView.vue';
 import EventsView from '@/views/EventsView.vue';
+import ProgramEvala from '@/views/ProgramEvala.vue'
 
 
 const routes = [{
@@ -66,6 +67,12 @@ const routes = [{
     path: '/events',
     name: 'Events',
     component: EventsView
+  },
+
+  {
+    path: '/program',
+    name: 'Program',
+    component: ProgramEvala
   },
 
 

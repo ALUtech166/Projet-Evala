@@ -21,7 +21,7 @@
 
 
                                    <div class="col-lg-6">
-                                        <img class="image img-fluid" src="../images/Faure-tg.jpg" alt="">
+                                        <img class="image img-fluid" src="../images/FEG.png" alt="">
                                    </div>
 
                                    <div class="col-lg-6">

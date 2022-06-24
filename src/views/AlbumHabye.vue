@@ -221,9 +221,9 @@
           text-align: center;
           color: #fff;
           /* animation: moveInRight 10s ease-out;
-    animation-name: moveInLeft;
-    animation-duration: 10s;
-    animation-timing-function: ease-in; */
+          animation-name: moveInLeft;
+          animation-duration: 10s;
+          animation-timing-function: ease-in; */
           font-weight: bold;
           font-size: 50px;
      }
