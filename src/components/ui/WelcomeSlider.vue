@@ -1,6 +1,6 @@
 <template>
-    
-     <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+    <div class="contenu">
+     <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel" >
           <div class="carousel-indicators">
                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -21,7 +21,7 @@
 
 
                                    <div class="col-lg-6">
-                                        <img class="image img-fluid" src="../images/FEG.png" alt="">
+                                        <img class="image img-fluid" src="../images/FEG1.jpg" alt="">
                                    </div>
 
                                    <div class="col-lg-6">
@@ -91,7 +91,7 @@
                
           </div>
      </div>
-    
+    </div>
 </template>
 
 <script>
@@ -110,6 +110,10 @@
           padding: 50px;
      
           
+     }
+
+     .contenu {
+          background-image: url(../images/Background.jpg);
      }
 
 

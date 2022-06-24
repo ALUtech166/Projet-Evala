@@ -295,7 +295,7 @@
           padding: 1px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
-          border: 2px solid black;
+          border: 3px solid black;
      }
 
      .table td {

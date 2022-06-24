@@ -30,6 +30,7 @@
           <li><a href="/">Accueil</a></li>
           <li><a href="/Gallery">Galerie</a></li>
           <li><a href="/about">Accommodation</a></li>
+          <li><a href="/events">Evenements</a></li>
         </ul>
       </div>
 
