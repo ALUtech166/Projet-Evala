@@ -9,6 +9,9 @@
           </div>
           <div class="carousel-inner">
                <div class="carousel-item active">
+               
+
+                  
                     <div class="home">
 
                          <div class="container" data-aos="fade-left" data-aos-duration="3000">
@@ -36,7 +39,7 @@
                                         </p>
 
                                         <br>
-                                        <h2><em>S.E.M Faure E. GNASSIMGBE</em></h2>
+                                        <h2><em>S.E.M Faure E. GNASSINGBE</em></h2>
 
 
 
@@ -84,6 +87,7 @@
                          </div>
                     </div>
                </div>
+               
           </div>
      </div>
 </template>
@@ -97,7 +101,8 @@
 <style scoped>
      .home {
           padding: 50px;
-          background-image: linear-gradient(to right, #006a4a, #FFCE00);
+     
+          
      }
 
 
