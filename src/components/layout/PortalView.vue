@@ -14,13 +14,13 @@
 
           <div class="row"  data-aos="flip-left" data-aos-duration="3000">
                <div class="col-lg-4" >
-                    <img src="../components/images/pexels-rodrigo-santos-3888151.jpg" alt="" width="300px">
+                    <img src="../images/pexels-mark-angelo-sampan-1587.jpg" alt="" width="300px">
                </div>
                <div class="col-lg-4">
-                    <img src="../components/images/pexels-rodnae-productions-8782710.jpg " alt="" width="300px">
+                    <img src="../images/pexels-rodnae-productions-8782710.jpg " alt="" width="300px">
                </div>
                <div class="col-lg-4">
-                    <img src="../components/images/pexels-tyler-lastovich-699122.jpg" alt="" width="300px">
+                    <img src="../images/pexels-tyler-lastovich-699122.jpg" alt="" width="300px">
                </div>
           </div>
 
@@ -44,7 +44,7 @@
 
                     <div class="col-lg-4">
                          <div class="card" style="width: 18rem;">
-                              <img src="../components/images/pexels-negative-space-48605.jpg" class="card-img-top"
+                              <img src="../images/pexels-negative-space-48605.jpg" class="card-img-top"
                                    alt="...">
                               <div class="card-body">
                                    <h3>Agence de Kpendjal</h3>
@@ -61,7 +61,7 @@
 
                     <div class="col-lg-4">
                          <div class="card" style="width: 18rem;">
-                              <img src="../components/images/pexels-karolina-grabowska-4476635.jpg" class="card-img-top"
+                              <img src="../images/pexels-karolina-grabowska-4476635.jpg" class="card-img-top"
                                    alt="...">
                               <div class="card-body">
                                    <h3>Agence de Kara</h3>
@@ -93,13 +93,13 @@
 
 
           </base-card>
-          <img src="../components/images/pexels-negative-space-48605.jpg" alt="" width="1000px" height="1000px">
+          <img src="../images/pexels-negative-space-48605.jpg" alt="" width="1000px" height="1000px">
 
      </div>
 </template>
 
 <script>
-     import BaseCard from '@/components/UI/BaseCard.vue'
+     import BaseCard from '@/components/ui/BaseCard.vue'
      export default {
           components: {
                BaseCard

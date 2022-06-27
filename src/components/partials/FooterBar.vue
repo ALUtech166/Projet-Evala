@@ -93,7 +93,7 @@
   }
 
   .footer {
-    background-image: url(../images/banner.jpg);
+    background-image: url(../images/FOOTERS.png);
     width: 100%;
     padding: 50px;
     color: #fff;

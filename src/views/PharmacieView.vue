@@ -30,100 +30,23 @@
                     </form>
                </div>
 
-               <div class="row">
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/kara-centre.png" class="card-img-top" alt="...">
+               <div class="row" v-if="pharmacie && pharmacie.length">
+                    <div class="col-lg-3" v-for="phar of pharmacie" :key="phar.id">
+                         <div class="card" style="width: 25rem; height: 30rem;" v-if="phar.status_pharmacie == 1">
+                              <img :src="'http://karaevents.mekengroup.com/upload/pharmacie/'+phar.photo_pharmacie"
+                                   class="card-img-top" alt="...">
                               <div class="card-body">
-                                   <h3 class="card-title">Pharmacie Kara Centre</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Addresse:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
+                                   <h3 class="card-title">{{ phar.nom_pharmacie }}</h3>
+                                   <h5>Contact: {{ phar.contact_pharmacie }}</h5>
+                                   <h5>Addresse: {{ phar.adresse_pharmacie }}</h5>
+                                   <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+phar.localisation_pharmacie" target="blank">Aller
+                                        sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
-
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/espoir.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Pharmacie De L'Espoir</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Addresse:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/kozah.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Pharmacie De la Kozah</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Addresse:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
-
-               </div>
-
-               <div class="row">
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/lafia.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Pharmacie Lafia</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Addresse:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/santé-plus.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Pharmacie santé plus</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Addresse:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/marché.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Pharmacie nouveau marché</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Addresse:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
                     </div>
                </div>
-
           </div>
 
 
@@ -133,9 +56,31 @@
 
 <script>
      import HeaderBar from '@/components/partials/HeaderBar.vue'
+     import axios from 'axios'
      export default {
           components: {
                HeaderBar
+          },
+
+          data() {
+               return {
+                    pharmacie: [],
+                    errors: []
+               }
+          },
+
+          // Fetches posts when the component is created.
+          created(data) {
+               axios.get(`api/pharmacie`)
+                    .then(response => {
+                         // JSON responses are automatically parsed.
+                         this.pharmacie = response.data
+                         console.log(data)
+
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
           }
      }
 </script>
@@ -144,6 +89,10 @@
      .header-search {
           padding: 2rem;
 
+     }
+
+     .col-lg-3 {
+          padding: 10px;
      }
 
      ol {
@@ -165,6 +114,11 @@
 
      h2 {
           font-size: 15px;
+          font-family: 'Josefin Sans', sans-serif;
+     }
+
+     h5 {
+          font-family: 'Josefin Sans', sans-serif;
      }
 
 
@@ -198,14 +152,14 @@
      }
 
      .card-img-top {
-          border-radius: 15px;
+          border-radius: 10px;
      }
 
      .card {
           border-radius: 20px;
           max-width: 100%;
           text-align: center;
-          border-radius: 22px;
+          border-radius: 15px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
      }
 

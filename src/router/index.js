@@ -40,6 +40,7 @@ import GuichetView from '@/views/GuichetView.vue';
 import TelecomView from '@/views/TelecomView.vue';
 import EventsView from '@/views/EventsView.vue';
 import ProgramEvala from '@/views/ProgramEvala.vue'
+import PortalView from '../components/layout/PortalView.vue';
 
 
 const routes = [{
@@ -74,6 +75,13 @@ const routes = [{
     name: 'Program',
     component: ProgramEvala
   },
+
+  {
+    path: '/portal',
+    name: 'Portal',
+    component: PortalView
+  },
+
 
 
   {

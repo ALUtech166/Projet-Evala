@@ -28,15 +28,15 @@
                     </form>
                </div>
 
-               <div class="row">
-                    <div class="col-lg-4">
+               <div class="row" v-if="banque && banque.length">
+                    <div class="col-lg-3" v-for="ban of banque" :key="ban.id">
                          <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/orabank.png" class="card-img-top" alt="...">
+                              <img :src="'http://karaevents.mekengroup.com/upload/agence/'+ban.photo_agence" class="card-img-top" alt="...">
                               <div class="card-body">
-                                   <h3 class="card-title">Orabank</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Lieu:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                   <h3 class="card-title">{{ ban.nom_agence }}</h3>
+                                   <h5>Contact: {{ ban.contact_agence}}</h5>
+                                   <h5>Lieu: {{ ban.adresse_agence }}</h5>
+                                   <a type="button" class="btn btn-success" :href="ban.localisation_agence" >Aller sur Place <i
                                              class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
@@ -44,224 +44,21 @@
                     </div>
 
 
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/poste.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Poste</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Lieu:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
+               </div>  
+                
+              
+</div>
 
 
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/atlantique.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">BIA Togo</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Lieu:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
-
-               </div>
-
-               <div class="row">
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/atlantique.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">BRS</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Lieu:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-                              </div>
-                         </div>
-                    </div>
+     <div class="arrow">
 
 
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/atlantique.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Coris Bank</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Lieu:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 30rem;">
-                              <img src="../components/images/atlantique.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Banque Atlantique</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <h5>Lieu:</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
-               </div>
-
-
-               <div class="list-pub">
-                    <h1>Les autres Agences de Banques</h1>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Banque</h3>
-                                   <p></p>
-                                   <p>Localisation: </p>
-                              </div>
-                         </div>
-                    </div>
-
-               </div>
-
+          <div style="text-align: right">
+               <a href="/radio" type="button" class="btn btn-outline-success">Next <i
+                         class="fa-solid fa-arrow-right"></i></a>
           </div>
 
-
-          <div class="arrow">
-
-
-               <div style="text-align: right">
-                    <a href="/radio" type="button" class="btn btn-outline-success">Next <i
-                              class="fa-solid fa-arrow-right"></i></a>
-               </div>
-
-          </div>
+     </div>
 
 
 
@@ -270,9 +67,31 @@
 
 <script>
      import HeaderBar from '@/components/partials/HeaderBar.vue'
+     import axios from 'axios'
      export default {
           components: {
                HeaderBar
+          },
+
+           data() {
+               return {
+                    banque: [],
+                    errors: []
+               }
+          },
+
+          // Fetches posts when the component is created.
+          created(data) {
+               axios.get(`api/agent`)
+                    .then(response => {
+                         // JSON responses are automatically parsed.
+                         this.banque = response.data
+                         console.log(data)
+
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
           }
      }
 </script>
@@ -282,6 +101,10 @@
      .bread {
           padding: 2rem;
 
+     }
+
+     .col-lg-3 {
+          padding: 10px;
      }
 
      .btn {
@@ -320,6 +143,7 @@
 
      h2 {
           font-size: 15px;
+          font-family: 'Josefin Sans', sans-serif;
      }
 
 
@@ -329,6 +153,7 @@
           font-family: 'jost', sans-serif;
           color: #006A4A;
           text-align: left;
+          font-family: 'Josefin Sans', sans-serif;
      }
 
      .yellow-box {
@@ -352,15 +177,13 @@
           margin: 1rem;
      }
 
-     .card-img-top {
-          border-radius: 15px;
-     }
+    
 
      .card {
           border-radius: 20px;
           max-width: 100%;
           text-align: center;
-          border-radius: 22px;
+          border-radius:15px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
      }
 
@@ -385,10 +208,11 @@
      }
 
      h5 {
-          color: #006A4A;
+          color: #000;
           text-align: left;
-          font-size: 20px;
-          padding: 0.25rem;
+          font-size: 15px;
+          padding: 2px;
+          font-family: 'Josefin Sans', sans-serif;
      }
 
      .card-text {

@@ -146,14 +146,13 @@
           </div>
           <br>
           <vue3-marquee :clone="true">
-               <img height="100" src="../images/Photo1.png" />
-               <img height="100" src="../images/brs.png" />
-               <img height="100" src="../images/orabank.png" alt="" />
-               <img height="100" src="../images/croix-rouge.png" alt="" />
-               <img height="100" src="../images/bia.png" alt="" />
-               <img height="100" src="../images/atlantique.png" alt="" />
-               <img height="100" src="../images/coris.png" alt="" />
-               <img height="100" src="../images/poste.png" alt="" />
+               <img height="100" src="../images/logo-TDN.png" />
+               <img height="100" src="../images/H2F-LOGO.png" />
+               <img height="100" src="../images/SBC.png" />
+               <img height="100" src="../images/AACG.jpg" />
+               
+               
+              
           </vue3-marquee>
      </div>
 

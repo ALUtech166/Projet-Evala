@@ -26,7 +26,7 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                              <img src="../images/FDKM.jpg" class="img-fluid" alt="">  
+                              <img src="../images/SLIDERS_FDKM1.jpg" class="img-fluid" alt="">  
                          </div>
 
                     </div>
@@ -37,6 +37,16 @@
 
                          <div class="banner">
                               <img src="../images/pub-tg.jpeg" class="img-fluid" alt="">  
+                         </div>
+
+                    </div>
+               </div>
+
+                 <div class="carousel-item">
+                    <div class="banner-container">
+
+                         <div class="banner">
+                              <img src="../images/TIBTP_Carré.jpg" class="img-fluid" alt="">  
                          </div>
 
                     </div>

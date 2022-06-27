@@ -25,7 +25,7 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                              <img src="../images/FDKM1x.jpg" class="d-block w-100 img-fluid" alt="">
+                              <img src="../images/SLIDERS_FDKM.jpg" class="d-block w-100 img-fluid" alt="">
                          </div>
 
                     </div>
@@ -36,6 +36,18 @@
 
                          <div class="banner">
                               <img src="../images/mayi-const.jpg" class="d-block w-100 img-fluid" alt="...">
+                         </div>
+
+                    </div>
+
+               </div>
+
+
+               <div class="carousel-item">
+                    <div class="banner-container">
+
+                         <div class="banner">
+                              <img src="../images/TIbtp.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
                     </div>

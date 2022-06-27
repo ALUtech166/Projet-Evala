@@ -39,7 +39,10 @@
 
 
                     <tbody v-if="program && program.length">
-                         <tr v-for="pro of program" :key="pro.id < 5">
+                     <template v-for="pro of program" :key="pro.id">
+
+                     
+                         <tr v-if="pro.status_programme_evala == 1">
                               <th scope="row">
                                    <b>{{ pro.jour_programme_evala}}</b>
                                    <br>
@@ -54,7 +57,7 @@
 
 
                          </tr>
-
+                    </template>
 
                     </tbody>
                </table>

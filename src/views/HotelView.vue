@@ -31,32 +31,31 @@
           <button class="btn btn-outline-success" type="submit">Recherche</button>
         </form>
       </div>
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/hotel-kara1.png" class="card-img-top img-fluid" alt="...">
+      <div class="row" v-if="hotel && hotel.length">
+        <div class="col-lg-3" v-for="hot of hotel" :key="hot.id">
+          <div class="card" style="width: 25rem; height: 37rem;">
+            <img :src="'http://karaevents.mekengroup.com/upload/hotel/'+hot.photo_hotel" class="card-img-top img-fluid"
+              alt="...">
             <div class="card-body">
-              <h3 class="card-title">Hotel Kara</h3>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
+              <h3 class="card-title">{{ hot.nom_hotel}}</h3>
+              <h5>Addresse: {{ hot.adresse_hotel}}</h5>
+              <h5>Contact: {{ hot.contact_hotel}}</h5>
               <p class="card-text">
-                <span>Détails:</span> Chambre simple, à partir de 18500 FCFA et double, à partir de 21500 FCFA,
-                bungalow luxe à
-                partir de 40000 FCFA selon la catégorie et la rénovation. Petit déjeuner buffet autour de 3500 FCFA
+                <span>Détails:</span> {{ hot.description_hotel}}
               </p>
               <div class="box1">
                 <div class="">
-                  <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
+                  <a type="button" class="box btn btn-outline-danger" :href="'https://'+hot.site_hotel" target="blank">Voir plus</a>
                 </div>
 
                 <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
+                  <a type="button" id="btn" class="btn btn-success" :href="'https://wa.me/'+hot.contact_hotel"
+                    target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a type="button" id="btn" class="btn btn-primary" :href="'tel:'+hot.contact_hotel" target="blank"><i
                       class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
+                  <a type="button" id="btn" class="btn btn-danger" :href="'mailto:'+hot.email_hotel" target="blank"><i
                       class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
+                  <a type="button" id="btn" class="btn btn-warning" :href="'https://goo.gl/maps/'+hot.localisation_hotel" target="blank"><i
                       class="fa-solid fa-location-dot"></i></a>
                 </div>
               </div>
@@ -64,240 +63,6 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/meka-hotel.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Meka Hotel</h3>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <p class="card-text">
-                <span>Détails:</span> Doté d'un bar, d'une terrasse et offrant une vue sur la ville, le Meka Hotel est
-                situé à Kara,
-                à 2,4 km du bureau de l'immigration. Il propose un restaurant, une réception ouverte 24h/24, un service
-                d'étage
-              </p>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/hotel-sbe.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Hotel sainte-brigitte</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <p class="card-text">
-                <span>Détails:</span> Très agréable dans un cadre verdoyant et calme. Le piscine est un atout pour cette
-                structure
-                confortable dont le personnel est très charmant. Chambre confortable avec climatisation et eau chaude
-
-              </p>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/hotel-sbe.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Hotel sainte-brigitte</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <p class="card-text">
-                <span>Détails:</span> Très agréable dans un cadre verdoyant et calme. Le piscine est un atout pour cette
-                structure
-                confortable dont le personnel est très charmant. Chambre confortable avec climatisation et eau chaude
-
-              </p>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-      </div>
-      <br>
-
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/Hotel-kamaka.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Hotel Kama'aka</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <p class="card-text">
-                <span>Détails:</span> L'hôtel Kama'aka, un hôtel chaleureux niché dans une région montagneuse est un
-                point
-                incontournable des touristes. En effet de sa proximité aux sites touristiques et lieux de festivités,
-                l'hôtel est un carrefour immanquable.
-
-              </p>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/hotel-concorde.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Hotel La concorde</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <p class="card-text">
-                <span>Détails:</span> Chambres ventilées autour de 8 000 FCFA, climatisées (TV, téléphone, eau chaude)
-                entre 16 000
-                et 40 000 FCFA. Petit déjeuner complet autour de 2 500 FCFA, plats à 4 000 FCFA en moyenne. Bar.
-              </p>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/Hotel-etoile.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Hotel etoile de la kozah</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <p class="card-text"><span>Détails:</span> Hôtel très propre, confortable. Personnel accueillant et
-                disponible.
-                Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.</p>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 35rem;">
-            <img src="../components/images/Hotel-etoile.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Hotel etoile de la kozah</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <p class="card-text"><span>Détails:</span> Hôtel très propre, confortable. Personnel accueillant et
-                disponible.
-                Débit wifi bien. La cuisine est très bonne et les tarifs sont abordables.</p>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-outline-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
 
 
       </div>
@@ -312,13 +77,40 @@
 
 <script>
   import HeaderBar from '@/components/partials/HeaderBar.vue'
+  import axios from 'axios'
   export default {
     components: {
       HeaderBar
+    },
+
+    data() {
+      return {
+        hotel: [],
+        errors: []
+      }
+    },
+
+    // Fetches posts when the component is created.
+    created(data) {
+      axios.get(`api/hotel`)
+        .then(response => {
+          // JSON responses are automatically parsed.
+          this.hotel = response.data
+          console.log(data)
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
     }
   }
 </script>
 <style scoped>
+  .row,
+  .col-lg-3 {
+    padding: 10px;
+  }
+
   .col-lg-4:hover {
     transform: translateY(35px);
     transition: 1s ease-in-out;
@@ -343,12 +135,18 @@
     color: red;
   }
 
-  .btn {
+  #btn {
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 100%;
     font-size: 10px;
 
 
+  }
+
+  .box {
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 10px;
   }
 
   a {
@@ -361,10 +159,12 @@
 
   span {
     font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   h2 {
     font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .box1 {
@@ -392,8 +192,8 @@
   p {
     font-size: 15px;
     font-family: 'jost', sans-serif;
-    color: #006A4A;
     text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   h3 {
@@ -462,7 +262,7 @@
 
   .card-text {
     text-align: left;
-    color: #006A4A;
+    color: #000;
 
   }
 

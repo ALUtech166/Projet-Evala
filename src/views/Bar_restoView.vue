@@ -25,237 +25,39 @@
 
       <h1>Les Bars & Restaurants à Kara</h1>
 
-
       <div class="header-search">
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
           <button class="btn btn-success" type="submit">Recherche</button>
         </form>
       </div>
-      <div class="row">
-        <div class="col-lg-3">
+      <div class="row" v-if="bars && bars.length">
+        <div class="col-lg-3" v-for="bar of bars" :key="bar.id">
           <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/hotel-kara1.png" class="card-img-top img-fluid" alt="...">
+            <img :src="'http://karaevents.mekengroup.com/upload/barResto/'+bar.photo_bar_resto" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
-              <h3 class="card-title">Place de la victoire</h3>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
+              <h3 class="card-title">{{ bar.nom_bar_resto }}</h3>
+              <h5>Address: {{ bar.adresse_bar_resto }}</h5>
+              <h5>Contact: {{ bar.contact_bar_resto }}</h5>
               <div class="box1">
                 <div class="">
-                  <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
+                  <a type="button" id="btn" class="btn btn-danger" :href="'https://'+bar.site_bar_resto">Voir plus</a>
                 </div>
 
                 <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
+                  <a type="button" id="btn" class="btn btn-success" :href="'https://wa.me/'+bar.contact_bar_resto" target="blank"><i
                       class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
+                  <a type="button" id="btn" class="btn btn-primary" :href="'tel:'+bar.adresse_bar_resto" target="blank"><i
                       class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
+                  <a type="button" class="btn btn-danger" :href="'mailto:'+bar.email_bar_resto" target="blank"><i
                       class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
+                  <a type="button" class="btn btn-warning" :href="'https://goo.gl/maps/'+bar.localisation_bar_resto" target="blank"><i
                       class="fa-solid fa-location-dot"></i></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/douceur.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">La Douceur</h3>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/etoile-kozah.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Etoile de la kozah</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/ile-de-reve.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">ile de rèves</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-      <br>
-
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/epsilone.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Epsilone</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/ile-de-reve.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">ile de rèves</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/ile-de-reve.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">ile de rèves</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/kara-pizza.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Kara - Pizza</h5>
-              <h5>Address: BP 5, Kara - Togo</h5>
-              <h5>Contact: +228 26600516</h5>
-              <div class="box1">
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-danger" href="/hotel-kara">Voir plus</a>
-                </div>
-
-                <div class="">
-                  <a type="button" id="btn" class="btn btn-warning" href="https://wa.me/91584474" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-danger" href="tel:91584474" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
-                  <a type="button" class="btn btn-info" href="mailto:sergetassiga@gmail.com" target="blank"><i
-                      class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-success" href="" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
 
 
       </div>
@@ -271,14 +73,40 @@
 
 <script>
   import HeaderBar from '@/components/partials/HeaderBar.vue'
+  import axios from 'axios'
   export default {
     components: {
       HeaderBar
+    },
+
+     data() {
+      return {
+        bars: [],
+        errors: []
+      }
+    },
+
+    // Fetches posts when the component is created.
+    created(data) {
+      axios.get(`api/bar_resto`)
+        .then(response => {
+          // JSON responses are automatically parsed.
+          this.bars = response.data
+          console.log(data)
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
     }
   }
 </script>
 
 <style scoped>
+
+  .col-lg-3 {
+    padding: 10px;
+  }
   ol {
     font-size: 20px;
   }
@@ -320,6 +148,11 @@
 
   h2 {
     font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  h5 {
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .box1 {
@@ -413,6 +246,7 @@
 
   .card-title {
     color: #006A4A;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   h5 {
@@ -424,6 +258,7 @@
   .card-text {
     text-align: left;
     color: #006A4A;
+    font-family: 'Josefin Sans', sans-serif;
 
   }
 

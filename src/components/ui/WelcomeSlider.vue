@@ -114,6 +114,7 @@
 
      .contenu {
           background-image: url(../images/Background.jpg);
+          background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
      }
 
 

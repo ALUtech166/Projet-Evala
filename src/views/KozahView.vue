@@ -325,11 +325,11 @@
                               <div class="row" v-if="canton && canton.length">
 
                                    <div class="col-lg-5" v-for="cat of canton" :key="cat.id">
-                                        <img :src="'http://karaevents.mekengroup.com/storage/files/'+cat.photo_publicite"
+                                        <img style="width : 200px" :src="'http://karaevents.mekengroup.com/upload/canton/'+cat.photo_canton"
                                              alt="img" />
-                                        <h2>{{ cat.nom_societe }}</h2> <br>
+                                        <h2>{{ cat.nom_canton }} </h2> <br>
                                         <p>
-                                             {{ cat.description_publicite }}
+                                             {{ cat.description_canton }}
                                         </p>
                                    </div>
                               </div>
@@ -357,11 +357,12 @@
 
           // Fetches posts when the component is created.
           created(data) {
-               axios.get(`api/pub`)
+               axios.get(`api/canton`)
                     .then(response => {
                          // JSON responses are automatically parsed.
                          this.canton = response.data
                          console.log(data)
+                         
                     })
                     .catch(e => {
                          this.errors.push(e)

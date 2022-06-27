@@ -24,7 +24,7 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                              <img src="../images/FDKM1x.jpg" class="d-block w-100 img-fluid" alt="">
+                              <img src="../images/SLIDERS_FDKM.jpg" class="d-block w-100 img-fluid" alt="">
                          </div>
 
                     </div>

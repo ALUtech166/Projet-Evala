@@ -31,14 +31,13 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/telecom.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title">Koutammakou</h3>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.
+              <h3 class="card-title">Agence moov Kara
+              </h3>
+              <p class="card-text"><b>Contact:</b> 96000000
               </p>
               <a type="button" class="btn btn-success" href="">Aller sur Place <i
                   class="icons fa-solid fa-location-dot"></i></a>
@@ -48,14 +47,15 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+
+
+        <div class="col-lg-6">
           <div class="card" style="width: 25rem; height: 32rem;">
             <img src="../components/images/telecom.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title">Parc de Sarakawa</h3>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
+              <h3 class="card-title">Agence Togocel Kara</h3>
+              <p class="card-text"><b>Contact:</b> 90000000
+              </p>
               <a type="button" class="btn btn-success" href="">Aller sur Place <i
                   class="icons fa-solid fa-location-dot"></i></a>
 
@@ -63,80 +63,16 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/telecom.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Fazao-Malfakassa National Park</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-
 
       </div>
-      <br>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/telecom.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Keran National Park</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/telecom.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Museé Africart</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/telecom.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Le Monument Sarakawa</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
 
 
 
-      </div>
+
+
+
+
+
 
 
 
