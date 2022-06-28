@@ -41,22 +41,24 @@
   <category-page></category-page>
 
   <div class="app-store">
-   <div class="container">
+    <div class="container">
       <div class="row">
 
-        <div class="col-lg-6">
-          <h1>Voici la version Mobile de la Platforme.</h1>
-          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        <div id="col" class="col-lg-6">
+          <h6>Voici la version <span>Mobile</span> de la Platforme <span>Kara Events</span>.</h6>
+          <p>Plus de 5000 personnes utilisent Kara Events. Obtenez l'application et commencez à réserver à l'avance.</p>
+          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Telecharger</button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>
+            Telecharger</button>
         </div>
 
 
         <div class="col-lg-6">
-          <img class="img-fluid" src="" alt="iphone-mockup">
+          <img class="img-fluid" src="../components/images/MAIN.png" alt="iphone-mockup">
         </div>
 
       </div>
-   </div>
+    </div>
   </div>
 
 
@@ -95,6 +97,33 @@
     transition: 1s ease-in-out;
   }
 
+  #col {
+    padding-top: 100px;
+  }
+
+  p {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+
+  }
+
+  span {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+
+  }
+
+
+
+  h6 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    color: red;
+  }
+
   .yellow-box {
     border: 3px solid #FFCE00;
     padding: 20px;
@@ -108,7 +137,7 @@
 
   .app-store {
     background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     text-align: center;
   }

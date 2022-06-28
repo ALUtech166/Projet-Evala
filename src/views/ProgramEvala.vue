@@ -29,11 +29,11 @@
                     <thead>
                          <tr>
                               <th scope="col">Jours et Dates</th>
-                              <th scope="col">Rencontre (Competitions)</th>
+                              <th scope="col">Rencontre(Competitions)</th>
                               <th scope="col">Heures</th>
                               <th scope="col">Observation</th>
                               <th scope="col">Lieux</th>
-                              <th scope="col">Localisation</th>
+                             
                          </tr>
                     </thead>
 
@@ -52,8 +52,12 @@
                               <td>{{ pro.rencontre_programme_evala}}</td>
                               <td>{{ pro.heure_programme_evala}}</td>
                               <td>{{ pro.observation_programme_evala}}</td>
-                              <td>{{ pro.lieu_programme_evala}}</td>
-                              <td><a :href="'http://'+pro.localisation_programme_evala" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td>
+                                   {{ pro.lieu_programme_evala}} <br>
+                                   <a :href="'http://'+pro.localisation_programme_evala" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
+                              
+                              </td>
+                              
 
 
 
@@ -117,7 +121,7 @@
 
      .icons {
           color: red;
-          font-size: 35px;
+          font-size: 25px;
 
      }
 
@@ -130,11 +134,7 @@
           padding: 20px;
      }
 
-     .icons {
-          color: red;
-          font-size: 35px;
-
-     }
+     
 
      li {
           font-size: 17px;
@@ -142,8 +142,7 @@
 
      td,
      th {
-          font-size: 17px;
-
+          font-size: 15px;
           font-family: 'Josefin Sans', sans-serif;
      }
 
@@ -171,16 +170,15 @@
      }
 
      .table {
-          max-width: 100%;
+          
           border-radius: 12px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-          padding: 1px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
           border: 2px solid black;
      }
 
-     .table td {
+     .table {
           padding: 1px;
      }
 

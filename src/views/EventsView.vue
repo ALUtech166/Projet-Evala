@@ -71,7 +71,7 @@
 
 
           <div class="col-lg-4">
-          <img class="img-fluid image" src="../components/images/FDKM1x.jpg" alt="">
+          <img class="img-fluid image" src="../components/images/MISS_KARA.jpg" alt="">
           <div class="box1">
             <a href="">
               <h2 style="color:red">Miss Kara</h2>
@@ -127,7 +127,7 @@
 
 <style scoped>
   .col-lg-4:hover {
-    transform: translate(35px);
+    transform: translateZ(20px);
     transition: 1s ease-in-out all;
   }
 

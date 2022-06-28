@@ -84,7 +84,7 @@
                               <th scope="col">Lieux</th>
                               <th scope="col">Heures</th>
                               <th scope="col">Observation</th>
-                              <th scope="col">Localiosation</th>
+                             
                          </tr>
                     </thead>
 
@@ -100,8 +100,11 @@
                               <td>Descente du souverain sacrificateur(Tchodjo)</td>
                               <td>PYA-LAO</td>
                               <td>08H</td>
-                              <td>Dans la soicrée</td>
-                             <td><a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td>
+                                   Dans la soicrée <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
+
+                              </td>
 
 
 
@@ -120,8 +123,11 @@
                               </td>
                               <td>EPP Yadè-Poulou</td>
                               <td>09H</td>
-                              <td>1/8 de finale</td>
-                             <td><a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td>
+                                   1/8 de finale <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
+
+                              </td>
 
 
 
@@ -138,9 +144,12 @@
                               <td>Sodè contre Panadiwa</td>
                               <td>EPP Yadè-Sodé</td>
                               <td>09H</td>
-                              <td>1/8 de finale</td>
-                             <td><a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td>
+                                   1/8 de finale <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
 
+                              </td>
+        
 
 
 
@@ -158,8 +167,14 @@
                               <td>LAO-HAUT contre LAO-BAS</td>
                               <td>EPP Kagnalada</td>
                               <td>09H</td>
-                              <td>NB: Ouverture officielle des luttes EVALA</td>
-                             <td><a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td>
+                                   NB: Ouverture officielle des luttes EVALA <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
+
+
+
+                              </td>
+                             
 
 
 
@@ -177,8 +192,11 @@
                               <td>-Préliminaires -Waldè bas contre Pyadè bas</td>
                               <td>Patoulidè</td>
                               <td>10H</td>
-                              <td>1/4 de finale</td>
-                              <td><a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a></td>
+                              <td>
+                                   1/4 de finale <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
+
+                              </td>
 
 
 

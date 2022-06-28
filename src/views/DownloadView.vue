@@ -2,7 +2,7 @@
      <header-bar></header-bar>
      <div class="header">
           <h1 class="titre">
-               Download
+               TELECHARGER
           </h1>
      </div>
 
@@ -11,20 +11,20 @@
           <div class="container">
                <div class="row">
 
-                    <div class="col-lg-6">
+                    <div id="col" class="col-lg-6">
                          <h1>Rejoignez plus de <span>5 000</span> clients.</h1>
                          <p>plus de 5000 personnes utilisent Kara Events. Obtenez
                               l'application et commencez à réserver à l'avance.
                          </p>
                          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>
-                              Download</button>
+                              Telecharger</button>
                          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>
-                              Download</button>
+                              Telecharger</button>
                     </div>
 
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="" alt="iphone-mockup">
+                         <img class="img-fluid" src="../components/images/MAIN.png" alt="iphone-mockup">
                     </div>
 
                </div>
@@ -37,38 +37,17 @@
 </template>
 
 <script>
-     import axios from "axios";
+     
      import HeaderBar from "../components/partials/HeaderBar.vue";
 
      export default {
-          name: "LoginView",
-          data() {
-               return {
-                    form: this.initForm()
-               }
-          },
 
           components: {
                HeaderBar
           },
 
-          methods: {
-               login() {
-                    axios.post('api/login', this.form).then((response) => {
-                         localStorage.setItem('token', response.data.access_token)
-                         this.$router.push('/user-profile')
-                    }).catch(error => {
-                         console.log(error)
-                    })
-               },
-
-               initForm() {
-                    return {
-                         email: null,
-                         password: null
-                    }
-               }
-          }
+          
+          
      }
 </script>
 
@@ -77,6 +56,14 @@
           background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
           padding: 50px;
           text-align: center;
+     }
+
+     .row {
+          text-align: center;
+     }
+
+     #col {
+          padding-top: 50px;
      }
 
      button {
