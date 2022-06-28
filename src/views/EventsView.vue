@@ -32,7 +32,7 @@
         <div class="col-lg-6">
 
 
-          <img class="img-fluid image" src="../components/images/2k-e.jpg" alt="">
+          <img class="img-fluid image" src="../components/images/EVALA.jpg" alt="">
           <div class="box1">
             <a href="/evala">
               <h2 style="color:green">Evala</h2>
@@ -81,7 +81,7 @@
 
         <div class="col-lg-6">
 
-          <img class="img-fluid image" src="../components/images/2k-e.jpg" alt="">
+          <img class="img-fluid image" src="../components/images/CONCERTS.jpg" alt="">
           <div class="box2">
             <a href="">
               <h2 style="color:green">Concerts</h2>

@@ -40,6 +40,23 @@
   <pub-page2></pub-page2>
   <category-page></category-page>
 
+  <div class="app-store">
+    <div class="row">
+
+        <div class="col-lg-6">
+          <h1>Voici la version Mobile de la Platforme.</h1>
+          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+
+        <div class="col-lg-6">
+          <img class="img-fluid" src="" alt="iphone-mockup">
+        </div>
+
+      </div>
+  </div>
+
 
 </template>
 
@@ -85,6 +102,17 @@
     font-family: 'Josefin Sans', sans-serif;
 
 
+  }
+
+  .app-store {
+    background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  button {
+    margin: 10px;
   }
 
 

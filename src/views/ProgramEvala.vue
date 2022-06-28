@@ -30,9 +30,10 @@
                          <tr>
                               <th scope="col">Jours et Dates</th>
                               <th scope="col">Rencontre (Competitions)</th>
-                              <th scope="col">Lieux</th>
                               <th scope="col">Heures</th>
                               <th scope="col">Observation</th>
+                              <th scope="col">Lieux</th>
+                              <th scope="col">Localisation</th>
                          </tr>
                     </thead>
 
@@ -49,9 +50,10 @@
                                    <span>{{ pro.date_programme_evala }}</span>
                               </th>
                               <td>{{ pro.rencontre_programme_evala}}</td>
-                              <td>{{ pro.lieu_programme_evala}}</td>
                               <td>{{ pro.heure_programme_evala}}</td>
                               <td>{{ pro.observation_programme_evala}}</td>
+                              <td>{{ pro.lieu_programme_evala}}</td>
+                              <td><i class="icons fa-solid fa-location-dot"><a :href="'http://'+pro.localisation_programme_evala" target="_blank" rel="noopener noreferrer"></a></i></td>
 
 
 
@@ -110,6 +112,12 @@
 
      em {
           color: red;
+
+     }
+
+     .icons {
+          color: red;
+          font-size: 35px;
 
      }
 

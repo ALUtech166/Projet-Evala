@@ -84,6 +84,7 @@
                               <th scope="col">Lieux</th>
                               <th scope="col">Heures</th>
                               <th scope="col">Observation</th>
+                              <th scope="col">Localiosation</th>
                          </tr>
                     </thead>
 
@@ -100,6 +101,7 @@
                               <td>PYA-LAO</td>
                               <td>08H</td>
                               <td>Dans la soicrée</td>
+                              <td><i class="icons fa-solid fa-location-dot"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i></td>
 
 
 
@@ -119,6 +121,7 @@
                               <td>EPP Yadè-Poulou</td>
                               <td>09H</td>
                               <td>1/8 de finale</td>
+                              <td><i class="icons fa-solid fa-location-dot"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i></td>
 
 
 
@@ -136,6 +139,7 @@
                               <td>EPP Yadè-Sodé</td>
                               <td>09H</td>
                               <td>1/8 de finale</td>
+                              <td><i class="icons fa-solid fa-location-dot"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i></td>
 
 
 
@@ -155,6 +159,7 @@
                               <td>EPP Kagnalada</td>
                               <td>09H</td>
                               <td>NB: Ouverture officielle des luttes EVALA</td>
+                              <td><i class="icons fa-solid fa-location-dot"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i></td>
 
 
 
@@ -173,6 +178,7 @@
                               <td>Patoulidè</td>
                               <td>10H</td>
                               <td>1/4 de finale</td>
+                              <td><i class="icons fa-solid fa-location-dot"><a href="http://" target="_blank" rel="noopener noreferrer"></a></i></td>
 
 
 
