@@ -41,6 +41,7 @@ import TelecomView from '@/views/TelecomView.vue';
 import EventsView from '@/views/EventsView.vue';
 import ProgramEvala from '@/views/ProgramEvala.vue'
 import PortalView from '../components/layout/PortalView.vue';
+import DownloadView from '@/views/DownloadView.vue';
 
 
 const routes = [{
@@ -80,6 +81,11 @@ const routes = [{
     path: '/portal',
     name: 'Portal',
     component: PortalView
+  },
+  {
+    path: '/download',
+    name: 'download',
+    component: DownloadView
   },
 
 

@@ -41,7 +41,8 @@
   <category-page></category-page>
 
   <div class="app-store">
-    <div class="row">
+   <div class="container">
+      <div class="row">
 
         <div class="col-lg-6">
           <h1>Voici la version Mobile de la Platforme.</h1>
@@ -55,6 +56,7 @@
         </div>
 
       </div>
+   </div>
   </div>
 
 

@@ -53,7 +53,7 @@
                               <td>{{ pro.heure_programme_evala}}</td>
                               <td>{{ pro.observation_programme_evala}}</td>
                               <td>{{ pro.lieu_programme_evala}}</td>
-                              <td><i class="icons fa-solid fa-location-dot"><a :href="'http://'+pro.localisation_programme_evala" target="_blank" rel="noopener noreferrer"></a></i></td>
+                              <td><a :href="'http://'+pro.localisation_programme_evala" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a></td>
 
 
 

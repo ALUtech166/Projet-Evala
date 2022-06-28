@@ -19,7 +19,7 @@
   </div>
   <div class="about">
     <div class="title">
-      <h1 style="color:green">Evenements</h1>
+      <h1 style="color:red">Evenements</h1>
       <p>
         Au cours de votre séjour à Kara, osez sortir et profiter de tous les instants.
         Kara dispose des lieux touristiques des Bars-Restaurants, des Boites de nuits, des Marchés etc.
@@ -29,62 +29,62 @@
     <div class="acc" data-aos="flip-right" data-aos-duration="3000">
       
       <div class="row" id="items">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
 
 
           <img class="img-fluid image" src="../components/images/EVALA.jpg" alt="">
           <div class="box1">
             <a href="/evala">
-              <h2 style="color:green">Evala</h2>
+              <h2 style="color:red">Evala</h2>
             </a>
           </div>
         </div>
 
-        <div class="col-lg-6">
-          <img class="img-fluid image" src="../components/images/FDKM1x.jpg" alt="">
+        <div class="col-lg-4">
+          <img class="img-fluid image" src="../components/images/AKPEMA.jpg" alt="">
           <div class="box1">
             <a href="/akpema">
-              <h2 style="color:green">Akpema</h2>
+              <h2 style="color:red">Akpema</h2>
             </a>
           </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <img class="img-fluid image" src="../components/images/FDKM1x.jpg" alt="">
           <div class="box1">
             <a href="/kondona">
-              <h2 style="color:green">Kondona</h2>
+              <h2 style="color:red">Kondona</h2>
             </a>
           </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-4">
 
-          <img class="img-fluid image" src="../components/images/2k-e.jpg" alt="">
+          <img class="img-fluid image" src="../components/images/HABYE.jpg" alt="">
           <div class="box2">
             <a href="/habyé">
-              <h2 style="color:green">Habyé</h2>
+              <h2 style="color:red">Habyé</h2>
             </a>
           </div>
         </div>
 
 
 
-          <div class="col-lg-6">
+          <div class="col-lg-4">
           <img class="img-fluid image" src="../components/images/FDKM1x.jpg" alt="">
           <div class="box1">
             <a href="">
-              <h2 style="color:green">Miss Kara</h2>
+              <h2 style="color:red">Miss Kara</h2>
             </a>
           </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-4">
 
           <img class="img-fluid image" src="../components/images/CONCERTS.jpg" alt="">
           <div class="box2">
             <a href="">
-              <h2 style="color:green">Concerts</h2>
+              <h2 style="color:red">Concerts</h2>
             </a>
           </div>
         </div>
@@ -126,12 +126,18 @@
 
 
 <style scoped>
-  .col-lg-6:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
+  .col-lg-4:hover {
+    transform: translate(35px);
+    transition: 1s ease-in-out all;
   }
 
-  .col-lg-6:hover:before {
+  h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .col-lg-4:hover:before {
     opacity: 1;
 
   }

@@ -51,6 +51,16 @@
 
                     </div>
                </div>
+
+                   <div class="carousel-item">
+                    <div class="banner-container">
+
+                         <div class="banner">
+                              <img src="../images/zilla.jpeg" class="img-fluid" alt="">  
+                         </div>
+
+                    </div>
+               </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
                data-bs-slide="prev">

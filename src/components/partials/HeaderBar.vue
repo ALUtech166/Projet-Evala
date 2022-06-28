@@ -18,7 +18,7 @@
                               <li><a class="dropdown-item" href="/">Accueil</a></li>
                               <li><a class="dropdown-item" href="/about">Accomodation</a></li>
                               <li><a class="dropdown-item" href="/events">Evenements</a></li>
-                              <li><a class="dropdown-item" href="">Download</a></li>
+                              <li><a class="dropdown-item" href="/download">Download</a></li>
                           
 
 
