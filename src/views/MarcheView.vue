@@ -29,15 +29,14 @@
         </form>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4">
+      <div class="row"  v-if="marche && marche.length">
+        <div class="col-lg-4" v-for="mar of marche" :key="mar.id">
           <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/Photo32.png" class="card-img-top" alt="...">
+            <img :src="'http://karaevents.mekengroup.com/upload/marche/'+mar.photo_marche" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title">Marché</h3>
-              <p class="card-text"><b>Localisation:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+              <h3 class="card-title">{{ mar.nom_marche }}</h3>
+
+              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+mar.localisation_marche" >Aller sur Place <i
                   class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
@@ -45,90 +44,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/Photo34.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Marchél</h3>
-              <p class="card-text"><b>Localisation:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-
-              <hr class="style-two">
-            </div>
-          </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/Photo32.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Supermarché</h5>
-              <p class="card-text"><b>Localisation:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-      <br>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/Photo36.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Marché</h5>
-              <p class="card-text"><b>Localisation:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/Photo34.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Marché</h5>
-              <p class="card-text"><b>Localisation:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/Photo32.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Marché</h5>
-              <p class="card-text"><b>Localisation:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
 
 
 
@@ -136,35 +53,56 @@
 
 
 
+
+
+
     </div>
 
+    <div class="arrow">
 
 
+      <div style="text-align:">
+        <a href="/boite" type="button" class="btn btn-outline-success"><i class="fa-solid fa-arrow-left"></i>
+          Previous</a>
+      </div>
+      <div style="text-align:">
+        <a href="/religion" type="button" class="btn btn-outline-success">Next <i
+            class="fa-solid fa-arrow-right"></i></a>
+      </div>
 
 
-
-  </div>
-
-  <div class="arrow">
-
-
-    <div style="text-align:">
-      <a href="/boite" type="button" class="btn btn-outline-success"><i class="fa-solid fa-arrow-left"></i> Previous</a>
     </div>
-    <div style="text-align:">
-      <a href="/religion" type="button" class="btn btn-outline-success">Next <i class="fa-solid fa-arrow-right"></i></a>
-    </div>
-
-
-  </div>
 </template>
 
 <script>
   import HeaderBar from '@/components/partials/HeaderBar.vue'
+  import axios from 'axios'
   export default {
     components: {
       HeaderBar
+    },
+
+    data() {
+      return {
+        marche: [],
+        errors: []
+      }
+    },
+
+    // Fetches posts when the component is created.
+    created(data) {
+      axios.get(`api/marche`)
+        .then(response => {
+          // JSON responses are automatically parsed.
+          this.marche = response.data
+          console.log(data)
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
     }
+
   }
 </script>
 
@@ -221,7 +159,7 @@
     margin-top: 2rem;
   }
 
-  h3,
+ 
   p {
     font-size: 15px;
     font-family: 'jost', sans-serif;
@@ -278,10 +216,9 @@
   }
 
   .card-title {
-    text-align: left;
+    text-align: center;
     color: #006A4A;
-    text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   h1 {
@@ -296,8 +233,8 @@
   .card-title {
     text-align: left;
     color: #006A4A;
-    text-transform: uppercase;
-    font-size: 15px;
+    font-size: 10px;
+    font-weight: bold;
   }
 
   h5 {
@@ -317,7 +254,7 @@
     padding: 3rem;
   }
 
-   .header {
+  .header {
     height: 30vh;
     background-image:
       url(../components/images/banner.jpg);

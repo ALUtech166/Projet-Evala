@@ -30,17 +30,14 @@
         </form>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/station.jpg" class="card-img-top" alt="...">
+      <div class="row" v-if="station && station.length">
+        <div class="col-lg-4" v-for="sta of station" :key="sta.id">
+          <div class="card" style="width: 25rem; height: 27rem;">
+            <img  :src="'http://karaevents.mekengroup.com/upload/station/'+sta.photo_station" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title">Total</h3>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+              <h3 class="card-title">{{ sta.nom_station }}</h3>
+              
+              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+sta.localisation_station" target="blank">Aller sur Place <i
                   class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
@@ -48,92 +45,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/station.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">T-oil</h3>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/station.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">MRS</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-      <br>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/station.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">SOMAYEF</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/station.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Oando</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/station.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Sanol</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
+       
 
 
       </div>
@@ -149,10 +61,33 @@
 
 <script>
   import HeaderBar from '@/components/partials/HeaderBar.vue'
+  import axios from 'axios'
   export default {
     components: {
       HeaderBar
+    },
+
+      data() {
+      return {
+        station: [],
+        errors: []
+      }
+    },
+
+    // Fetches posts when the component is created.
+    created(data) {
+      axios.get(`api/station`)
+        .then(response => {
+          // JSON responses are automatically parsed.
+          this.station = response.data
+          console.log(data)
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
     }
+
   }
 </script>
 
@@ -173,6 +108,10 @@
   .col-lg-3:hover {
     transform: translateY(35px);
     transition: 1s ease-in-out;
+  }
+
+  .col-lg-4 {
+    padding: 10px;
   }
 
   .bread {
@@ -271,7 +210,8 @@
     text-align: left;
     color: #006A4A;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
   }
 
   h1 {

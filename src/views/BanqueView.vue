@@ -36,7 +36,7 @@
                                    <h3 class="card-title">{{ ban.nom_agence }}</h3>
                                    <h5>Contact: {{ ban.contact_agence}}</h5>
                                    <h5>Lieu: {{ ban.adresse_agence }}</h5>
-                                   <a type="button" class="btn btn-success" :href="ban.localisation_agence" >Aller sur Place <i
+                                   <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+ban.localisation_agence" >Aller sur Place <i
                                              class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>

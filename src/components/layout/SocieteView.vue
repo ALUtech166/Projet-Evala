@@ -8,6 +8,7 @@
      </div>
      <div class="body">
           <div class="header-search">
+
                <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Recherche</button>
@@ -40,12 +41,11 @@
                          <input type="text" class="form-control" id="number" v-model="email_societe" required>
                     </div>
                     <div class="mb-3">
-                         <label for="number" class="form-label" v-if="program && program.length">Type de
+                         <label for="number" class="form-label">Type de
                               Société*</label>
                          <select class="form-select" id="validationCustom04" v-model="type_societe_id" required>
                               <option selected disabled value="">Choose...</option>
-                              <option :value="pro.id" v-for="pro of program" :key="pro.id">{{ pro.nom_type_societe}}
-                              </option>
+                              <option :value="1">er</option>
 
                          </select>
                     </div>
@@ -59,17 +59,13 @@
                     </div>
                     <div class="mb-3">
                          <label for="image" class="form-label">Logo de la Societe*</label>
-                         <input type="file" class="form-control" id="image" @change="uploadImage" required>
-                         <div id="preview">
-                              <img style="width: 100px" v-if="imageUrl" :src="imageUrl" />
-                         </div>
+                         <input type="file" class="form-control" @change="uploadImage" required>
+
                     </div>
                     <div class="mb-3">
                          <label for="image" class="form-label">Photo de la Societe*</label>
-                         <input type="file" class="form-control" id="image" @change="uploadPhoto" required>
-                         <div id="preview">
-                              <img style="width: 100px" v-if="photoUrl" :src="photoUrl" />
-                         </div>
+                         <input type="file" class="form-control" @change="uploadPhoto" required>
+
                     </div>
                     <div class="mb-3">
                          <label for="text" class="form-label">Note de la société*</label>
@@ -84,26 +80,22 @@
 
 
      </div>
+
+     
 </template>
 
 <script>
-     import SidebarMenu from "../SideBar/SidebarMenu.vue"
      import axios from 'axios'
+     import SidebarMenu from "../SideBar/SidebarMenu.vue"
+
      import {
           sidebarWidth
      } from '@/components/state'
+
      export default {
           components: {
                SidebarMenu
           },
-
-
-          setup() {
-               return {
-                    sidebarWidth
-               }
-          },
-
 
           data() {
                return {
@@ -119,59 +111,50 @@
                     logo_societe: '',
                     photo_societe: '',
                     note_societe: '',
-                    imageUrl: '',
-                    photoUrl: ''
+                    type_societe_id: ''
 
 
                }
           },
 
 
-          created(data) {
-               axios.get(`api/type_societe`)
-                    .then(response => {
-                         // JSON responses are automatically parsed.
-                         this.program = response.data
-                         console.log(data)
-                    })
-                    .catch(e => {
-                         this.errors.push(e)
-                    })
+          setup() {
+               return {
+                    sidebarWidth
+          }
           },
+
 
           methods: {
                uploadImage(e) {
-                    const file = e.target.files[0]
-                    this.logo_societe = file
-                    this.imageUrl = URL.createObjectURL(file)
+
+                    this.logo_societe = e.target.files[0]
+
                },
 
                uploadPhoto(e) {
-                    const file = e.target.files[0]
-                    this.photo_societe = file
-                    this.photoUrl = URL.createObjectURL(file)
+
+                    this.photo_societe = e.target.files[0]
+
                },
 
                create() {
 
-                    const data = new FormData();
-                    data.append('image', this.logo_societe, this.logo_societe.name)
-                    const db = new FormData();
-                    db.append('image', this.photo_societe, this.photo_societe.name)
-                    axios.post('api/societe', {
-                         raison_social: this.raison_social,
-                         adresse_societe: this.adresse_societe,
-                         numero_societe: this.numero_societe,
-                         email_societe: this.email_societe,
-                         nif_societe: this.nif_societe,
-                         rccm_societe: this.rccm_societe,
-                         logo_societe: data,
-                         photo_societe: db,
-                         note_societe: this.note_societe,
-
-
-                    }).then(() => {
+                    const fd = new FormData();
+                    fd.append('raison_social', this.raison_social)
+                    fd.append('adresse_societe', this.adresse_societe)
+                    fd.append('numero_societe', this.numero_societe)
+                    fd.append('email_societe', this.email_societe)
+                    fd.append('nif_societe', this.nif_societe)
+                    fd.append('rccm_societe', this.rccm_societe)
+                    fd.append('logo_societe', this.logo_societe)
+                    fd.append('photo_societe', this.photo_societe)
+                    fd.append('note_societe', this.note_societe)
+                    fd.append('type_societe_id', this.type_societe_id)
+                    axios.post('api/societe', fd).then((response) => {
+                         localStorage.setItem('token', response.data.access_token)
                          this.$router.push('/portal')
+                         alert('Vous avez créé votre entreprise avec succès')
                     }).catch(error => {
                          console.log(error)
                     })

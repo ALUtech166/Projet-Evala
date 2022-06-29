@@ -1,4 +1,11 @@
 <template>
+
+     <sidebar-menu>
+
+     </sidebar-menu>
+     <div :style="{ 'margin-left': sidebarWidth }">
+          <router-view />
+     </div>
      <div class="home">
           <div class="header-search">
                <form class="d-flex" role="search">
@@ -7,6 +14,7 @@
                </form>
           </div>
 
+          <div class="container">
           <div class="body">
                <h1>Mek's Engineering Group(MEG)</h1>
                <p>Ingenierie informatique - community management - Vente de matériels Informatique</p>
@@ -44,7 +52,7 @@
 
                     <div class="col-lg-4">
                          <div class="card" style="width: 18rem;">
-                              <img src="../images/pexels-negative-space-48605.jpg" class="card-img-top"
+                              <img src="../images/pexels-mark-angelo-sampan-1587927.jpg" class="card-img-top"
                                    alt="...">
                               <div class="card-body">
                                    <h3>Agence de Kpendjal</h3>
@@ -61,7 +69,7 @@
 
                     <div class="col-lg-4">
                          <div class="card" style="width: 18rem;">
-                              <img src="../images/pexels-karolina-grabowska-4476635.jpg" class="card-img-top"
+                              <img src="../images/pexels-shvets-production-7176027.jpg" class="card-img-top"
                                    alt="...">
                               <div class="card-body">
                                    <h3>Agence de Kara</h3>
@@ -93,17 +101,39 @@
 
 
           </base-card>
-          <img src="../images/pexels-negative-space-48605.jpg" alt="" width="1000px" height="1000px">
+          <img src="../images/pexels-tyler-lastovich-699122.jpg" alt="" width="1000px" height="1000px">
+
+          </div>
 
      </div>
 </template>
 
 <script>
      import BaseCard from '@/components/ui/BaseCard.vue'
+     import SidebarMenu from "../SideBar/SidebarMenu.vue"
+     //import axios from 'axios'
+
+     import {
+          sidebarWidth
+     } from '@/components/state'
+
      export default {
           components: {
-               BaseCard
+               BaseCard,
+               SidebarMenu
+          },
+
+           setup() {
+               return {
+                    sidebarWidth
           }
+          },
+
+
+          created() {
+               
+          },
+
      }
 </script>
 

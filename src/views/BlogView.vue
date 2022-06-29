@@ -7,71 +7,25 @@
 
      <div class="body">
 
-          <div class="row">
-               <div class="col-lg-8">
+          <div class="row"  v-if="program && program.length">
+               <div class="col-lg-8" v-for="pro of program" :key="pro.id">
                     <div class="blog">
-                         <img src="../components/images/2k-e.jpg" alt="" class="img-fluid image">
+                         <img :src="'http://karaevents.mekengroup.com/upload/actualite/'+pro.photo_actualite" alt="" class="img-fluid image">
                          <br>
                          <div class="context">
                               <div class="box" style="display: flex">
                                    <div class="">
-                                        <h2>Serge Anan</h2>
+                                        <h2>{{ pro.nom_acteur}} {{ pro.prenom_acteur}}</h2>
                                    </div>
-                                   <div class=""><span>28 Mai 2022</span></div>
+                                   <div class=""><span>{{ pro.date_actualite }}</span></div>
                               </div>
-                              <h1>Kara Events Platforme</h1>
+                              <h1>{{ pro.titre_actualite}}</h1>
                               <p>
-                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora nemo
-                                   quae
-
-                                   omnis. <br>
-                                   Dignissimos ipsum alias aspernatur consequuntur odio optio, quis rem at omnis?
-                                   Sapiente dolor a hic veritatis error.
+                                   {{ pro.description_actualite }}
                               </p>
                          </div>
                     </div>
                     <br>
-                    <div class="blog">
-                         <img src="../components/images/AACG.jpg" alt="" class="img-fluid image">
-                         <br>
-                         <div class="context">
-
-                              <div class="box" style="display: flex">
-                                   <div class="">
-                                        <h2>Serge Anan</h2>
-                                   </div>
-                                   <div class=""><span>28 Mai 2022</span></div>
-                              </div>
-                              <h1>Kara Events Platforme</h1>
-                              <p>
-                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora nemo
-                                   quaeomnis. <br>
-                                   Dignissimos ipsum alias aspernatur consequuntur odio optio, quis rem at omnis?
-                                   Sapiente dolor a hic veritatis error.
-                              </p>
-                         </div>
-                    </div>
-                    <br>
-                    <div class="blog">
-                         <img src="../components/images/AACG.jpg" alt="" class="img-fluid image">
-                         <br>
-                         <div class="context">
-
-                              <div class="box" style="display: flex">
-                                   <div class="">
-                                        <h2>Serge Anan</h2>
-                                   </div>
-                                   <div class=""><span>28 Mai 2022</span></div>
-                              </div>
-                              <h1>Kara Events Platforme</h1>
-                              <p>
-                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora nemo
-                                   quaeomnis. <br>
-                                   Dignissimos ipsum alias aspernatur consequuntur odio optio, quis rem at omnis?
-                                   Sapiente dolor a hic veritatis error.
-                              </p>
-                         </div>
-                    </div>
                </div>
 
                <div class="col-lg-4">

@@ -29,98 +29,17 @@
         </form>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4">
+      <div class="row" v-if="boite && boite.length">
+        <div class="col-lg-4" v-for="bo of boite" :key="bo.id">
           <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/feve.png" class="card-img-top" alt="...">
+            <img :src="'http://karaevents.mekengroup.com/upload/boite_nuit/'+bo.photo_boite_nuit" class="card-img-top"
+              alt="...">
             <div class="card-body">
-              <h3 class="card-title">La Féve Night Club</h3>
-              <p class="card-text"><b>Adresse:</b>
+              <h3 class="card-title">{{ bo.nom_boite_nuit }}</h3>
+              <p class="card-text"><b>Adresse: {{ bo.adresse_boite_nuit }}</b>
               </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/mandarin.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Mandarin VIP Night Club</h3>
-              <p class="card-text"><b>Adresse:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/colombe.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Colombe Night Club</h5>
-              <p class="card-text"><b>Adresse:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-      <br>
-
-      <div class="row">
-
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/Photo18.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Hotel Kara Night Club</h5>
-              <p class="card-text"><b>Adresse:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 30rem;">
-            <img src="../components/images/nibic.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nibic Night Club</h5>
-              <p class="card-text"><b>Adresse:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 31rem;">
-            <img src="../components/images/Photo19.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Hotel concorde night club</h5>
-              <p class="card-text"><b>Adresse:</b>
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+bo.localisation_boite_nuit"
+                target="blank">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
@@ -157,9 +76,31 @@
 
 <script>
   import HeaderBar from '@/components/partials/HeaderBar.vue'
+  import axios from 'axios'
   export default {
     components: {
       HeaderBar
+    },
+
+    data() {
+      return {
+        boite: [],
+        errors: []
+      }
+    },
+
+    // Fetches posts when the component is created.
+    created(data) {
+      axios.get(`api/boite_nuit`)
+        .then(response => {
+          // JSON responses are automatically parsed.
+          this.boite = response.data
+          console.log(data)
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
     }
   }
 </script>
@@ -168,6 +109,10 @@
   .bread {
     padding: 2rem;
 
+  }
+
+  .col-lg-4 {
+    padding: 10px;
   }
 
   .btn {

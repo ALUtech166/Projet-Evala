@@ -30,17 +30,13 @@
         </form>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
+      <div class="row" v-if="guichet && guichet.length">
+        <div class="col-lg-4" v-for="gui of guichet" :key="gui.id">
+          <div class="card" style="width: 25rem; height: 27rem;">
             <img src="../components/images/guichet.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title">Koutammakou</h3>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.
-              </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+              <h3 class="card-title">{{ gui.nom_guichet }}</h3>
+              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+gui.localisation_guichet" target="blank">Aller sur Place <i
                   class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
@@ -48,93 +44,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/guichet.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Parc de Sarakawa</h3>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/guichet.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Fazao-Malfakassa National Park</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-      <br>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/guichet.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Keran National Park</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/guichet.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Museé Africart</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/guichet.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Le Monument Sarakawa</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-
+      
 
       </div>
 
@@ -149,9 +59,31 @@
 
 <script>
   import HeaderBar from '@/components/partials/HeaderBar.vue'
+  import axios from 'axios'
   export default {
     components: {
       HeaderBar
+    },
+
+     data() {
+      return {
+        guichet: [],
+        errors: []
+      }
+    },
+
+    // Fetches posts when the component is created.
+    created(data) {
+      axios.get(`api/guichet_automatique`)
+        .then(response => {
+          // JSON responses are automatically parsed.
+          this.guichet = response.data
+          console.log(data)
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
     }
   }
 </script>

@@ -27,132 +27,19 @@
                <div class="list-pub">
                     <h1>Les Frequences Radios à Kara</h1>
 
-                    <div class="row">
-                         <div class="col-lg-3">
+                    <div class="row" v-if="radio && radio.length">
+                         <div class="col-lg-3" v-for="rad of radio" :key="rad.id">
                               <div class="yellow-box">
-                                   <h3>Radio</h3>
+                                   <h3>{{ rad.nom_radio}}</h3>
                                    <p></p>
-                                   <p>Contact: +228 70006873</p>
+                                   <p><strong>Frequence:</strong> {{ rad.contact_radio }}</p>
                               </div>
                          </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
+
                     </div>
-
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                         <div class="col-lg-3">
-                              <div class="yellow-box">
-                                   <h3>Radio</h3>
-                                   <p></p>
-                                   <p>Contact: +228 70006873</p>
-                              </div>
-                         </div>
-                    </div>
-
                </div>
+
+
 
           </div>
 
@@ -182,9 +69,32 @@
 
 <script>
      import HeaderBar from '@/components/partials/HeaderBar.vue'
+     import axios from 'axios'
      export default {
           components: {
                HeaderBar
+
+          },
+
+          data() {
+               return {
+                    radio: [],
+                    errors: []
+               }
+          },
+
+          // Fetches posts when the component is created.
+          created(data) {
+               axios.get(`api/frequence_radio`)
+                    .then(response => {
+                         // JSON responses are automatically parsed.
+                         this.radio = response.data
+                         console.log(data)
+
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
           }
      }
 </script>
@@ -203,9 +113,8 @@
           text-decoration: none;
      }
 
-     .col-lg-4:hover {
-          transform: translateY(35px);
-          transition: 1s ease-in-out;
+     .col-lg-3 {
+          padding: 10px;
      }
 
      .col-lg-3:hover {

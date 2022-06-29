@@ -30,109 +30,18 @@
                </div>
 
 
-               <div class="row">
-                    <div class="col-lg-4">
+               <div class="row" v-if="fitness && fitness.length">
+                    <div class="col-lg-4" v-for="fit of fitness" :key="fit.id">
                          <div class="card" style="width: 25rem; height: 32rem;">
-                              <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
+                              <img :src="'http://karaevents.mekengroup.com/upload/gym/'+fit.photo_gym"
+                                   class="card-img-top" alt="...">
                               <div class="card-body">
-                                   <h3 class="card-title">Hotel Kara</h3>
-                                   <p class="card-text"><b>Details:</b> Some quick example text to build on the card
-                                        title and make up the
-                                        bulk of the card's
-                                        content.
+                                   <h3 class="card-title">{{ fit.nom_gym}}</h3>
+                                   <p class="card-text"><b>Adresse:</b> {{ fit.adresse_gym }}
                                    </p>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                                   <hr class="style-two">
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 32rem;">
-                              <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Meka Hotel</h3>
-                                   <p class="card-text"><b>Details:</b> Some quick example text to build on the card
-                                        title and make up the
-                                        bulk of the card's
-                                        content.</p>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                                   <hr class="style-two">
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 32rem;">
-                              <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h5 class="card-title">Hotel sainte-brigitte</h5>
-                                   <p class="card-text"><b>Details:</b> Some quick example text to build on the card
-                                        title and make up the
-                                        bulk of the card's
-                                        content.</p>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                                   <hr class="style-two">
-                              </div>
-                         </div>
-                    </div>
-
-
-
-               </div>
-               <br>
-
-               <div class="row">
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 32rem;">
-                              <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h5 class="card-title">Hotel Kama'aka</h5>
-                                   <p class="card-text"><b>Details:</b> Some quick example text to build on the card
-                                        title and make up the
-                                        bulk of the card's
-                                        content.</p>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                                   <hr class="style-two">
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 32rem;">
-                              <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h5 class="card-title">Hotel La concorde</h5>
-                                   <p class="card-text"><b>Details:</b> Some quick example text to build on the card
-                                        title and make up the
-                                        bulk of the card's
-                                        content.</p>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                                   <hr class="style-two">
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 32rem;">
-                              <img src="../components/images/Photo89.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h5 class="card-title">Hotel etoile de la kozah</h5>
-                                   <p class="card-text"><b>Details:</b> Some quick example text to build on the card
-                                        title and make up the
-                                        bulk of the card's
-                                        content.</p>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                   <a type="button" class="btn btn-success"
+                                        :href="'https://goo.gl/maps/'+fit.localisation_gym"
+                                        target="blank">Aller sur Place <i
                                              class="icons fa-solid fa-location-dot"></i></a>
 
                                    <hr class="style-two">
@@ -163,10 +72,35 @@
 
 <script>
      import HeaderBar from '@/components/partials/HeaderBar.vue'
+     import axios from 'axios'
      export default {
           components: {
                HeaderBar
+          },
+
+
+          data() {
+               return {
+                    fitness: [],
+                    errors: []
+               }
+          },
+
+          // Fetches posts when the component is created.
+          created(data) {
+               axios.get(`api/gym`)
+                    .then(response => {
+                         // JSON responses are automatically parsed.
+                         this.fitness = response.data
+                         console.log(data)
+
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
           }
+
+
      }
 </script>
 <style scoped>
