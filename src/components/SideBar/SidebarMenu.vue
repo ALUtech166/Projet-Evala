@@ -50,7 +50,7 @@
       </span>
       <span v-else>
         
-        <img class="profile" src="./serge.jpg" alt=""> <br>
+        <img class="img-fluid" src="../images/blanc.png" alt=""> <br>
          Kofi Anan
 
         <hr class="style-hr">

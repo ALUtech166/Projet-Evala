@@ -1,16 +1,16 @@
 <template>
      <header-bar></header-bar>
      <div class="header">
-          <div class="titre">
-               <h1>Photo <span>Gallery</span></h1>
-          </div>
+          
+          <h1 class="titre">Photo Gallery</h1>
+          
 
      </div>
 
      <body>
           <div class="container">
                <div class="heading">
-                    <h3>Photo <span>Gallery</span></h3>
+                    <h3>Photo Gallery</h3>
 
                </div>
                <nav class="navbar navbar-expand-lg bg-light">
@@ -28,10 +28,10 @@
                                              Evala</a>
                                    </li>
                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Album Akpema</a>
+                                        <a class="nav-link" href="/album-akpema">Album Akpema</a>
                                    </li>
                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Album Habyé</a>
+                                        <a class="nav-link" href="/album-akpema">Album Habyé</a>
                                    </li>
                               </ul>
                          </div>
@@ -40,29 +40,29 @@
 
                <div class="box">
                     <div class="dream">
-                         <img class="img-fluid" src="./1.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./2.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./3.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./4.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./5.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo2.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/akpema_photo1.jpeg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo4.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/haybe_photo1.jpeg" alt="" width="500px">
+
+                    </div>
+
+                     <div class="dream">
+                         <img class="img-fluid" src="../components/images/haybe_photo1.jpeg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/akpema_photo1.jpeg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo2.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo4.jpg" alt="" width="500px">
 
                     </div>
 
                     <div class="dream">
-                         <img class="img-fluid" src="./6.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./7.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./1.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./4.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./5.jpg" alt="" width="500px">
-
-                    </div>
-
-                    <div class="dream">
-                         <img class="img-fluid" src="./7.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./6.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./5.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./3.jpg" alt="" width="500px">
-                         <img class="img-fluid" src="./1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo2.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/akpema_photo1.jpeg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo4.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/haybe_photo1.jpeg" alt="" width="500px">
 
                     </div>
                </div>

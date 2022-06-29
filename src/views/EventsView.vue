@@ -50,7 +50,7 @@
         </div>
 
         <div class="col-lg-4">
-          <img class="img-fluid image" src="../components/images/FDKM1x.jpg" alt="">
+          <img class="img-fluid image" src="../components/images/KONDONA.jpg" alt="">
           <div class="box1">
             <a href="/kondona">
               <h2 style="color:red">Kondona</h2>
@@ -62,7 +62,7 @@
 
           <img class="img-fluid image" src="../components/images/HABYE.jpg" alt="">
           <div class="box2">
-            <a href="/habyé">
+            <a href="/habyes">
               <h2 style="color:red">Habyé</h2>
             </a>
           </div>
@@ -73,7 +73,7 @@
           <div class="col-lg-4">
           <img class="img-fluid image" src="../components/images/MISS_KARA.jpg" alt="">
           <div class="box1">
-            <a href="">
+            <a href="#">
               <h2 style="color:red">Miss Kara</h2>
             </a>
           </div>
@@ -83,7 +83,7 @@
 
           <img class="img-fluid image" src="../components/images/CONCERTS.jpg" alt="">
           <div class="box2">
-            <a href="">
+            <a href="#">
               <h2 style="color:red">Concerts</h2>
             </a>
           </div>

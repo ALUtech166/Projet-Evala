@@ -30,44 +30,21 @@
                     </form>
                </div>
 
-               <div class="row">
-                    <div class="col-lg-4">
+               <div class="row" v-if="sante && sante.length">
+                    <div class="col-lg-3" v-for="san of sante" :key="san.id">
                          <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/cbt.png" class="card-img-top" alt="...">
+                              <img :src="'http://karaevents.mekengroup.com/upload/centre_sante/'+san.photo_centre_sante"
+                                   class="card-img-top" alt="...">
                               <div class="card-body">
-                                   <h3 class="card-title">croix-rouge</h3>
-                                   <h5>Contact: +228 90100882</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
+                                   <h3 class="card-title">{{ san.nom_centre_sante}}</h3>
+                                   <h5>Contact: {{ san.contact_centre_sante }}</h5>
+                                   <h5>Adresse: {{ san.adresse_centre_sante }}</h5>
+                                    
+                                   <a type="button" class="btn btn-success"
+                                        :href="'https://goo.gl/maps/'+san.localisation_centre_sante"
+                                        target="blank">Aller sur Place <i
                                              class="icons fa-solid fa-location-dot"></i></a>
 
-
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/chu-kara.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">CHU Kara</h3>
-                                   <h5>Contact: +228 26606048</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/chr-kara.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Hopital Chinois</h3>
-                                   <h5>Contact: +228 26600246</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
                          </div>
@@ -75,104 +52,8 @@
 
                </div>
 
-               <div class="row">
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/chr-kara.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">CHR Kara</h3>
-                                   <h5>Contact: +228 2660246</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
 
 
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/pmi.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">PMI - SOS</h3>
-                                   <h5>Contact: +228 26601159</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/cbt.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">CBT Med Hippocrate</h3>
-                                   <h5>Contact: +228 26600516</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-
-                              </div>
-                         </div>
-                    </div>
-               </div>
-
-
-
-
-
-
-
-
-
-               <div class="row">
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/vie.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Clinique ma Vie</h3>
-                                   <h5>Contact: +228 26606028</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-                              </div>
-                         </div>
-                    </div>
-
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/grace.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Clinique Tout est grace</h3>
-                                   <h5>Contact: +228 24458352</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                         <div class="card" style="width: 25rem; height: 27rem;">
-                              <img src="../components/images/vie.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                   <h3 class="card-title">Polychimie</h3>
-                                   <h5>Contact: +228 26606081</h5>
-                                   <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                                             class="icons fa-solid fa-location-dot"></i></a>
-
-
-                              </div>
-                         </div>
-                    </div>
-               </div>
 
           </div>
 
@@ -190,9 +71,31 @@
 
 <script>
      import HeaderBar from '@/components/partials/HeaderBar.vue'
+     import axios from 'axios'
      export default {
           components: {
                HeaderBar
+          },
+
+          data() {
+               return {
+                    sante: [],
+                    errors: []
+               }
+          },
+
+          // Fetches posts when the component is created.
+          created(data) {
+               axios.get(`api/centre_sante`)
+                    .then(response => {
+                         // JSON responses are automatically parsed.
+                         this.sante = response.data
+                         console.log(data)
+
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
           }
      }
 </script>
@@ -201,6 +104,10 @@
      .bread {
           padding: 2rem;
 
+     }
+
+     .col-lg-3 {
+          padding: 5px;
      }
 
      .btn {
@@ -290,7 +197,7 @@
           text-align: left;
           color: #006A4A;
           text-transform: uppercase;
-          font-size: 20px;
+          font-size: 25px;
           font-weight: bold;
      }
 
@@ -304,7 +211,7 @@
 
 
      h5 {
-          color: #006A4A;
+          color: #000;
           text-align: left;
           font-size: 15px;
           padding: 0.25rem;

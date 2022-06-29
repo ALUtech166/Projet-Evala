@@ -111,7 +111,7 @@
           <img class="img-fluid image" src="../components/images/bank.png" alt="">
           <div class="box2">
             <a href="/banque">
-              <h2 style="color:green">Les Agences de Banques</h2>
+              <h2 style="color:green">Les Agences </h2>
             </a>
           </div>
         </div>
@@ -132,15 +132,7 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-3">
-
-          <img class="img-fluid image" src="../components/images/Photo34.png" alt="">
-          <div class="box2">
-            <a href="/marche">
-              <h2 style="color:green">Les Supermarchés</h2>
-            </a>
-          </div>
-        </div>
+      
 
         <div class="col-lg-3">
           <img class="img-fluid image" src="../components/images/Photo89.png" alt="">
@@ -176,15 +168,6 @@
           <div class="box2">
             <a href="/guichet">
               <h2 style="color:green">Les Guichets Automatiques</h2>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <img class="img-fluid image" src="../components/images/Telecommunication.png" alt="">
-          <div class="box2">
-            <a href="/telecom">
-              <h2 style="color:green">Les Télécommunications</h2>
             </a>
           </div>
         </div>

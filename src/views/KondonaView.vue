@@ -23,44 +23,17 @@
                                    <div class="panel text-left">
                                         <h1 style="color: red">Kondona</h1>
                                         <p class="pt-4">
-                                             C’est une lutte ancestrale. Depuis 1785 les luttes se pratiquaient dans le
-                                             mois
-                                             de
-                                             Juillet.
-                                             C’est au milieu du 18ème siècles que les premières manifestations du
-                                             challenge
-                                             ont eu lieu
-                                             en
-                                             pays Kabyè avec le sacre de deux personnages dont la lutte a sonné le glas
-                                             des
-                                             compétitions
-                                             inter-villages.
+                                             Au lendemain de la clôture des Evala, le jeune garçon, Evalou, devenu ainsi
+                                             Kondo, le jeune homme, avec ces signes distinctifs, peut librement circuler
+                                             dans le milieu. Le jour de l’apothéose, il se distingue par la danse,
+                                             l’escalade de la butte et surtout la frappe du gong. Cette cérémonie
+                                             initiatique est un véritable test pour permettre aux jeunes leur
+                                             intégration dans la classe des adultes (Kondona), en leur conférant qualité
+                                             et dignité. Elle leur donne, le pouvoir de prendre part aux décisions
+                                             concernant la vie de la communauté. Tous les rituels évoqués ici ont un
+                                             sens culturel très significatif.
                                         </p>
-                                        <p>
-                                             La particularité singulière qui a caractérisé ce combat a été recherché à
-                                             travers la forme
-                                             et
-                                             la taille des deux lutteurs, messieurs TCHABLIME du village de KPÉDAW avait
-                                             une
-                                             taille de
-                                             plus
-                                             de 2m avec un corpulence herculéenne tandis que son adversaire FAWOKÉZIÉ de
-                                             KOLIDÈ ne
-                                             mésurait
-                                             que 1m40. Si l’on devait comparer les deux protagonistes aux personnes
-                                             bibliques
-                                             de
-                                             l’Histoire,
-                                             le premier était Goliath en face du second David. À la fin du combat se fut
-                                             le
-                                             petit qui
-                                             prit
-                                             le dessus. Partout dans le village, le costaud TCHABLIME fut hué et moqué.
-                                             Pour avoir voulu laver cet affront, le virus de la compétition s’est alors
-                                             propagé dans
-                                             les
-                                             cantons et villages de la Kozah.
-                                        </p>
+
                                    </div>
                               </div>
                          </div>

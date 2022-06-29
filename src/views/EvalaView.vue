@@ -8,7 +8,7 @@
                </h1>
           </div>
 
-         
+
           <div class="description">
                <div class="container" data-aos="fade-left" data-aos-duration="3000">
 
@@ -16,8 +16,7 @@
 
 
                          <div class="col-lg-6">
-                              <img class="image img-fluid" src="../components/images/evala1.jpg"
-                                   alt="">
+                              <img class="image img-fluid" src="../components/images/evala1.jpg" alt="">
                          </div>
 
                          <div class="col-lg-6">
@@ -27,29 +26,16 @@
 
 
                               <p class="desc">
-                                   Chef-lieu de la préfecture de la Kozah et capitale de la région du même
-                                   nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre
-                                   moderne
-                                   d’administration et de
-                                   production dans le cadre
 
-                                   Chef-lieu de la préfecture de la Kozah et capitale de la région du même
-                                   nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre
-                                   moderne
-                                   d’administration et de
-                                   production dans le cadre
 
-                                   Chef-lieu de la préfecture de la Kozah et capitale de la région du même
-                                   nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre
-                                   moderne
-                                   d’administration et de
-                                   production dans le cadre
+                                   Evala c’est la fête de la lutte en pays kabyè. C’est l’occasion pour le jeune Evalou
+                                   de se distinguer parmi ses co-initiés pour sa force, son endurance, et l’élégance de
+                                   sa danse. Avant d’être soumis à ces rites, les jeunes sont longtemps préparés
+                                   psychologiquement et physiquement. En pays Kabyè, un jeune qui se dérobe à cette
+                                   initiation subit des représailles des sages, de ses parents et de la société entière.
+                                   Il est en quelque sorte exclu de la communauté. Les cérémonies finales débutent du 09
+                                   au 17 juillet 2022.
 
-                                   Chef-lieu de la préfecture de la Kozah et capitale de la région du même
-                                   nom, Kara est une ville en pleine expansion. Elle est devenue rapidement un centre
-                                   moderne
-                                   d’administration et de
-                                   production dans le cadre
 
                               </p>
 
@@ -81,10 +67,12 @@
                          <tr>
                               <th scope="col">Jours et Dates</th>
                               <th scope="col">Rencontre (Competitions)</th>
-                              <th scope="col">Lieux</th>
                               <th scope="col">Heures</th>
                               <th scope="col">Observation</th>
-                             
+                              <th scope="col">Lieux</th>
+
+
+
                          </tr>
                     </thead>
 
@@ -98,13 +86,20 @@
                                    <span>2022-07-01</span>
                               </th>
                               <td>Descente du souverain sacrificateur(Tchodjo)</td>
-                              <td>PYA-LAO</td>
                               <td>08H</td>
                               <td>
-                                   Dans la soicrée <br>
-                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
+                                   Dans la soirée
 
                               </td>
+
+                              <td>
+                                   PYA-LAO
+                                   <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+
+                              </td>
+
 
 
 
@@ -118,16 +113,22 @@
                                    <span>2022-07-09</span>
                               </th>
                               <td>
-                                   - Préliminaire dans tous les Ahoa(Sanctuaire) -Yaoudé contre Kadayo -Kpéloudè contre
-                                   Poulou
+                                   - Préliminaire dans tous les Ahoa(Sanctuaire) <br>
+                                   -Yaoudé contre Kadayo -Kpéloudè contre Poulou
                               </td>
-                              <td>EPP Yadè-Poulou</td>
                               <td>09H</td>
                               <td>
-                                   1/8 de finale <br>
-                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
+                                   1/8 de finale
+                              </td>
+
+                              <td>
+                                   EPP Yadè-Poulou
+                                   <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </td>
+
 
 
 
@@ -142,14 +143,19 @@
                                    <span>2022-07-09</span>
                               </th>
                               <td>Sodè contre Panadiwa</td>
-                              <td>EPP Yadè-Sodé</td>
                               <td>09H</td>
-                              <td>
-                                   1/8 de finale <br>
-                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
 
+                              <td>
+                                   1/8 de finale
                               </td>
-        
+                              <td>
+                                   EPP Yadè-Sodé
+                                   <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+                              </td>
+
+
 
 
 
@@ -165,16 +171,22 @@
                                    <span>2022-07-09</span>
                               </th>
                               <td>LAO-HAUT contre LAO-BAS</td>
-                              <td>EPP Kagnalada</td>
                               <td>09H</td>
                               <td>
-                                   NB: Ouverture officielle des luttes EVALA <br>
-                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
+                                   NB: Ouverture officielle <br>
+                                   des luttes EVALA
+                              </td>
 
-
+                              <td>
+                                   EPP Kagnalada
+                                   <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                             class="icons fa-solid fa-location-dot"></i></a>
 
                               </td>
-                             
+
+
+
 
 
 
@@ -182,7 +194,7 @@
                          </tr>
 
 
-                         
+
                          <tr>
                               <th scope="row">
                                    <b>Samedi (MAZA) / BOHOU</b>
@@ -190,13 +202,18 @@
                                    <span>2022-07-09</span>
                               </th>
                               <td>-Préliminaires -Waldè bas contre Pyadè bas</td>
-                              <td>Patoulidè</td>
                               <td>10H</td>
                               <td>
-                                   1/4 de finale <br>
-                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
-
+                                   1/4 de finale
                               </td>
+
+                              <td>
+                                   Patoulidè
+                                   <br>
+                                   <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                             class="icons fa-solid fa-location-dot"></i></a>
+                              </td>
+
 
 
 
@@ -216,7 +233,7 @@
           </div>
 
 
-           <pub-page></pub-page>
+          <pub-page></pub-page>
 
 
      </div>

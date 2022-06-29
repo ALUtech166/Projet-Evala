@@ -45,8 +45,12 @@
       <div class="row">
 
         <div id="col" class="col-lg-6">
-          <h6>Voici la version <span>Mobile</span> de la Platforme <span>Kara Events</span>.</h6>
-          <p>Plus de 5000 personnes utilisent Kara Events. Obtenez l'application et commencez à réserver à l'avance.</p>
+          <h6><span>Téléchargez </span> maintenant l’App et <span>Utilisez-la</span> gratuitement..</h6>
+          <p>
+            Avec <em>KARA EVENTS</em> toujours sur vous, <em>Simplifiez</em> tous vos déplacements à
+            Kara !
+          </p>
+
           <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Telecharger</button>
           <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>
             Telecharger</button>

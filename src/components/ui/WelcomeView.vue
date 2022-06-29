@@ -146,11 +146,13 @@
           </div>
           <br>
           <vue3-marquee :clone="true">
-               <img height="100" src="../images/logo-TDN.png" />
-               <img height="100" src="../images/H2F-LOGO.png" />
-               <img height="100" src="../images/SBC.png" />
-               <img height="100" src="../images/AACG.jpg" />
-               <img height="100" src="../images/dowoto.jpeg" />
+               <img class="images" height="100" src="../images/LOGO.jpg" />
+               <img class="images" height="100" src="../images/logo-2FEVRIER-lome.png" />
+               <img class="images" height="100" src="../images/SBC.png" />
+               <img class="images" height="100" src="../images/AACG.jpg" />
+               <img class="images" height="100" src="../images/dowoto.jpeg" />
+                <img class="images" height="100" src="../images/mayi_SarlU.jpg" />
+                 <img class="images" height="100" src="../images/ttibp.jpg" />
                
                
               
@@ -203,6 +205,10 @@
 </script>
 
 <style scoped>
+
+     .images {
+          margin: 5px;
+     }
      .col-lg-3:hover {
           transform: translateY(35px);
           transition: 1s ease-in-out;
@@ -328,7 +334,7 @@
      }
 
      h1 {
-          font-size: 25px;
+          font-size: 30px;
           font-weight: 600;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
@@ -343,7 +349,7 @@
 
 
      h3 {
-          font-size: 15px;
+          font-size: 20px;
           font-family: 'Josefin Sans', sans-serif;
           font-family: 'Jost', sans-serif;
      }

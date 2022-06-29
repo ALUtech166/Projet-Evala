@@ -30,112 +30,22 @@
         </form>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4">
+      <div class="row" v-if="sites && sites.length">
+        <div class="col-lg-3" v-for="site of sites" :key="site.id">
           <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/koutammakou.png" class="card-img-top" alt="...">
+            <img :src="'http://karaevents.mekengroup.com/upload/site/'+site.photo_site" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title">Koutammakou</h3>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.
+              <h3 class="card-title">{{ site.nom_site}}</h3>
+              <p class="card-text"><b>Details:</b> {{ site.description_site }}
               </p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
+              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+site.localisation_site" target="blank">Aller sur Place <i
                   class="icons fa-solid fa-location-dot"></i></a>
 
-              <hr class="style-two">
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/parc.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Parc de Sarakawa</h3>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/fazao.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Fazao-Malfakassa National Park</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-      <br>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/keran.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Keran National Park</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/Africart.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Museé Africart</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 25rem; height: 32rem;">
-            <img src="../components/images/eyadema.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Le Monument Sarakawa</h5>
-              <p class="card-text"><b>Details:</b> Some quick example text to build on the card title and make up the
-                bulk of the card's
-                content.</p>
-              <a type="button" class="btn btn-success" href="">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
-
-              <hr class="style-two">
-            </div>
-          </div>
-        </div>
-
-
-
+      
       </div>
 
 
@@ -149,17 +59,43 @@
 
 <script>
   import HeaderBar from '@/components/partials/HeaderBar.vue'
+  import axios from 'axios'
   export default {
     components: {
       HeaderBar
+    },
+
+      data() {
+      return {
+        sites: [],
+        errors: []
+      }
+    },
+
+    // Fetches posts when the component is created.
+    created(data) {
+      axios.get(`api/site_touristique`)
+        .then(response => {
+          // JSON responses are automatically parsed.
+          this.sites = response.data
+          console.log(data)
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
     }
   }
 </script>
 
 <style scoped>
-  .col-lg-4:hover {
+  .col-lg-3:hover {
     transform: translateY(35px);
     transition: 1s ease-in-out;
+  }
+
+  .col-lg-3 {
+    padding: 5px;
   }
 
   .btn {
@@ -214,7 +150,7 @@
   p {
     font-size: 15px;
     font-family: 'jost', sans-serif;
-    color: #006A4A;
+    color: #000;
     text-align: left;
   }
 
@@ -271,7 +207,8 @@
     text-align: left;
     color: #006A4A;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: bold;
   }
 
   h1 {
@@ -299,7 +236,7 @@
 
   .card-text {
     text-align: left;
-    color: #006A4A;
+    color: #000;
 
   }
 

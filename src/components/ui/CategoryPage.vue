@@ -10,7 +10,7 @@
                          <img src="../images/30.png" alt="" class="img-fluid">
                          <div class="info">
                               <h1>Evala</h1>
-                              <a href="#" class="btn">Lire plus</a>
+                              <a href="/album-evala" class="btn">Lire plus</a>
                          </div>
                     </div>
 
@@ -20,7 +20,7 @@
                          <div class="info">
                               <h1>Akpema</h1>
 
-                              <a href="/gallery" class="btn">Lire plus</a>
+                              <a href="/album-akpema" class="btn">Lire plus</a>
                          </div>
                     </div>
 
@@ -29,7 +29,7 @@
                          <img src="../images/20.png" alt="" class="img-fluid">
                          <div class="info">
                               <h1>Habyé</h1>
-                              <a href="#" class="btn">Lire plus</a>
+                              <a href="/album-habye" class="btn">Lire plus</a>
                          </div>
                     </div>
                </div>

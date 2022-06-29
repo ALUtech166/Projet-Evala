@@ -24,44 +24,26 @@
                                    <div class="panel text-left">
                                         <h1 style="color: red">Akpéma</h1>
                                         <p class="pt-4">
-                                             C’est une lutte ancestrale. Depuis 1785 les luttes se pratiquaient dans le
-                                             mois
-                                             de
-                                             Juillet.
-                                             C’est au milieu du 18ème siècles que les premières manifestations du
-                                             challenge
-                                             ont eu lieu
-                                             en
-                                             pays Kabyè avec le sacre de deux personnages dont la lutte a sonné le glas
-                                             des
-                                             compétitions
-                                             inter-villages.
+                                             Akpéma est un rite qui permet aux jeunes filles Kabyè de sauvegarder
+                                             certaines vertus qui lui donnent un statut particulier. Parmi ces vertus,
+                                             la plus est capitale est sa virginité avant le mariage.
+                                             Ainsi, la jeune fille, très dévêtue, la tête rasée, un collier en fer au
+                                             cou, part avec ses autres camarades en file indienne dans la forêt sacrée
+                                             où se poursuivent les cérémonies. Tout au long de l’initiation, elles sont
+                                             accompagnées et prises en charge par des femmes adultes expérimentées. Il
+                                             faut souligner que dans la forêt, au cours des rituels, les Akpéma auront à
+                                             s’asseoir sur une pierre sacrée pour prouver leur pureté. La réussite à ce
+                                             test donne le privilège d’avoir accès à la petite case sacrée. Une étape
+                                             déterminante qui, lorsqu’elle est franchie, fait l’honneur de leur famille.
+                                             C’est à la fin de ce processus initiatique que la jeune fille Kabyè est
+                                             déclarée apte à la vie adulte et au mariage. Après les cérémonies, elles
+                                             sortiront toutes nues de la forêt sacrée et entreprendront le voyage du
+                                             retour en passant par un autre chemin que celui emprunté pour y arriver. Le
+                                             risque pour celles qui vont s’entêter est de voir la porte de la petite
+                                             case se rétrécir devant elles, les empêchant d’y entrer.
+
                                         </p>
-                                        <p>
-                                             La particularité singulière qui a caractérisé ce combat a été recherché à
-                                             travers la forme
-                                             et
-                                             la taille des deux lutteurs, messieurs TCHABLIME du village de KPÉDAW avait
-                                             une
-                                             taille de
-                                             plus
-                                             de 2m avec un corpulence herculéenne tandis que son adversaire FAWOKÉZIÉ de
-                                             KOLIDÈ ne
-                                             mésurait
-                                             que 1m40. Si l’on devait comparer les deux protagonistes aux personnes
-                                             bibliques
-                                             de
-                                             l’Histoire,
-                                             le premier était Goliath en face du second David. À la fin du combat se fut
-                                             le
-                                             petit qui
-                                             prit
-                                             le dessus. Partout dans le village, le costaud TCHABLIME fut hué et moqué.
-                                             Pour avoir voulu laver cet affront, le virus de la compétition s’est alors
-                                             propagé dans
-                                             les
-                                             cantons et villages de la Kozah.
-                                        </p>
+
                                    </div>
                               </div>
                          </div>

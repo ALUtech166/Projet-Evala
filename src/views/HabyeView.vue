@@ -24,44 +24,14 @@
                                    <div class="panel text-left">
                                         <h1 style="color: red">Habyé</h1>
                                         <p class="pt-4">
-                                             C’est une lutte ancestrale. Depuis 1785 les luttes se pratiquaient dans le
-                                             mois
-                                             de
-                                             Juillet.
-                                             C’est au milieu du 18ème siècles que les premières manifestations du
-                                             challenge
-                                             ont eu lieu
-                                             en
-                                             pays Kabyè avec le sacre de deux personnages dont la lutte a sonné le glas
-                                             des
-                                             compétitions
-                                             inter-villages.
+                                             C’est une fête religieuse des Kabyè de la Kozah.
+                                             C’est une danse de démonstration magique. C’est l’occasion de démontrer la
+                                             force aux cultes des sorciers. Elle offre aux seuls initiés l’opportunité
+                                             de se prouver mutuellement une maitrise des forces de la nature. Elle a
+                                             lieu tous les 5ans au mois de novembre. Elle se fête chaque trois ans dans
+                                             certains cantons de la kozah.
                                         </p>
-                                        <p>
-                                             La particularité singulière qui a caractérisé ce combat a été recherché à
-                                             travers la forme
-                                             et
-                                             la taille des deux lutteurs, messieurs TCHABLIME du village de KPÉDAW avait
-                                             une
-                                             taille de
-                                             plus
-                                             de 2m avec un corpulence herculéenne tandis que son adversaire FAWOKÉZIÉ de
-                                             KOLIDÈ ne
-                                             mésurait
-                                             que 1m40. Si l’on devait comparer les deux protagonistes aux personnes
-                                             bibliques
-                                             de
-                                             l’Histoire,
-                                             le premier était Goliath en face du second David. À la fin du combat se fut
-                                             le
-                                             petit qui
-                                             prit
-                                             le dessus. Partout dans le village, le costaud TCHABLIME fut hué et moqué.
-                                             Pour avoir voulu laver cet affront, le virus de la compétition s’est alors
-                                             propagé dans
-                                             les
-                                             cantons et villages de la Kozah.
-                                        </p>
+
                                    </div>
                               </div>
                          </div>

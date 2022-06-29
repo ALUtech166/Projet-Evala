@@ -12,9 +12,11 @@
                <div class="row">
 
                     <div id="col" class="col-lg-6">
-                         <h1>Rejoignez plus de <span>5 000</span> clients.</h1>
-                         <p>plus de 5000 personnes utilisent Kara Events. Obtenez
-                              l'application et commencez à réserver à l'avance.
+
+                         <h1><span>Téléchargez </span> maintenant l’App et <span>Utilisez-la</span> gratuitement..</h1>
+                         <p>
+                              Avec <em>KARA EVENTS</em> toujours sur vous, <em>Simplifiez</em> tous vos déplacements à
+                              Kara !
                          </p>
                          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>
                               Telecharger</button>
@@ -24,9 +26,56 @@
 
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="../components/images/MAIN.png" alt="iphone-mockup">
+                         <img class="img-fluid" src="../components/images/3.png" alt="iphone-mockup">
                     </div>
 
+               </div>
+
+               <br>
+               <div class="description">
+                    <div class="content container">
+                         <div class="row">
+
+                              <div class="col-lg-6">
+                                   <div class="banner">
+                                        <h1>Les Principales Fonctionnalites</h1>
+                                   </div>
+                                   <br>
+
+                                   <ul>
+                                        <li>Réserver des chambres. </li>
+                                        <li>Acheter des services. </li>
+                                        <li>
+                                             Simplifier l'accès aux programmes des évènements.
+
+                                        </li>
+
+                                        <li>
+                                             Faciliter l'accés à l'information touristiques.
+                                        </li>
+
+                                        <li>
+                                             Se repérer aisément grâce à la géolocalisation.
+                                        </li>
+                                        <li>
+                                             Favoriser l'accés à l'information touristiques.
+                                        </li>
+
+
+
+
+
+
+                                   </ul>
+
+
+                              </div>
+
+                              <div class="col-lg-6">
+                                   <img id="screen" class="img-fluid" src="../components/images/Phone.png" alt="">
+                              </div>
+                         </div>
+                    </div>
                </div>
           </div>
 
@@ -37,7 +86,6 @@
 </template>
 
 <script>
-     
      import HeaderBar from "../components/partials/HeaderBar.vue";
 
      export default {
@@ -46,8 +94,8 @@
                HeaderBar
           },
 
-          
-          
+
+
      }
 </script>
 
@@ -58,6 +106,7 @@
           text-align: center;
      }
 
+
      .row {
           text-align: center;
      }
@@ -66,15 +115,24 @@
           padding-top: 50px;
      }
 
+
      button {
           margin: 10px;
      }
 
      span {
           color: red;
+          font-size: 30px;
+     }
+
+     em {
+          font-size: 20px;
+          color: #ffff;
+          font-weight: bold;
      }
 
      p {
+          text-align: center;
           color: black;
           font-family: 'Josefin Sans', sans-serif;
           font-size: 20px;
@@ -82,23 +140,41 @@
      }
 
 
+     li {
+          color: black;
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 20px;
+          text-align: justify;
+
+
+     }
+
+
 
      h1 {
-          font-size: 30px;
+          font-size: 25px;
           font-weight: bold;
           font-family: 'Jost', sans-serif;
      }
 
-
-     form {
+     .banner {
           max-width: 100%;
           border-radius: 12px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
-          padding: 2rem;
-          background-color: #ffffff;
+          padding: 10px;
+          background-color: red;
           font-family: 'Jost';
-
+          color: #fff;
      }
+
+     .content {
+
+          padding: 10px;
+          font-family: 'Jost';
+          color: #fff;
+     }
+
+
 
      .tit {
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);

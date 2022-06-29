@@ -1,16 +1,16 @@
 <template>
      <header-bar></header-bar>
      <div class="header">
-          <div class="titre">
-               <h1>Album <span>Habyé</span></h1>
-          </div>
+         
+          <h1 class="titre">Album Habyé</h1>
+          
 
      </div>
 
      <body>
           <div class="container">
                <div class="heading">
-                    <h3>Album <span>Habyé</span></h3>
+                    <h3>Album Habyé</h3>
 
                </div>
                <nav class="navbar navbar-expand-lg bg-light">
@@ -39,29 +39,23 @@
                </nav>
 
                <div class="box">
-                    <div class="dream">
-                         <img src="./1.jpg" alt="" width="500px">
-                         <img src="./7.jpg" alt="" width="500px">
-                         <img src="./2.jpg" alt="" width="500px">
-                         s
-
+                     <div class="dream">
+                         <img class="img-fluid" src="../components/images/20.png" alt="" width="500px">
+                        
+                        
+                    </div>
+                   <div class="dream">
+                         <img class="img-fluid" src="../components/images/haybe_photo1.jpeg" alt="" width="500px">
+                         
+                    
                     </div>
 
-                    <div class="dream">
-                         <img src="./6.jpg" alt="" width="500px">
-                         <img src="./7.jpg" alt="" width="500px">
-                         <img src="./3.jpg" alt="" width="500px">
-
-
+                     <div class="dream">
+                         <img class="img-fluid" src="../components/images/evala_photo1.jpg" alt="" width="500px">
+                    
                     </div>
 
-                    <div class="dream">
-                         <img src="./7.jpg" alt="" width="500px">
-                         <img src="./6.jpg" alt="" width="500px">
-                         <img src="./2.jpg" alt="" width="500px">
-
-
-                    </div>
+                    
                </div>
           </div>
      </body>

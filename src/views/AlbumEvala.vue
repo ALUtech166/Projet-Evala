@@ -1,16 +1,16 @@
 <template>
      <header-bar></header-bar>
      <div class="header">
-          <div class="titre">
-               <h1>Album <span>Evala</span></h1>
-          </div>
+          
+          <h1 class="titre">Album Evala</h1>
+          
 
      </div>
 
      <body>
           <div class="container">
                <div class="heading">
-                    <h3>Album <span>Evala</span></h3>
+                    <h3>Album Evala</h3>
 
                </div>
                <nav class="navbar navbar-expand-lg bg-light">
@@ -38,29 +38,34 @@
                </nav>
 
                <div class="box">
+                     <div class="dream">
+                         <img class="img-fluid" src="../components/images/evala_photo1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo2.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo3.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo4.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo5.jpg" alt="" width="500px">
+
+                    </div>
+
+                     
                     <div class="dream">
-                         <img src="./1.jpg" alt="" width="500px">
-                         <img src="./7.jpg" alt="" width="500px">
-                         <img src="./2.jpg" alt="" width="500px">
-                         s
+                         <img class="img-fluid" src="../components/images/evala_photo1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo2.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo3.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo4.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo5.jpg" alt="" width="500px">
 
                     </div>
 
                     <div class="dream">
-                         <img src="./6.jpg" alt="" width="500px">
-                         <img src="./7.jpg" alt="" width="500px">
-                         <img src="./3.jpg" alt="" width="500px">
-
-
-                    </div>
-
-                    <div class="dream">
-                         <img src="./7.jpg" alt="" width="500px">
-                         <img src="./6.jpg" alt="" width="500px">
-                         <img src="./2.jpg" alt="" width="500px">
-
+                         <img class="img-fluid" src="../components/images/evala_photo5.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo3.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo2.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo1.jpg" alt="" width="500px">
+                         <img class="img-fluid" src="../components/images/evala_photo4.jpg" alt="" width="500px">
 
                     </div>
+
                </div>
           </div>
      </body>
