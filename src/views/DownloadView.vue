@@ -18,10 +18,13 @@
                               Avec <em>KARA EVENTS</em> toujours sur vous, <em>Simplifiez</em> tous vos déplacements à
                               Kara !
                          </p>
-                         <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>
-                              Telecharger</button>
-                         <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>
-                              Telecharger</button>
+                         <a type="button" class="btn btn-dark btn-lg"
+                              href="https://drive.google.com/drive/folders/1gme0885ZPJj8rQzVzgdZGpDDaYRxFxsQ?usp=sharing"
+                              target="blank"><i class="fab fa-apple"></i> Telecharger</a>
+                         <a type="button" class="btn btn-outline-light btn-lg"
+                              href="https://drive.google.com/drive/folders/1gme0885ZPJj8rQzVzgdZGpDDaYRxFxsQ?usp=sharing"
+                              target="blank"><i class="fab fa-google-play"></i>
+                              Telecharger</a>
                     </div>
 
 
@@ -79,6 +82,9 @@
                </div>
           </div>
 
+          <div class="video">
+
+          </div>
      </div>
 
 
@@ -116,7 +122,7 @@
      }
 
 
-     button {
+     a {
           margin: 10px;
      }
 

@@ -47,13 +47,17 @@
         <div id="col" class="col-lg-6">
           <h6><span>Téléchargez </span> maintenant l’App et <span>Utilisez-la</span> gratuitement..</h6>
           <p>
-            Avec <em>KARA EVENTS</em> toujours sur vous, <em>Simplifiez</em> tous vos déplacements à
+            Avec <span>KARA EVENTS</span> toujours sur vous, <span>Simplifiez</span> tous vos déplacements à
             Kara !
           </p>
 
-          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Telecharger</button>
-          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>
-            Telecharger</button>
+          <a type="button" class="btn btn-dark btn-lg"
+            href="https://drive.google.com/drive/folders/1gme0885ZPJj8rQzVzgdZGpDDaYRxFxsQ?usp=sharing" target="blank"><i
+              class="fab fa-apple"></i> Telecharger</a>
+          <a type="button" class="btn btn-outline-light btn-lg"
+            href="https://drive.google.com/drive/folders/1gme0885ZPJj8rQzVzgdZGpDDaYRxFxsQ?usp=sharing" target="blank"><i
+              class="fab fa-google-play"></i>
+            Telecharger</a>
         </div>
 
 
@@ -112,8 +116,12 @@
 
   }
 
+  a {
+    margin: 10px;
+  }
+
   span {
-    color: #fff;
+    color: red;
     font-size: 25px;
     font-family: 'Jost', sans-serif;
 
@@ -125,7 +133,7 @@
     font-size: 25px;
     font-weight: bold;
     font-family: 'Jost', sans-serif;
-    color: red;
+    color: #000;
   }
 
   .yellow-box {

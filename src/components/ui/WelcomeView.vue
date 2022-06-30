@@ -171,7 +171,7 @@
           margin: 5px;
      }
 
-     .image{
+     .image {
           border-radius: 15px;
      }
 
