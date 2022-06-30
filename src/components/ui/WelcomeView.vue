@@ -12,7 +12,7 @@
           <div class="row">
                <div class="col-lg-3">
 
-                    <img class="img-fluid" src="../images/hotel-kara.jpg" alt="">
+                    <img class="img-fluid image" src="../images/hotel-kara1.png" alt="">
                     <div class="box1">
                          <a href="/hotel">
                               <h2>Hotels</h2>
@@ -171,6 +171,10 @@
           margin: 5px;
      }
 
+     .image{
+          border-radius: 15px;
+     }
+
      .col-lg-3:hover {
           transform: translateY(35px);
           transition: 1s ease-in-out;
@@ -192,12 +196,11 @@
           max-width: 100%;
           padding: 1rem;
 
-
      }
 
      .box1 {
           margin: 2px;
-          width: 50%;
+          width: 95%;
           text-align: center;
           padding: 5px;
           border-radius: 10px;
@@ -208,7 +211,7 @@
 
      .box2 {
           margin: 2px;
-          width: 50%;
+          width: 95%;
           text-align: center;
           padding: 5px;
           border-radius: 10px;
@@ -401,21 +404,6 @@
      }
 
 
-
-     @media (max-width: 5000px) {
-
-          .box1,
-          .box2 {
-               margin: 2px;
-               width: 95%;
-               text-align: center;
-               padding: 5px;
-               border-radius: 10px;
-               border: 1px solid #006A4A;
-               box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-               background: #fff;
-          }
-     }
 
 
 
