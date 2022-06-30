@@ -1,44 +1,8 @@
 <template>
 
 
-    <welcome-slider></welcome-slider>
- 
-     <div class="video-pub" data-aos="zoom-in" data-aos-duration="2000">
+     <welcome-slider></welcome-slider>
 
-          <div class="carou-sel">
-               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                              class="active" aria-current="true" aria-label="Slide 1"></button>
-                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                              aria-label="Slide 2"></button>
-                    </div>
-                    <div class="carousel-inner">
-                         <div class="carousel-item active">
-
-                              <div class="scores">
-
-                                   <vue3-marquee :clone="true">
-                                        <img height="100" src="../images/hp.jpg" />
-                                        <img height="100" src="../images/hp-face.jpg" />
-                                        <img height="100" src="../images/hp.jpg" />
-                                        <img height="100" src="../images/pc.png" />
-                                        <img height="100" src="../images/hp.jpg" />
-                                        <img height="100" src="../images/pc.png" />
-                                        <img height="100" src="../images/hp.jpg" />
-                                        <img height="100" src="../images/pc.png" />
-                                   </vue3-marquee>
-
-                              </div>
-                         </div>
-
-                    </div>
-
-               </div>
-
-          </div>
-
-     </div>
      <event-page></event-page>
      <div class="accomodation">
 
@@ -48,7 +12,7 @@
           <div class="row">
                <div class="col-lg-3">
 
-                    <img class="img-fluid" src="../images/hotel-kara1.png" alt="">
+                    <img class="img-fluid" src="../images/hotel-kara.jpg" alt="">
                     <div class="box1">
                          <a href="/hotel">
                               <h2>Hotels</h2>
@@ -138,9 +102,7 @@
      </div>
 
 
-     <div class="ref"  data-aos="fade-right"
-     data-aos-offset="500"
-     data-aos-easing="ease-in-sine">
+     <div class="ref" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
           <div class="title">
                <h1 style="text-align:center">Nos partenaires</h1>
           </div>
@@ -151,11 +113,11 @@
                <img class="images" height="100" src="../images/SBC.png" />
                <img class="images" height="100" src="../images/AACG.jpg" />
                <img class="images" height="100" src="../images/dowoto.jpeg" />
-                <img class="images" height="100" src="../images/mayi_SarlU.jpg" />
-                 <img class="images" height="100" src="../images/ttibp.jpg" />
-               
-               
-              
+               <img class="images" height="100" src="../images/mayi_SarlU.jpg" />
+               <img class="images" height="100" src="../images/ttibp.jpg" />
+
+
+
           </vue3-marquee>
      </div>
 
@@ -205,10 +167,10 @@
 </script>
 
 <style scoped>
-
      .images {
           margin: 5px;
      }
+
      .col-lg-3:hover {
           transform: translateY(35px);
           transition: 1s ease-in-out;
@@ -235,7 +197,7 @@
 
      .box1 {
           margin: 2px;
-          width: 95%;
+          width: 50%;
           text-align: center;
           padding: 5px;
           border-radius: 10px;
@@ -246,7 +208,7 @@
 
      .box2 {
           margin: 2px;
-          width: 95%;
+          width: 50%;
           text-align: center;
           padding: 5px;
           border-radius: 10px;
@@ -272,10 +234,10 @@
 
      }
 
-   
 
 
- 
+
+
      .accomodation {
           padding: 50px;
           background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
@@ -306,7 +268,7 @@
 
      }
 
-    
+
 
 
 
@@ -440,40 +402,55 @@
 
 
 
-    /*  /* // X-Small devices (portrait phones, less than 576px) */
-    /*  @media (max-width: 400px) {
+     @media (max-width: 5000px) {
+
+          .box1,
+          .box2 {
+               margin: 2px;
+               width: 95%;
+               text-align: center;
+               padding: 5px;
+               border-radius: 10px;
+               border: 1px solid #006A4A;
+               box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+               background: #fff;
+          }
+     }
+
+
+
+     /*  /* // X-Small devices (portrait phones, less than 576px) */
+     /*  @media (max-width: 400px) {
           .box1, .box2 {
                width: 100%;
           }
      } */
 
      /* // Small devices (landscape phones, less than 768px) */
-    /*  @media (max-width: 767.98px) {
+     /*  @media (max-width: 767.98px) {
           .box1, .box2 {
                width: 100%;
           }
      }
  */
      /* // Medium devices (tablets, less than 992px) */
-    /*  @media (max-width: 991.98px) {
+     /*  @media (max-width: 991.98px) {
           .box1, .box2 {
                width: 100%;
           }
      } */
 
      /* // Large devices (desktops, less than 1200px) */
-   /*   @media (max-width: 1199.98px) {
+     /*   @media (max-width: 1199.98px) {
           .box1, .box2 {
                width: 100%;
           }
      }
  */
      /* // X-Large devices (large desktops, less than 1400px) */
-    /*  @media (max-width: 2992px) {
+     /*  @media (max-width: 2992px) {
           .box1, .box2 {
                width: 50%;
           }
-     } */ 
-
-
+     } */
 </style>

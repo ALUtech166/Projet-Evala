@@ -7,9 +7,9 @@
 
      <div class="body">
 
-          <div class="row"  v-if="program && program.length">
-               <div class="col-lg-8" v-for="pro of program" :key="pro.id">
-                    <div class="blog">
+          <div class="row">
+               <div class="col-lg-8"  v-if="program && program.length">
+                    <div class="blog" v-for="pro of program" :key="pro.id">
                          <img :src="'http://karaevents.mekengroup.com/upload/actualite/'+pro.photo_actualite" alt="" class="img-fluid image">
                          <br>
                          <div class="context">
@@ -25,24 +25,11 @@
                               </p>
                          </div>
                     </div>
-                    <br>
+                   
                </div>
 
                <div class="col-lg-4">
-                   <!--  <div class="recent">
-                         <img src="../components/images/2k-e.jpg" alt="" class="img-fluid image" id="img">
-                         <h1 style="font-size: 25px">Recents Articles</h1>
-                         <h2>
-                              Kara Events Platforme
-                         </h2>
-
-                         <img src="../components/images/AACG.jpg" alt="" class="img-fluid image" id="img">
-                         <h1 style="font-size: 25px">Recents Articles</h1>
-                         <h2>
-                              Kara Events Platforme
-                         </h2>
-                    </div>
-                    <br> -->
+                
                     <div class="recent">
                          <pub-blog></pub-blog>
                     </div>

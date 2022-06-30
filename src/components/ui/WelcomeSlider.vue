@@ -4,55 +4,12 @@
                <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
                          class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
-                         aria-label="Slide 2"></button>
+                    
 
                </div>
                <div class="carousel-inner">
+                   
                     <div class="carousel-item active">
-
-
-
-                         <div class="home">
-
-                              <div class="container" data-aos="fade-left" data-aos-duration="3000">
-
-                                   <div class="row">
-
-
-                                        <div class="col-lg-6">
-                                             <img class="image img-fluid" src="../images/FEG1.jpg" alt="">
-                                        </div>
-
-                                        <div class="col-lg-6">
-
-                                             <hr class="style-two">
-                                             <h1><strong>Bienvenue à KARA</strong></h1><br>
-                                             <h4>Le Mot du President de la Republique</h4>
-
-                                             <p class="quote">
-                                                  <i class="fa-solid fa-quote-left"></i>
-                                                  L’industrie en Afrique est d’abord culturelle et touristique avant de
-                                                  toucher la transformation des produits locaux
-
-                                                  <i class="fa-solid fa-quote-right"></i>
-
-                                             </p>
-
-                                             <br>
-                                             <h2><em>S.E.M Faure E. GNASSINGBE</em></h2>
-
-
-
-                                        </div>
-
-
-
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-                    <div class="carousel-item">
                          <div class="home">
 
                               <div class="container" data-aos="fade-left" data-aos-duration="3000">
