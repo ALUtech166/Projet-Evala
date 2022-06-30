@@ -18,7 +18,7 @@ createApp(App).use(TawkMessengerVue, {
 });
 
 
-axios.defaults.baseURL = 'http://karaevents.mekengroup.com/'
+axios.defaults.baseURL = 'https://karaevents.mekengroup.com/'
 axios.defaults.headers.common['Authorization'] = 'Bearer ' + localStorage.getItem('token')
 
 import '@fortawesome/fontawesome-free/js/all'
