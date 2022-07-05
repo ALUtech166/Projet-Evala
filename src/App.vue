@@ -3,6 +3,7 @@
   <div class="container-fluid">
 
     <div class="app">
+    <div id="google_translate_element"></div>
 
       <div class="login-popup close">
         <div class="box">
@@ -22,6 +23,8 @@
     <footer-bar></footer-bar>
 
   </div>
+
+
 </template>
 
 <script>
@@ -73,8 +76,26 @@
         loginPopup.classList.remove("show");
       })
 
+      
 
+
+  },
+
+
+  methods: {
+    googleTranslateElementInit() {
+      window.google.translate.TranslateElement(
+        { pageLanguage: "en" },
+        "google_translate_element"
+      );
+
+      this.googleTranslateElementInit();
     },
+
+    
+  }
+  
+
 
 
   }

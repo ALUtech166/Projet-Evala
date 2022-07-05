@@ -25,7 +25,7 @@
       </p>
     </div>
 
-    <div class="acc" data-aos="flip-right" data-aos-duration="3000">
+    <div class="acc">
       <!-- <div class="header-search">
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
@@ -78,7 +78,7 @@
 
 
 
-    <div class="acc" data-aos="flip-left" data-aos-duration="3000">
+    <div class="acc">
       <div class="row" id="items">
         <div class="col-lg-3">
 
@@ -122,7 +122,7 @@
     </div>
 
 
-    <div class="acc" data-aos="flip-left" data-aos-duration="3000">
+    <div class="acc">
       <div class="row" id="items">
         <div class="col-lg-3">
           <img class="img-fluid image" src="../components/images/Photo32.png" alt="">
@@ -132,7 +132,7 @@
             </a>
           </div>
         </div>
-      
+
 
         <div class="col-lg-3">
           <img class="img-fluid image" src="../components/images/Photo89.png" alt="">
@@ -152,7 +152,7 @@
           </div>
         </div>
 
-        
+
         <div class="col-lg-3">
           <img class="img-fluid image" src="../components/images/stationn_essence.png" alt="">
           <div class="box2">
@@ -162,7 +162,7 @@
           </div>
         </div>
 
-        
+
         <div class="col-lg-3">
           <img class="img-fluid image" src="../components/images/guichet.png" alt="">
           <div class="box2">
@@ -171,6 +171,17 @@
             </a>
           </div>
         </div>
+
+        <!-- <div class="col-lg-3" v-if="services && services.length">
+          <template v-for="service of services" :key="service.id">
+            <img class="img-fluid image" :src="'http://karaevents.mekengroup.com/upload/service/'+service.photo_service" alt="">
+            <div class="box2">
+              <a href="/guichet">
+                <h2 style="color:green">{{ service.nom_service }}</h2>
+              </a>
+            </div>
+          </template>
+        </div> -->
 
       </div>
     </div>
@@ -183,7 +194,8 @@
   import PubPage3 from '@/components/partials/PubPage3.vue'
   import PubPage4 from '@/components/partials/PubPage4.vue'
   import AnnoncePage from '@/components/ui/AnnoncePage.vue';
-  import HeaderBar from '../components/partials/HeaderBar.vue'
+import HeaderBar from '../components/partials/HeaderBar.vue'
+  // import axios from 'axios'
   import AOS from "aos";
   export default {
     components: {
@@ -196,8 +208,30 @@
     setup() {
       AOS.init();
 
-    },
-  }
+  },
+}
+
+  // data() {
+  //   return {
+  //     services: [],
+  //     errors: []
+  //   }
+  // }
+
+//   // Fetches posts when the component is created.
+//   created(data) {
+//     axios.get(`api/service`)
+//       .then(response => {
+//         // JSON responses are automatically parsed.
+//         this.services = response.data
+//         console.log(data)
+
+//       })
+//       .catch(e => {
+//         this.errors.push(e)
+//       })
+//   }
+// }
 </script>
 
 

@@ -47,15 +47,15 @@
         <div id="col" class="col-lg-6">
           <h6><span>Téléchargez </span> maintenant l’App et <span>Utilisez-la</span> gratuitement..</h6>
           <p>
-            Avec <span>KARA EVENTS</span> toujours sur vous, <span>Simplifiez</span> tous vos déplacements à
+            Avec <span>KARA EVENTS</span> toujours pour vous, <span>Simplifiez</span> tous vos déplacements à
             Kara !
           </p>
 
           <a type="button" class="btn btn-dark btn-lg"
-            href="https://drive.google.com/drive/folders/1gme0885ZPJj8rQzVzgdZGpDDaYRxFxsQ?usp=sharing" target="blank"><i
+            href="https://play.google.com/store/apps/details?id=com.mekeng.karaevents" target="blank"><i
               class="fab fa-apple"></i> Telecharger</a>
           <a type="button" class="btn btn-outline-light btn-lg"
-            href="https://drive.google.com/drive/folders/1gme0885ZPJj8rQzVzgdZGpDDaYRxFxsQ?usp=sharing" target="blank"><i
+            href="https://play.google.com/store/apps/details?id=com.mekeng.karaevents" target="blank"><i
               class="fab fa-google-play"></i>
             Telecharger</a>
         </div>

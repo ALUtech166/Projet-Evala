@@ -17,7 +17,7 @@
               class="fab fa-youtube"></i></a>
           <a href="https://twitter.com/Karaeventstogo" target="blank"><i class="fab fa-twitter"></i></a>
           <a href="https://www.facebook.com/karaeventstogo" target="blank"><i class="fab fa-facebook"></i></a>
-          <a href=""><i class="fab fa-instagram" target="blank"></i></a>
+          <a href="https://www.instagram.com/eventskaratogo/"><i class="fab fa-instagram" target="blank"></i></a>
           <a href="https://www.linkedin.com/company/kara-events/about/?viewAsMember=true" target="blank"><i
               class="fab fa-linkedin"></i></a>
         </div>

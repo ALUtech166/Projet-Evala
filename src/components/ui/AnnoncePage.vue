@@ -1,10 +1,10 @@
 <template>
   <div class="pub" data-aos="fade-right"  data-aos-duration="2000">
           <vue3-marquee :clone="true">
-          <a href="http://" target="_blank" rel="noopener noreferrer"><p>Welcome to Kara Event</p></a> 
-          <a href="http://" target="_blank" rel="noopener noreferrer"><p>Bienvenue à Kara</p></a>
-          <a href="http://" target="_blank" rel="noopener noreferrer"><p>Kabtè Kara daa</p></a>
-          <a href="http://" target="_blank" rel="noopener noreferrer"><p>Woezon va Kara</p></a>
+          <a href="#" target="_blank" rel="noopener noreferrer"><p>Welcome to Kara Event</p></a> 
+          <a href="#" target="_blank" rel="noopener noreferrer"><p>Bienvenue à Kara</p></a>
+          <a href="#" target="_blank" rel="noopener noreferrer"><p>Kabtè Kara daa</p></a>
+          <a href="#" target="_blank" rel="noopener noreferrer"><p>Woezon va Kara</p></a>
           </vue3-marquee>
   </div>
 </template>

@@ -8,79 +8,81 @@
 
 
      <div class="body">
-          <div class="container">
-               <div class="row">
 
-                    <div id="col" class="col-lg-6">
+          <div class="row">
 
-                         <h1><span>Téléchargez </span> maintenant l’App et <span>Utilisez-la</span> gratuitement..</h1>
-                         <p>
-                              Avec <em>KARA EVENTS</em> toujours sur vous, <em>Simplifiez</em> tous vos déplacements à
-                              Kara !
-                         </p>
-                         <a type="button" class="btn btn-dark btn-lg"
-                              href="https://drive.google.com/drive/folders/1gme0885ZPJj8rQzVzgdZGpDDaYRxFxsQ?usp=sharing"
-                              target="blank"><i class="fab fa-apple"></i> Telecharger</a>
-                         <a type="button" class="btn btn-outline-light btn-lg"
-                              href="https://drive.google.com/drive/folders/1gme0885ZPJj8rQzVzgdZGpDDaYRxFxsQ?usp=sharing"
-                              target="blank"><i class="fab fa-google-play"></i>
-                              Telecharger</a>
-                    </div>
+               <div id="col" class="col-lg-6">
 
-
-                    <div class="col-lg-6">
-                         <img class="img-fluid" src="../components/images/3.png" alt="iphone-mockup">
-                    </div>
-
+                    <h1><span>Téléchargez </span> maintenant l’App et <span>Utilisez-la</span> gratuitement..
+                    </h1>
+                    <p>
+                         Avec <em>KARA EVENTS</em> toujours pour vous, <em>Simplifiez</em> tous vos
+                         déplacements à
+                         Kara !
+                    </p>
+                    <a type="button" class="btn btn-dark btn-lg"
+                         href="https://play.google.com/store/apps/details?id=com.mekeng.karaevents" target="blank"><i
+                              class="fab fa-apple"></i> Telecharger</a>
+                    <a type="button" class="btn btn-outline-light btn-lg"
+                         href="https://play.google.com/store/apps/details?id=com.mekeng.karaevents" target="blank"><i
+                              class="fab fa-google-play"></i>
+                         Telecharger</a>
                </div>
 
-               <br>
-               <div class="description">
-                    <div class="content container">
-                         <div class="row">
 
-                              <div class="col-lg-6">
-                                   <div class="banner">
-                                        <h1>Les Principales Fonctionnalites</h1>
-                                   </div>
-                                   <br>
+               <div class="col-lg-6">
+                    <img class="img-fluid" src="../components/images/3.png" alt="iphone-mockup">
+               </div>
 
-                                   <ul>
-                                        <li>Réserver des chambres. </li>
-                                        <li>Acheter des services. </li>
-                                        <li>
-                                             Simplifier l'accès aux programmes des évènements.
+          </div>
 
-                                        </li>
+          <br>
+          <div class="description">
+               <div class="content">
+                    <div class="row">
 
-                                        <li>
-                                             Faciliter l'accés à l'information touristiques.
-                                        </li>
-
-                                        <li>
-                                             Se repérer aisément grâce à la géolocalisation.
-                                        </li>
-                                        <li>
-                                             Favoriser l'accés à l'information touristiques.
-                                        </li>
-
-
-
-
-
-
-                                   </ul>
-
-
+                         <div class="col-lg-6">
+                              <div class="banner">
+                                   <h1>Les Principales Fonctionnalites</h1>
                               </div>
+                              <br>
 
-                              <div class="col-lg-6">
-                                   <img id="screen" class="img-fluid" src="../components/images/Phone.png" alt="">
-                              </div>
+                              <ul>
+                                   <li>Réserver des chambres. </li>
+                                   <li>Acheter des services. </li>
+                                   <li>
+                                        Simplifier l'accès aux programmes des évènements.
+
+                                   </li>
+
+                                   <li>
+                                        Faciliter l'accés à l'information touristiques.
+                                   </li>
+
+                                   <li>
+                                        Se repérer aisément grâce à la géolocalisation.
+                                   </li>
+                                   <li>
+                                        Favoriser l'accés à l'information touristiques.
+                                   </li>
+
+
+
+
+
+
+                              </ul>
+
+
+                         </div>
+
+                         <div class="col-lg-6">
+                              <img id="screen" class="img-fluid" src="../components/images/Phone.png" alt="">
                          </div>
                     </div>
                </div>
           </div>
+
 
           <div class="video">
 

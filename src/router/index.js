@@ -42,6 +42,7 @@ import EventsView from '@/views/EventsView.vue';
 import ProgramEvala from '@/views/ProgramEvala.vue'
 import PortalView from '../components/layout/PortalView.vue';
 import DownloadView from '@/views/DownloadView.vue';
+import ReservationView from '@/views/ReservationView.vue';
 
 
 const routes = [{
@@ -86,6 +87,11 @@ const routes = [{
     path: '/download',
     name: 'download',
     component: DownloadView
+  },
+   {
+    path: '/reservation-ticket',
+    name: 'reservation-View',
+    component: ReservationView
   },
 
 

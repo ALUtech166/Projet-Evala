@@ -7,42 +7,47 @@
 
      <div class="body">
 
-          <div class="row">
-               <div class="col-lg-8"  v-if="program && program.length">
-                    <div class="blog" v-for="pro of program" :key="pro.id">
-                         <img :src="'http://karaevents.mekengroup.com/upload/actualite/'+pro.photo_actualite" alt="" class="img-fluid image">
-                         <br>
-                         <div class="context">
-                              <div class="box" style="display: flex">
-                                   <div class="">
-                                        <h2>{{ pro.nom_acteur}} {{ pro.prenom_acteur}}</h2>
+          <div class="container">
+
+               <div class="row">
+                    <div class="col-lg-8" v-if="program && program.length">
+                         <div class="blog" v-for="pro of program" :key="pro.id">
+                              <img :src="'http://karaevents.mekengroup.com/upload/actualite/'+pro.photo_actualite"
+                                   alt="" class="img-fluid image">
+                              <br>
+                              <div class="context">
+                                   <div class="box" style="display: flex">
+                                        <div class="">
+                                             <h2>{{ pro.nom_acteur}} {{ pro.prenom_acteur}}</h2>
+                                        </div>
+                                        <div class=""><span>{{ pro.date_actualite }}</span></div>
                                    </div>
-                                   <div class=""><span>{{ pro.date_actualite }}</span></div>
+                                   <h1>{{ pro.titre_actualite}}</h1>
+                                   <p>
+                                        {{ pro.description_actualite }} <a
+                                             href="https://togodailynews.com/togo-kara-event-application/"
+                                             target="_blank" rel="noopener noreferrer">voir plus</a>
+                                   </p>
                               </div>
-                              <h1>{{ pro.titre_actualite}}</h1>
-                              <p>
-                                   {{ pro.description_actualite }}
-                              </p>
                          </div>
+
                     </div>
-                   
+
+                    <div class="col-lg-4">
+
+                         <div class="recent">
+                              <pub-blog></pub-blog>
+                         </div>
+                         <br>
+                         <div class="recent">
+                              <img src="../components/images/MAYI.jpg" class="img-fluid" alt="">
+                         </div>
+
+                    </div>
+
                </div>
-
-               <div class="col-lg-4">
-                
-                    <div class="recent">
-                         <pub-blog></pub-blog>
-                    </div>
-                    <br>
-                    <div class="recent">
-                         <img src="../components/images/MAYI.jpg" class="img-fluid" alt="">
-                    </div>
-
-               </div>
-
           </div>
      </div>
-
 
 
 

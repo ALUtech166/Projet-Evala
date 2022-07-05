@@ -15,31 +15,31 @@
                          <ul class="navbar-nav">
 
 
-                              <li><a class="dropdown-item" href="/">Accueil</a></li>
-                              <li><a class="dropdown-item" href="/about">Accomodation</a></li>
-                              <li><a class="dropdown-item" href="/events">Evenements</a></li>
-                              <li><a class="dropdown-item" href="/download">Telecharger</a></li>
-                          
+                              <li><router-link class="dropdown-item" to="/">Accueil</router-link></li>
+                              <li><router-link class="dropdown-item" to="/about">Accomodation</router-link></li>
+                              <li><router-link class="dropdown-item" to="/events">Evenements</router-link></li>
+                              <li><router-link class="dropdown-item" to="/reservation-ticket">Reservation</router-link></li>
+                              <li><router-link class="dropdown-item" to="/download">Telecharger</router-link></li>
 
 
-                             <!--  <li class="nav-item dropdown">
-                                   <a class="nav-link dropdown-toggle dropdown-item" href="#"
+
+                              <!--  <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle dropdown-item" to="#"
                                         id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         
                                    </a>
                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                        <li><a class="dropdown-item" href="/evala">Evala</a></li>
-                                        <li><a class="dropdown-item" href="/akpema">Akpema</a></li>
-                                        <li><a class="dropdown-item" href="/habye">Habyé</a></li>
-                                        <li><a class="dropdown-item" href="/kondona">Kondona</a></li>
+                                        <li><a class="dropdown-item" to="/evala">Evala</a></li>
+                                        <li><a class="dropdown-item" to="/akpema">Akpema</a></li>
+                                        <li><a class="dropdown-item" to="/habye">Habyé</a></li>
+                                        <li><a class="dropdown-item" to="/kondona">Kondona</a></li>
                                    </ul>
                               </li> -->
-                              <!-- <li><a class="dropdown-item" href="/kozah">La KARA</a></li> -->
-                              <li><a class="dropdown-item" href="/blog">Actualités</a></li>
-                           <!--    <li><a class="dropdown-item" href="/contact">Contacts</a></li> -->
-                              <li><a class="btn btn-white btn-animated"
-                                        href="/login" role="button">Se Connecter</a>
+                              <!-- <li><a class="dropdown-item" to="/kozah">La KARA</a></li> -->
+                              <li><router-link class="dropdown-item" to="/blog">Actualités</router-link></li>
+                              <!--    <li><a class="dropdown-item" to="/contact">Contacts</a></li> -->
+                              <li><router-link class="btn btn-white btn-animated" to="/login" role="button">Se Connecter</router-link>
                               </li>
 
                          </ul>
