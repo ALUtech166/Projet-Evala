@@ -41,10 +41,10 @@
                          <input type="text" class="form-control" id="number" v-model="email_societe" required>
                     </div>
                     <div class="mb-3">
-                         <label for="number" class="form-label">Type de
+                        <label for="number" class="form-label">Type de
                               Société*</label>
                          <select class="form-select" id="validationCustom04" v-model="type_societe_id" required>
-                              <option selected disabled value="">Choose...</option>
+                              <option ption selected disabled value="">Choose...</option>
                               <option :value="1">er</option>
 
                          </select>

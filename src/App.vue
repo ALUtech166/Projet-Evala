@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container-fluid">
+  <div class="">
 
     <div class="app">
     <div id="google_translate_element"></div>

@@ -4,9 +4,8 @@
     <div class="header">
       <h1 class="titre">
         Hotels
+
       </h1>
-
-
     </div>
 
     <div class="bread">
@@ -45,17 +44,19 @@
               </p>
               <div class="box1">
                 <div class="">
-                  <a type="button" class="box btn btn-outline-danger" :href="'https://'+hot.site_hotel" target="blank">Voir plus</a>
+                  <a type="button" class="box btn btn-outline-danger" :href="'https://'+hot.site_hotel"
+                    target="blank">Voir plus</a>
                 </div>
 
                 <div class="">
-                  <a type="button" id="btn" class="btn btn-success" :href="'https://wa.me/'+hot.contact_hotel"
+                  <a type="button" id="btn" class="btn btn-success" :href="'https://wa.me/'+hot.whatsapp_hotel"
                     target="blank"><i class="fa-brands fa-whatsapp"></i></a>
                   <a type="button" id="btn" class="btn btn-primary" :href="'tel:'+hot.contact_hotel" target="blank"><i
                       class="fa-solid fa-phone"></i></a>
                   <a type="button" id="btn" class="btn btn-danger" :href="'mailto:'+hot.email_hotel" target="blank"><i
                       class="fa-solid fa-at"></i></a>
-                  <a type="button" id="btn" class="btn btn-warning" :href="'https://goo.gl/maps/'+hot.localisation_hotel" target="blank"><i
+                  <a type="button" id="btn" class="btn btn-warning"
+                    :href="'https://goo.gl/maps/'+hot.localisation_hotel" target="blank"><i
                       class="fa-solid fa-location-dot"></i></a>
                 </div>
               </div>

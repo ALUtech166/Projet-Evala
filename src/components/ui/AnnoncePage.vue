@@ -38,6 +38,7 @@
           font-weight: 500;
           color: #000;
           margin: 10px;
+          padding-right: 3px;
           
      }
 

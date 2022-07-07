@@ -194,7 +194,7 @@
   import PubPage3 from '@/components/partials/PubPage3.vue'
   import PubPage4 from '@/components/partials/PubPage4.vue'
   import AnnoncePage from '@/components/ui/AnnoncePage.vue';
-import HeaderBar from '../components/partials/HeaderBar.vue'
+  import HeaderBar from '../components/partials/HeaderBar.vue'
   // import axios from 'axios'
   import AOS from "aos";
   export default {
