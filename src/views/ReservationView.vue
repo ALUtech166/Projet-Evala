@@ -71,8 +71,7 @@
                               </div>
 
                               <div class="image">
-                                   <img class="img-fluid" src="../components/images/hotel-kara1.png" width="50px"
-                                        alt="">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
                               </div>
                          </div>
                     </div>
@@ -86,8 +85,7 @@
                               </div>
 
                               <div class="image">
-                                   <img class="img-fluid" src="../components/images/hotel-kara1.png" width="50px"
-                                        alt="">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
                               </div>
                          </div>
                     </div>
@@ -101,8 +99,7 @@
                               </div>
 
                               <div class="image">
-                                   <img class="img-fluid" src="../components/images/hotel-kara1.png" width="50px"
-                                        alt="">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
                               </div>
                          </div>
                     </div>
@@ -116,8 +113,7 @@
                               </div>
 
                               <div class="image">
-                                   <img class="img-fluid" src="../components/images/hotel-kara1.png" width="50px"
-                                        alt="">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
                               </div>
                          </div>
                     </div>
@@ -131,8 +127,7 @@
                               </div>
 
                               <div class="image">
-                                   <img class="img-fluid" src="../components/images/hotel-kara1.png" width="50px"
-                                        alt="">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
                               </div>
                          </div>
                     </div>
@@ -146,8 +141,7 @@
                               </div>
 
                               <div class="image">
-                                   <img class="img-fluid" src="../components/images/hotel-kara1.png" width="50px"
-                                        alt="">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
                               </div>
                          </div>
                     </div>
@@ -178,20 +172,20 @@
 
                          </div>
 
-                         <img class="img-fluid" src="../components/images/TICKETS.svg" alt="">
+                         <img class="img-fluid" src="../components/images/Ticket.svg" alt="">
                     </div>
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="../components/images/TICKETS.svg" alt="">
-
-                    </div>
-
-                    <div class="col-lg-6">
-                         <img class="img-fluid" src="../components/images/TICKETS.svg" alt="">
+                         <img class="img-fluid" src="../components/images/Ticket.svg" alt="">
 
                     </div>
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="../components/images/TICKETS.svg" alt="">
+                         <img class="img-fluid" src="../components/images/Ticket.svg" alt="">
+
+                    </div>
+
+                    <div class="col-lg-6">
+                         <img class="img-fluid" src="../components/images/Ticket.svg" alt="">
 
                     </div>
                </div>
@@ -218,17 +212,14 @@
 
 <style scoped>
 
-
-
-
-
-
-
-
      .body {
           background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
           padding: 50px;
 
+     }
+
+     .image {
+          border-radius: 5px;
      }
 
      .description {
@@ -319,7 +310,7 @@
      .body-header {
           background-color: #006a4ad2;
           padding: 70px;
-          border-radius: 10px;
+          border-radius: 5px;
      }
 
      .title {
@@ -342,7 +333,7 @@
           padding: 10px;
           box-shadow: rgba(0, 0, 0, 0.26);
           background-color: #fff;
-          border-radius: 10px;
+          border-radius: 5px;
           justify-content: space-between;
 
 
@@ -364,7 +355,7 @@
           top: -25px;
           text-align: center;
           padding: 45px;
-          border-radius: 10px;
+          border-radius: 5px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
           background-color: #fff;
           color: white;

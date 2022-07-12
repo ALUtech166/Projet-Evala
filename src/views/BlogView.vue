@@ -85,12 +85,10 @@
                     })
           }
      }
-
-
-
 </script>
 
 <style scoped>
+
      .recent {
           max-width: 90%;
           border-radius: 12px;
@@ -102,6 +100,12 @@
 
      .box {
           justify-content: space-between;
+     }
+
+     a {
+          font-size: 15px;
+          text-decoration: none;
+          color: #ffcc00;
      }
 
      span {

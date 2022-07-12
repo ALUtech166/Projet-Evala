@@ -38,14 +38,14 @@
               <h3 class="card-title">{{ site.nom_site}}</h3>
               <p class="card-text"><b>Details:</b> {{ site.description_site }}
               </p>
-              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+site.localisation_site" target="blank">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+site.localisation_site"
+                target="blank">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
             </div>
           </div>
         </div>
 
-      
+
       </div>
 
 
@@ -65,7 +65,7 @@
       HeaderBar
     },
 
-      data() {
+    data() {
       return {
         sites: [],
         errors: []
@@ -126,7 +126,9 @@
 
   a {
     text-decoration: none;
-
+    color: #ffcc00;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .icon {

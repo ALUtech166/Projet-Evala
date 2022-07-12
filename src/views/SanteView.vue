@@ -39,7 +39,7 @@
                                    <h3 class="card-title">{{ san.nom_centre_sante}}</h3>
                                    <h5>Contact: {{ san.contact_centre_sante }}</h5>
                                    <h5>Adresse: {{ san.adresse_centre_sante }}</h5>
-                                    
+
                                    <a type="button" class="btn btn-success"
                                         :href="'https://goo.gl/maps/'+san.localisation_centre_sante"
                                         target="blank">Aller sur Place <i
@@ -124,6 +124,9 @@
 
      a {
           text-decoration: none;
+          color: #ffcc00;
+          font-weight: bold;
+          font-family: 'Josefin Sans', sans-serif;
      }
 
      .col-lg-4:hover {

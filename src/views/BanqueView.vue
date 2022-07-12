@@ -12,7 +12,7 @@
                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
                     aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                         <li class="breadcrumb-item"><a href="/about">Acommodation</a></li>
+                         <li class="breadcrumb-item"><a href="/about" style="color: #ffcc00;">Acommodation</a></li>
                          <li class="breadcrumb-item active" aria-current="page">Agences de Banques</li>
                     </ol>
                </nav>
@@ -31,12 +31,15 @@
                <div class="row" v-if="banque && banque.length">
                     <div class="col-lg-3" v-for="ban of banque" :key="ban.id">
                          <div class="card" style="width: 25rem; height: 30rem;">
-                              <img :src="'http://karaevents.mekengroup.com/upload/agence/'+ban.photo_agence" class="card-img-top" alt="...">
+                              <img :src="'http://karaevents.mekengroup.com/upload/agence/'+ban.photo_agence"
+                                   class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">{{ ban.nom_agence }}</h3>
                                    <h5>Contact: {{ ban.contact_agence}}</h5>
                                    <h5>Lieu: {{ ban.adresse_agence }}</h5>
-                                   <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+ban.localisation_agence" >Aller sur Place <i
+                                   <br>
+                                   <a type="button" class="btn btn-success"
+                                        :href="'https://goo.gl/maps/'+ban.localisation_agence">Aller sur Place <i
                                              class="icons fa-solid fa-location-dot"></i></a>
 
                               </div>
@@ -44,21 +47,21 @@
                     </div>
 
 
-               </div>  
-                
-              
-</div>
+               </div>
 
 
-     <div class="arrow">
-
-
-          <div style="text-align: right">
-               <a href="/radio" type="button" class="btn btn-outline-success">Next <i
-                         class="fa-solid fa-arrow-right"></i></a>
           </div>
 
-     </div>
+
+          <div class="arrow">
+
+
+               <div style="text-align: right">
+                    <a href="/radio" type="button" class="btn btn-outline-success">Next <i
+                              class="fa-solid fa-arrow-right"></i></a>
+               </div>
+
+          </div>
 
 
 
@@ -98,6 +101,8 @@
 
 
 <style scoped>
+
+
      .bread {
           padding: 2rem;
 
@@ -125,17 +130,10 @@
 
      a {
           text-decoration: none;
+          font-weight: bold;
+          font-family: 'Josefin Sans', sans-serif;
      }
 
-     .col-lg-4:hover {
-          transform: translateY(35px);
-          transition: 1s ease-in-out;
-     }
-
-     .col-lg-3:hover {
-          transform: translateY(35px);
-          transition: 1s ease-in-out;
-     }
 
      .arrow {
           padding: 2rem;
@@ -180,10 +178,9 @@
     
 
      .card {
-          border-radius: 20px;
+          border-radius: 10px;
           max-width: 100%;
           text-align: center;
-          border-radius:15px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
      }
 

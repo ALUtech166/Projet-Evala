@@ -23,7 +23,7 @@
                     <a type="button" class="btn btn-dark btn-lg"
                          href="https://play.google.com/store/apps/details?id=com.mekeng.karaevents" target="blank"><i
                               class="fab fa-apple"></i> Telecharger</a>
-                    <a type="button" class="btn btn-outline-light btn-lg"
+                    <a type="button" class="btn btn-light btn-lg"
                          href="https://play.google.com/store/apps/details?id=com.mekeng.karaevents" target="blank"><i
                               class="fab fa-google-play"></i>
                          Telecharger</a>
@@ -112,6 +112,11 @@
           background-image: linear-gradient(to right, #ffcc00, #006a4a3d);
           padding: 50px;
           text-align: center;
+     }
+
+     .btn-light:hover {
+          background-color: transparent;
+          border-color: #000;
      }
 
 

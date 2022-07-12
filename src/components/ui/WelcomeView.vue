@@ -175,10 +175,10 @@
           border-radius: 15px;
      }
 
-     .col-lg-3:hover {
+     /* .col-lg-3:hover {
           transform: translateY(35px);
           transition: 1s ease-in-out;
-     }
+     } */
 
      a {
           text-decoration: none;

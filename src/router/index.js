@@ -43,6 +43,7 @@ import ProgramEvala from '@/views/ProgramEvala.vue'
 import PortalView from '../components/layout/PortalView.vue';
 import DownloadView from '@/views/DownloadView.vue';
 import ReservationView from '@/views/ReservationView.vue';
+import StationBus from '@/views/StationBus.vue';
 
 
 const routes = [{
@@ -92,6 +93,11 @@ const routes = [{
     path: '/reservation-ticket',
     name: 'reservation-View',
     component: ReservationView
+  },
+    {
+    path: '/station-bus',
+    name: 'station-bus',
+    component: StationBus
   },
 
 

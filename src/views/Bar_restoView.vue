@@ -34,7 +34,8 @@
       <div class="row" v-if="bars && bars.length">
         <div class="col-lg-3" v-for="bar of bars" :key="bar.id">
           <div class="card" style="width: 25rem; height: 30rem;">
-            <img :src="'http://karaevents.mekengroup.com/upload/barResto/'+bar.photo_bar_resto" class="card-img-top img-fluid" alt="...">
+            <img :src="'http://karaevents.mekengroup.com/upload/barResto/'+bar.photo_bar_resto"
+              class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h3 class="card-title">{{ bar.nom_bar_resto }}</h3>
               <h5>Address: {{ bar.adresse_bar_resto }}</h5>
@@ -45,14 +46,14 @@
                 </div>
 
                 <div class="">
-                  <a type="button" id="btn" class="btn btn-success" :href="'https://wa.me/'+bar.contact_bar_resto" target="blank"><i
-                      class="fa-brands fa-whatsapp"></i></a>
-                  <a type="button" id="btn" class="btn btn-primary" :href="'tel:'+bar.adresse_bar_resto" target="blank"><i
-                      class="fa-solid fa-phone"></i></a>
+                  <a type="button" id="btn" class="btn btn-success" :href="'https://wa.me/'+bar.contact_bar_resto"
+                    target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a type="button" id="btn" class="btn btn-primary" :href="'tel:'+bar.adresse_bar_resto"
+                    target="blank"><i class="fa-solid fa-phone"></i></a>
                   <a type="button" class="btn btn-danger" :href="'mailto:'+bar.email_bar_resto" target="blank"><i
                       class="fa-solid fa-at"></i></a>
-                  <a type="button" class="btn btn-warning" :href="'https://goo.gl/maps/'+bar.localisation_bar_resto" target="blank"><i
-                      class="fa-solid fa-location-dot"></i></a>
+                  <a type="button" class="btn btn-warning" :href="'https://goo.gl/maps/'+bar.localisation_bar_resto"
+                    target="blank"><i class="fa-solid fa-location-dot"></i></a>
                 </div>
               </div>
             </div>
@@ -79,7 +80,7 @@
       HeaderBar
     },
 
-     data() {
+    data() {
       return {
         bars: [],
         errors: []
@@ -103,10 +104,10 @@
 </script>
 
 <style scoped>
-
   .col-lg-3 {
     padding: 10px;
   }
+
   ol {
     font-size: 20px;
   }
@@ -121,6 +122,9 @@
 
   a {
     text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .col-lg-4:hover {

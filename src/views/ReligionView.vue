@@ -32,13 +32,16 @@
                <div class="row" v-if="religion && religion.length">
                     <div class="col-lg-4" v-for="reg of religion" :key="reg.id">
                          <div class="card" style="width: 25rem; height: 30rem;">
-                              <img :src="'http://karaevents.mekengroup.com/upload/lieu_religieu/'+reg.photo_lieu_religieux" class="card-img-top" alt="...">
+                              <img :src="'http://karaevents.mekengroup.com/upload/lieu_religieu/'+reg.photo_lieu_religieux"
+                                   class="card-img-top" alt="...">
                               <div class="card-body">
                                    <h3 class="card-title">{{ reg.nom_lieu_religieux}}</h3>
-                                   <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+reg.localisation_lieu_religieux" target="blank">Aller sur Place <i
+                                   <br>
+                                   <a type="button" class="btn btn-success"
+                                        :href="'https://goo.gl/maps/'+reg.localisation_lieu_religieux"
+                                        target="blank">Aller sur Place <i
                                              class="icons fa-solid fa-location-dot"></i></a>
 
-                                   <hr class="style-two">
                               </div>
                          </div>
                     </div>
@@ -123,16 +126,8 @@
 
      a {
           text-decoration: none;
-     }
-
-     .col-lg-4:hover {
-          transform: translateY(35px);
-          transition: 1s ease-in-out;
-     }
-
-     .col-lg-3:hover {
-          transform: translateY(35px);
-          transition: 1s ease-in-out;
+          font-weight: bold;
+          font-family: 'Josefin Sans', sans-serif;
      }
 
      .arrow {
@@ -199,14 +194,13 @@
      }
 
      .card-img-top {
-          border-radius: 15px;
+          border-radius: 10px;
      }
 
      .card {
-          border-radius: 20px;
+          border-radius: 10px;
           max-width: 100%;
           text-align: center;
-          border-radius: 22px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
      }
 
@@ -214,7 +208,7 @@
           text-align: left;
           color: #006A4A;
           text-transform: uppercase;
-          font-size: 25px;
+          font-size: 20px;
      }
 
      h1 {

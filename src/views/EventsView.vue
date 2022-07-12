@@ -26,7 +26,7 @@
       </p>
     </div>
 
-    <div class="acc" data-aos="flip-right" data-aos-duration="3000">
+    <div class="acc">
       
       <div class="row" id="items">
         <div class="col-lg-4">
@@ -126,10 +126,10 @@
 
 
 <style scoped>
-  .col-lg-4:hover {
+  /* .col-lg-4:hover {
     transform: translateZ(20px);
     transition: 1s ease-in-out all;
-  }
+  } */
 
   h2 {
     text-transform: uppercase;

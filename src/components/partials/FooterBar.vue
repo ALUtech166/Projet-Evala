@@ -9,9 +9,7 @@
         <br>
         <div>
           <p>
-            C'est un portail d'ouverture sur les évenements
-            culturels de la préfecture de la Kozah
-
+            C’est un portail d’ouverture sur les évenements culturels de la région de la Kara.
           </p>
           <a href="https://www.youtube.com/channel/UCClmJlh7QlZJXojYM_OqA3w" target="blank"><i
               class="fab fa-youtube"></i></a>

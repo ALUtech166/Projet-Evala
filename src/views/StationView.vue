@@ -92,10 +92,6 @@
 </script>
 
 <style scoped>
-  .col-lg-4:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
-  }
 
   .btn {
     text-decoration: none;
@@ -105,10 +101,7 @@
 
   }
 
-  .col-lg-3:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
-  }
+ 
 
   .col-lg-4 {
     padding: 10px;
@@ -194,15 +187,14 @@
   }
 
   .card-img-top {
-    border-radius: 15px;
+    border-radius: 10px;
     height: 200px;
   }
 
   .card {
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 100%;
     text-align: center;
-    border-radius: 22px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   }
 

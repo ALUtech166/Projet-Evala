@@ -8,7 +8,7 @@
       <div class="login-popup close">
         <div class="box">
           <div class="container">
-            <img src="./components/images/Faure-pop.jpg" alt="" class="img-fluid">
+            <img src="./components/images/Pop-Up.jpg" alt="" class="img-fluid">
           </div>
           <div class="form">
             <div class="close">&times;</div>

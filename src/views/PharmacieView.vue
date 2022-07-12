@@ -39,7 +39,8 @@
                                    <h3 class="card-title">{{ phar.nom_pharmacie }}</h3>
                                    <h5>Contact: {{ phar.contact_pharmacie }}</h5>
                                    <h5>Addresse: {{ phar.adresse_pharmacie }}</h5>
-                                   <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+phar.localisation_pharmacie" target="blank">Aller
+                                   <a type="button" class="btn btn-success"
+                                        :href="'https://goo.gl/maps/'+phar.localisation_pharmacie" target="blank">Aller
                                         sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
 
@@ -110,6 +111,9 @@
 
      a {
           text-decoration: none;
+          color: #ffcc00;
+          font-weight: bold;
+          font-family: 'Josefin Sans', sans-serif;
      }
 
      h2 {

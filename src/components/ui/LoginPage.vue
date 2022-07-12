@@ -25,10 +25,10 @@
 
                          <div class="mb-3">
                               vous avez pas encore un compte? creer ton compte <a href="/register"
-                                   rel="noopener noreferrer">ici</a>
+                                   rel="noopener noreferrer" style="color:#ffcc00">ici</a>
                          </div>
 
-                         <button type="submit" class="btn btn-warning w-100">Login</button>
+                         <button type=" submit" class="btn btn-warning w-100">Login</button>
 
 
                     </form>
@@ -109,6 +109,11 @@
           font-family: 'Jost';
           text-align: center;
           padding: 10px;
+     }
+
+     a {
+          font-size: 15px;
+          text-decoration: none;
      }
 
      .header {

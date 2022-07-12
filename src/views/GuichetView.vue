@@ -13,7 +13,7 @@
         aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a id="a" href="/about">Acommodation</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Lieux Touristiques</li>
+          <li class="breadcrumb-item active" aria-current="page">Guichets Automatiques</li>
         </ol>
       </nav>
     </div>
@@ -21,7 +21,7 @@
 
     <div class="list-hotel">
 
-      <h1>Les Lieux Touristiques</h1>
+      <h1>Les Guichets Automatiques</h1>
 
       <div class="header-search">
         <form class="d-flex" role="search">
@@ -33,18 +33,19 @@
       <div class="row" v-if="guichet && guichet.length">
         <div class="col-lg-4" v-for="gui of guichet" :key="gui.id">
           <div class="card" style="width: 25rem; height: 27rem;">
-            <img src="../components/images/guichet.jpeg" class="card-img-top" alt="...">
+            <img :src="'http://karaevents.mekengroup.com/upload/guichet/'+gui.photo_guichet" class=" card-img-top"
+              alt="...">
             <div class="card-body">
               <h3 class="card-title">{{ gui.nom_guichet }}</h3>
-              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+gui.localisation_guichet" target="blank">Aller sur Place <i
-                  class="icons fa-solid fa-location-dot"></i></a>
+              <a type="button" class="btn btn-success" :href="'https://goo.gl/maps/'+gui.localisation_guichet"
+                target="blank">Aller sur Place <i class="icons fa-solid fa-location-dot"></i></a>
 
               <hr class="style-two">
             </div>
           </div>
         </div>
 
-      
+
 
       </div>
 
@@ -65,7 +66,7 @@
       HeaderBar
     },
 
-     data() {
+    data() {
       return {
         guichet: [],
         errors: []
@@ -89,9 +90,12 @@
 </script>
 
 <style scoped>
-  .col-lg-4:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
+  .col-lg-4 {
+    padding: 10px;
+  }
+
+  .row {
+    margin: 10px;
   }
 
   .btn {
@@ -102,10 +106,6 @@
 
   }
 
-  .col-lg-3:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
-  }
 
   .bread {
     padding: 2rem;
@@ -122,7 +122,8 @@
 
   a {
     text-decoration: none;
-
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .icon {
@@ -187,15 +188,14 @@
   }
 
   .card-img-top {
-    border-radius: 15px;
+    border-radius: 10px;
     height: 200px;
   }
 
   .card {
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 100%;
     text-align: center;
-    border-radius: 22px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   }
 

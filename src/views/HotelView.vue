@@ -152,6 +152,9 @@
 
   a {
     text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   #btn {
