@@ -64,85 +64,85 @@
                <div class="row" id="station">
                     <div class="col-lg-4">
                          <div class="bus">
+                              <div class="image">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
+                              </div>
                               <div class="description">
                                    <h2>Station Nagode</h2>
                                    <p class="ville">Lome - Togo</p>
                                    <p class="address">Agoé - agbalépédo </p>
                               </div>
 
-                              <div class="image">
-                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
-                              </div>
                          </div>
                     </div>
 
                     <div class="col-lg-4">
                          <div class="bus">
+                              <div class="image">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
+                              </div>
                               <div class="description">
                                    <h2>Station Nagode</h2>
                                    <p class="ville">Lome - Togo</p>
                                    <p class="address">Agoé - agbalépédo </p>
                               </div>
 
-                              <div class="image">
-                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
-                              </div>
                          </div>
                     </div>
 
                     <div class="col-lg-4">
                          <div class="bus">
+                              <div class="image">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
+                              </div>
                               <div class="description">
                                    <h2>Station Nagode</h2>
                                    <p class="ville">Lome - Togo</p>
                                    <p class="address">Agoé - agbalépédo </p>
                               </div>
 
-                              <div class="image">
-                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
-                              </div>
                          </div>
                     </div>
 
                     <div class="col-lg-4">
                          <div class="bus">
+                              <div class="image">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
+                              </div>
                               <div class="description">
                                    <h2>Station Nagode</h2>
                                    <p class="ville">Lome - Togo</p>
                                    <p class="address">Agoé - agbalépédo </p>
                               </div>
 
-                              <div class="image">
-                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
-                              </div>
                          </div>
                     </div>
 
                     <div class="col-lg-4">
                          <div class="bus">
+                              <div class="image">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
+                              </div>
                               <div class="description">
                                    <h2>Station Nagode</h2>
                                    <p class="ville">Lome - Togo</p>
                                    <p class="address">Agoé - agbalépédo </p>
                               </div>
 
-                              <div class="image">
-                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
-                              </div>
                          </div>
                     </div>
 
                     <div class="col-lg-4">
                          <div class="bus">
+                              <div class="image">
+                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
+                              </div>
                               <div class="description">
                                    <h2>Station Nagode</h2>
                                    <p class="ville">Lome - Togo</p>
                                    <p class="address">Agoé - agbalépédo </p>
                               </div>
 
-                              <div class="image">
-                                   <img class="image img-fluid" src="../components/images/station_bus.jpg" alt="">
-                              </div>
                          </div>
                     </div>
 

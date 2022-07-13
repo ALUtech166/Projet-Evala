@@ -24,12 +24,16 @@
                                    </div>
                                    <h1>{{ pro.titre_actualite}}</h1>
                                    <p>
-                                        {{ pro.description_actualite }} <a
+                                        {{ pro.description_actualite }}
+                                        <!--  <a
                                              href="https://togodailynews.com/togo-kara-event-application/"
-                                             target="_blank" rel="noopener noreferrer">voir plus</a>
+                                             target="_blank" rel="noopener noreferrer">voir plus</a> -->
                                    </p>
                               </div>
+                              <br>
+
                          </div>
+
 
                     </div>
 
@@ -89,9 +93,15 @@
 
 <style scoped>
 
+     .row, .col-lg-8 {
+          padding: 10px;
+     }
+
+
+
      .recent {
           max-width: 90%;
-          border-radius: 12px;
+          border-radius: 10px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
           padding: 1rem;
           background-color: #ffffff;
@@ -118,10 +128,10 @@
      }
 
      .context {
-          max-width: 99%;
-          border-radius: 12px;
+          max-width: 99.5%;
+          border-radius: 5px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
-          padding: 1rem;
+          padding: 25px;
           background-color: #ffffff;
           font-family: 'Jost';
      }
@@ -229,7 +239,7 @@
 
 
      .image {
-          border-radius: 15px;
+          border-radius: 5px;
      }
 
      p {

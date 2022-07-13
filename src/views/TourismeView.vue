@@ -89,13 +89,10 @@
 </script>
 
 <style scoped>
-  .col-lg-3:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
-  }
+
 
   .col-lg-3 {
-    padding: 5px;
+    padding: 10px;
   }
 
   .btn {
@@ -104,11 +101,6 @@
     font-size: 10px;
 
 
-  }
-
-  .col-lg-3:hover {
-    transform: translateY(35px);
-    transition: 1s ease-in-out;
   }
 
   .bread {
@@ -126,7 +118,6 @@
 
   a {
     text-decoration: none;
-    color: #ffcc00;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
   }
@@ -193,15 +184,14 @@
   }
 
   .card-img-top {
-    border-radius: 15px;
+    border-radius: 10px;
     height: 200px;
   }
 
   .card {
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 100%;
     text-align: center;
-    border-radius: 22px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   }
 

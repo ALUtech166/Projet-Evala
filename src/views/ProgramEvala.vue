@@ -22,7 +22,7 @@
 
 
           <div class="programme">
-               <h1 style="text-align:center">Programme des évenements</h1>
+               <h1 style="text-align:center">Programme de l'évala</h1>
                <br>
 
                <table class="table table-bordered border-black">
@@ -33,37 +33,38 @@
                               <th scope="col">Heures</th>
                               <th scope="col">Observation</th>
                               <th scope="col">Lieux</th>
-                             
+
                          </tr>
                     </thead>
 
 
 
                     <tbody v-if="program && program.length">
-                     <template v-for="pro of program" :key="pro.id">
-
-                     
-                         <tr v-if="pro.status_programme_evala == 1">
-                              <th scope="row">
-                                   <b>{{ pro.jour_programme_evala}}</b>
-                                   <br>
-                                   <span>{{ pro.date_programme_evala }}</span>
-                              </th>
-                              <td>{{ pro.rencontre_programme_evala}}</td>
-                              <td>{{ pro.heure_programme_evala}}</td>
-                              <td>{{ pro.observation_programme_evala}}</td>
-                              <td>
-                                   {{ pro.lieu_programme_evala}} <br>
-                                   <a :href="'http://'+pro.localisation_programme_evala" target="_blank" rel="noopener noreferrer"><i class="icons fa-solid fa-location-dot"></i></a>
-                              
-                              </td>
-                              
+                         <template v-for="pro of program" :key="pro.id">
 
 
+                              <tr v-if="pro.status_programme_evala == 1">
+                                   <th scope="row">
+                                        <b>{{ pro.jour_programme_evala}}</b>
+                                        <br>
+                                        <span>{{ pro.date_programme_evala }}</span>
+                                   </th>
+                                   <td>{{ pro.rencontre_programme_evala}}</td>
+                                   <td>{{ pro.heure_programme_evala}}</td>
+                                   <td>{{ pro.observation_programme_evala}}</td>
+                                   <td>
+                                        {{ pro.lieu_programme_evala}} <br>
+                                        <a :href="'https://goo.gl/maps/'+pro.localisation_programme_evala"
+                                             target="_blank" rel="noopener noreferrer"><i
+                                                  class="icons fa-solid fa-location-dot"></i></a>
+                                   </td>
 
 
-                         </tr>
-                    </template>
+
+
+
+                              </tr>
+                         </template>
 
                     </tbody>
                </table>

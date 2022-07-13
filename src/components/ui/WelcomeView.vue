@@ -115,6 +115,7 @@
                <img class="images" height="100" src="../images/dowoto.jpeg" />
                <img class="images" height="100" src="../images/mayi_SarlU.jpg" />
                <img class="images" height="100" src="../images/ttibp.jpg" />
+               <img class="images" height="100" src="../images/logo-zilla.png" />
 
 
 

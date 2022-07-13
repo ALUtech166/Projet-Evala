@@ -12,7 +12,7 @@
       style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
       aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/" style="color:#ffcc00">Home</a></li>
         <li class="breadcrumb-item active" aria-current="page">Evenements</li>
       </ol>
     </nav>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="acc">
-      
+
       <div class="row" id="items">
         <div class="col-lg-4">
 
@@ -70,7 +70,7 @@
 
 
 
-          <div class="col-lg-4">
+        <div class="col-lg-4">
           <img class="img-fluid image" src="../components/images/MISS_KARA.jpg" alt="">
           <div class="box1">
             <a href="#">
@@ -85,6 +85,16 @@
           <div class="box2">
             <a href="#">
               <h2 style="color:red">Concerts</h2>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+
+          <img class="img-fluid image" src="../components/images/Kara-fashion.jpg" alt="">
+          <div class="box2">
+            <a href="#">
+              <h2 style="color:red">Kara Fashion Day</h2>
             </a>
           </div>
         </div>
@@ -154,7 +164,7 @@
 
   a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 20px;
   }
 
   p {

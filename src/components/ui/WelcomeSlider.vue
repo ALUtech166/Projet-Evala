@@ -4,11 +4,11 @@
                <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
                          class="active" aria-current="true" aria-label="Slide 1"></button>
-                    
+
 
                </div>
                <div class="carousel-inner">
-                   
+
                     <div class="carousel-item active">
                          <div class="home">
 

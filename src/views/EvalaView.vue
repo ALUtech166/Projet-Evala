@@ -52,7 +52,7 @@
 
           <div class="programme">
                <hr class="style-two">
-               <h1 style="text-align:left">Programme des évenements</h1>
+               <h1 style="text-align:left">Programme de l'évala</h1>
                <br>
 
                <p>
