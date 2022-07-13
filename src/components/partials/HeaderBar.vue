@@ -18,7 +18,7 @@
                               <li><router-link class="dropdown-item" to="/">Accueil</router-link></li>
                               <li><router-link class="dropdown-item" to="/about">Accomodation</router-link></li>
                               <li><router-link class="dropdown-item" to="/events">Evenements</router-link></li>
-                              <!-- <li><router-link class="dropdown-item" to="/reservation-ticket">Reservation</router-link></li> -->
+                              <li><router-link class="dropdown-item" to="/reservation-ticket">Reservation</router-link></li>
                               <li><router-link class="dropdown-item" to="/download">Telecharger</router-link></li>
 
 
