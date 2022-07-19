@@ -9,61 +9,11 @@
     <slider-bar></slider-bar>
     <br>
     <div class="scores">
-      <vue3-marquee :clone="true">
-        <div class="yellow-box">
-          <h3>Sodè</h3>
+      <vue3-marquee :clone="true" v-if="score && score.length">
+        <div class="yellow-box" v-for="sco of score" :key="sco.id">
+          <h3>{{ sco.nom_canton1}}: <span>{{ sco.point_score1}}</span></h3>
           <p>contre</p>
-          <h3>Panadiwa</h3>
-        </div>
-        <div class="yellow-box">
-          <h3>LAO-HAUT</h3>
-          <p>contre</p>
-          <h3>LAO-BAS</h3>
-        </div>
-        <div class="yellow-box">
-          <h3>Akéî</h3>
-          <p>contre</p>
-          <h3>Lao</h3>
-        </div>
-        <div class="yellow-box">
-          <h3>Kpindjaodè</h3>
-          <p>contre</p>
-          <h3>N'jaoudè</h3>
-        </div>
-        <div class="yellow-box">
-          <h3>Kpandè</h3>
-          <p>contre</p>
-          <h3>Koli</h3>
-        </div>
-
-        <div class="yellow-box">
-          <h3>Kadja</h3>
-          <p>contre</p>
-          <h3>Houloung</h3>
-        </div>
-
-        <div class="yellow-box">
-          <h3>Panalo Sud</h3>
-          <p>contre</p>
-          <h3>Panalo Nord</h3>
-        </div>
-
-        <div class="yellow-box">
-          <h3>Kolidè</h3>
-          <p>contre</p>
-          <h3>Feing</h3>
-        </div>
-
-        <div class="yellow-box">
-          <h3>Kassi + Déwa</h3>
-          <p>contre</p>
-          <h3>Landa</h3>
-        </div>
-
-        <div class="yellow-box">
-          <h3>Wiyamdè</h3>
-          <p>contre</p>
-          <h3>Tcharè</h3>
+          <h3>{{ sco.nom_canton2}}: <span>{{ sco.point_score2}}</span></h3>
         </div>
 
 
@@ -122,6 +72,7 @@
     Vue3Marquee
   } from 'vue3-marquee'
   import 'vue3-marquee/dist/style.css'
+  import axios from 'axios'
   export default {
     components: {
       SliderBar,
@@ -133,7 +84,27 @@
       AnnoncePage,
       HeaderBar
 
-    }
+  },
+
+    data() {
+      return {
+        score: [],
+        errors: []
+      }
+    },
+
+    created(data) {
+      axios.get(`api/score`)
+        .then(response => {
+          // JSON responses are automatically parsed.
+          this.score = response.data
+          console.log(data)
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+    },
   }
 </script>
 
@@ -142,10 +113,11 @@
     transform: translateY(35px);
     transition: 1s ease-in-out;
   }
-    .btn-light:hover {
-      background-color: transparent;
-      border-color: #000;
-    }
+
+  .btn-light:hover {
+    background-color: transparent;
+    border-color: #000;
+  }
 
   #col {
     padding-top: 100px;
@@ -160,13 +132,13 @@
 
   }
 
-    h3 {
-      font-weight: 600;
-      font-size: 20px;
-      text-align: center;
-      text-transform: uppercase;
-      font-family: 'Josefin Sans', sans-serif;
-    }
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+  }
 
   a {
     margin: 10px;
@@ -231,7 +203,4 @@
     font-weight: 600;
     font-family: 'Jost', sans-serif;
   }
-
-
- 
 </style>

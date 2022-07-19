@@ -71,7 +71,7 @@
                               <h2>AGENCE Agoè - Agbalépédo</h2>
                               <p><span>Lieu de départ:</span> Gare d’Agbalépédo <em>08h00</em></p>
                               <p><span>Lieu d’arrivé:</span> Station Kara <em>08h00</em></p>
-                              <p><span>Convocation:</span> </p>
+                              <p><span>Convocation: </span> <em>07h30</em></p>
                               <button type="button" class="btn btn-danger">Réserver</button>
                               <br>
                               <br>
